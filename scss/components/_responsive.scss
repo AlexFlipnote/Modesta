@@ -1,3 +1,5 @@
+@import '../assets/colours';
+
 @media (max-width: 750px) {
   .center-object {
     top: 45%;
@@ -31,13 +33,44 @@
 }
 
 // For devices larger than 400px
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .container { padding: 0; width: 85%; }
 }
 
-// For devices larger than 550px
-@media (min-width: 550px) {
+@media (max-width: 550px) {
   .container { width: 90%; }
-  .column, .columns { margin-left: 4%; }
-  .column:first-child, .columns:first-child { margin-left: 0; }
+}
+
+@media only screen and (max-width : 640px) {
+  .nav-container {
+    position: absolute;
+
+    #menu-icon { display: inline-block; }
+
+    nav ul, nav:active ul {
+      background: $primary;
+      border: 4px solid $secondary;
+      border-radius: 4px 0 4px 4px;
+      display: none;
+      position: absolute;
+      right: 20px;
+      top: 60px;
+      width: 50%;
+    }
+
+    nav {
+      float: right;
+      padding: 20px;
+
+      li {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    nav:hover ul {
+      display: block;
+    }
+  }
 }

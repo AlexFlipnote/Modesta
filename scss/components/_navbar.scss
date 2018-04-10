@@ -1,0 +1,46 @@
+@import '../assets/colours';
+@import '../assets/crossbrowser';
+
+$heigth-control: 76px;
+
+.nav-container {
+  background: $primary;
+  border-bottom: 4px solid $secondary;
+  height: $heigth-control;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+  .current { color: #2262ad; }
+
+  #menu-icon {
+    background: #4c8fec url('images/menu-icon.png') center;
+    display: hidden;
+    height: 40px;
+    width: 40px;
+  }
+
+  a:hover#menu-icon {
+    background-color: #444;
+    border-radius: 4px 4px 0 0;
+  }
+
+  ul { list-style: none; }
+
+  li {
+    @include transition(all 250ms ease);
+    display: inline-block;
+    height: 100%;
+
+    a {
+      line-height: $heigth-control;
+      padding: #{$heigth-control / 2} 1.5em;
+      text-decoration: none;
+    }
+
+    &:hover {
+      background: $secondary;
+    }
+  }
+}

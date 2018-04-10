@@ -21,3 +21,6 @@ linters:
 
   QualifyingElement:
     enabled: false
+
+  UrlFormat:
+    enabled: false
