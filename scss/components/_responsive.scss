@@ -1,0 +1,43 @@
+@media (max-width: 750px) {
+  .center-object {
+    top: 45%;
+    width: 90%;
+
+    .me {
+      padding: 0;
+      .title { font-size: 5rem; }
+      .image-title { width: 8em; }
+    }
+  }
+
+  .buttons {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .btn {
+      align-items: center;
+      display: flex;
+      font-size: 18px;
+      justify-content: center;
+      line-height: 20px;
+      padding: 25px 0;
+      text-align: center;
+      white-space: pre-line;
+      width: calc(45% - 30px);
+    }
+  }
+}
+
+// For devices larger than 400px
+@media (min-width: 400px) {
+  .container { padding: 0; width: 85%; }
+}
+
+// For devices larger than 550px
+@media (min-width: 550px) {
+  .container { width: 90%; }
+  .column, .columns { margin-left: 4%; }
+  .column:first-child, .columns:first-child { margin-left: 0; }
+}

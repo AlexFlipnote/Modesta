@@ -1,0 +1,46 @@
+@mixin prefix($name, $argument) {
+  #{$name}: #{$argument};
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+}
+
+@mixin animation($animate...) {
+  $max: length($animate);
+  $animations: '';
+
+  @for $i from 1 through $max {
+    $animations: #{$animations + nth($animate, $i)};
+
+    @if $i < $max {
+      $animations: #{$animations + ", "};
+    }
+  }
+  @include prefix(animation, $animations);
+}
+
+@mixin transition($transition...) {
+  @include prefix(transition, $transition);
+}
+
+@mixin transform($transforms) {
+  @include prefix(transform, $transforms);
+}
+
+@mixin keyframes($animationname) {
+  // scss-lint:disable VendorPrefix
+  @-webkit-keyframes #{$animationname} {
+    @content;
+  }
+  @-moz-keyframes #{$animationname} {
+    @content;
+  }
+  @-o-keyframes #{$animationname} {
+    @content;
+  }
+  @keyframes #{$animationname} {
+    @content;
+  }
+  // scss-lint:enable VendorPrefix
+}

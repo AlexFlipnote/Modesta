@@ -1,0 +1,60 @@
+.fullscreen {
+  .background {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px) brightness(50%);
+    height: 100%;
+    width: 100%;
+  }
+
+  .center-object {
+    @include transform(translate(-50%, -50%));
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    .me {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      justify-content: center;
+      padding: 1rem 0;
+      width: 100%;
+      z-index: 10;
+
+      .image-title { border-radius: 100%; width: 9em; }
+      .title {
+        filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, .4));
+        font-size: 5rem;
+        letter-spacing: 1px;
+        margin: .25em;
+      }
+
+      .undertitle {
+        filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .4));
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        margin: 0;
+      }
+    }
+  }
+
+  &.half {
+    .background { height: 50%; }
+    .center-object {
+      top: 25%;
+
+      .btn { padding: 0 20px; }
+      .me {
+        .image-title { width: 6em; }
+        .title { font-size: 4rem; }
+        .undertitle { font-size: 1.75rem; }
+      }
+    }
+  }
+
+}

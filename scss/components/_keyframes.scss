@@ -1,0 +1,7 @@
+@import 'assets/crossbrowser';
+
+@include keyframes(button-enter) {
+  from { @include transform(translateY(2em)); opacity: 0; }
+  70% { @include transform(translateY(-.3em)); }
+  100% { @include transform(translateY(0)); opacity: 1; }
+}

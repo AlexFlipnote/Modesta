@@ -1,0 +1,21 @@
+@import '../assets/colours';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+html, body {
+  background: $highlight;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+.center-text { text-align: center; }
+
+@each $name, $code in $colours {
+  .#{$name} { background-color: $code; }
+}
+
+@each $name, $code in $colours {
+  .#{$name}-text { color: $code; }
+}
