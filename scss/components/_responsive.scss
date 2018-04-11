@@ -43,10 +43,7 @@
 
 @media only screen and (max-width : 640px) {
   .nav-container {
-    position: absolute;
-
     #menu-icon { display: inline-block; }
-
     nav ul, nav:active ul {
       background: $primary;
       border: 4px solid $secondary;

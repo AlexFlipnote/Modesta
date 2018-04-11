@@ -1,10 +1,12 @@
-@mixin dropshadow($colour) {
+@mixin dropshadow($colour, $hover: true) {
   $shadow: drop-shadow(5px 5px 0 rgba($colour, .6));
 
   background-color: $colour;
   filter: $shadow;
 
-  &:hover {
-    filter: $shadow brightness(50%);
+  @if $hover == true {
+    &:hover {
+      filter: $shadow brightness(50%);
+    }
   }
 }

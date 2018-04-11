@@ -5,3 +5,15 @@
   70% { @include transform(translateY(-.3em)); }
   100% { @include transform(translateY(0)); opacity: 1; }
 }
+
+@include keyframes(load) {
+  0%, 80%, 100% {
+    box-shadow: 0 0, 0 0;
+    height: 4em;
+  }
+
+  40% {
+    box-shadow: 0 -1.75em, 0 1.75em;
+    height: 4em;
+  }
+}

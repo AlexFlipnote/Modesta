@@ -20,6 +20,11 @@ html, body {
 }
 
 .center-text { text-align: center; }
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 
 @each $name, $code in $colours {
   .#{$name} { background-color: $code; }

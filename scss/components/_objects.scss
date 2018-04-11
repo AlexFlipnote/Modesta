@@ -1,0 +1,122 @@
+@import '../assets/colours';
+@import '../assets/crossbrowser';
+
+// Shadow around box
+.box-shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
+              0 3px 1px -2px rgba(0, 0, 0, .2),
+              0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+// Loading component
+$heigth-control: 3em;
+
+.loader, .loader::before, .loader::after {
+  @include animation(load 1s infinite ease-in-out);
+  background: #fff;
+  height: $heigth-control;
+  width: 1em;
+}
+
+.loader {
+  animation-delay: -.16s;
+  color: #fff;
+  font-size: 11px;
+  margin: $heigth-control auto;
+  position: relative;
+  text-indent: -9999em;
+  transform: translateZ(0);
+
+  &::before {
+    animation-delay: -.32s;
+    left: -1.5em;
+  }
+
+  &::after {
+    left: 1.5em;
+  }
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+  }
+}
+
+
+// Box container
+.box-container {
+  border-radius: 10px;
+  margin-bottom: 2.5em;
+  padding: 1em;
+
+  @each $name, $code in $colours {
+    &.#{$name} {
+      @include dropshadow($code, false);
+    }
+
+    &.#{$name}-flat {
+      background-color: $code;
+    }
+  }
+}
+
+
+// Table container
+.table-container {
+  display: inline-block;
+  text-align: left;
+
+  table {
+    border: 1px solid rgba(0, 0, 0, .12);
+    border-collapse: collapse;
+    font-size: 13px;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  &.table-center {
+    display: block;
+    text-align: center;
+    table { margin: 0 auto; }
+  }
+
+  thead { padding-bottom: 3px; }
+
+  td:first-child, th:first-child { padding-left: 25px; }
+  td:last-of-type, th:last-of-type { padding-right: 25px; }
+
+  td {
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    border-top: 1px solid rgba(0, 0, 0, .12);
+    box-sizing: border-box;
+    height: 48px;
+    padding: 12px 18px;
+    position: relative;
+    vertical-align: middle;
+  }
+
+  th {
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 700;
+    height: 48px;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-bottom: 8px;
+    position: relative;
+    text-align: left;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+  }
+
+  .numeric { text-align: right; }
+
+  tr {
+    height: 48px;
+    position: relative;
+    transition-duration: .28s;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  }
+}
