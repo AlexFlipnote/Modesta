@@ -1226,6 +1226,7 @@ h6 {
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-collapse: collapse;
     font-size: 13px;
+    margin-bottom: 2.5rem;
     position: relative;
     white-space: nowrap; }
   .table-container.table-center {
@@ -1236,9 +1237,9 @@ h6 {
   .table-container thead {
     padding-bottom: 3px; }
   .table-container td:first-child, .table-container th:first-child {
-    padding-left: 25px; }
+    padding-left: 40px; }
   .table-container td:last-of-type, .table-container th:last-of-type {
-    padding-right: 25px; }
+    padding-right: 40px; }
   .table-container td {
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     border-top: 1px solid rgba(0, 0, 0, 0.12);
@@ -1246,6 +1247,7 @@ h6 {
     height: 48px;
     padding: 12px 18px;
     position: relative;
+    text-align: left;
     vertical-align: middle; }
   .table-container th {
     box-sizing: border-box;
@@ -1254,6 +1256,7 @@ h6 {
     height: 48px;
     letter-spacing: 0;
     line-height: 24px;
+    padding: 12px 20px;
     padding-bottom: 8px;
     position: relative;
     text-align: left;

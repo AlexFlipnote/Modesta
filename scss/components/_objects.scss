@@ -125,6 +125,7 @@ $heigth-control: 3em;
     border: 1px solid rgba(0, 0, 0, .12);
     border-collapse: collapse;
     font-size: 13px;
+    margin-bottom: 2.5rem;
     position: relative;
     white-space: nowrap;
   }
@@ -136,9 +137,9 @@ $heigth-control: 3em;
   }
 
   thead { padding-bottom: 3px; }
-
-  td:first-child, th:first-child { padding-left: 25px; }
-  td:last-of-type, th:last-of-type { padding-right: 25px; }
+  $table-padding: 40px;
+  td:first-child, th:first-child { padding-left: $table-padding; }
+  td:last-of-type, th:last-of-type { padding-right: $table-padding; }
 
   td {
     border-bottom: 1px solid rgba(0, 0, 0, .12);
@@ -147,6 +148,7 @@ $heigth-control: 3em;
     height: 48px;
     padding: 12px 18px;
     position: relative;
+    text-align: left;
     vertical-align: middle;
   }
 
@@ -157,6 +159,7 @@ $heigth-control: 3em;
     height: 48px;
     letter-spacing: 0;
     line-height: 24px;
+    padding: 12px 20px;
     padding-bottom: 8px;
     position: relative;
     text-align: left;
