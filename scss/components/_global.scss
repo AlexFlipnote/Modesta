@@ -1,9 +1,9 @@
 @import '../assets/colours';
-
+@import '../assets/builders';
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
 
+body { background: $highlight; }
 html, body {
-  background: $highlight;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
@@ -19,6 +19,17 @@ html, body {
   width: 100%;
 }
 
+.box-shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
+              0 3px 1px -2px rgba(0, 0, 0, .2),
+              0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+// Changeing value of elements
+.bold { font-weight: bold; }
+.no-margin { margin: 0; }
+.no-padding { padding: 0; }
+.transparent { background: transparent; }
 .center-text { text-align: center; }
 .center {
   display: block;
@@ -26,10 +37,9 @@ html, body {
   text-align: center;
 }
 
+// All colours
 @each $name, $code in $colours {
   .#{$name} { background-color: $code; }
-}
-
-@each $name, $code in $colours {
   .#{$name}-text { color: $code; }
+  .#{$name}-dropshadow { @include dropshadow($code, false); }
 }
