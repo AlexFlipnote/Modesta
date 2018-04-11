@@ -1,4 +1,13 @@
 // Source from skeleton.css
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  padding: 0 2em;
+  position: relative;
+  width: 100%;
+}
+
 .column, .columns {
   box-sizing: border-box;
   float: left;
@@ -13,10 +22,14 @@
   }
 }
 
+@media (min-width: 800px) {
+  .container { max-width: 900px; }
+}
+
 // For devices larger than 550px
 // scss-lint:disable EmptyLineBetweenBlocks, SpaceBeforeBrace
 @media (min-width: 550px) {
-  .container { width: 80%; }
+  .container { width: 70%; }
   .column, .columns { margin-left: 4%; }
   .column:first-child, .columns:first-child { margin-left: 0; }
 
