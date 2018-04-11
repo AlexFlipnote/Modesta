@@ -1,6 +1,3 @@
-// Framework
-@import 'assets/skeleton';
-
 // Always first
 @import 'components/global';
 @import 'components/keyframes';
@@ -8,6 +5,7 @@
 // Everything else
 @import 'components/buttons';
 @import 'components/fullscreen';
+@import 'components/grid';
 @import 'components/markdown';
 @import 'components/navbar';
 @import 'components/objects';
