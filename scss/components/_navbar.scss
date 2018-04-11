@@ -1,7 +1,7 @@
 @import '../assets/colours';
 @import '../assets/crossbrowser';
 
-$heigth-control: 76px;
+$heigth-control: 4em;
 
 .nav-container {
   background: $primary;
@@ -12,7 +12,7 @@ $heigth-control: 76px;
   width: 100%;
   z-index: 100;
 
-  .current { color: #2262ad; }
+  .current { color: #2ecc71; }
 
   #menu-icon {
     background: #4c8fec url('images/menu-icon.png') center;
@@ -34,6 +34,7 @@ $heigth-control: 76px;
     height: 100%;
 
     a {
+      color: #16a085;
       line-height: $heigth-control;
       padding: #{$heigth-control / 2} 1.5em;
       text-decoration: none;
@@ -41,6 +42,7 @@ $heigth-control: 76px;
 
     &:hover {
       background: $secondary;
+      font-weight: bold;
     }
   }
 }

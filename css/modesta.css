@@ -1140,13 +1140,13 @@ html, body {
 .nav-container {
   background: #282828;
   border-bottom: 4px solid #303030;
-  height: 76px;
+  height: 4em;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 100; }
   .nav-container .current {
-    color: #2262ad; }
+    color: #2ecc71; }
   .nav-container #menu-icon {
     background: #4c8fec url("images/menu-icon.png") center;
     display: hidden;
@@ -1166,11 +1166,13 @@ html, body {
     display: inline-block;
     height: 100%; }
     .nav-container li a {
-      line-height: 76px;
-      padding: 38px 1.5em;
+      color: #16a085;
+      line-height: 4em;
+      padding: 2em 1.5em;
       text-decoration: none; }
     .nav-container li:hover {
-      background: #303030; }
+      background: #303030;
+      font-weight: bold; }
 
 .loader, .loader::before, .loader::after {
   animation: load 1s infinite ease-in-out;
@@ -1406,6 +1408,54 @@ html, body {
     transition-duration: .28s;
     transition-property: background-color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+
+.comment-section {
+  display: block; }
+  .comment-section .comment-container {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    display: flex;
+    margin-bottom: 1em;
+    max-width: 700px; }
+    .comment-section .comment-container.reply {
+      margin-bottom: 2em;
+      margin-left: 3em; }
+    .comment-section .comment-container .avatar {
+      margin-right: 16px;
+      overflow: hidden; }
+      .comment-section .comment-container .avatar img {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px; }
+    .comment-section .comment-container .text {
+      flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      -moz-flex: 1;
+      -o-flex: 1;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      -moz-flex-direction: column;
+      -o-flex-direction: column;
+      flex-basis: 0.000000001px;
+      -webkit-flex-basis: 0.000000001px;
+      -ms-flex-basis: 0.000000001px;
+      -moz-flex-basis: 0.000000001px;
+      -o-flex-basis: 0.000000001px;
+      display: flex;
+      min-width: 0; }
+      .comment-section .comment-container .text .author, .comment-section .comment-container .text .comment {
+        margin: 0; }
+      .comment-section .comment-container .text .author {
+        font-size: 1.25em;
+        font-weight: bold; }
+      .comment-section .comment-container .text .comment {
+        font-family: Arial;
+        font-size: 1em; }
 
 @media (max-width: 750px) {
   .center-object {
