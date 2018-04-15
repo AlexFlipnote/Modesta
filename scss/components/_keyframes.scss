@@ -17,3 +17,15 @@
     height: 4em;
   }
 }
+
+@include keyframes(fading-modal-in) {
+  from { @include transform(translateY(3.5em)); opacity: 0; }
+  70% { @include transform(translateY(-1em)); }
+  100% { @include transform(translateY(0)); opacity: 1; }
+}
+
+@include keyframes(fading-modal-out) {
+  from { @include transform(translateY(0)); opacity: 1; }
+  30% { @include transform(translateY(-1em)); }
+  100% { @include transform(translateY(3.5em)); display: none; opacity: 0; }
+}
