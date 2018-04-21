@@ -1549,9 +1549,11 @@ h6 {
     top: 45%;
     width: 90%; }
     .center-object .me {
+      margin: 0 1em;
       padding: 0; }
       .center-object .me .title {
-        font-size: 5rem; }
+        font-size: 5rem;
+        margin: 0; }
       .center-object .me .image-title {
         width: 8em; }
 
