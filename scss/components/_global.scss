@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p { margin-top: 0; }
-a { color: #1eaedb; &:hover { color: #0fa0ce; }}
+a { color: #1eaedb; text-decoration: none; &:hover { color: #0fa0ce; }}
 h1 { font-size: 4rem; letter-spacing: -.1rem; line-height: 1.2; }
 h2 { font-size: 3.6rem; letter-spacing: -.1rem; line-height: 1.25; }
 h3 { font-size: 3rem; letter-spacing: -.1rem; line-height: 1.3; }

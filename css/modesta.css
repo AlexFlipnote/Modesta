@@ -23,7 +23,8 @@ p {
   margin-top: 0; }
 
 a {
-  color: #1eaedb; }
+  color: #1eaedb;
+  text-decoration: none; }
   a:hover {
     color: #0fa0ce; }
 
@@ -432,6 +433,102 @@ h6 {
     -moz-transform: translateY(0);
     -o-transform: translateY(0);
     opacity: 1; } }
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0); }
+  40% {
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -o-transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -o-transform: translateY(-15px); } }
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0); }
+  40% {
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -o-transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -o-transform: translateY(-15px); } }
+@-o-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0); }
+  40% {
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -o-transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -o-transform: translateY(-15px); } }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0); }
+  40% {
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -o-transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -o-transform: translateY(-15px); } }
+@-webkit-keyframes fading {
+  from {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fading {
+  from {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes fading {
+  from {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fading {
+  from {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 @-webkit-keyframes load {
   0%, 80%, 100% {
     box-shadow: 0 0, 0 0;
@@ -632,6 +729,42 @@ h6 {
     -o-transform: translateY(3.5em);
     display: none;
     opacity: 0; } }
+.arrow {
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  animation: fading 300ms ease-in-out;
+  -webkit-animation: fading 300ms ease-in-out;
+  -ms-animation: fading 300ms ease-in-out;
+  -moz-animation: fading 300ms ease-in-out;
+  -o-animation: fading 300ms ease-in-out;
+  background-image: url("images/arrow.png");
+  background-size: contain;
+  bottom: 20px;
+  height: 40px;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  width: 40px; }
+
+.arrow--scrolled {
+  animation: fading 300ms ease-in-out;
+  -webkit-animation: fading 300ms ease-in-out;
+  -ms-animation: fading 300ms ease-in-out;
+  -moz-animation: fading 300ms ease-in-out;
+  -o-animation: fading 300ms ease-in-out;
+  cursor: default;
+  opacity: 0; }
+
+.bounce {
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -ms-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite; }
+
 .buttons {
   align-items: center;
   display: flex;

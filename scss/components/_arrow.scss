@@ -1,0 +1,24 @@
+@import '../assets/crossbrowser';
+
+.arrow {
+  @include transition('all 300ms ease');
+  @include animation('fading 300ms ease-in-out');
+  background-image: url('images/arrow.png');
+  background-size: contain;
+  bottom: 20px;
+  height: 40px;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  width: 40px;
+}
+
+.arrow--scrolled {
+  @include animation('fading 300ms ease-in-out');
+  cursor: default;
+  opacity: 0;
+}
+
+.bounce {
+  @include animation('bounce 2s infinite');
+}
