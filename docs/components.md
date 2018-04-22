@@ -20,7 +20,8 @@ on anything if you want.
 <span class="COLOUR-text">Make the object's text into colour</span>
 <span class="COLOUR-dropshadow">Add a dropshadow of colour choice</span>
 ```
-If you want a preview of all colours, please check the file **colours.html** inside **examples**
+If you want a preview of all colours, please check the file **colours.html** inside **examples**<br>
+or visit [this website](https://modesta.alexflipnote.xyz/examples/colours.html)
 
 
 # Cards
@@ -67,20 +68,24 @@ start with a fullscreen/half screen on the start.
 ```
 
 # Navbar
-Navigation bar is made to be responsive in pure CSS, but do not add too many links.
-<br>Coming soon: Dropdown menu
+Navigation bar is made to be responsive, but do not add too many links.
 ```html
 <div class="nav-container">
-  <nav>
-    <a href="#" id="menu-icon"></a>
-    <div class="center-text">
-      <ul>
-        <li><a href="#" class="current">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-      </ul>
-    </div>
-  </nav>
+  <span id="menu-icon"></span>
+  <h1 class="nav-title">Cool website</h1>
+  <div id="navside" class="sidenav">
+    <span class="closebtn">&times;</span>
+    <a href="#" class="current">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <script>
+    var navside = document.getElementById('navside');
+    document.getElementById("menu-icon").onclick = function() { navside.style.width = "250px"; }
+    document.getElementsByClassName("closebtn")[0].onclick = function() { navside.style.width = "0"; }
+  </script>
 </div>
 ```
 

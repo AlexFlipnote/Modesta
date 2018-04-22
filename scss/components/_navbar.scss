@@ -12,37 +12,57 @@ $heigth-control: 4em;
   width: 100%;
   z-index: 100;
 
-  .current { color: #2ecc71; }
-
   #menu-icon {
     background: #4c8fec url('images/menu-icon.png') center;
-    display: hidden;
+    cursor: pointer;
+    display: inline-block;
     height: 40px;
+    margin: 11px;
+    position: absolute;
     width: 40px;
   }
 
-  a:hover#menu-icon {
-    background-color: #444;
-    border-radius: 4px 4px 0 0;
+  .nav-title {
+    text-align: center;
   }
 
-  ul { list-style: none; }
-
-  li {
-    @include transition(all 250ms ease);
-    display: inline-block;
+  .sidenav {
+    background-color: $highlight;
     height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    transition: .5s;
+    width: 0;
+    z-index: 1;
+
+    .current { color: #2ecc71; }
+
+    .closebtn {
+      color: #f1f1f1;
+      cursor: pointer;
+      font-size: 36px;
+      margin-left: 50px;
+      position: absolute;
+      right: 25px;
+      top: 0;
+    }
 
     a {
-      color: #16a085;
-      line-height: $heigth-control;
-      padding: #{$heigth-control / 2} 1.5em;
+      color: #818181;
+      display: block;
+      font-size: 25px;
+      padding: 8px 8px 8px 32px;
       text-decoration: none;
+      transition: .3s;
+
+      &:hover {
+        color: #f1f1f1;
+        transform: translateX(.5em);
+      }
     }
 
-    &:hover {
-      background: $secondary;
-      font-weight: bold;
-    }
   }
 }

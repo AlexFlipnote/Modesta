@@ -3,22 +3,28 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <link href="../css/modesta.css" type="text/css" rel="stylesheet">
+    <!--<script src="../js/navbar.js" type="text/javascript" charset="utf-8"></script>-->
   </head>
   <body>
+
     <div class="nav-container">
-      <nav>
-        <a href="#" id="menu-icon"></a>
-        <div class="center-text">
-          <ul>
-            <li><a href="#" class="current">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+      <span id="menu-icon"></span>
+      <h1 class="nav-title">Cool website</h1>
+      <div id="navside" class="sidenav">
+        <span class="closebtn">&times;</span>
+        <a href="#" class="current">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      <script>
+        var navside = document.getElementById('navside');
+        document.getElementById("menu-icon").onclick = function() { navside.style.width = "250px"; }
+        document.getElementsByClassName("closebtn")[0].onclick = function() { navside.style.width = "0"; }
+      </script>
     </div>
+
     <div class="container">
       <div class="box-container emerald">
         <h1>Lorem ipsum</h1>

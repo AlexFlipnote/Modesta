@@ -1413,34 +1413,47 @@ h6 {
   top: 0;
   width: 100%;
   z-index: 100; }
-  .nav-container .current {
-    color: #2ecc71; }
   .nav-container #menu-icon {
     background: #4c8fec url("images/menu-icon.png") center;
-    display: hidden;
-    height: 40px;
-    width: 40px; }
-  .nav-container a:hover#menu-icon {
-    background-color: #444;
-    border-radius: 4px 4px 0 0; }
-  .nav-container ul {
-    list-style: none; }
-  .nav-container li {
-    transition: all 250ms ease;
-    -webkit-transition: all 250ms ease;
-    -ms-transition: all 250ms ease;
-    -moz-transition: all 250ms ease;
-    -o-transition: all 250ms ease;
+    cursor: pointer;
     display: inline-block;
-    height: 100%; }
-    .nav-container li a {
-      color: #16a085;
-      line-height: 4em;
-      padding: 2em 1.5em;
-      text-decoration: none; }
-    .nav-container li:hover {
-      background: #303030;
-      font-weight: bold; }
+    height: 40px;
+    margin: 11px;
+    position: absolute;
+    width: 40px; }
+  .nav-container .nav-title {
+    text-align: center; }
+  .nav-container .sidenav {
+    background-color: #181818;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    transition: .5s;
+    width: 0;
+    z-index: 1; }
+    .nav-container .sidenav .current {
+      color: #2ecc71; }
+    .nav-container .sidenav .closebtn {
+      color: #f1f1f1;
+      cursor: pointer;
+      font-size: 36px;
+      margin-left: 50px;
+      position: absolute;
+      right: 25px;
+      top: 0; }
+    .nav-container .sidenav a {
+      color: #818181;
+      display: block;
+      font-size: 25px;
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      transition: .3s; }
+      .nav-container .sidenav a:hover {
+        color: #f1f1f1;
+        transform: translateX(0.5em); }
 
 .loader, .loader::before, .loader::after {
   animation: load 1s infinite ease-in-out;
@@ -1778,26 +1791,5 @@ h6 {
 @media (max-width: 550px) {
   .container {
     width: 90%; } }
-@media only screen and (max-width: 640px) {
-  .nav-container #menu-icon {
-    display: inline-block; }
-  .nav-container nav ul, .nav-container nav:active ul {
-    background: #282828;
-    border: 4px solid #303030;
-    border-radius: 4px 0 4px 4px;
-    display: none;
-    position: absolute;
-    right: 20px;
-    top: 60px;
-    width: 50%; }
-  .nav-container nav {
-    float: right;
-    padding: 20px; }
-    .nav-container nav li {
-      margin: 0;
-      text-align: center;
-      width: 100%; }
-  .nav-container nav:hover ul {
-    display: block; } }
 
 /*# sourceMappingURL=modesta.css.map */
