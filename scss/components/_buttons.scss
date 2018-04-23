@@ -33,6 +33,10 @@
       @include dropshadow($code);
     }
 
+    &.#{$name}-nodark {
+      @include dropshadow($code, false);
+    }
+
     &.#{$name}-flat {
       background-color: $code;
     }
@@ -43,11 +47,16 @@
     color: #fff;
   }
 
+  &.hover {
+    @include transition('all 350ms ease');
+    &:hover { @include transform(translateY(-.5em)); }
+  }
+
   &.animation {
     @include animation('button-enter 750ms ease-in-out forwards');
     opacity: 0;
 
-    @for $x from 1 through 10 {
+    @for $x from 1 through 15 {
       &:nth-child(#{$x}) {
         animation-delay: $x * .25s;
       }

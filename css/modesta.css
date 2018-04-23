@@ -798,6 +798,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(231, 76, 60, 0.6)); }
     .btn.alizarin:hover {
       filter: drop-shadow(5px 5px 0 rgba(231, 76, 60, 0.6)) brightness(50%); }
+  .btn.alizarin-nodark {
+    background-color: #e74c3c;
+    filter: drop-shadow(5px 5px 0 rgba(231, 76, 60, 0.6)); }
   .btn.alizarin-flat {
     background-color: #e74c3c; }
   .btn.amethyst {
@@ -805,6 +808,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(155, 89, 182, 0.6)); }
     .btn.amethyst:hover {
       filter: drop-shadow(5px 5px 0 rgba(155, 89, 182, 0.6)) brightness(50%); }
+  .btn.amethyst-nodark {
+    background-color: #9b59b6;
+    filter: drop-shadow(5px 5px 0 rgba(155, 89, 182, 0.6)); }
   .btn.amethyst-flat {
     background-color: #9b59b6; }
   .btn.asbestos {
@@ -812,6 +818,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
     .btn.asbestos:hover {
       filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)) brightness(50%); }
+  .btn.asbestos-nodark {
+    background-color: #7f8c8d;
+    filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
   .btn.asbestos-flat {
     background-color: #7f8c8d; }
   .btn.belize-hole {
@@ -819,6 +828,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(41, 128, 185, 0.6)); }
     .btn.belize-hole:hover {
       filter: drop-shadow(5px 5px 0 rgba(41, 128, 185, 0.6)) brightness(50%); }
+  .btn.belize-hole-nodark {
+    background-color: #2980b9;
+    filter: drop-shadow(5px 5px 0 rgba(41, 128, 185, 0.6)); }
   .btn.belize-hole-flat {
     background-color: #2980b9; }
   .btn.black {
@@ -826,6 +838,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6)); }
     .btn.black:hover {
       filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6)) brightness(50%); }
+  .btn.black-nodark {
+    background-color: #000;
+    filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6)); }
   .btn.black-flat {
     background-color: #000; }
   .btn.carrot {
@@ -833,6 +848,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(230, 126, 34, 0.6)); }
     .btn.carrot:hover {
       filter: drop-shadow(5px 5px 0 rgba(230, 126, 34, 0.6)) brightness(50%); }
+  .btn.carrot-nodark {
+    background-color: #e67e22;
+    filter: drop-shadow(5px 5px 0 rgba(230, 126, 34, 0.6)); }
   .btn.carrot-flat {
     background-color: #e67e22; }
   .btn.clouds {
@@ -840,6 +858,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(236, 240, 241, 0.6)); }
     .btn.clouds:hover {
       filter: drop-shadow(5px 5px 0 rgba(236, 240, 241, 0.6)) brightness(50%); }
+  .btn.clouds-nodark {
+    background-color: #ecf0f1;
+    filter: drop-shadow(5px 5px 0 rgba(236, 240, 241, 0.6)); }
   .btn.clouds-flat {
     background-color: #ecf0f1; }
   .btn.concrete {
@@ -847,6 +868,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)); }
     .btn.concrete:hover {
       filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)) brightness(50%); }
+  .btn.concrete-nodark {
+    background-color: #95a5a6;
+    filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)); }
   .btn.concrete-flat {
     background-color: #95a5a6; }
   .btn.emerald {
@@ -854,6 +878,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6)); }
     .btn.emerald:hover {
       filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6)) brightness(50%); }
+  .btn.emerald-nodark {
+    background-color: #2ecc71;
+    filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6)); }
   .btn.emerald-flat {
     background-color: #2ecc71; }
   .btn.green-sea {
@@ -861,6 +888,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6)); }
     .btn.green-sea:hover {
       filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6)) brightness(50%); }
+  .btn.green-sea-nodark {
+    background-color: #16a085;
+    filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6)); }
   .btn.green-sea-flat {
     background-color: #16a085; }
   .btn.highlight {
@@ -868,6 +898,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(24, 24, 24, 0.6)); }
     .btn.highlight:hover {
       filter: drop-shadow(5px 5px 0 rgba(24, 24, 24, 0.6)) brightness(50%); }
+  .btn.highlight-nodark {
+    background-color: #181818;
+    filter: drop-shadow(5px 5px 0 rgba(24, 24, 24, 0.6)); }
   .btn.highlight-flat {
     background-color: #181818; }
   .btn.midnight-blue {
@@ -875,6 +908,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(44, 62, 80, 0.6)); }
     .btn.midnight-blue:hover {
       filter: drop-shadow(5px 5px 0 rgba(44, 62, 80, 0.6)) brightness(50%); }
+  .btn.midnight-blue-nodark {
+    background-color: #2c3e50;
+    filter: drop-shadow(5px 5px 0 rgba(44, 62, 80, 0.6)); }
   .btn.midnight-blue-flat {
     background-color: #2c3e50; }
   .btn.nephritis {
@@ -882,6 +918,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(39, 174, 96, 0.6)); }
     .btn.nephritis:hover {
       filter: drop-shadow(5px 5px 0 rgba(39, 174, 96, 0.6)) brightness(50%); }
+  .btn.nephritis-nodark {
+    background-color: #27ae60;
+    filter: drop-shadow(5px 5px 0 rgba(39, 174, 96, 0.6)); }
   .btn.nephritis-flat {
     background-color: #27ae60; }
   .btn.orange {
@@ -889,6 +928,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6)); }
     .btn.orange:hover {
       filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6)) brightness(50%); }
+  .btn.orange-nodark {
+    background-color: #f39c12;
+    filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6)); }
   .btn.orange-flat {
     background-color: #f39c12; }
   .btn.peter-river {
@@ -896,6 +938,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(52, 152, 219, 0.6)); }
     .btn.peter-river:hover {
       filter: drop-shadow(5px 5px 0 rgba(52, 152, 219, 0.6)) brightness(50%); }
+  .btn.peter-river-nodark {
+    background-color: #3498db;
+    filter: drop-shadow(5px 5px 0 rgba(52, 152, 219, 0.6)); }
   .btn.peter-river-flat {
     background-color: #3498db; }
   .btn.pomegranate {
@@ -903,6 +948,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(192, 57, 43, 0.6)); }
     .btn.pomegranate:hover {
       filter: drop-shadow(5px 5px 0 rgba(192, 57, 43, 0.6)) brightness(50%); }
+  .btn.pomegranate-nodark {
+    background-color: #c0392b;
+    filter: drop-shadow(5px 5px 0 rgba(192, 57, 43, 0.6)); }
   .btn.pomegranate-flat {
     background-color: #c0392b; }
   .btn.primary {
@@ -910,6 +958,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(40, 40, 40, 0.6)); }
     .btn.primary:hover {
       filter: drop-shadow(5px 5px 0 rgba(40, 40, 40, 0.6)) brightness(50%); }
+  .btn.primary-nodark {
+    background-color: #282828;
+    filter: drop-shadow(5px 5px 0 rgba(40, 40, 40, 0.6)); }
   .btn.primary-flat {
     background-color: #282828; }
   .btn.pumpkin {
@@ -917,6 +968,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6)); }
     .btn.pumpkin:hover {
       filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6)) brightness(50%); }
+  .btn.pumpkin-nodark {
+    background-color: #d35400;
+    filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6)); }
   .btn.pumpkin-flat {
     background-color: #d35400; }
   .btn.secondary {
@@ -924,6 +978,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(48, 48, 48, 0.6)); }
     .btn.secondary:hover {
       filter: drop-shadow(5px 5px 0 rgba(48, 48, 48, 0.6)) brightness(50%); }
+  .btn.secondary-nodark {
+    background-color: #303030;
+    filter: drop-shadow(5px 5px 0 rgba(48, 48, 48, 0.6)); }
   .btn.secondary-flat {
     background-color: #303030; }
   .btn.silver {
@@ -931,6 +988,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
     .btn.silver:hover {
       filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)) brightness(50%); }
+  .btn.silver-nodark {
+    background-color: #7f8c8d;
+    filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
   .btn.silver-flat {
     background-color: #7f8c8d; }
   .btn.sun-flower {
@@ -938,6 +998,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(241, 196, 15, 0.6)); }
     .btn.sun-flower:hover {
       filter: drop-shadow(5px 5px 0 rgba(241, 196, 15, 0.6)) brightness(50%); }
+  .btn.sun-flower-nodark {
+    background-color: #f1c40f;
+    filter: drop-shadow(5px 5px 0 rgba(241, 196, 15, 0.6)); }
   .btn.sun-flower-flat {
     background-color: #f1c40f; }
   .btn.turquoise {
@@ -945,6 +1008,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(26, 188, 156, 0.6)); }
     .btn.turquoise:hover {
       filter: drop-shadow(5px 5px 0 rgba(26, 188, 156, 0.6)) brightness(50%); }
+  .btn.turquoise-nodark {
+    background-color: #1abc9c;
+    filter: drop-shadow(5px 5px 0 rgba(26, 188, 156, 0.6)); }
   .btn.turquoise-flat {
     background-color: #1abc9c; }
   .btn.wet-asphalt {
@@ -952,6 +1018,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(52, 73, 94, 0.6)); }
     .btn.wet-asphalt:hover {
       filter: drop-shadow(5px 5px 0 rgba(52, 73, 94, 0.6)) brightness(50%); }
+  .btn.wet-asphalt-nodark {
+    background-color: #34495e;
+    filter: drop-shadow(5px 5px 0 rgba(52, 73, 94, 0.6)); }
   .btn.wet-asphalt-flat {
     background-color: #34495e; }
   .btn.white {
@@ -959,6 +1028,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(255, 255, 255, 0.6)); }
     .btn.white:hover {
       filter: drop-shadow(5px 5px 0 rgba(255, 255, 255, 0.6)) brightness(50%); }
+  .btn.white-nodark {
+    background-color: #fff;
+    filter: drop-shadow(5px 5px 0 rgba(255, 255, 255, 0.6)); }
   .btn.white-flat {
     background-color: #fff; }
   .btn.wisteria {
@@ -966,6 +1038,9 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(142, 68, 173, 0.6)); }
     .btn.wisteria:hover {
       filter: drop-shadow(5px 5px 0 rgba(142, 68, 173, 0.6)) brightness(50%); }
+  .btn.wisteria-nodark {
+    background-color: #8e44ad;
+    filter: drop-shadow(5px 5px 0 rgba(142, 68, 173, 0.6)); }
   .btn.wisteria-flat {
     background-color: #8e44ad; }
   .btn:hover {
@@ -975,6 +1050,18 @@ h6 {
     -moz-transition: all 350ms ease;
     -o-transition: all 350ms ease;
     color: #fff; }
+  .btn.hover {
+    transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -o-transition: all 350ms ease; }
+    .btn.hover:hover {
+      transform: translateY(-0.5em);
+      -webkit-transform: translateY(-0.5em);
+      -ms-transform: translateY(-0.5em);
+      -moz-transform: translateY(-0.5em);
+      -o-transform: translateY(-0.5em); }
   .btn.animation {
     animation: button-enter 750ms ease-in-out forwards;
     -webkit-animation: button-enter 750ms ease-in-out forwards;
@@ -1002,6 +1089,16 @@ h6 {
       animation-delay: 2.25s; }
     .btn.animation:nth-child(10) {
       animation-delay: 2.5s; }
+    .btn.animation:nth-child(11) {
+      animation-delay: 2.75s; }
+    .btn.animation:nth-child(12) {
+      animation-delay: 3s; }
+    .btn.animation:nth-child(13) {
+      animation-delay: 3.25s; }
+    .btn.animation:nth-child(14) {
+      animation-delay: 3.5s; }
+    .btn.animation:nth-child(15) {
+      animation-delay: 3.75s; }
 
 .fullscreen .background {
   background-attachment: fixed;
