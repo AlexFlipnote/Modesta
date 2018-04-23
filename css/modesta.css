@@ -771,6 +771,94 @@ h6 {
   justify-content: center;
   text-align: center; }
 
+button {
+  background-color: #464646;
+  border: 0;
+  box-shadow: 0 3px 0 0 #141414;
+  color: #fff;
+  margin: .5em;
+  outline: none;
+  padding: .3em .8em;
+  position: relative; }
+  button:active {
+    box-shadow: none !important;
+    top: 2; }
+  button.alizarin {
+    background-color: #e74c3c;
+    box-shadow: 0 3px 0 0 rgba(231, 76, 60, 0.5); }
+  button.amethyst {
+    background-color: #9b59b6;
+    box-shadow: 0 3px 0 0 rgba(155, 89, 182, 0.5); }
+  button.asbestos {
+    background-color: #7f8c8d;
+    box-shadow: 0 3px 0 0 rgba(127, 140, 141, 0.5); }
+  button.belize-hole {
+    background-color: #2980b9;
+    box-shadow: 0 3px 0 0 rgba(41, 128, 185, 0.5); }
+  button.black {
+    background-color: #000;
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.5); }
+  button.carrot {
+    background-color: #e67e22;
+    box-shadow: 0 3px 0 0 rgba(230, 126, 34, 0.5); }
+  button.clouds {
+    background-color: #ecf0f1;
+    box-shadow: 0 3px 0 0 rgba(236, 240, 241, 0.5); }
+  button.concrete {
+    background-color: #95a5a6;
+    box-shadow: 0 3px 0 0 rgba(149, 165, 166, 0.5); }
+  button.emerald {
+    background-color: #2ecc71;
+    box-shadow: 0 3px 0 0 rgba(46, 204, 113, 0.5); }
+  button.green-sea {
+    background-color: #16a085;
+    box-shadow: 0 3px 0 0 rgba(22, 160, 133, 0.5); }
+  button.highlight {
+    background-color: #181818;
+    box-shadow: 0 3px 0 0 rgba(24, 24, 24, 0.5); }
+  button.midnight-blue {
+    background-color: #2c3e50;
+    box-shadow: 0 3px 0 0 rgba(44, 62, 80, 0.5); }
+  button.nephritis {
+    background-color: #27ae60;
+    box-shadow: 0 3px 0 0 rgba(39, 174, 96, 0.5); }
+  button.orange {
+    background-color: #f39c12;
+    box-shadow: 0 3px 0 0 rgba(243, 156, 18, 0.5); }
+  button.peter-river {
+    background-color: #3498db;
+    box-shadow: 0 3px 0 0 rgba(52, 152, 219, 0.5); }
+  button.pomegranate {
+    background-color: #c0392b;
+    box-shadow: 0 3px 0 0 rgba(192, 57, 43, 0.5); }
+  button.primary {
+    background-color: #282828;
+    box-shadow: 0 3px 0 0 rgba(40, 40, 40, 0.5); }
+  button.pumpkin {
+    background-color: #d35400;
+    box-shadow: 0 3px 0 0 rgba(211, 84, 0, 0.5); }
+  button.secondary {
+    background-color: #303030;
+    box-shadow: 0 3px 0 0 rgba(48, 48, 48, 0.5); }
+  button.silver {
+    background-color: #7f8c8d;
+    box-shadow: 0 3px 0 0 rgba(127, 140, 141, 0.5); }
+  button.sun-flower {
+    background-color: #f1c40f;
+    box-shadow: 0 3px 0 0 rgba(241, 196, 15, 0.5); }
+  button.turquoise {
+    background-color: #1abc9c;
+    box-shadow: 0 3px 0 0 rgba(26, 188, 156, 0.5); }
+  button.wet-asphalt {
+    background-color: #34495e;
+    box-shadow: 0 3px 0 0 rgba(52, 73, 94, 0.5); }
+  button.white {
+    background-color: #fff;
+    box-shadow: 0 3px 0 0 rgba(255, 255, 255, 0.5); }
+  button.wisteria {
+    background-color: #8e44ad;
+    box-shadow: 0 3px 0 0 rgba(142, 68, 173, 0.5); }
+
 .btn {
   transition: all 350ms ease;
   -webkit-transition: all 350ms ease;
@@ -803,6 +891,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(231, 76, 60, 0.6)); }
   .btn.alizarin-flat {
     background-color: #e74c3c; }
+    .btn.alizarin-flat:hover {
+      filter: brightness(50%); }
+  .btn.alizarin-flat-nodark {
+    background-color: #e74c3c; }
   .btn.amethyst {
     background-color: #9b59b6;
     filter: drop-shadow(5px 5px 0 rgba(155, 89, 182, 0.6)); }
@@ -812,6 +904,10 @@ h6 {
     background-color: #9b59b6;
     filter: drop-shadow(5px 5px 0 rgba(155, 89, 182, 0.6)); }
   .btn.amethyst-flat {
+    background-color: #9b59b6; }
+    .btn.amethyst-flat:hover {
+      filter: brightness(50%); }
+  .btn.amethyst-flat-nodark {
     background-color: #9b59b6; }
   .btn.asbestos {
     background-color: #7f8c8d;
@@ -823,6 +919,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
   .btn.asbestos-flat {
     background-color: #7f8c8d; }
+    .btn.asbestos-flat:hover {
+      filter: brightness(50%); }
+  .btn.asbestos-flat-nodark {
+    background-color: #7f8c8d; }
   .btn.belize-hole {
     background-color: #2980b9;
     filter: drop-shadow(5px 5px 0 rgba(41, 128, 185, 0.6)); }
@@ -832,6 +932,10 @@ h6 {
     background-color: #2980b9;
     filter: drop-shadow(5px 5px 0 rgba(41, 128, 185, 0.6)); }
   .btn.belize-hole-flat {
+    background-color: #2980b9; }
+    .btn.belize-hole-flat:hover {
+      filter: brightness(50%); }
+  .btn.belize-hole-flat-nodark {
     background-color: #2980b9; }
   .btn.black {
     background-color: #000;
@@ -843,6 +947,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6)); }
   .btn.black-flat {
     background-color: #000; }
+    .btn.black-flat:hover {
+      filter: brightness(50%); }
+  .btn.black-flat-nodark {
+    background-color: #000; }
   .btn.carrot {
     background-color: #e67e22;
     filter: drop-shadow(5px 5px 0 rgba(230, 126, 34, 0.6)); }
@@ -852,6 +960,10 @@ h6 {
     background-color: #e67e22;
     filter: drop-shadow(5px 5px 0 rgba(230, 126, 34, 0.6)); }
   .btn.carrot-flat {
+    background-color: #e67e22; }
+    .btn.carrot-flat:hover {
+      filter: brightness(50%); }
+  .btn.carrot-flat-nodark {
     background-color: #e67e22; }
   .btn.clouds {
     background-color: #ecf0f1;
@@ -863,6 +975,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(236, 240, 241, 0.6)); }
   .btn.clouds-flat {
     background-color: #ecf0f1; }
+    .btn.clouds-flat:hover {
+      filter: brightness(50%); }
+  .btn.clouds-flat-nodark {
+    background-color: #ecf0f1; }
   .btn.concrete {
     background-color: #95a5a6;
     filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)); }
@@ -872,6 +988,10 @@ h6 {
     background-color: #95a5a6;
     filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)); }
   .btn.concrete-flat {
+    background-color: #95a5a6; }
+    .btn.concrete-flat:hover {
+      filter: brightness(50%); }
+  .btn.concrete-flat-nodark {
     background-color: #95a5a6; }
   .btn.emerald {
     background-color: #2ecc71;
@@ -883,6 +1003,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6)); }
   .btn.emerald-flat {
     background-color: #2ecc71; }
+    .btn.emerald-flat:hover {
+      filter: brightness(50%); }
+  .btn.emerald-flat-nodark {
+    background-color: #2ecc71; }
   .btn.green-sea {
     background-color: #16a085;
     filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6)); }
@@ -892,6 +1016,10 @@ h6 {
     background-color: #16a085;
     filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6)); }
   .btn.green-sea-flat {
+    background-color: #16a085; }
+    .btn.green-sea-flat:hover {
+      filter: brightness(50%); }
+  .btn.green-sea-flat-nodark {
     background-color: #16a085; }
   .btn.highlight {
     background-color: #181818;
@@ -903,6 +1031,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(24, 24, 24, 0.6)); }
   .btn.highlight-flat {
     background-color: #181818; }
+    .btn.highlight-flat:hover {
+      filter: brightness(50%); }
+  .btn.highlight-flat-nodark {
+    background-color: #181818; }
   .btn.midnight-blue {
     background-color: #2c3e50;
     filter: drop-shadow(5px 5px 0 rgba(44, 62, 80, 0.6)); }
@@ -912,6 +1044,10 @@ h6 {
     background-color: #2c3e50;
     filter: drop-shadow(5px 5px 0 rgba(44, 62, 80, 0.6)); }
   .btn.midnight-blue-flat {
+    background-color: #2c3e50; }
+    .btn.midnight-blue-flat:hover {
+      filter: brightness(50%); }
+  .btn.midnight-blue-flat-nodark {
     background-color: #2c3e50; }
   .btn.nephritis {
     background-color: #27ae60;
@@ -923,6 +1059,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(39, 174, 96, 0.6)); }
   .btn.nephritis-flat {
     background-color: #27ae60; }
+    .btn.nephritis-flat:hover {
+      filter: brightness(50%); }
+  .btn.nephritis-flat-nodark {
+    background-color: #27ae60; }
   .btn.orange {
     background-color: #f39c12;
     filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6)); }
@@ -932,6 +1072,10 @@ h6 {
     background-color: #f39c12;
     filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6)); }
   .btn.orange-flat {
+    background-color: #f39c12; }
+    .btn.orange-flat:hover {
+      filter: brightness(50%); }
+  .btn.orange-flat-nodark {
     background-color: #f39c12; }
   .btn.peter-river {
     background-color: #3498db;
@@ -943,6 +1087,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(52, 152, 219, 0.6)); }
   .btn.peter-river-flat {
     background-color: #3498db; }
+    .btn.peter-river-flat:hover {
+      filter: brightness(50%); }
+  .btn.peter-river-flat-nodark {
+    background-color: #3498db; }
   .btn.pomegranate {
     background-color: #c0392b;
     filter: drop-shadow(5px 5px 0 rgba(192, 57, 43, 0.6)); }
@@ -952,6 +1100,10 @@ h6 {
     background-color: #c0392b;
     filter: drop-shadow(5px 5px 0 rgba(192, 57, 43, 0.6)); }
   .btn.pomegranate-flat {
+    background-color: #c0392b; }
+    .btn.pomegranate-flat:hover {
+      filter: brightness(50%); }
+  .btn.pomegranate-flat-nodark {
     background-color: #c0392b; }
   .btn.primary {
     background-color: #282828;
@@ -963,6 +1115,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(40, 40, 40, 0.6)); }
   .btn.primary-flat {
     background-color: #282828; }
+    .btn.primary-flat:hover {
+      filter: brightness(50%); }
+  .btn.primary-flat-nodark {
+    background-color: #282828; }
   .btn.pumpkin {
     background-color: #d35400;
     filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6)); }
@@ -972,6 +1128,10 @@ h6 {
     background-color: #d35400;
     filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6)); }
   .btn.pumpkin-flat {
+    background-color: #d35400; }
+    .btn.pumpkin-flat:hover {
+      filter: brightness(50%); }
+  .btn.pumpkin-flat-nodark {
     background-color: #d35400; }
   .btn.secondary {
     background-color: #303030;
@@ -983,6 +1143,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(48, 48, 48, 0.6)); }
   .btn.secondary-flat {
     background-color: #303030; }
+    .btn.secondary-flat:hover {
+      filter: brightness(50%); }
+  .btn.secondary-flat-nodark {
+    background-color: #303030; }
   .btn.silver {
     background-color: #7f8c8d;
     filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
@@ -992,6 +1156,10 @@ h6 {
     background-color: #7f8c8d;
     filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
   .btn.silver-flat {
+    background-color: #7f8c8d; }
+    .btn.silver-flat:hover {
+      filter: brightness(50%); }
+  .btn.silver-flat-nodark {
     background-color: #7f8c8d; }
   .btn.sun-flower {
     background-color: #f1c40f;
@@ -1003,6 +1171,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(241, 196, 15, 0.6)); }
   .btn.sun-flower-flat {
     background-color: #f1c40f; }
+    .btn.sun-flower-flat:hover {
+      filter: brightness(50%); }
+  .btn.sun-flower-flat-nodark {
+    background-color: #f1c40f; }
   .btn.turquoise {
     background-color: #1abc9c;
     filter: drop-shadow(5px 5px 0 rgba(26, 188, 156, 0.6)); }
@@ -1012,6 +1184,10 @@ h6 {
     background-color: #1abc9c;
     filter: drop-shadow(5px 5px 0 rgba(26, 188, 156, 0.6)); }
   .btn.turquoise-flat {
+    background-color: #1abc9c; }
+    .btn.turquoise-flat:hover {
+      filter: brightness(50%); }
+  .btn.turquoise-flat-nodark {
     background-color: #1abc9c; }
   .btn.wet-asphalt {
     background-color: #34495e;
@@ -1023,6 +1199,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(52, 73, 94, 0.6)); }
   .btn.wet-asphalt-flat {
     background-color: #34495e; }
+    .btn.wet-asphalt-flat:hover {
+      filter: brightness(50%); }
+  .btn.wet-asphalt-flat-nodark {
+    background-color: #34495e; }
   .btn.white {
     background-color: #fff;
     filter: drop-shadow(5px 5px 0 rgba(255, 255, 255, 0.6)); }
@@ -1033,6 +1213,10 @@ h6 {
     filter: drop-shadow(5px 5px 0 rgba(255, 255, 255, 0.6)); }
   .btn.white-flat {
     background-color: #fff; }
+    .btn.white-flat:hover {
+      filter: brightness(50%); }
+  .btn.white-flat-nodark {
+    background-color: #fff; }
   .btn.wisteria {
     background-color: #8e44ad;
     filter: drop-shadow(5px 5px 0 rgba(142, 68, 173, 0.6)); }
@@ -1042,6 +1226,10 @@ h6 {
     background-color: #8e44ad;
     filter: drop-shadow(5px 5px 0 rgba(142, 68, 173, 0.6)); }
   .btn.wisteria-flat {
+    background-color: #8e44ad; }
+    .btn.wisteria-flat:hover {
+      filter: brightness(50%); }
+  .btn.wisteria-flat-nodark {
     background-color: #8e44ad; }
   .btn:hover {
     transition: all 350ms ease;

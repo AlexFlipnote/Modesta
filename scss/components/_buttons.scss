@@ -9,6 +9,29 @@
   text-align: center;
 }
 
+button {
+  background-color: rgb(70, 70, 70);
+  border: 0;
+  box-shadow: 0 3px 0 0 rgb(20, 20, 20);
+  color: #fff;
+  margin: .5em;
+  outline: none;
+  padding: .3em .8em;
+  position: relative;
+
+  &:active {
+    box-shadow: none !important;
+    top: 2;
+  }
+
+  @each $name, $code in $colours {
+    &.#{$name} {
+      background-color: $code;
+      box-shadow: 0 3px 0 0 rgba($code, .5);
+    }
+  }
+}
+
 .btn {
   @include transition('all 350ms ease');
   background-color: transparent;
@@ -38,6 +61,11 @@
     }
 
     &.#{$name}-flat {
+      background-color: $code;
+      &:hover { filter: brightness(50%); }
+    }
+
+    &.#{$name}-flat-nodark {
       background-color: $code;
     }
   }
