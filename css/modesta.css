@@ -100,250 +100,250 @@ h6 {
   text-align: center; }
 
 .alizarin {
-  background-color: #e74c3c; }
+  background-color: #e74c3c !important; }
 
 .alizarin-text {
-  color: #e74c3c; }
+  color: #e74c3c !important; }
 
 .alizarin-dropshadow {
   background-color: #e74c3c;
   filter: drop-shadow(5px 5px 0 rgba(231, 76, 60, 0.6)); }
 
 .amethyst {
-  background-color: #9b59b6; }
+  background-color: #9b59b6 !important; }
 
 .amethyst-text {
-  color: #9b59b6; }
+  color: #9b59b6 !important; }
 
 .amethyst-dropshadow {
   background-color: #9b59b6;
   filter: drop-shadow(5px 5px 0 rgba(155, 89, 182, 0.6)); }
 
 .asbestos {
-  background-color: #7f8c8d; }
+  background-color: #7f8c8d !important; }
 
 .asbestos-text {
-  color: #7f8c8d; }
+  color: #7f8c8d !important; }
 
 .asbestos-dropshadow {
   background-color: #7f8c8d;
   filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
 
 .belize-hole {
-  background-color: #2980b9; }
+  background-color: #2980b9 !important; }
 
 .belize-hole-text {
-  color: #2980b9; }
+  color: #2980b9 !important; }
 
 .belize-hole-dropshadow {
   background-color: #2980b9;
   filter: drop-shadow(5px 5px 0 rgba(41, 128, 185, 0.6)); }
 
 .black {
-  background-color: #000; }
+  background-color: #000 !important; }
 
 .black-text {
-  color: #000; }
+  color: #000 !important; }
 
 .black-dropshadow {
   background-color: #000;
   filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6)); }
 
 .carrot {
-  background-color: #e67e22; }
+  background-color: #e67e22 !important; }
 
 .carrot-text {
-  color: #e67e22; }
+  color: #e67e22 !important; }
 
 .carrot-dropshadow {
   background-color: #e67e22;
   filter: drop-shadow(5px 5px 0 rgba(230, 126, 34, 0.6)); }
 
 .clouds {
-  background-color: #ecf0f1; }
+  background-color: #ecf0f1 !important; }
 
 .clouds-text {
-  color: #ecf0f1; }
+  color: #ecf0f1 !important; }
 
 .clouds-dropshadow {
   background-color: #ecf0f1;
   filter: drop-shadow(5px 5px 0 rgba(236, 240, 241, 0.6)); }
 
 .concrete {
-  background-color: #95a5a6; }
+  background-color: #95a5a6 !important; }
 
 .concrete-text {
-  color: #95a5a6; }
+  color: #95a5a6 !important; }
 
 .concrete-dropshadow {
   background-color: #95a5a6;
   filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)); }
 
 .emerald {
-  background-color: #2ecc71; }
+  background-color: #2ecc71 !important; }
 
 .emerald-text {
-  color: #2ecc71; }
+  color: #2ecc71 !important; }
 
 .emerald-dropshadow {
   background-color: #2ecc71;
   filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6)); }
 
 .green-sea {
-  background-color: #16a085; }
+  background-color: #16a085 !important; }
 
 .green-sea-text {
-  color: #16a085; }
+  color: #16a085 !important; }
 
 .green-sea-dropshadow {
   background-color: #16a085;
   filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6)); }
 
 .highlight {
-  background-color: #181818; }
+  background-color: #181818 !important; }
 
 .highlight-text {
-  color: #181818; }
+  color: #181818 !important; }
 
 .highlight-dropshadow {
   background-color: #181818;
   filter: drop-shadow(5px 5px 0 rgba(24, 24, 24, 0.6)); }
 
 .midnight-blue {
-  background-color: #2c3e50; }
+  background-color: #2c3e50 !important; }
 
 .midnight-blue-text {
-  color: #2c3e50; }
+  color: #2c3e50 !important; }
 
 .midnight-blue-dropshadow {
   background-color: #2c3e50;
   filter: drop-shadow(5px 5px 0 rgba(44, 62, 80, 0.6)); }
 
 .nephritis {
-  background-color: #27ae60; }
+  background-color: #27ae60 !important; }
 
 .nephritis-text {
-  color: #27ae60; }
+  color: #27ae60 !important; }
 
 .nephritis-dropshadow {
   background-color: #27ae60;
   filter: drop-shadow(5px 5px 0 rgba(39, 174, 96, 0.6)); }
 
 .orange {
-  background-color: #f39c12; }
+  background-color: #f39c12 !important; }
 
 .orange-text {
-  color: #f39c12; }
+  color: #f39c12 !important; }
 
 .orange-dropshadow {
   background-color: #f39c12;
   filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6)); }
 
 .peter-river {
-  background-color: #3498db; }
+  background-color: #3498db !important; }
 
 .peter-river-text {
-  color: #3498db; }
+  color: #3498db !important; }
 
 .peter-river-dropshadow {
   background-color: #3498db;
   filter: drop-shadow(5px 5px 0 rgba(52, 152, 219, 0.6)); }
 
 .pomegranate {
-  background-color: #c0392b; }
+  background-color: #c0392b !important; }
 
 .pomegranate-text {
-  color: #c0392b; }
+  color: #c0392b !important; }
 
 .pomegranate-dropshadow {
   background-color: #c0392b;
   filter: drop-shadow(5px 5px 0 rgba(192, 57, 43, 0.6)); }
 
 .primary {
-  background-color: #282828; }
+  background-color: #282828 !important; }
 
 .primary-text {
-  color: #282828; }
+  color: #282828 !important; }
 
 .primary-dropshadow {
   background-color: #282828;
   filter: drop-shadow(5px 5px 0 rgba(40, 40, 40, 0.6)); }
 
 .pumpkin {
-  background-color: #d35400; }
+  background-color: #d35400 !important; }
 
 .pumpkin-text {
-  color: #d35400; }
+  color: #d35400 !important; }
 
 .pumpkin-dropshadow {
   background-color: #d35400;
   filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6)); }
 
 .secondary {
-  background-color: #303030; }
+  background-color: #303030 !important; }
 
 .secondary-text {
-  color: #303030; }
+  color: #303030 !important; }
 
 .secondary-dropshadow {
   background-color: #303030;
   filter: drop-shadow(5px 5px 0 rgba(48, 48, 48, 0.6)); }
 
 .silver {
-  background-color: #7f8c8d; }
+  background-color: #7f8c8d !important; }
 
 .silver-text {
-  color: #7f8c8d; }
+  color: #7f8c8d !important; }
 
 .silver-dropshadow {
   background-color: #7f8c8d;
   filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
 
 .sun-flower {
-  background-color: #f1c40f; }
+  background-color: #f1c40f !important; }
 
 .sun-flower-text {
-  color: #f1c40f; }
+  color: #f1c40f !important; }
 
 .sun-flower-dropshadow {
   background-color: #f1c40f;
   filter: drop-shadow(5px 5px 0 rgba(241, 196, 15, 0.6)); }
 
 .turquoise {
-  background-color: #1abc9c; }
+  background-color: #1abc9c !important; }
 
 .turquoise-text {
-  color: #1abc9c; }
+  color: #1abc9c !important; }
 
 .turquoise-dropshadow {
   background-color: #1abc9c;
   filter: drop-shadow(5px 5px 0 rgba(26, 188, 156, 0.6)); }
 
 .wet-asphalt {
-  background-color: #34495e; }
+  background-color: #34495e !important; }
 
 .wet-asphalt-text {
-  color: #34495e; }
+  color: #34495e !important; }
 
 .wet-asphalt-dropshadow {
   background-color: #34495e;
   filter: drop-shadow(5px 5px 0 rgba(52, 73, 94, 0.6)); }
 
 .white {
-  background-color: #fff; }
+  background-color: #fff !important; }
 
 .white-text {
-  color: #fff; }
+  color: #fff !important; }
 
 .white-dropshadow {
   background-color: #fff;
   filter: drop-shadow(5px 5px 0 rgba(255, 255, 255, 0.6)); }
 
 .wisteria {
-  background-color: #8e44ad; }
+  background-color: #8e44ad !important; }
 
 .wisteria-text {
-  color: #8e44ad; }
+  color: #8e44ad !important; }
 
 .wisteria-dropshadow {
   background-color: #8e44ad;
@@ -1413,6 +1413,10 @@ h6 {
   top: 0;
   width: 100%;
   z-index: 100; }
+  .nav-container.no-nav {
+    background: transparent;
+    border-bottom: 0;
+    position: absolute; }
   .nav-container #menu-icon {
     background: #4c8fec url("images/menu-icon.png") center;
     cursor: pointer;
@@ -1790,6 +1794,11 @@ h6 {
     width: 85%; } }
 @media (max-width: 550px) {
   .container {
-    width: 90%; } }
+    width: 90%; }
+
+  .nav-container.no-nav {
+    display: block;
+    height: 3em;
+    position: static; } }
 
 /*# sourceMappingURL=modesta.css.map */

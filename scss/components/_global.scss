@@ -62,7 +62,7 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 
 // All colours
 @each $name, $code in $colours {
-  .#{$name} { background-color: $code; }
-  .#{$name}-text { color: $code; }
+  .#{$name} { background-color: $code !important; }
+  .#{$name}-text { color: $code !important; }
   .#{$name}-dropshadow { @include dropshadow($code, false); }
 }

@@ -12,6 +12,12 @@ $heigth-control: 4em;
   width: 100%;
   z-index: 100;
 
+  &.no-nav {
+    background: transparent;
+    border-bottom: 0;
+    position: absolute;
+  }
+
   #menu-icon {
     background: #4c8fec url('images/menu-icon.png') center;
     cursor: pointer;

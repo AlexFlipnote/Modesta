@@ -12,6 +12,10 @@ A clean CSS framework made to be dark and responsive.
 If you wish to use local files, please copy the CSS folder into your website.
 Everything from images and all CSS packages is included inside it.
 
+## Documentation
+Visit this link for docs:<br>
+https://alexflipnote.xyz/docs/modestacss
+
 ## Contribution
 If you plan to contribute, please use **scss_lint** (Ruby Package) to be sure everything is linted.
 Thanks <3

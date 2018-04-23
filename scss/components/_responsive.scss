@@ -41,4 +41,11 @@
 
 @media (max-width: 550px) {
   .container { width: 90%; }
+  .nav-container {
+    &.no-nav {
+      display: block;
+      height: 3em;
+      position: static;
+    }
+  }
 }
