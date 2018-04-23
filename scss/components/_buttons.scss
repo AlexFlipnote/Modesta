@@ -75,11 +75,6 @@ button {
     color: #fff;
   }
 
-  &.hover {
-    @include transition('all 350ms ease');
-    &:hover { @include transform(translateY(-.5em)); }
-  }
-
   &.animation {
     @include animation('button-enter 750ms ease-in-out forwards');
     opacity: 0;
@@ -89,5 +84,10 @@ button {
         animation-delay: $x * .25s;
       }
     }
+  }
+
+  &.hover {
+    @include transition('all 350ms ease');
+    &:hover { @include transform(translateY(-.5em)); }
   }
 }

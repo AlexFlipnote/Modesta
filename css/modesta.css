@@ -1238,18 +1238,6 @@ button {
     -moz-transition: all 350ms ease;
     -o-transition: all 350ms ease;
     color: #fff; }
-  .btn.hover {
-    transition: all 350ms ease;
-    -webkit-transition: all 350ms ease;
-    -ms-transition: all 350ms ease;
-    -moz-transition: all 350ms ease;
-    -o-transition: all 350ms ease; }
-    .btn.hover:hover {
-      transform: translateY(-0.5em);
-      -webkit-transform: translateY(-0.5em);
-      -ms-transform: translateY(-0.5em);
-      -moz-transform: translateY(-0.5em);
-      -o-transform: translateY(-0.5em); }
   .btn.animation {
     animation: button-enter 750ms ease-in-out forwards;
     -webkit-animation: button-enter 750ms ease-in-out forwards;
@@ -1287,6 +1275,18 @@ button {
       animation-delay: 3.5s; }
     .btn.animation:nth-child(15) {
       animation-delay: 3.75s; }
+  .btn.hover {
+    transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -o-transition: all 350ms ease; }
+    .btn.hover:hover {
+      transform: translateY(-0.5em);
+      -webkit-transform: translateY(-0.5em);
+      -ms-transform: translateY(-0.5em);
+      -moz-transform: translateY(-0.5em);
+      -o-transform: translateY(-0.5em); }
 
 .fullscreen .background {
   background-attachment: fixed;
