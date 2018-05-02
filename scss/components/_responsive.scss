@@ -34,6 +34,41 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .table-container {
+    table {
+      border: 0;
+      filter: none;
+      width: 100%;
+
+      thead { display: none; }
+
+      tr {
+        border-bottom: 3px solid #aaa;
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      td {
+        border-bottom: 1px dotted #ccc;
+        display: block;
+        font-size: 13px;
+        &:first-child { font-weight: bold; }
+        &:last-child { border-bottom: 0; }
+
+        &::before {
+          content: attr(data-label);
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
+
+    }
+
+  }
+}
+
 // For devices larger than 400px
 @media (max-width: 400px) {
   .container { padding: 0; width: 85%; }
