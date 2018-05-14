@@ -1,4 +1,5 @@
 @import '../assets/colours';
+@import '../assets/crossbrowser';
 @import '../assets/builders';
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
 
@@ -49,6 +50,7 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 }
 
 // Changeing value of elements
+.noselect { @include prefix(user-select, none); }
 .bold { font-weight: bold; }
 .no-margin { margin: 0; }
 .no-padding { padding: 0; }
