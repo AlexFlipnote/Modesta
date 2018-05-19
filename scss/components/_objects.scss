@@ -97,6 +97,7 @@ $heigth-control: 3em;
       color: #808080;
       font-size: 18px;
       margin-bottom: .3em;
+      &.link { color: #2980b9; }
     }
 
     .footer {
@@ -106,7 +107,14 @@ $heigth-control: 3em;
       padding: .6em 0;
       padding-bottom: 1em;
 
+      * {
+        margin: 0 .75em;
+        margin-bottom: 0;
+        text-align: left;
+      }
+
       a {
+        color: #2980b9;
         font-size: 14px;
         text-decoration: none;
       }

@@ -186,6 +186,16 @@ h6 {
   background-color: #95a5a6;
   filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)); }
 
+.discord {
+  background-color: #7289da !important; }
+
+.discord-text {
+  color: #7289da !important; }
+
+.discord-dropshadow {
+  background-color: #7289da;
+  filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6)); }
+
 .emerald {
   background-color: #2ecc71 !important; }
 
@@ -747,7 +757,7 @@ h6 {
   -ms-animation: fading 300ms ease-in-out;
   -moz-animation: fading 300ms ease-in-out;
   -o-animation: fading 300ms ease-in-out;
-  background-image: url("images/arrow.png");
+  background-image: url("https://modesta.alexflipnote.xyz/css/images/arrow.png");
   background-size: contain;
   bottom: 20px;
   height: 40px;
@@ -814,6 +824,9 @@ button {
   button.concrete {
     background-color: #95a5a6;
     box-shadow: 0 3px 0 0 rgba(149, 165, 166, 0.5); }
+  button.discord {
+    background-color: #7289da;
+    box-shadow: 0 3px 0 0 rgba(114, 137, 218, 0.5); }
   button.emerald {
     background-color: #2ecc71;
     box-shadow: 0 3px 0 0 rgba(46, 204, 113, 0.5); }
@@ -1000,6 +1013,20 @@ button {
       filter: brightness(50%); }
   .btn.concrete-flat-nodark {
     background-color: #95a5a6; }
+  .btn.discord {
+    background-color: #7289da;
+    filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6)); }
+    .btn.discord:hover {
+      filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6)) brightness(50%); }
+  .btn.discord-nodark {
+    background-color: #7289da;
+    filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6)); }
+  .btn.discord-flat {
+    background-color: #7289da; }
+    .btn.discord-flat:hover {
+      filter: brightness(50%); }
+  .btn.discord-flat-nodark {
+    background-color: #7289da; }
   .btn.emerald {
     background-color: #2ecc71;
     filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6)); }
@@ -1362,6 +1389,7 @@ button {
 .container {
   box-sizing: border-box;
   margin: 0 auto;
+  margin-bottom: 2.5em;
   margin-top: 1.5em;
   padding: 0 2em;
   position: relative;
@@ -1745,6 +1773,11 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)); }
   .box-container.concrete-flat {
     background-color: #95a5a6; }
+  .box-container.discord {
+    background-color: #7289da;
+    filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6)); }
+  .box-container.discord-flat {
+    background-color: #7289da; }
   .box-container.emerald {
     background-color: #2ecc71;
     filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6)); }
@@ -1863,13 +1896,20 @@ button {
       color: #808080;
       font-size: 18px;
       margin-bottom: .3em; }
+      .card-container .card .description.link {
+        color: #2980b9; }
     .card-container .card .footer {
       background-color: #303030;
       border-radius: 0 0 6px 6px;
       display: block;
       padding: .6em 0;
       padding-bottom: 1em; }
+      .card-container .card .footer * {
+        margin: 0 .75em;
+        margin-bottom: 0;
+        text-align: left; }
       .card-container .card .footer a {
+        color: #2980b9;
         font-size: 14px;
         text-decoration: none; }
 
