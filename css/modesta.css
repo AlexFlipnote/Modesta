@@ -1908,6 +1908,8 @@ button {
         margin: 0 .75em;
         margin-bottom: 0;
         text-align: left; }
+        .card-container .card .footer * * {
+          margin: 0; }
       .card-container .card .footer a {
         color: #2980b9;
         font-size: 14px;
