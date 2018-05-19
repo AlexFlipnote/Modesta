@@ -1883,9 +1883,10 @@ button {
     .card-container .card .avatar {
       background-color: #181818;
       border-radius: 6px 6px 0 0;
-      padding: .5em 0; }
+      padding: .75em 0; }
       .card-container .card .avatar img {
         border-radius: 100%;
+        margin: .5em 0;
         width: 7em; }
     .card-container .card .title {
       display: block;

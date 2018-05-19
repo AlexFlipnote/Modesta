@@ -78,10 +78,11 @@ $heigth-control: 3em;
     .avatar {
       background-color: $highlight;
       border-radius: 6px 6px 0 0;
-      padding: .5em 0;
+      padding: .75em 0;
 
       img {
         border-radius: 100%;
+        margin: .5em 0;
         width: 7em;
       }
     }
