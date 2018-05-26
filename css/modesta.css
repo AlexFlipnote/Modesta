@@ -1453,6 +1453,10 @@ button {
   .markdown-container code, .markdown-container kbd, .markdown-container pre {
     font-family: monospace, monospace;
     font-size: 1em; }
+  .markdown-container pre > code {
+    display: block;
+    padding: 1rem 1.5rem;
+    white-space: pre; }
   .markdown-container hr {
     box-sizing: content-box;
     height: 0;
@@ -1549,7 +1553,7 @@ button {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 12px; }
   .markdown-container .highlight {
-    background: #282828;
+    background: #282828 !important;
     color: #d0d0d0; }
     .markdown-container .highlight table td {
       padding: 5px; }
@@ -1590,7 +1594,7 @@ button {
     .markdown-container .highlight .m, .markdown-container .highlight .mf, .markdown-container .highlight .mh, .markdown-container .highlight .mi, .markdown-container .highlight .il, .markdown-container .highlight .mo, .markdown-container .highlight .mb, .markdown-container .highlight .mx, .markdown-container .highlight .ss {
       color: #90a959; }
   .markdown-container .highlighter-rouge {
-    background: #212121;
+    background: #212121 !important;
     border: 1px solid #212121;
     color: #d0d0d0; }
   .markdown-container pre.highlight code {
