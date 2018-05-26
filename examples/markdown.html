@@ -1,0 +1,266 @@
+
+<!-- DEBUG: _pages/ModestaCSS.md -->
+<html>
+  <head>
+    <!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-52771679-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-52771679-1');
+</script>
+
+    <title>ModestaCSS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+<!-- Meta Data -->
+<meta name="theme-color" content="#2196F3">
+<meta content="https://alexflipnote.xyz/assets/images/profile.png" property="og:image" />
+<link rel="icon" type="image/x-icon" href="https://alexflipnote.xyz/assets/images/favicon.ico">
+<meta content="ModestaCSS" property="og:title" />
+
+<meta content="All components to ModestaCSS" property="og:description" />
+<meta content="All components to ModestaCSS" name="description" />
+
+<meta name="revisit-after" content="2 days">
+<meta name="keywords" content="AlexFlipnote, Twitter, Developer, Github">
+
+<meta property="og:locale" content="en_GB" />
+<link rel="canonical" href="https://docs.alexflipnote.xyz/modestacss" />
+<meta property="og:url" content="https://docs.alexflipnote.xyz/modestacss" />
+<meta property="og:site_name" content="ModestaCSS" />
+
+
+<!-- CSS -->
+<link href="../css/modesta.css" type="text/css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="box-container secondary-flat center no-border-radius">
+      <h1 class="no-margin">ModestaCSS</h1>
+      <h4 class="no-margin">All components to ModestaCSS</h4>
+      <a href="/" class="btn emerald">Back to home</a>
+    </div>
+
+    <div class="markdown-container">
+      <h1 id="forcing-style">Forcing style</h1>
+<p>These classes will enforce style to an object, so you don’t need to use <code class="highlighter-rouge">style=""</code> on many objects. If there’s a need for more, please say so on the issue tab.</p>
+
+<p>NOTE: All objects are presented as <strong>span</strong> for example, can be used
+on anything if you want.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"bold"</span><span class="nt">&gt;</span>Make any text bold<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"box-shadow"</span><span class="nt">&gt;</span>Add box shadow on any box<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"center-text"</span><span class="nt">&gt;</span>Only make the text inside center aligned<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"center"</span><span class="nt">&gt;</span>Make anything inside center aligned<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"no-margin"</span><span class="nt">&gt;</span>Remove margin from object<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"no-padding"</span><span class="nt">&gt;</span>Remove padding from object<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"noselect"</span><span class="nt">&gt;</span>Remove the text marker<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"transparent"</span><span class="nt">&gt;</span>Make the object's background transparent<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<h1 id="buttons">Buttons</h1>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://discord.gg/DpxkY3x"</span> <span class="na">class=</span><span class="s">"btn animation COLOUR"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://discord.gg/DpxkY3x"</span> <span class="na">class=</span><span class="s">"btn COLOUR"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://discord.gg/DpxkY3x"</span> <span class="na">class=</span><span class="s">"btn COLOUR-flat"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://discord.gg/DpxkY3x"</span> <span class="na">class=</span><span class="s">"btn COLOUR-nodark"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://discord.gg/DpxkY3x"</span> <span class="na">class=</span><span class="s">"btn hover COLOUR"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"COLOUR"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+<p>If you want a preview of all buttons, please check the file <strong>buttons.html</strong> inside <strong>examples</strong><br />
+or visit <a href="https://modesta.alexflipnote.xyz/examples/buttons.html">this website</a></p>
+
+<h1 id="colourscolors">Colours/Colors</h1>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"COLOUR"</span><span class="nt">&gt;</span>Make the object's background into colour<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"COLOUR-text"</span><span class="nt">&gt;</span>Make the object's text into colour<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"COLOUR-dropshadow"</span><span class="nt">&gt;</span>Add a dropshadow of colour choice<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+<p>If you want a preview of all colours, please check the file <strong>colours.html</strong> inside <strong>examples</strong><br />
+or visit <a href="https://modesta.alexflipnote.xyz/examples/colours.html">this website</a></p>
+
+<h1 id="columns">Columns</h1>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"one-half column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h4&gt;</span>2 Column<span class="nt">&lt;/h4&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"one-half column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h4&gt;</span>Magic<span class="nt">&lt;/h4&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p>Column choices:</p>
+<ul>
+  <li>none ( 1/1 ) [ but why… ]</li>
+  <li>one-half ( 1/2  1/2 )</li>
+  <li>one-third ( 1/3  1/3  1/3 )</li>
+  <li>one-fourth ( 1/4  1/4  1/4  1/4 )</li>
+</ul>
+
+<h1 id="cards">Cards</h1>
+<p>The cards you make must always be inside a card container.
+If you’re making multiple, just add all the card classes inside the container.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"card-container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"URL/PATH"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>Username<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"description"</span><span class="nt">&gt;</span>Text under username<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"footer"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Website<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Website 2<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card"</span><span class="nt">&gt;</span>...
+<span class="nt">&lt;/section&gt;</span>
+</code></pre></div></div>
+
+<h1 id="fullscreen">Fullscreen</h1>
+<p>This will fill the current screen 100% on height and width.
+You can also do <code class="highlighter-rouge">&lt;section class="fullscreen half"&gt;</code> to only fill 50% of the screen.
+If you add anything under it, then of course more content will be under, but you will always
+start with a fullscreen/half screen on the start.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"fullscreen"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"background"</span> <span class="na">style=</span><span class="s">"background-image: url('URL/PATH');"</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"center-object"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"me"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">draggable=</span><span class="s">"false"</span> <span class="na">src=</span><span class="s">"URL/PATH"</span> <span class="na">class=</span><span class="s">"image-title"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>Username<span class="nt">&lt;/h1&gt;</span>
+      <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"undertitle"</span><span class="nt">&gt;</span>Text under username<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;/section&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"buttons"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn animation turquoise"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>Website 1<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn animation nephritis-flat"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>Website 2<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="c">&lt;!-- &lt;div id="fade" class="arrow bounce"&gt;&lt;/div&gt; --&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+</code></pre></div></div>
+
+<h1 id="navbar">Navbar</h1>
+<p>Navigation bar is made to be responsive, but do not add too many links.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"nav-container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"menu-icon"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"nav-title"</span><span class="nt">&gt;</span>Cool website<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"navside"</span> <span class="na">class=</span><span class="s">"sidenav"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"closebtn"</span><span class="nt">&gt;</span><span class="ni">&amp;times;</span><span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"current"</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>About<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Services<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Clients<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Contact<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;script&gt;</span>
+    <span class="kd">var</span> <span class="nx">navside</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'navside'</span><span class="p">);</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">"menu-icon"</span><span class="p">).</span><span class="nx">onclick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="nx">navside</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="s2">"250px"</span><span class="p">;</span> <span class="p">}</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByClassName</span><span class="p">(</span><span class="s2">"closebtn"</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">onclick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="nx">navside</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="s2">"0"</span><span class="p">;</span> <span class="p">}</span>
+  <span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h1 id="box-container">Box container</h1>
+<p>If you even need a nice box around something with a colour, use this.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box-container emerald"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h1&gt;</span>Lorem ipsum<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p><strong>Preview:</strong><br />
+<img src="https://i.alexflipnote.xyz/265c8f.png" alt="preview" /></p>
+
+<h1 id="loading">Loading</h1>
+<p>It will only import the loading animation, not the text above.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"loader"</span><span class="nt">&gt;</span>Loading...<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p><strong>Preview:</strong><br />
+<img src="https://i.alexflipnote.xyz/9cd957.gif" alt="preview" /></p>
+
+<h1 id="table-content">Table content</h1>
+<p>This table content is not responsive due to impossible task of merging this into one object-friendly for phone.
+You can if you want, remove the dropshadow from the table box.
+If you don’t want the table to be center, just remove <strong>table-center</strong></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"table-container table-center"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"box-shadow white-dropshadow black-text"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;thead&gt;</span>
+      <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Material<span class="nt">&lt;/th&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Quantity<span class="nt">&lt;/th&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Unit price<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/thead&gt;</span>
+    <span class="nt">&lt;tbody&gt;</span>
+      <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Acrylic (Transparent)<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"numeric"</span><span class="nt">&gt;</span>25<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"numeric"</span><span class="nt">&gt;</span>$2.90<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;/tr&gt;</span>
+      <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Plywood (Birch)<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"numeric"</span><span class="nt">&gt;</span>50<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"numeric"</span><span class="nt">&gt;</span>$1.25<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;/tr&gt;</span>
+      <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Laminate (Gold on Blue)<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"numeric"</span><span class="nt">&gt;</span>10<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"numeric"</span><span class="nt">&gt;</span>$2.35<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/tbody&gt;</span>
+  <span class="nt">&lt;/table&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p><strong>Preview:</strong><br />
+<img src="https://i.alexflipnote.xyz/bd6121.png" alt="preview" /></p>
+
+<h1 id="comments">Comments</h1>
+<p>This will both support a normal comment and a reply to that one, by only using an extra reply tag.
+You can as well make it have a reply inside a reply.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box-container turquoise"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"center-text"</span><span class="nt">&gt;</span>Comment section builder<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"comment-section"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"comment-container"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../css/images/avatar.png"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"author"</span><span class="nt">&gt;</span>Username<span class="nt">&lt;/h1&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"comment"</span><span class="nt">&gt;</span>This is a nice comment<span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"comment-container reply"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../css/images/avatar.png"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"author"</span><span class="nt">&gt;</span>Username<span class="nt">&lt;/h1&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"comment"</span><span class="nt">&gt;</span>Cool! :3<span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p><strong>Preview:</strong><br />
+<img src="https://i.alexflipnote.xyz/e289b2.png" alt="preview" /></p>
+
+<h1 id="modal">Modal</h1>
+<p>This will make it so you have a nice popout.
+Remember that this also requires JavaScript, which can be found in the <strong>js</strong> folder.
+If you need an example, check it in the <strong>example</strong> folder.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">id=</span><span class="s">"trigger"</span><span class="nt">&gt;</span>Click me<span class="nt">&lt;/a&gt;</span>
+<span class="c">&lt;!-- Modal popout screen --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"modal"</span> <span class="na">class=</span><span class="s">"modal modal--close"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-content"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"close"</span><span class="nt">&gt;</span><span class="ni">&amp;times;</span><span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Hello world!<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>This is simple just a test modal for my website :3<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+    </div>
+
+  </body>
+</html>

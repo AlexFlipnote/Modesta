@@ -1533,9 +1533,10 @@ button {
   .markdown-container blockquote {
     margin: 0; }
   .markdown-container ul {
-    padding-left: 0;
+    list-style: circle inside;
+    margin-bottom: 0;
     margin-top: 0;
-    margin-bottom: 0; }
+    padding-left: 0; }
   .markdown-container ol {
     padding-left: 0;
     margin-top: 0;
@@ -1605,7 +1606,10 @@ button {
     color: #d0d0d0; }
   .markdown-container pre.highlight code {
     background: transparent;
-    border: 0; }
+    border: 0;
+    word-wrap: break-word;
+    white-space: pre-line;
+    text-indent: 0; }
 
 .modal {
   animation: fading-modal-in 600ms ease-in-out;
@@ -2015,6 +2019,9 @@ button {
         font-size: 1em; }
 
 @media (max-width: 750px) {
+  .markdown-container {
+    padding: 2em 3em; }
+
   .center-object {
     top: 45%;
     width: 90%; }

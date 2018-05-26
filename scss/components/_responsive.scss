@@ -1,6 +1,10 @@
 @import '../assets/colours';
 
 @media (max-width: 750px) {
+  .markdown-container {
+    padding: 2em 3em;
+  }
+
   .center-object {
     top: 45%;
     width: 90%;

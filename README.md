@@ -14,7 +14,7 @@ Everything from images and all CSS packages is included inside it.
 
 ## Documentation
 Visit this link for docs:<br>
-https://alexflipnote.xyz/docs/modestacss
+https://docs.alexflipnote.xyz/modestacss
 
 ## Contribution
 If you plan to contribute, please use **scss_lint** (Ruby Package) to be sure everything is linted.
