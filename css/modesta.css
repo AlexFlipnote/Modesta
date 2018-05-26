@@ -1608,8 +1608,7 @@ button {
     background: transparent;
     border: 0;
     word-wrap: break-word;
-    white-space: pre-line;
-    text-indent: 0; }
+    white-space: pre-wrap; }
 
 .modal {
   animation: fading-modal-in 600ms ease-in-out;

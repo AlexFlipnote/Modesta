@@ -212,7 +212,6 @@ $fonts: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-se
     background: transparent;
     border: 0;
     word-wrap: break-word;
-    white-space: pre-line;
-    text-indent: 0;
+    white-space: pre-wrap;
   }
 }
