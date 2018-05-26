@@ -50,12 +50,14 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 }
 
 // Changeing value of elements
-.noselect { @include prefix(user-select, none); }
 .bold { font-weight: bold; }
+.center-text { text-align: center; }
+.no-border { border: 0; }
+.no-border-radius { border-radius: 0; }
 .no-margin { margin: 0; }
 .no-padding { padding: 0; }
+.no-select { @include prefix(user-select, none); }
 .transparent { background: transparent; }
-.center-text { text-align: center; }
 .center {
   display: block;
   margin: 0 auto;

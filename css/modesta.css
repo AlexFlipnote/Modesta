@@ -79,15 +79,17 @@ h6 {
 .box-shadow {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
 
-.noselect {
-  user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none; }
-
 .bold {
   font-weight: bold; }
+
+.center-text {
+  text-align: center; }
+
+.no-border {
+  border: 0; }
+
+.no-border-radius {
+  border-radius: 0; }
 
 .no-margin {
   margin: 0; }
@@ -95,11 +97,15 @@ h6 {
 .no-padding {
   padding: 0; }
 
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none; }
+
 .transparent {
   background: transparent; }
-
-.center-text {
-  text-align: center; }
 
 .center {
   display: block;
