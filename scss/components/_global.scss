@@ -50,18 +50,18 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 }
 
 // Changeing value of elements
-.bold { font-weight: bold; }
-.center-text { text-align: center; }
-.no-border { border: 0; }
-.no-border-radius { border-radius: 0; }
-.no-margin { margin: 0; }
-.no-padding { padding: 0; }
+.bold { font-weight: bold !important; }
+.center-text { text-align: center !important; }
+.no-border { border: 0 !important; }
+.no-border-radius { border-radius: 0 !important; }
+.no-margin { margin: 0 !important; }
+.no-padding { padding: 0 !important; }
 .no-select { @include prefix(user-select, none); }
-.transparent { background: transparent; }
+.transparent { background: transparent !important; }
 .center {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
+  display: block !important;
+  margin: 0 auto !important;
+  text-align: center !important;
 }
 
 // All colours

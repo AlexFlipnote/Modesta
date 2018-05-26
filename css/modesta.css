@@ -80,22 +80,22 @@ h6 {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
 
 .bold {
-  font-weight: bold; }
+  font-weight: bold !important; }
 
 .center-text {
-  text-align: center; }
+  text-align: center !important; }
 
 .no-border {
-  border: 0; }
+  border: 0 !important; }
 
 .no-border-radius {
-  border-radius: 0; }
+  border-radius: 0 !important; }
 
 .no-margin {
-  margin: 0; }
+  margin: 0 !important; }
 
 .no-padding {
-  padding: 0; }
+  padding: 0 !important; }
 
 .no-select {
   user-select: none;
@@ -105,12 +105,12 @@ h6 {
   -o-user-select: none; }
 
 .transparent {
-  background: transparent; }
+  background: transparent !important; }
 
 .center {
-  display: block;
-  margin: 0 auto;
-  text-align: center; }
+  display: block !important;
+  margin: 0 auto !important;
+  text-align: center !important; }
 
 .alizarin {
   background-color: #e74c3c !important; }
