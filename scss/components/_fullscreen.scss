@@ -9,6 +9,8 @@
 }
 
 .fullscreen {
+  background-color: map-get($colours, highlight);
+
   .background {
     background-attachment: fixed;
     background-position: center;
