@@ -1,4 +1,4 @@
-@mixin dropshadow($colour, $hover: true) {
+@mixin dropshadow($colour, $hover: false) {
   $shadow: drop-shadow(5px 5px 0 rgba($colour, .6));
 
   background-color: $colour;

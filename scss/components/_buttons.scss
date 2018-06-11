@@ -54,11 +54,11 @@ button {
 
   @each $name, $code in $colours {
     &.#{$name} {
-      @include dropshadow($code);
+      @include dropshadow($code, true);
     }
 
     &.#{$name}-nodark {
-      @include dropshadow($code, false);
+      @include dropshadow($code);
     }
 
     &.#{$name}-flat {

@@ -5,7 +5,7 @@
 
 html { font-size: 62.5%; }
 body {
-  background: $highlight;
+  background: map-get($colours, wet-asphalt);
   font-size: 1.5em;
   font-weight: 400;
   line-height: 1.6;
@@ -73,6 +73,7 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 .bold { font-weight: bold !important; }
 .center-text { text-align: center !important; }
 .full-width { width: 100% !important; }
+.half-width { width: 50% !important; }
 .no-border { border: 0 !important; }
 .no-border-radius { border-radius: 0 !important; }
 .no-margin { margin: 0 !important; }
@@ -89,5 +90,5 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 @each $name, $code in $colours {
   .#{$name} { background-color: $code !important; }
   .#{$name}-text { color: $code !important; }
-  .#{$name}-dropshadow { @include dropshadow($code, false); }
+  .#{$name}-dropshadow { @include dropshadow($code); }
 }

@@ -45,7 +45,7 @@ $heigth-control: 3em;
 
   @each $name, $code in $colours {
     &.#{$name} {
-      @include dropshadow($code, false);
+      @include dropshadow($code);
     }
 
     &.#{$name}-flat {
