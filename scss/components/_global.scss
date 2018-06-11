@@ -24,6 +24,26 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
+input, select, textarea {
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  height: 38px;
+  padding: 6px 10px;
+}
+
+input, textarea, select, fieldset {
+  margin-bottom: 1.5rem;
+}
+
+label, legend {
+  display: block;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
 p { margin-top: 0; }
 a { color: #1eaedb; text-decoration: none; &:hover { color: #0fa0ce; }}
 h1 { font-size: 4rem; letter-spacing: -.1rem; line-height: 1.2; }
@@ -52,6 +72,7 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 // Changeing value of elements
 .bold { font-weight: bold !important; }
 .center-text { text-align: center !important; }
+.full-width { width: 100% !important; }
 .no-border { border: 0 !important; }
 .no-border-radius { border-radius: 0 !important; }
 .no-margin { margin: 0 !important; }
