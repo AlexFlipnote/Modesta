@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   margin-top: 0; }
 
-input, select, textarea {
+input:not([type="checkbox"]), select, textarea {
   background-color: #fff;
   border: 1px solid #d1d1d1;
   border-radius: 4px;
@@ -30,9 +30,6 @@ input, select, textarea {
 
 input, textarea, select, fieldset {
   margin-bottom: 1.5rem; }
-
-input[type="checkbox"] {
-  height: 0; }
 
 label, legend {
   display: block;
