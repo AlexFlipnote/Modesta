@@ -3,7 +3,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  background: #34495e;
+  background: #181818;
   font-size: 1.5em;
   font-weight: 400;
   line-height: 1.6; }
@@ -30,6 +30,9 @@ input, select, textarea {
 
 input, textarea, select, fieldset {
   margin-bottom: 1.5rem; }
+
+input[type="checkbox"] {
+  height: 0; }
 
 label, legend {
   display: block;

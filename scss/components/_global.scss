@@ -5,7 +5,7 @@
 
 html { font-size: 62.5%; }
 body {
-  background: map-get($colours, wet-asphalt);
+  background: map-get($colours, highlight);
   font-size: 1.5em;
   font-weight: 400;
   line-height: 1.6;
@@ -34,9 +34,8 @@ input, select, textarea {
   padding: 6px 10px;
 }
 
-input, textarea, select, fieldset {
-  margin-bottom: 1.5rem;
-}
+input, textarea, select, fieldset { margin-bottom: 1.5rem; }
+input[type="checkbox"] { height: 0; }
 
 label, legend {
   display: block;
