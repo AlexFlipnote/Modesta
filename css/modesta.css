@@ -1841,6 +1841,8 @@ button {
   margin-left: 4%; }
   .row .column:first-child {
     margin-left: 0; }
+.row .one-full.column {
+  width: 95%; }
 .row .one-half.column {
   width: 48%; }
 .row .one-third.column {
@@ -1852,21 +1854,6 @@ button {
   content: '';
   display: table; }
 
-@media (min-width: 400px) {
-  .container {
-    padding: 0;
-    width: 85%; } }
-@media (min-width: 800px) {
-  .container {
-    max-width: 1100px; } }
-@media (max-width: 550px) {
-  .container {
-    width: 70%; }
-
-  .row .column {
-    margin-left: 0; }
-  .row .one-half.column, .row .one-third.column, .row .one-fourth.column {
-    width: 100%; } }
 .markdown-container a, .markdown-container html, .markdown-container body, .markdown-container h1, .markdown-container h2, .markdown-container h3, .markdown-container h4, .markdown-container p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
 
@@ -2530,16 +2517,15 @@ button {
   .markdown-container {
     padding: 2em 3em; }
 
-  .center-object {
-    top: 45%;
+  .fullscreen .center-object, .center-object {
+    top: 40%;
     width: 90%; }
-    .center-object .me {
-      margin: 0 1em;
+    .fullscreen .center-object .me, .center-object .me {
       padding: 0; }
-      .center-object .me .title {
-        font-size: 5rem;
+      .fullscreen .center-object .me .title, .center-object .me .title {
+        font-size: 10vmin;
         margin: 0; }
-      .center-object .me .image-title {
+      .fullscreen .center-object .me .image-title, .center-object .me .image-title {
         width: 8em; }
 
   .buttons {
@@ -2581,17 +2567,25 @@ button {
         float: left;
         font-weight: bold;
         text-transform: uppercase; } }
-@media (max-width: 400px) {
-  .container {
-    padding: 0;
-    width: 85%; } }
 @media (max-width: 550px) {
   .container {
-    width: 90%; }
+    margin: 0;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+    padding: 0;
+    width: 100%; }
 
   .nav-container.no-nav {
     display: block;
     height: 3em;
-    position: static; } }
+    position: static; }
+
+  .row .column {
+    margin-left: 0; }
+  .row .one-half.column, .row .one-third.column, .row .one-fourth.column {
+    width: 100%; } }
+@media (min-width: 800px) {
+  .container {
+    max-width: 1100px; } }
 
 /*# sourceMappingURL=modesta.css.map */

@@ -5,15 +5,14 @@
     padding: 2em 3em;
   }
 
-  .center-object {
-    top: 45%;
+  .fullscreen .center-object, .center-object {
+    top: 40%;
     width: 90%;
 
     .me {
-      margin: 0 1em;
       padding: 0;
 
-      .title { font-size: 5rem; margin: 0; }
+      .title { font-size: 10vmin; margin: 0; }
       .image-title { width: 8em; }
     }
   }
@@ -73,13 +72,16 @@
   }
 }
 
-// For devices larger than 400px
-@media (max-width: 400px) {
-  .container { padding: 0; width: 85%; }
-}
-
+// For devices smaller than 550px
 @media (max-width: 550px) {
-  .container { width: 90%; }
+  .container {
+    margin: 0;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+    padding: 0;
+    width: 100%;
+  }
+
   .nav-container {
     &.no-nav {
       display: block;
@@ -87,4 +89,17 @@
       position: static;
     }
   }
+
+  // scss-lint:disable EmptyLineBetweenBlocks, SpaceBeforeBrace
+  .row {
+    .column { margin-left: 0; }
+    .one-half.column, .one-third.column, .one-fourth.column {
+      width: 100%;
+    }
+  }
+  // scss-lint:enable EmptyLineBetweenBlocks, SpaceBeforeBrace
+}
+
+@media (min-width: 800px) {
+  .container { max-width: 1100px; }
 }

@@ -21,6 +21,7 @@
     &:first-child { margin-left: 0; }
   }
 
+  .one-full.column { width: 95%; }
   .one-half.column { width: 48%; }
   .one-third.column { width: 30.6666666667%; }
   .one-fourth.column { width: 21.9999999999%; }
@@ -29,30 +30,5 @@
     clear: both;
     content: '';
     display: table;
-  }
-}
-
-
-// For devices larger than 400px
-@media (min-width: 400px) {
-  .container {
-    padding: 0;
-    width: 85%;
-  }
-}
-
-@media (min-width: 800px) {
-  .container { max-width: 1100px; }
-}
-
-// For devices larger than 550px
-// scss-lint:disable EmptyLineBetweenBlocks, SpaceBeforeBrace
-@media (max-width: 550px) {
-  .container { width: 70%; }
-  .row {
-    .column { margin-left: 0; }
-    .one-half.column, .one-third.column, .one-fourth.column {
-      width: 100%;
-    }
   }
 }
