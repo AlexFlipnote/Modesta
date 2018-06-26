@@ -13,13 +13,13 @@ If you wish to use local files, please copy the CSS folder into your website.
 Everything from images and all CSS packages is included inside it.
 
 ## Documentation
-Visit this link for docs:<br>
-https://docs.alexflipnote.xyz/modestacss
+Visit this link for docs: https://docs.alexflipnote.xyz/modestacss
+
+## Used Resources:
+- [blobcat](https://discord.gg/nG8fy52)
+- [skeleton](http://getskeleton.com/)
+- [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)
 
 ## Contribution
 If you plan to contribute, please use **scss_lint** (Ruby Package) to be sure everything is linted.
 Thanks <3
-
-## Used Resources:
-- [skeleton](http://getskeleton.com/)
-- [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)
