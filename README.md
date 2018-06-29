@@ -20,6 +20,11 @@ Visit this link for docs: https://docs.alexflipnote.xyz/modestacss
 - [skeleton](http://getskeleton.com/)
 - [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)
 
+## Pages that uses ModestaCSS
+- [AlexFlipnote.xyz](https://alexflipnote.xyz/)
+- [AlexFlipnote/Homepage](https://alexflipnote.xyz/homepage)
+- [Stylite](https://stylite.me/)
+
 ## Contribution
 If you plan to contribute, please use **scss_lint** (Ruby Package) to be sure everything is linted.
 Thanks <3
