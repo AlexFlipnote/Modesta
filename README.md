@@ -13,7 +13,7 @@ If you wish to use local files, please copy the CSS folder into your website.
 Everything from images and all CSS packages is included inside it.
 
 ## Documentation
-Visit this link for docs: [https://modestacss.alexflipnote.xyz/docs](https://modestacss.alexflipnote.xyz/docs)
+Visit this link for docs: [https://modesta.alexflipnote.xyz/docs](https://modesta.alexflipnote.xyz/docs)
 
 ## Used Resources:
 - [blobcat](https://discord.gg/nG8fy52)
