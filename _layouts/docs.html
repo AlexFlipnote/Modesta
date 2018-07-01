@@ -1,0 +1,65 @@
+<!-- DEBUG: {{ page.path }} -->
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+    <!-- Meta data -->
+    <meta content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" property="og:title" />
+    {% if page.description %}
+    <meta content="{{ page.description }}" property="og:description" />
+    <meta content="{{ page.description }}" name="description" />
+    {% endif %}
+
+    <!-- CSS -->
+    <link href="../css/modesta.css" type="text/css" rel="stylesheet">
+    <link href="../css/twemoji.min.css" type="text/css" rel="stylesheet">
+    <link href="../css/blobcat.min.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="nav-container">
+      <span id="menu-icon"></span>
+      <div class="nav-content">
+        <h4 class="center">{{ page.title }}</h4>
+      </div>
+      <div id="navside" class="sidenav">
+        {% for pagedocs in site.pages %}
+          {% if pagedocs.url contains "/docs/" %}
+            {% if page.title == pagedocs.title %}
+              <a href="{{ pagedocs.url }}" class="current">{{ pagedocs.title }}</a>
+                {% else %}
+              <a href="{{ pagedocs.url }}">{{ pagedocs.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <script>
+        var navside = document.getElementById('navside');
+        document.getElementById("menu-icon").onclick = function() { navside.style.width = "250px"; }
+        document.addEventListener("click", function(event) {
+          if (event.target.closest(".nav-container")) return;
+          navside.style.width = "0";
+        });
+
+        // Replace first link
+        document.getElementsByTagName("a")[0].innerHTML = "Home"
+      </script>
+    </div>
+
+    <div class="markdown-container">
+      {{ content }}
+    </div>
+
+    <script>
+      var headings = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]");
+      for (var i = 0; i < headings.length; i++) {
+        headings[i].innerHTML =
+          '<a style="color: #fff;" href="#' + headings[i].id + '">'
+          + headings[i].innerText +
+          '</a>';
+      }
+      </script>
+
+  </body>
+</html>

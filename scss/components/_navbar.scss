@@ -32,12 +32,21 @@ $heigth-control: 4em;
     text-align: center;
   }
 
+  .nav-content {
+    align-items: center;
+    display: flex;
+    height: $heigth-control;
+    padding-left: 1em;
+    &.nav-button { padding-left: 65px; }
+    * { margin: 0; }
+  }
+
   .sidenav {
     background-color: $highlight;
     height: 100%;
     left: 0;
     overflow-x: hidden;
-    padding-top: 60px;
+    // padding-top: 45px;
     position: fixed;
     top: 0;
     transition: .5s;
@@ -45,16 +54,6 @@ $heigth-control: 4em;
     z-index: 1;
 
     .current { color: #2ecc71; }
-
-    .closebtn {
-      color: #f1f1f1;
-      cursor: pointer;
-      font-size: 36px;
-      margin-left: 50px;
-      position: absolute;
-      right: 25px;
-      top: 0;
-    }
 
     a {
       color: #818181;

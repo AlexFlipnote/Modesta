@@ -176,51 +176,6 @@ $heigth-control: 3em;
   }
 }
 
-
-// Comment Container
-.comment-section {
-  display: block;
-
-  .comment-container {
-    @include prefix(flex-direction, row);
-    display: flex;
-    margin-bottom: 1em;
-    max-width: 700px;
-
-    &.reply { margin-bottom: 2em; margin-left: 3em; }
-    .avatar {
-      margin-right: 16px;
-      overflow: hidden;
-
-      img {
-        border-radius: 50%;
-        height: 40px;
-        width: 40px;
-      }
-    }
-
-    .text {
-      @include prefix(flex, 1);
-      @include prefix(flex-direction, column);
-      @include prefix(flex-basis, .000000001px);
-      display: flex;
-      min-width: 0;
-
-      .author, .comment { margin: 0; }
-      .author {
-        font-size: 1.25em;
-        font-weight: bold;
-      }
-
-      .comment {
-        font-family: Arial;
-        font-size: 1em;
-      }
-    }
-  }
-}
-
-
 // Forms container
 .form-container {
   form { margin-bottom: 0; }
