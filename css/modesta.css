@@ -102,6 +102,12 @@ h6 {
 .center-text {
   text-align: center !important; }
 
+.left-text {
+  text-align: left !important; }
+
+.right-text {
+  text-align: right !important; }
+
 .full-width {
   width: 100% !important; }
 
