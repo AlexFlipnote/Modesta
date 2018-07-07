@@ -13,6 +13,8 @@ on anything if you want.
 <span class="bold">Make any text bold</span>
 <span class="box-shadow">Add box shadow on any box</span>
 <span class="center-text">Only make the text inside center aligned</span>
+<span class="left-text">Only make the text inside left aligned</span>
+<span class="right-text">Only make the text inside right aligned</span>
 <span class="center">Make anything inside center aligned</span>
 <span class="full-width">Forces object to have 100% width</span>
 <span class="half-width">Forces object to have 50% width</span>
