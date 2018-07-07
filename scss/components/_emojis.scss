@@ -1,0 +1,28 @@
+.emoji {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  display: inline-block;
+  height: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -.1em;
+  width: 1em;
+}
+
+$size-map: (
+  "lg": 1.33,
+  "2x": 2,
+  "3x": 3,
+  "4x": 4,
+  "5x": 5
+);
+
+@each $name, $size in $size-map {
+  .emoji-#{$name} {
+    background-size: 1em * $size 1em * $size;
+    height: 1em * $size;
+    margin: 0 .05em * $size 0 .1em * $size;
+    vertical-align: -.1em * $size;
+    width: 1em * $size;
+  }
+}

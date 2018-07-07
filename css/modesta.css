@@ -1942,6 +1942,51 @@ button {
       -moz-transform: translateY(-0.5em);
       -o-transform: translateY(-0.5em); }
 
+.emoji {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  display: inline-block;
+  height: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -.1em;
+  width: 1em; }
+
+.emoji-lg {
+  background-size: 1.33em 1.33em;
+  height: 1.33em;
+  margin: 0 0.0665em 0 0.133em;
+  vertical-align: -0.133em;
+  width: 1.33em; }
+
+.emoji-2x {
+  background-size: 2em 2em;
+  height: 2em;
+  margin: 0 0.1em 0 0.2em;
+  vertical-align: -0.2em;
+  width: 2em; }
+
+.emoji-3x {
+  background-size: 3em 3em;
+  height: 3em;
+  margin: 0 0.15em 0 0.3em;
+  vertical-align: -0.3em;
+  width: 3em; }
+
+.emoji-4x {
+  background-size: 4em 4em;
+  height: 4em;
+  margin: 0 0.2em 0 0.4em;
+  vertical-align: -0.4em;
+  width: 4em; }
+
+.emoji-5x {
+  background-size: 5em 5em;
+  height: 5em;
+  margin: 0 0.25em 0 0.5em;
+  vertical-align: -0.5em;
+  width: 5em; }
+
 .center-object {
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
