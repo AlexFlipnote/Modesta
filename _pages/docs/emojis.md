@@ -26,8 +26,8 @@ If any names are either miss spelled or missing, please make an issue [here](htt
 
 # Preview
 ```html
-<h2><i class="emoji twa-cookie"></i> This will display a cookie emoji</h2>
-<h2><i class="emoji blobcat"></i> This will display a blobcat emoji</h2>
+<p><i class="emoji twa-cookie"></i> This will display a cookie emoji</p>
+<p><i class="emoji blobcat"></i> This will display a blobcat emoji</p>
 ```
-<h2><i class="emoji twa-cookie"></i> This will display a cookie emoji</h2>
-<h2><i class="emoji blobcat"></i> This will display a blobcat emoji</h2>
+<h1><i class="emoji twa-cookie"></i> This will display a cookie emoji</h1>
+<h1 class="no-margin"><i class="emoji blobcat"></i> This will display a blobcat emoji</h1>
