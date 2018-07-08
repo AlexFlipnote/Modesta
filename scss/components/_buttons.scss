@@ -78,8 +78,9 @@ button {
   }
 
   &.animation {
-    @include animation('button-enter 750ms ease-in-out forwards');
+    @include animation('button-enter 1s ease-in-out forwards');
     opacity: 0;
+    position: relative;
 
     @for $x from 1 through 15 {
       &:nth-child(#{$x}) {
@@ -88,8 +89,24 @@ button {
     }
   }
 
+  &.animation-bounce {
+    @include animation('bounce-button 1s ease-in-out');
+
+    @for $x from 1 through 15 {
+      &:nth-child(#{$x}) {
+        animation-delay: $x * .25s;
+      }
+    }
+  }
+
+  &.hover-bounce {
+    &:hover {
+      @include animation('bounce-button 750ms ease-in-out');
+    }
+  }
+
   &.hover {
-    @include transition('all 350ms ease');
+    @include transition('transform 350ms ease');
     &:hover { @include transform(translateY(-.5em)); }
   }
 }

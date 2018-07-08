@@ -24,6 +24,7 @@ Visit this link for docs: [https://modesta.alexflipnote.xyz/docs](https://modest
 - [AlexFlipnote.xyz](https://alexflipnote.xyz/)
 - [AlexFlipnote/Homepage](https://alexflipnote.xyz/homepage)
 - [Dev's Helper](https://devs-helper.ml/)
+- [jeffrey](http://jeffrey.cf/)
 - [Stylite](https://stylite.me/)
 
 ## Contribution

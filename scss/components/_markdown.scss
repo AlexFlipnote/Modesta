@@ -90,9 +90,17 @@ $fonts: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-se
   table {
     border-spacing: 0;
     border-collapse: collapse;
+    display: block;
+    width: 100%;
+    overflow: auto;
+    color: #ccc;
+  }
+  tr {
+    border-top: 1px solid #c6cbd1;
   }
   td, th {
-    padding: 0;
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
   }
   h1, h2, h3, h4, h5, h6 {
     margin-top: 1em;

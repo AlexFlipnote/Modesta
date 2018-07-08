@@ -63,6 +63,7 @@ description: The different colours in ModestaCSS
         </thead>
         <tbody>
           <tr><td>devianart</td><td class="devianart"></td><td>#f95119</td></tr>
+          <tr><td>discord</td><td class="discord"></td><td>#7289da</td></tr>
           <tr><td>facebook</td><td class="facebook"></td><td>#475595</td></tr>
           <tr><td>github</td><td class="github"></td><td>#292d32</td></tr>
           <tr><td>googleplus</td><td class="googleplus"></td><td>#d75545</td></tr>

@@ -38,7 +38,24 @@
       width: 100%;
       z-index: 10;
 
-      .image-title { border-radius: 100%; width: 9em; }
+      &.unset {
+        flex-direction: unset;
+
+        .image-title, .title {
+          flex-direction: column;
+        }
+      }
+
+      .image-title {
+        border-radius: 100%;
+        width: 9em;
+
+        &.large-border { border-radius: 25px; }
+        &.medium-border { border-radius: 15px; }
+        &.small-border { border-radius: 5px; }
+        &.no-border { border-radius: 0; }
+      }
+
       .title {
         filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, .4));
         font-size: 5rem;
