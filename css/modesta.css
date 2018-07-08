@@ -1063,7 +1063,6 @@ h6 {
   .markdown-container table {
     border-spacing: 0;
     border-collapse: collapse;
-    display: block;
     width: 100%;
     overflow: auto;
     color: #ccc; }
@@ -2044,11 +2043,11 @@ button {
     -moz-animation: bounce-button 750ms ease-in-out;
     -o-animation: bounce-button 750ms ease-in-out; }
   .btn.hover, input[type="submit"].hover {
-    transition: transform 350ms ease;
-    -webkit-transition: transform 350ms ease;
-    -ms-transition: transform 350ms ease;
-    -moz-transition: transform 350ms ease;
-    -o-transition: transform 350ms ease; }
+    transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -o-transition: all 350ms ease; }
     .btn.hover:hover, input[type="submit"].hover:hover {
       transform: translateY(-0.5em);
       -webkit-transform: translateY(-0.5em);

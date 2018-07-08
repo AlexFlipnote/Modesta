@@ -106,7 +106,7 @@ button {
   }
 
   &.hover {
-    @include transition('transform 350ms ease');
+    @include transition('all 350ms ease');
     &:hover { @include transform(translateY(-.5em)); }
   }
 }
