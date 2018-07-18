@@ -1354,6 +1354,11 @@ button {
     box-shadow: 0 3px 0 0 rgba(255, 0, 0, 0.5); }
 
 .btn, input[type="submit"] {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   transition: all 350ms ease;
   -webkit-transition: all 350ms ease;
   -ms-transition: all 350ms ease;
@@ -1951,11 +1956,6 @@ button {
   .btn.youtube-flat-nodark, input[type="submit"].youtube-flat-nodark {
     background-color: #f00; }
   .btn:hover, input[type="submit"]:hover {
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
     transition: all 350ms ease;
     -webkit-transition: all 350ms ease;
     -ms-transition: all 350ms ease;

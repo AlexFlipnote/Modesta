@@ -33,6 +33,7 @@ button {
 }
 
 .btn, input[type="submit"] {
+  @include prefix(backface-visibility, hidden);
   @include transition('all 350ms ease');
   background-color: transparent;
   border: 0;
@@ -72,7 +73,6 @@ button {
   }
 
   &:hover {
-    @include prefix(backface-visibility, hidden);
     @include transition('all 350ms ease');
     color: #fff;
   }
