@@ -61,6 +61,12 @@ button {
     &.#{$name}-border {
       border: 3px solid $code;
       height: auto;
+      &:hover { filter: brightness(50%); }
+    }
+
+    &.#{$name}-border-nodark {
+      border: 3px solid $code;
+      height: auto;
     }
 
     &.#{$name}-nodark {
