@@ -58,6 +58,11 @@ button {
       @include dropshadow($code, true);
     }
 
+    &.#{$name}-border {
+      border: 3px solid $code;
+      height: auto;
+    }
+
     &.#{$name}-nodark {
       @include dropshadow($code);
     }
@@ -96,6 +101,20 @@ button {
       &:nth-child(#{$x}) {
         animation-delay: $x * .25s;
       }
+    }
+  }
+
+  &.hover-scale {
+    @include transition('all 350ms ease');
+    &:hover {
+      @include transform(scale(1.05));
+    }
+  }
+
+  &.hover-scale-inset {
+    @include transition('all 350ms ease');
+    &:hover {
+      @include transform(scale(.95));
     }
   }
 

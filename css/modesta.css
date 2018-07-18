@@ -1386,6 +1386,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(231, 76, 60, 0.6)); }
     .btn.alizarin:hover, input[type="submit"].alizarin:hover {
       filter: drop-shadow(5px 5px 0 rgba(231, 76, 60, 0.6)) brightness(50%); }
+  .btn.alizarin-border, input[type="submit"].alizarin-border {
+    border: 3px solid #e74c3c;
+    height: auto; }
   .btn.alizarin-nodark, input[type="submit"].alizarin-nodark {
     background-color: #e74c3c;
     filter: drop-shadow(5px 5px 0 rgba(231, 76, 60, 0.6)); }
@@ -1400,6 +1403,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(155, 89, 182, 0.6)); }
     .btn.amethyst:hover, input[type="submit"].amethyst:hover {
       filter: drop-shadow(5px 5px 0 rgba(155, 89, 182, 0.6)) brightness(50%); }
+  .btn.amethyst-border, input[type="submit"].amethyst-border {
+    border: 3px solid #9b59b6;
+    height: auto; }
   .btn.amethyst-nodark, input[type="submit"].amethyst-nodark {
     background-color: #9b59b6;
     filter: drop-shadow(5px 5px 0 rgba(155, 89, 182, 0.6)); }
@@ -1414,6 +1420,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
     .btn.asbestos:hover, input[type="submit"].asbestos:hover {
       filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)) brightness(50%); }
+  .btn.asbestos-border, input[type="submit"].asbestos-border {
+    border: 3px solid #7f8c8d;
+    height: auto; }
   .btn.asbestos-nodark, input[type="submit"].asbestos-nodark {
     background-color: #7f8c8d;
     filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
@@ -1428,6 +1437,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(41, 128, 185, 0.6)); }
     .btn.belize-hole:hover, input[type="submit"].belize-hole:hover {
       filter: drop-shadow(5px 5px 0 rgba(41, 128, 185, 0.6)) brightness(50%); }
+  .btn.belize-hole-border, input[type="submit"].belize-hole-border {
+    border: 3px solid #2980b9;
+    height: auto; }
   .btn.belize-hole-nodark, input[type="submit"].belize-hole-nodark {
     background-color: #2980b9;
     filter: drop-shadow(5px 5px 0 rgba(41, 128, 185, 0.6)); }
@@ -1442,6 +1454,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6)); }
     .btn.black:hover, input[type="submit"].black:hover {
       filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6)) brightness(50%); }
+  .btn.black-border, input[type="submit"].black-border {
+    border: 3px solid #000;
+    height: auto; }
   .btn.black-nodark, input[type="submit"].black-nodark {
     background-color: #000;
     filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6)); }
@@ -1456,6 +1471,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(230, 126, 34, 0.6)); }
     .btn.carrot:hover, input[type="submit"].carrot:hover {
       filter: drop-shadow(5px 5px 0 rgba(230, 126, 34, 0.6)) brightness(50%); }
+  .btn.carrot-border, input[type="submit"].carrot-border {
+    border: 3px solid #e67e22;
+    height: auto; }
   .btn.carrot-nodark, input[type="submit"].carrot-nodark {
     background-color: #e67e22;
     filter: drop-shadow(5px 5px 0 rgba(230, 126, 34, 0.6)); }
@@ -1470,6 +1488,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(236, 240, 241, 0.6)); }
     .btn.clouds:hover, input[type="submit"].clouds:hover {
       filter: drop-shadow(5px 5px 0 rgba(236, 240, 241, 0.6)) brightness(50%); }
+  .btn.clouds-border, input[type="submit"].clouds-border {
+    border: 3px solid #ecf0f1;
+    height: auto; }
   .btn.clouds-nodark, input[type="submit"].clouds-nodark {
     background-color: #ecf0f1;
     filter: drop-shadow(5px 5px 0 rgba(236, 240, 241, 0.6)); }
@@ -1484,6 +1505,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)); }
     .btn.concrete:hover, input[type="submit"].concrete:hover {
       filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)) brightness(50%); }
+  .btn.concrete-border, input[type="submit"].concrete-border {
+    border: 3px solid #95a5a6;
+    height: auto; }
   .btn.concrete-nodark, input[type="submit"].concrete-nodark {
     background-color: #95a5a6;
     filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6)); }
@@ -1498,6 +1522,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6)); }
     .btn.emerald:hover, input[type="submit"].emerald:hover {
       filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6)) brightness(50%); }
+  .btn.emerald-border, input[type="submit"].emerald-border {
+    border: 3px solid #2ecc71;
+    height: auto; }
   .btn.emerald-nodark, input[type="submit"].emerald-nodark {
     background-color: #2ecc71;
     filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6)); }
@@ -1512,6 +1539,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6)); }
     .btn.green-sea:hover, input[type="submit"].green-sea:hover {
       filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6)) brightness(50%); }
+  .btn.green-sea-border, input[type="submit"].green-sea-border {
+    border: 3px solid #16a085;
+    height: auto; }
   .btn.green-sea-nodark, input[type="submit"].green-sea-nodark {
     background-color: #16a085;
     filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6)); }
@@ -1526,6 +1556,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(24, 24, 24, 0.6)); }
     .btn.highlight:hover, input[type="submit"].highlight:hover {
       filter: drop-shadow(5px 5px 0 rgba(24, 24, 24, 0.6)) brightness(50%); }
+  .btn.highlight-border, input[type="submit"].highlight-border {
+    border: 3px solid #181818;
+    height: auto; }
   .btn.highlight-nodark, input[type="submit"].highlight-nodark {
     background-color: #181818;
     filter: drop-shadow(5px 5px 0 rgba(24, 24, 24, 0.6)); }
@@ -1540,6 +1573,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(44, 62, 80, 0.6)); }
     .btn.midnight-blue:hover, input[type="submit"].midnight-blue:hover {
       filter: drop-shadow(5px 5px 0 rgba(44, 62, 80, 0.6)) brightness(50%); }
+  .btn.midnight-blue-border, input[type="submit"].midnight-blue-border {
+    border: 3px solid #2c3e50;
+    height: auto; }
   .btn.midnight-blue-nodark, input[type="submit"].midnight-blue-nodark {
     background-color: #2c3e50;
     filter: drop-shadow(5px 5px 0 rgba(44, 62, 80, 0.6)); }
@@ -1554,6 +1590,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(39, 174, 96, 0.6)); }
     .btn.nephritis:hover, input[type="submit"].nephritis:hover {
       filter: drop-shadow(5px 5px 0 rgba(39, 174, 96, 0.6)) brightness(50%); }
+  .btn.nephritis-border, input[type="submit"].nephritis-border {
+    border: 3px solid #27ae60;
+    height: auto; }
   .btn.nephritis-nodark, input[type="submit"].nephritis-nodark {
     background-color: #27ae60;
     filter: drop-shadow(5px 5px 0 rgba(39, 174, 96, 0.6)); }
@@ -1568,6 +1607,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6)); }
     .btn.orange:hover, input[type="submit"].orange:hover {
       filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6)) brightness(50%); }
+  .btn.orange-border, input[type="submit"].orange-border {
+    border: 3px solid #f39c12;
+    height: auto; }
   .btn.orange-nodark, input[type="submit"].orange-nodark {
     background-color: #f39c12;
     filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6)); }
@@ -1582,6 +1624,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(52, 152, 219, 0.6)); }
     .btn.peter-river:hover, input[type="submit"].peter-river:hover {
       filter: drop-shadow(5px 5px 0 rgba(52, 152, 219, 0.6)) brightness(50%); }
+  .btn.peter-river-border, input[type="submit"].peter-river-border {
+    border: 3px solid #3498db;
+    height: auto; }
   .btn.peter-river-nodark, input[type="submit"].peter-river-nodark {
     background-color: #3498db;
     filter: drop-shadow(5px 5px 0 rgba(52, 152, 219, 0.6)); }
@@ -1596,6 +1641,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(192, 57, 43, 0.6)); }
     .btn.pomegranate:hover, input[type="submit"].pomegranate:hover {
       filter: drop-shadow(5px 5px 0 rgba(192, 57, 43, 0.6)) brightness(50%); }
+  .btn.pomegranate-border, input[type="submit"].pomegranate-border {
+    border: 3px solid #c0392b;
+    height: auto; }
   .btn.pomegranate-nodark, input[type="submit"].pomegranate-nodark {
     background-color: #c0392b;
     filter: drop-shadow(5px 5px 0 rgba(192, 57, 43, 0.6)); }
@@ -1610,6 +1658,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(40, 40, 40, 0.6)); }
     .btn.primary:hover, input[type="submit"].primary:hover {
       filter: drop-shadow(5px 5px 0 rgba(40, 40, 40, 0.6)) brightness(50%); }
+  .btn.primary-border, input[type="submit"].primary-border {
+    border: 3px solid #282828;
+    height: auto; }
   .btn.primary-nodark, input[type="submit"].primary-nodark {
     background-color: #282828;
     filter: drop-shadow(5px 5px 0 rgba(40, 40, 40, 0.6)); }
@@ -1624,6 +1675,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6)); }
     .btn.pumpkin:hover, input[type="submit"].pumpkin:hover {
       filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6)) brightness(50%); }
+  .btn.pumpkin-border, input[type="submit"].pumpkin-border {
+    border: 3px solid #d35400;
+    height: auto; }
   .btn.pumpkin-nodark, input[type="submit"].pumpkin-nodark {
     background-color: #d35400;
     filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6)); }
@@ -1638,6 +1692,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(48, 48, 48, 0.6)); }
     .btn.secondary:hover, input[type="submit"].secondary:hover {
       filter: drop-shadow(5px 5px 0 rgba(48, 48, 48, 0.6)) brightness(50%); }
+  .btn.secondary-border, input[type="submit"].secondary-border {
+    border: 3px solid #303030;
+    height: auto; }
   .btn.secondary-nodark, input[type="submit"].secondary-nodark {
     background-color: #303030;
     filter: drop-shadow(5px 5px 0 rgba(48, 48, 48, 0.6)); }
@@ -1652,6 +1709,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
     .btn.silver:hover, input[type="submit"].silver:hover {
       filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)) brightness(50%); }
+  .btn.silver-border, input[type="submit"].silver-border {
+    border: 3px solid #7f8c8d;
+    height: auto; }
   .btn.silver-nodark, input[type="submit"].silver-nodark {
     background-color: #7f8c8d;
     filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6)); }
@@ -1666,6 +1726,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(241, 196, 15, 0.6)); }
     .btn.sun-flower:hover, input[type="submit"].sun-flower:hover {
       filter: drop-shadow(5px 5px 0 rgba(241, 196, 15, 0.6)) brightness(50%); }
+  .btn.sun-flower-border, input[type="submit"].sun-flower-border {
+    border: 3px solid #f1c40f;
+    height: auto; }
   .btn.sun-flower-nodark, input[type="submit"].sun-flower-nodark {
     background-color: #f1c40f;
     filter: drop-shadow(5px 5px 0 rgba(241, 196, 15, 0.6)); }
@@ -1680,6 +1743,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(26, 188, 156, 0.6)); }
     .btn.turquoise:hover, input[type="submit"].turquoise:hover {
       filter: drop-shadow(5px 5px 0 rgba(26, 188, 156, 0.6)) brightness(50%); }
+  .btn.turquoise-border, input[type="submit"].turquoise-border {
+    border: 3px solid #1abc9c;
+    height: auto; }
   .btn.turquoise-nodark, input[type="submit"].turquoise-nodark {
     background-color: #1abc9c;
     filter: drop-shadow(5px 5px 0 rgba(26, 188, 156, 0.6)); }
@@ -1694,6 +1760,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(52, 73, 94, 0.6)); }
     .btn.wet-asphalt:hover, input[type="submit"].wet-asphalt:hover {
       filter: drop-shadow(5px 5px 0 rgba(52, 73, 94, 0.6)) brightness(50%); }
+  .btn.wet-asphalt-border, input[type="submit"].wet-asphalt-border {
+    border: 3px solid #34495e;
+    height: auto; }
   .btn.wet-asphalt-nodark, input[type="submit"].wet-asphalt-nodark {
     background-color: #34495e;
     filter: drop-shadow(5px 5px 0 rgba(52, 73, 94, 0.6)); }
@@ -1708,6 +1777,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(255, 255, 255, 0.6)); }
     .btn.white:hover, input[type="submit"].white:hover {
       filter: drop-shadow(5px 5px 0 rgba(255, 255, 255, 0.6)) brightness(50%); }
+  .btn.white-border, input[type="submit"].white-border {
+    border: 3px solid #fff;
+    height: auto; }
   .btn.white-nodark, input[type="submit"].white-nodark {
     background-color: #fff;
     filter: drop-shadow(5px 5px 0 rgba(255, 255, 255, 0.6)); }
@@ -1722,6 +1794,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(142, 68, 173, 0.6)); }
     .btn.wisteria:hover, input[type="submit"].wisteria:hover {
       filter: drop-shadow(5px 5px 0 rgba(142, 68, 173, 0.6)) brightness(50%); }
+  .btn.wisteria-border, input[type="submit"].wisteria-border {
+    border: 3px solid #8e44ad;
+    height: auto; }
   .btn.wisteria-nodark, input[type="submit"].wisteria-nodark {
     background-color: #8e44ad;
     filter: drop-shadow(5px 5px 0 rgba(142, 68, 173, 0.6)); }
@@ -1736,6 +1811,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6)); }
     .btn.devianart:hover, input[type="submit"].devianart:hover {
       filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6)) brightness(50%); }
+  .btn.devianart-border, input[type="submit"].devianart-border {
+    border: 3px solid #f95119;
+    height: auto; }
   .btn.devianart-nodark, input[type="submit"].devianart-nodark {
     background-color: #f95119;
     filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6)); }
@@ -1750,6 +1828,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6)); }
     .btn.discord:hover, input[type="submit"].discord:hover {
       filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6)) brightness(50%); }
+  .btn.discord-border, input[type="submit"].discord-border {
+    border: 3px solid #7289da;
+    height: auto; }
   .btn.discord-nodark, input[type="submit"].discord-nodark {
     background-color: #7289da;
     filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6)); }
@@ -1764,6 +1845,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(71, 85, 149, 0.6)); }
     .btn.facebook:hover, input[type="submit"].facebook:hover {
       filter: drop-shadow(5px 5px 0 rgba(71, 85, 149, 0.6)) brightness(50%); }
+  .btn.facebook-border, input[type="submit"].facebook-border {
+    border: 3px solid #475595;
+    height: auto; }
   .btn.facebook-nodark, input[type="submit"].facebook-nodark {
     background-color: #475595;
     filter: drop-shadow(5px 5px 0 rgba(71, 85, 149, 0.6)); }
@@ -1778,6 +1862,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(41, 45, 50, 0.6)); }
     .btn.github:hover, input[type="submit"].github:hover {
       filter: drop-shadow(5px 5px 0 rgba(41, 45, 50, 0.6)) brightness(50%); }
+  .btn.github-border, input[type="submit"].github-border {
+    border: 3px solid #292d32;
+    height: auto; }
   .btn.github-nodark, input[type="submit"].github-nodark {
     background-color: #292d32;
     filter: drop-shadow(5px 5px 0 rgba(41, 45, 50, 0.6)); }
@@ -1792,6 +1879,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(215, 85, 69, 0.6)); }
     .btn.googleplus:hover, input[type="submit"].googleplus:hover {
       filter: drop-shadow(5px 5px 0 rgba(215, 85, 69, 0.6)) brightness(50%); }
+  .btn.googleplus-border, input[type="submit"].googleplus-border {
+    border: 3px solid #d75545;
+    height: auto; }
   .btn.googleplus-nodark, input[type="submit"].googleplus-nodark {
     background-color: #d75545;
     filter: drop-shadow(5px 5px 0 rgba(215, 85, 69, 0.6)); }
@@ -1806,6 +1896,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(50, 117, 179, 0.6)); }
     .btn.linkedin:hover, input[type="submit"].linkedin:hover {
       filter: drop-shadow(5px 5px 0 rgba(50, 117, 179, 0.6)) brightness(50%); }
+  .btn.linkedin-border, input[type="submit"].linkedin-border {
+    border: 3px solid #3275b3;
+    height: auto; }
   .btn.linkedin-nodark, input[type="submit"].linkedin-nodark {
     background-color: #3275b3;
     filter: drop-shadow(5px 5px 0 rgba(50, 117, 179, 0.6)); }
@@ -1820,6 +1913,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(197, 48, 47, 0.6)); }
     .btn.pinterest:hover, input[type="submit"].pinterest:hover {
       filter: drop-shadow(5px 5px 0 rgba(197, 48, 47, 0.6)) brightness(50%); }
+  .btn.pinterest-border, input[type="submit"].pinterest-border {
+    border: 3px solid #c5302f;
+    height: auto; }
   .btn.pinterest-nodark, input[type="submit"].pinterest-nodark {
     background-color: #c5302f;
     filter: drop-shadow(5px 5px 0 rgba(197, 48, 47, 0.6)); }
@@ -1834,6 +1930,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6)); }
     .btn.reddit:hover, input[type="submit"].reddit:hover {
       filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6)) brightness(50%); }
+  .btn.reddit-border, input[type="submit"].reddit-border {
+    border: 3px solid #f95119;
+    height: auto; }
   .btn.reddit-nodark, input[type="submit"].reddit-nodark {
     background-color: #f95119;
     filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6)); }
@@ -1848,6 +1947,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(65, 166, 237, 0.6)); }
     .btn.skype:hover, input[type="submit"].skype:hover {
       filter: drop-shadow(5px 5px 0 rgba(65, 166, 237, 0.6)) brightness(50%); }
+  .btn.skype-border, input[type="submit"].skype-border {
+    border: 3px solid #41a6ed;
+    height: auto; }
   .btn.skype-nodark, input[type="submit"].skype-nodark {
     background-color: #41a6ed;
     filter: drop-shadow(5px 5px 0 rgba(65, 166, 237, 0.6)); }
@@ -1862,6 +1964,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(248, 255, 47, 0.6)); }
     .btn.snapchat:hover, input[type="submit"].snapchat:hover {
       filter: drop-shadow(5px 5px 0 rgba(248, 255, 47, 0.6)) brightness(50%); }
+  .btn.snapchat-border, input[type="submit"].snapchat-border {
+    border: 3px solid #f8ff2f;
+    height: auto; }
   .btn.snapchat-nodark, input[type="submit"].snapchat-nodark {
     background-color: #f8ff2f;
     filter: drop-shadow(5px 5px 0 rgba(248, 255, 47, 0.6)); }
@@ -1876,6 +1981,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(249, 95, 27, 0.6)); }
     .btn.soundcloud:hover, input[type="submit"].soundcloud:hover {
       filter: drop-shadow(5px 5px 0 rgba(249, 95, 27, 0.6)) brightness(50%); }
+  .btn.soundcloud-border, input[type="submit"].soundcloud-border {
+    border: 3px solid #f95f1b;
+    height: auto; }
   .btn.soundcloud-nodark, input[type="submit"].soundcloud-nodark {
     background-color: #f95f1b;
     filter: drop-shadow(5px 5px 0 rgba(249, 95, 27, 0.6)); }
@@ -1890,6 +1998,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(77, 168, 223, 0.6)); }
     .btn.telegram:hover, input[type="submit"].telegram:hover {
       filter: drop-shadow(5px 5px 0 rgba(77, 168, 223, 0.6)) brightness(50%); }
+  .btn.telegram-border, input[type="submit"].telegram-border {
+    border: 3px solid #4da8df;
+    height: auto; }
   .btn.telegram-nodark, input[type="submit"].telegram-nodark {
     background-color: #4da8df;
     filter: drop-shadow(5px 5px 0 rgba(77, 168, 223, 0.6)); }
@@ -1904,6 +2015,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(57, 78, 107, 0.6)); }
     .btn.tumblr:hover, input[type="submit"].tumblr:hover {
       filter: drop-shadow(5px 5px 0 rgba(57, 78, 107, 0.6)) brightness(50%); }
+  .btn.tumblr-border, input[type="submit"].tumblr-border {
+    border: 3px solid #394e6b;
+    height: auto; }
   .btn.tumblr-nodark, input[type="submit"].tumblr-nodark {
     background-color: #394e6b;
     filter: drop-shadow(5px 5px 0 rgba(57, 78, 107, 0.6)); }
@@ -1918,6 +2032,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(73, 153, 240, 0.6)); }
     .btn.twitter:hover, input[type="submit"].twitter:hover {
       filter: drop-shadow(5px 5px 0 rgba(73, 153, 240, 0.6)) brightness(50%); }
+  .btn.twitter-border, input[type="submit"].twitter-border {
+    border: 3px solid #4999f0;
+    height: auto; }
   .btn.twitter-nodark, input[type="submit"].twitter-nodark {
     background-color: #4999f0;
     filter: drop-shadow(5px 5px 0 rgba(73, 153, 240, 0.6)); }
@@ -1932,6 +2049,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(127, 77, 155, 0.6)); }
     .btn.viber:hover, input[type="submit"].viber:hover {
       filter: drop-shadow(5px 5px 0 rgba(127, 77, 155, 0.6)) brightness(50%); }
+  .btn.viber-border, input[type="submit"].viber-border {
+    border: 3px solid #7f4d9b;
+    height: auto; }
   .btn.viber-nodark, input[type="submit"].viber-nodark {
     background-color: #7f4d9b;
     filter: drop-shadow(5px 5px 0 rgba(127, 77, 155, 0.6)); }
@@ -1946,6 +2066,9 @@ button {
     filter: drop-shadow(5px 5px 0 rgba(255, 0, 0, 0.6)); }
     .btn.youtube:hover, input[type="submit"].youtube:hover {
       filter: drop-shadow(5px 5px 0 rgba(255, 0, 0, 0.6)) brightness(50%); }
+  .btn.youtube-border, input[type="submit"].youtube-border {
+    border: 3px solid #f00;
+    height: auto; }
   .btn.youtube-nodark, input[type="submit"].youtube-nodark {
     background-color: #f00;
     filter: drop-shadow(5px 5px 0 rgba(255, 0, 0, 0.6)); }
@@ -2036,6 +2159,30 @@ button {
       animation-delay: 3.5s; }
     .btn.animation-bounce:nth-child(15), input[type="submit"].animation-bounce:nth-child(15) {
       animation-delay: 3.75s; }
+  .btn.hover-scale, input[type="submit"].hover-scale {
+    transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -o-transition: all 350ms ease; }
+    .btn.hover-scale:hover, input[type="submit"].hover-scale:hover {
+      transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05); }
+  .btn.hover-scale-inset, input[type="submit"].hover-scale-inset {
+    transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -o-transition: all 350ms ease; }
+    .btn.hover-scale-inset:hover, input[type="submit"].hover-scale-inset:hover {
+      transform: scale(0.95);
+      -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+      -moz-transform: scale(0.95);
+      -o-transform: scale(0.95); }
   .btn.hover-bounce:hover, input[type="submit"].hover-bounce:hover {
     animation: bounce-button 750ms ease-in-out;
     -webkit-animation: bounce-button 750ms ease-in-out;
