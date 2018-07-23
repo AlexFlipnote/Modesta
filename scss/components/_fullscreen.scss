@@ -41,6 +41,7 @@
       &.unset {
         flex-direction: unset;
 
+        .image-title { margin-right: .25em; }
         .image-title, .title {
           flex-direction: column;
         }

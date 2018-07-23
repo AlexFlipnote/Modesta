@@ -2494,6 +2494,8 @@ button {
       z-index: 10; }
       .fullscreen .center-object .me.unset {
         flex-direction: unset; }
+        .fullscreen .center-object .me.unset .image-title {
+          margin-right: .25em; }
         .fullscreen .center-object .me.unset .image-title, .fullscreen .center-object .me.unset .title {
           flex-direction: column; }
       .fullscreen .center-object .me .image-title {
