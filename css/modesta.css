@@ -3013,7 +3013,9 @@ button {
         font-size: 10vmin;
         margin: 0; }
       .fullscreen .center-object .me .image-title, .center-object .me .image-title {
-        width: 8em; }
+        width: 7em; }
+      .fullscreen .center-object .me.unset, .center-object .me.unset {
+        flex-direction: column; }
 
   .buttons {
     align-items: center;
