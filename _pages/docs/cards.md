@@ -5,6 +5,7 @@ permalink: /docs/cards
 title: Cards
 description: Generate lovely card profiles
 ---
+# Normal card
 Cards must always be inside a card container.
 If you're making multiple cards, just add all the cards inside of the container.
 ```html
@@ -25,7 +26,7 @@ If you're making multiple cards, just add all the cards inside of the container.
 </section>
 ```
 
-# Preview
+## Preview
 <section class="card-container">
   <div class="card">
     <div class="avatar">
@@ -36,6 +37,58 @@ If you're making multiple cards, just add all the cards inside of the container.
     <div class="footer">
       <a href="#">Website</a>
       <a href="#">Website 2</a>
+    </div>
+  </div>
+</section>
+
+# Worker card
+Have an image card on your website to display something with more style.
+
+You can replace `<span>` with whatever text type you want.
+```html
+<section class="workcard-container">
+  <div class="card">
+    <img src="https://i.alexflipnote.xyz/7c4714.png">
+    <div class="overlay">
+      <span class="text">Hello world<br>Have a nice day</span>
+    </div>
+  </div>
+  <!-- and more cards if wanted -->
+</section>
+```
+
+NOTE: If you want to have a clickable card:
+```html
+<!-- Target -->
+<div class="card"></div>
+
+<!-- Replace to -->
+<a href="LINK HERE" class="card"></a>
+```
+## Preview
+<section class="workcard-container">
+  <div href="#" class="card">
+    <img src="https://i.alexflipnote.xyz/7c4714.png">
+    <div class="overlay">
+      <h1 class="text">Hello world<br>Have a nice day</h1>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://i.alexflipnote.xyz/7c4714.png">
+    <div class="overlay">
+      <h2 class="text">Hello world</h2>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://i.alexflipnote.xyz/7c4714.png">
+    <div class="overlay">
+      <h3 class="text">Hello world</h3>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://i.alexflipnote.xyz/7c4714.png">
+    <div class="overlay">
+      <p class="text">Hello world<br>Have a nice day</p>
     </div>
   </div>
 </section>

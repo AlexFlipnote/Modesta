@@ -2957,6 +2957,47 @@ button {
         font-size: 14px;
         text-decoration: none; }
 
+.workcard-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  .workcard-container .card {
+    height: 200px;
+    margin: 14px 10px;
+    position: relative;
+    width: 330px; }
+    .workcard-container .card img {
+      height: 200px;
+      width: 330px; }
+    .workcard-container .card .overlay {
+      background: rgba(0, 0, 0, 0.8);
+      height: 200px;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      transition: opacity .25s ease-in-out;
+      width: 330px; }
+      .workcard-container .card .overlay:hover {
+        opacity: 1;
+        transition: opacity .25s ease-in-out; }
+      .workcard-container .card .overlay .text {
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        color: #fff;
+        left: 50%;
+        line-height: 1;
+        margin: 0;
+        opacity: .75;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 330px; }
+
 .table-container {
   display: inline-block;
   margin-bottom: .75em;
@@ -3057,6 +3098,10 @@ button {
         font-weight: bold;
         text-transform: uppercase; } }
 @media (max-width: 550px) {
+  .workcard-container .card, .workcard-container .card img, .workcard-container .card .overlay, .workcard-container .card .overlay .text {
+    height: auto;
+    width: 100%; }
+
   .container {
     margin: 0;
     margin-bottom: 2.5em;

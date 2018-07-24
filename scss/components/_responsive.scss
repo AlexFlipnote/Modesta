@@ -78,6 +78,13 @@
 
 // For devices smaller than 550px
 @media (max-width: 550px) {
+  .workcard-container {
+    .card, .card img, .card .overlay, .card .overlay .text {
+      height: auto;
+      width: 100%;
+    }
+  }
+
   .container {
     margin: 0;
     margin-bottom: 2.5em;

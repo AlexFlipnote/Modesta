@@ -3,7 +3,7 @@ layout: docs
 permalink: /docs/fullscreen
 
 title: Fullscreen
-description: The simplest way to make a website in <CURRENT YEAR>
+description: The simplest way to make a website in CURRENT_YEAR
 ---
 This will fill the current screen 100% on height and width.
 You can also do `<section class="fullscreen half">` to only fill 50% of the screen.

@@ -124,6 +124,58 @@ $heigth-control: 3em;
   }
 }
 
+// Workercard container
+$workcard-height: 200px;
+$workcard-width: 330px;
+
+.workcard-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  .card {
+    height: $workcard-height;
+    margin: 14px 10px;
+    position: relative;
+    width: $workcard-width;
+
+    img {
+      height: $workcard-height;
+      width: $workcard-width;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, .8);
+      height: $workcard-height;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      transition: opacity .25s ease-in-out;
+      width: $workcard-width;
+
+      &:hover {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+      }
+
+      .text {
+        @include transform(translate(-50%, -50%));
+        color: #fff;
+        left: 50%;
+        line-height: 1;
+        margin: 0;
+        opacity: .75;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: $workcard-width;
+      }
+    }
+  }
+}
+
 
 // Table container
 .table-container {

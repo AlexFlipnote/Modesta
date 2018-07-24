@@ -12,6 +12,12 @@ A clean CSS framework made to be dark and responsive.
 If you wish to use local files, please copy the CSS folder into your website.
 Everything from images and all CSS packages is included inside it.
 
+## Using minify.py
+To use this file, download the pip **csscompressor**
+```
+[sudo] pip install csscompressor
+```
+
 ## Documentation
 Visit this link for docs: [https://modesta.alexflipnote.xyz/docs](https://modesta.alexflipnote.xyz/docs)
 
