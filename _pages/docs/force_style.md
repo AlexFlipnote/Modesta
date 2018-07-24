@@ -5,9 +5,9 @@ permalink: /docs/force_style
 title: Force style
 description: Forcing elements to use a specific style
 ---
-These classes will enforce style to an object, so you don't need to use `style=""` on many objects. If there's a need for more, please say so on the issue tab.
+These classes will enforce style to an object, so you don't need to use `style=""` on many objects. If there's room for more styles, please create an issue [here](https://github.com/AlexFlipnote/ModestaCSS/issues).
 
-NOTE: All objects are presented as **span** for example, can be used
+NOTE: All objects are presented as **span** for example, but it can be used
 on anything if you want.
 ```html
 <span class="bold">Make any text bold</span>
