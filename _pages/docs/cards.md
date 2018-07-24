@@ -5,8 +5,8 @@ permalink: /docs/cards
 title: Cards
 description: Generate lovely card profiles
 ---
-The cards you make must always be inside a card container.
-If you're making multiple, just add all the card classes inside the container.
+Cards must always be inside a card container.
+If you're making multiple cards, just add all the cards inside of the container.
 ```html
 <section class="card-container">
   <div class="card">

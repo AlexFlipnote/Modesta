@@ -5,7 +5,7 @@ permalink: /docs/form
 title: Form
 description: Template of making a form for emails, feedback, etc
 ---
-Make a form for people to submit within login or just have a contact placemenet.
+Create a form for people to submit login information or just use it for a contact placement.
 This is also great to be used with [columns](#columns) and other things you might want.
 ```html
 <div class="form-container">

@@ -5,7 +5,7 @@ permalink: /docs/box-container
 title: Box Container
 description: Boxes that shapes the container you need
 ---
-If you even need a nice box around something with a colour, use this.
+If you even need a nice box around something with colour, use this.
 ```html
 <div class="box-container emerald">
   <h1>Lorem ipsum</h1>
