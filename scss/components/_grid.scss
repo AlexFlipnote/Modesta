@@ -21,6 +21,10 @@
     &:first-child { margin-left: 0; }
   }
 
+  // NOTE: Try math method:
+  // (100 / 2) - 2 [one-half]
+  // (100 / 3) - 3 [one-third]
+  // ...
   .one-full.column { width: 95%; }
   .one-half.column { width: 48%; }
   .one-third.column { width: 30.6666666667%; }
