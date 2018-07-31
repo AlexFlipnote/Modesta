@@ -37,6 +37,14 @@
       text-align: center;
       white-space: pre-line;
       width: calc(45% - 30px);
+
+      // Support for FontAwesome icons
+      i { margin-right: 10px; }
+    }
+
+    &.one-line .btn {
+      padding: 14px 8px;
+      width: 75%;
     }
   }
 }

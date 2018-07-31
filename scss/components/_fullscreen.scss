@@ -19,6 +19,11 @@
     filter: blur(5px) brightness(50%);
     height: 100%;
     width: 100%;
+
+    &.slideshow {
+      @include transition(opacity 1s ease-in);
+      position: absolute;
+    }
   }
 
   .center-object {

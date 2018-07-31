@@ -4,19 +4,45 @@ permalink: /examples/fullscreen
 
 title: Fullscreen
 ---
+<style>
+  #changebuttons {
+    background-color: #2ecc71;
+    border-radius: 10px 0 0;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 12px;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    position: absolute;
+    right: 0;
+  }
+</style>
+
+<script src="../js/effects.js" type="text/javascript"></script>
+
 <section class="fullscreen">
   <div class="background" style="background-image: url('https://alexflipnote.xyz/assets/images/background.jpg');"></div>
   <div class="center-object">
     <section class="me">
       <img draggable="false" src="https://alexflipnote.xyz/assets/images/profile.png" class="image-title">
-      <h1 class="title">AlexFlipnote</h1><br>
+      <h1 class="title">AlexFlipnote</h1>
     </section>
-    <div class="buttons">
+    <div class="buttons" id="switchbutton">
       <a class="btn animation discord">Button 1</a>
       <a class="btn animation discord">Button 2</a>
       <a class="btn animation discord">Button 3</a>
       <a class="btn animation discord">Button 4</a>
     </div>
   </div>
+  <a class="white-text" id="changebuttons">Change button responsive</a>
+  <script>
+    var g = document.getElementById('switchbutton');
+    document.getElementById('changebuttons').onclick = function() {
+      if (g.className.includes("one-line")) g.classList.remove("one-line");
+      else g.classList.add("one-line");
+    }
+  </script>
   <div class="arrow bounce"></div>
 </section>

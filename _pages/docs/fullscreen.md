@@ -36,11 +36,24 @@ start with a fullscreen/half screen on the start.
 If you're interested in only making the current website you're on center both horizontal and vertical, you can by using only the class **center-object**
 
 ## Extra styles
+#### Avatar and Text on same line
 ```html
 <section class="me unset">
 ```
-This will make both image and text on the same line
 
+#### one-line responsive
+```html
+<div class="buttons one-line">
+  <!-- Insert buttons here -->
+</div>
+```
+Preview:
+
+![preview](https://i.alexflipnote.xyz/52d38a.gif)
+
+NOTE: The button is only to showcase the change, you won't need such when using it live.
+
+#### Corner control on avatar
 ```html
 <img draggable="false" src="URL/PATH" class="image-title no|small|medium|large-border">
 ```
@@ -53,5 +66,32 @@ If you don't enjoy the 100% border-radius, you can customize it to either be non
 | medium-border | border-radius: 15px; |
 | large-border  | border-radius: 25px; |
 
-# Example:
+#### Slideshow backgrounds
+(Requires js/effects.js)
+```html
+<div class="background slideshow" style="background-image: url('assets/images/bg.jpg');"></div>
+<div class="background slideshow" style="background-image: url('assets/images/bg2.jpg'); opacity: 0;"></div>
+<div class="background slideshow" style="background-image: url('assets/images/bg3.jpg'); opacity: 0;"></div>
+<div class="background slideshow" style="background-image: url('assets/images/bg4.jpg'); opacity: 0;"></div>
+<div class="background slideshow" style="background-image: url('assets/images/bg5.jpg'); opacity: 0;"></div>
+<div class="background slideshow" style="background-image: url('assets/images/bg6.jpg'); opacity: 0;"></div>
+```
+Other than the first one must have **opacity: 0;** added to the style.
+Another class you must add is **slideshow**, so that the backgrounds will be on same position.
+
+#### Changing text
+(Requires js/effects.js)
+```html
+<span
+  class="txt-rotate"
+  data-period="2000"
+  data-rotate='["Hello world!", "Goodbye world!"]'>
+</span>
+```
+
+Preview:
+
+![preview](https://i.alexflipnote.xyz/a9f3ed.gif)
+
+# Fullscreen Example:
 [Click here](../examples/fullscreen)

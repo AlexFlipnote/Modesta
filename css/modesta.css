@@ -2473,6 +2473,13 @@ button {
     filter: blur(5px) brightness(50%);
     height: 100%;
     width: 100%; }
+    .fullscreen .background.slideshow {
+      transition: opacity 1s ease-in;
+      -webkit-transition: opacity 1s ease-in;
+      -ms-transition: opacity 1s ease-in;
+      -moz-transition: opacity 1s ease-in;
+      -o-transition: opacity 1s ease-in;
+      position: absolute; }
   .fullscreen .center-object {
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -3072,7 +3079,12 @@ button {
       padding: 25px 0;
       text-align: center;
       white-space: pre-line;
-      width: calc(45% - 30px); } }
+      width: calc(45% - 30px); }
+      .buttons .btn i {
+        margin-right: 10px; }
+    .buttons.one-line .btn {
+      padding: 14px 8px;
+      width: 75%; } }
 @media screen and (max-width: 600px) {
   .table-container table {
     border: 0;
