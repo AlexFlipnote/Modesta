@@ -29,10 +29,12 @@ Visit this link for docs: [https://modesta.alexflipnote.xyz/docs](https://modest
 ## Pages that uses ModestaCSS
 - [AlexFlipnote.xyz](https://alexflipnote.xyz/)
 - [AlexFlipnote/Homepage](https://alexflipnote.xyz/homepage)
+- [Coffee API](https://coffee.alexflipnote.xyz/)
 - [Dev's Helper](https://devs-helper.ml/)
+- [Discord Fork](https://discordbots.co.uk/)
 - [jeffrey](http://jeffrey.cf/)
-- [Stylite](https://stylite.me/)
 - [React-Modesta](https://modesta.bowser65.tk/)
+- [Stylite](https://stylite.me/)
 
 ## Contribution
 If you plan to contribute, please use **scss_lint** (Ruby Package) to be sure everything is linted.
