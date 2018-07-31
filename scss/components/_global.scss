@@ -81,7 +81,7 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 .no-margin { margin: 0 !important; }
 .no-padding { padding: 0 !important; }
 .no-select { @include prefix(user-select, none); }
-.transparent { background: transparent !important; }
+.transparent-bg { background: transparent !important; }
 .center {
   display: block !important;
   margin: 0 auto !important;

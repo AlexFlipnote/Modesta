@@ -1,3 +1,5 @@
+@import '../assets/builders';
+
 // Source from skeleton.css
 .container {
   box-sizing: border-box;
@@ -21,10 +23,6 @@
     &:first-child { margin-left: 0; }
   }
 
-  // NOTE: Try math method:
-  // (100 / 2) - 2 [one-half]
-  // (100 / 3) - 3 [one-third]
-  // ...
   .one-full.column { width: 95%; }
   .one-half.column { width: 48%; }
   .one-third.column { width: 30.6666666667%; }
@@ -34,5 +32,45 @@
     clear: both;
     content: '';
     display: table;
+  }
+}
+
+.flex-grid {
+  $default-width: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .col-xs,
+  .col-xs-1, .col-xs-2, .col-xs-3,
+  .col-xs-4, .col-xs-5, .col-xs-6,
+  .col-xs-7, .col-xs-8, .col-xs-9,
+  .col-xs-10, .col-xs-11, .col-xs-12 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-left: $default-width;
+    padding-right: $default-width;
+  }
+
+  [class^="col-xs"] {
+    &:first-child { padding-left: 0; }
+    &:last-child { padding-right: 0; }
+  }
+
+  .col-xs {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  @each $g in $grid-list {
+    $i: index($grid-list, $g);
+
+    .col-xs-#{$i} {
+      flex-basis: $g;
+      max-width: $g;
+    }
   }
 }

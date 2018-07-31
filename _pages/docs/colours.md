@@ -45,6 +45,7 @@ description: The different colours in ModestaCSS
           <tr><td>secondary</td><td class="secondary"></td><td>#303030</td></tr>
           <tr><td>silver</td><td class="silver"></td><td>#7f8c8d</td></tr>
           <tr><td>sun-flower</td><td class="sun-flower"></td><td>#f1c40f</td></tr>
+          <tr><td>transparent</td><td class="transparent"></td><td>transparent</td></tr>
           <tr><td>turquoise</td><td class="turquoise"></td><td>#1abc9c</td></tr>
           <tr><td>wet-asphalt</td><td class="wet-asphalt"></td><td>#34495e</td></tr>
           <tr><td>white</td><td class="white"></td><td>#fff</td></tr>

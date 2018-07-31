@@ -23,5 +23,5 @@ on anything if you want.
 <span class="no-margin">Remove margin from object</span>
 <span class="no-padding">Remove padding from object</span>
 <span class="no-select">Remove the text marker</span>
-<span class="transparent">Make the object's background transparent</span>
+<span class="transparent-bg">Make the object's background transparent</span>
 ```
