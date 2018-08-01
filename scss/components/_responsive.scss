@@ -118,10 +118,17 @@
   }
   // scss-lint:enable EmptyLineBetweenBlocks, SpaceBeforeBrace
 
-  .flex-grid .col-xs {
-    flex-basis: 100%;
-    padding: 0;
-    width: 100%;
+  .flex-grid {
+    .col-xs,
+    .col-xs-1, .col-xs-2, .col-xs-3,
+    .col-xs-4, .col-xs-5, .col-xs-6,
+    .col-xs-7, .col-xs-8, .col-xs-9,
+    .col-xs-10, .col-xs-11, .col-xs-12 {
+      flex-basis: 100%;
+      max-width: 100%;
+      padding: 0;
+      width: 100%;
+    }
   }
 }
 

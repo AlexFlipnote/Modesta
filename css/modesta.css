@@ -2618,8 +2618,8 @@ button {
   .flex-grid .col-xs-10, .flex-grid .col-xs-11, .flex-grid .col-xs-12 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem; }
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
   .flex-grid [class^="col-xs"]:first-child {
     padding-left: 0; }
   .flex-grid [class^="col-xs"]:last-child {
@@ -3231,8 +3231,13 @@ button {
   .row .one-half.column, .row .one-third.column, .row .one-fourth.column {
     width: 100%; }
 
-  .flex-grid .col-xs {
+  .flex-grid .col-xs,
+  .flex-grid .col-xs-1, .flex-grid .col-xs-2, .flex-grid .col-xs-3,
+  .flex-grid .col-xs-4, .flex-grid .col-xs-5, .flex-grid .col-xs-6,
+  .flex-grid .col-xs-7, .flex-grid .col-xs-8, .flex-grid .col-xs-9,
+  .flex-grid .col-xs-10, .flex-grid .col-xs-11, .flex-grid .col-xs-12 {
     flex-basis: 100%;
+    max-width: 100%;
     padding: 0;
     width: 100%; } }
 @media (min-width: 800px) {
