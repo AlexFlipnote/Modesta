@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/
+permalink: /
 
 title: ModestaCSS
 description: A clean CSS framework made to be dark, responsive and easy to build with.
@@ -20,7 +20,7 @@ If you wish to use local files, please copy the CSS folder into your website.
 Everything from images and all CSS packages is included inside it.
 
 ## Documentation
-Visit this link for docs: [https://modesta.alexflipnote.xyz/docs](https://modesta.alexflipnote.xyz/docs)
+Visit this link for docs: [https://modesta.alexflipnote.xyz/](https://modesta.alexflipnote.xyz/)
 
 ## Used Resources:
 - [blobcat](https://discord.gg/nG8fy52)

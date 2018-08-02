@@ -19,7 +19,7 @@ To use this file, download the pip **csscompressor**
 ```
 
 ## Documentation
-Visit this link for docs: [https://modesta.alexflipnote.xyz/docs](https://modesta.alexflipnote.xyz/docs)
+Visit this link for docs: [https://modesta.alexflipnote.xyz/](https://modesta.alexflipnote.xyz/)
 
 ## Used Resources:
 - [blobcat](https://discord.gg/nG8fy52)

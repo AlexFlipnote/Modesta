@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/emojis
+permalink: /emojis
 
 title: Emojis
 description: Decorate your website with emojis~

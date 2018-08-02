@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/force_style
+permalink: /force_style
 
 title: Force style
 description: Forcing elements to use a specific style

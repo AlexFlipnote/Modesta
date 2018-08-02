@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/modal
+permalink: /modal
 
 title: Modal
 description: Make a popout show up on your website

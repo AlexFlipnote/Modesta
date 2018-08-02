@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/navbar
+permalink: /navbar
 
 title: Navbar
 description: Make a navigation bar for your website

@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/box-container
+permalink: /box-container
 
 title: Box Container
 description: Boxes that shapes the container you need

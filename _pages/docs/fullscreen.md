@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/fullscreen
+permalink: /fullscreen
 
 title: Fullscreen
 description: The simplest way to make a website in CURRENT_YEAR

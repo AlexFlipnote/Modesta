@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/markdown
+permalink: /markdown
 
 title: Markdown
 description: Markdown for Jekyll

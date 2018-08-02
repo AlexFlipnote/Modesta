@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/loading
+permalink: /loading
 
 title: Loading
 description: Loading object for loading stuff

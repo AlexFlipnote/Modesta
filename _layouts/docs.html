@@ -13,9 +13,9 @@
     {% endif %}
 
     <!-- CSS -->
-    <link href="../css/modesta.css" type="text/css" rel="stylesheet">
-    <link href="../css/twemoji.min.css" type="text/css" rel="stylesheet">
-    <link href="../css/blobcat.min.css" type="text/css" rel="stylesheet">
+    <link href="css/modesta.css" type="text/css" rel="stylesheet">
+    <link href="css/twemoji.min.css" type="text/css" rel="stylesheet">
+    <link href="css/blobcat.min.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <div class="nav-container">
@@ -25,13 +25,13 @@
       </div>
       <div id="navside" class="sidenav">
         {% for pagedocs in site.pages %}
-          {% if pagedocs.url contains "/docs/" %}
+          {% unless pagedocs.url contains "/examples/" %}
             {% if page.title == pagedocs.title %}
               <a href="{{ pagedocs.url }}" class="current">{{ pagedocs.title }}</a>
                 {% else %}
               <a href="{{ pagedocs.url }}">{{ pagedocs.title }}</a>
             {% endif %}
-          {% endif %}
+          {% endunless %}
         {% endfor %}
       </div>
       <script>

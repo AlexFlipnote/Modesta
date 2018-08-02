@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/table
+permalink: /table
 
 title: Table
 description: Tabel to show score, stats, etc

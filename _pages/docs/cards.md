@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/cards
+permalink: /cards
 
 title: Cards
 description: Generate lovely card profiles
@@ -39,6 +39,14 @@ If you're making multiple cards, just add all the cards inside of the container.
       <a href="#">Website 2</a>
     </div>
   </div>
+
+  <div class="card">
+    <div class="avatar">
+      <img src="../css/images/avatar.png" style="filter: none;">
+    </div>
+    <h1 class="title">Username</h1>
+    <p class="description">Text under username</p>
+  </div>
 </section>
 
 # Worker card
@@ -60,18 +68,18 @@ You can replace `<span>` with whatever text type you want.
 NOTE: If you want to have a clickable card:
 ```html
 <!-- Target -->
-<div class="card"></div>
+<div class="overlay"></div>
 
 <!-- Replace to -->
-<a href="LINK HERE" class="card"></a>
+<a href="LINK HERE" class="overlay"></a>
 ```
 ## Preview
 <section class="workcard-container">
   <div href="#" class="card">
     <img src="https://i.alexflipnote.xyz/7c4714.png">
-    <div class="overlay">
+    <a class="overlay">
       <h1 class="text">Hello world<br>Have a nice day</h1>
-    </div>
+    </a>
   </div>
   <div class="card">
     <img src="https://i.alexflipnote.xyz/7c4714.png">

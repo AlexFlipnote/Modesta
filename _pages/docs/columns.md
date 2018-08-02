@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/columns
+permalink: /columns
 
 title: Columns
 description: Columns objects to split website content into different shapes

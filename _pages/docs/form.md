@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/form
+permalink: /form
 
 title: Form
 description: Template of making a form for emails, feedback, etc

@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/buttons
+permalink: /buttons
 
 title: Buttons
 description: All buttons in ModestaCSS

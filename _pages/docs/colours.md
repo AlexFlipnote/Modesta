@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/colours
+permalink: /colours
 
 title: Colours
 description: The different colours in ModestaCSS
@@ -56,7 +56,7 @@ description: The different colours in ModestaCSS
   </div>
 
   <div class="one-half column">
-    <h2 class="center-text">Social colours:</h2>
+    <h2 class="center-text">Company/Social colours:</h2>
     <div class="table-container table-center">
       <table class="box-shadow white black-text">
         <thead>
@@ -69,6 +69,8 @@ description: The different colours in ModestaCSS
           <tr><td>github</td><td class="github"></td><td>#292d32</td></tr>
           <tr><td>googleplus</td><td class="googleplus"></td><td>#d75545</td></tr>
           <tr><td>linkedin</td><td class="linkedin"></td><td>#3275b3</td></tr>
+          <tr><td>patreon</td><td class="patreon"></td><td>#f96854</td></tr>
+          <tr><td>paypal</td><td class="paypal"></td><td>#1e9cd7</td></tr>
           <tr><td>pinterest</td><td class="pinterest"></td><td>#c5302f</td></tr>
           <tr><td>reddit</td><td class="reddit"></td><td>#f95119</td></tr>
           <tr><td>skype</td><td class="skype"></td><td>#41a6ed</td></tr>
