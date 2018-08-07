@@ -25,12 +25,12 @@ Navigation bar is made to be responsive, but do not add too many links.
   </div>
   <script>
     var navside = document.getElementById('navside');
-    document.getElementById("menu-icon").onclick = function() { navside.style.width = "250px"; }
+    document.getElementById("menu-icon").onclick = function() { navside.style.transform = "translateX(0)"; }
     document.addEventListener("click", function(event) {
       if (event.target.closest(".nav-container")) return;
-      navside.style.width = "0";
+      navside.style.transform = "translateX(-250px)";
     });
-  </script>
+    </script>
 </div>
 ```
 
