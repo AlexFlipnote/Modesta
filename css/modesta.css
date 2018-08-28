@@ -2653,6 +2653,7 @@ button {
   margin: 0 auto;
   margin-bottom: 2.5em;
   margin-top: 1.5em;
+  max-width: 1100px;
   padding: 0 2em;
   position: relative;
   width: 100%; }
@@ -2790,13 +2791,48 @@ button {
       text-decoration: none; }
 
 .nav-container {
+  align-items: center;
   background: #282828;
   border-bottom: 4px solid #303030;
+  display: flex;
+  flex-direction: column;
   height: 4em;
+  justify-content: center;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 100; }
+  .nav-container.no-side {
+    display: block;
+    height: auto; }
+    .nav-container.no-side .nav-title {
+      float: left; }
+    .nav-container.no-side .sidenav {
+      transform: none;
+      -webkit-transform: none;
+      -ms-transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      background-color: transparent;
+      display: block;
+      float: right;
+      height: auto;
+      position: relative;
+      width: auto; }
+      .nav-container.no-side .sidenav a {
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        color: #818181;
+        display: block;
+        font-size: 25px;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none; }
+        .nav-container.no-side .sidenav a:hover {
+          color: #f1f1f1;
+          transform: none; }
   .nav-container.no-nav {
     background: transparent;
     border-bottom: 0;
@@ -2806,10 +2842,13 @@ button {
     cursor: pointer;
     display: inline-block;
     height: 40px;
+    left: 0;
     margin: 11px;
     position: absolute;
+    top: 0;
     width: 40px; }
   .nav-container .nav-title {
+    margin: 0;
     text-align: center; }
   .nav-container .nav-content {
     align-items: center;
@@ -3333,8 +3372,5 @@ button {
     max-width: 100%;
     padding: 0;
     width: 100%; } }
-@media (min-width: 800px) {
-  .container {
-    max-width: 1100px; } }
 
 /*# sourceMappingURL=modesta.css.map */

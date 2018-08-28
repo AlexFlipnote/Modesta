@@ -4,13 +4,50 @@
 $heigth-control: 4em;
 
 .nav-container {
+  align-items: center;
   background: $primary;
   border-bottom: 4px solid $secondary;
+  display: flex;
+  flex-direction: column;
   height: $heigth-control;
+  justify-content: center;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 100;
+
+  &.no-side {
+    display: block;
+    height: auto;
+
+    .nav-title {
+      float: left;
+    }
+
+    .sidenav {
+      @include transform(none);
+      background-color: transparent;
+      display: block;
+      float: right;
+      height: auto;
+      position: relative;
+      width: auto;
+
+      a {
+        @include transition(.3s);
+        color: #818181;
+        display: block;
+        font-size: 25px;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+
+        &:hover {
+          color: #f1f1f1;
+          transform: none;
+        }
+      }
+    }
+  }
 
   &.no-nav {
     background: transparent;
@@ -23,12 +60,15 @@ $heigth-control: 4em;
     cursor: pointer;
     display: inline-block;
     height: 40px;
+    left: 0;
     margin: 11px;
     position: absolute;
+    top: 0;
     width: 40px;
   }
 
   .nav-title {
+    margin: 0;
     text-align: center;
   }
 

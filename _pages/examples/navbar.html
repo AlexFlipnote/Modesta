@@ -6,7 +6,7 @@ title: Navbar
 ---
 <div class="nav-container">
   <span id="menu-icon"></span>
-  <h1 class="nav-title">Cool website</h1>
+  <h3 class="nav-title">Navbar 1</h3>
   <div id="navside" class="sidenav">
     <a href="#" class="current">Home</a>
     <a href="#">About</a>
@@ -16,10 +16,21 @@ title: Navbar
   </div>
   <script>
     var navside = document.getElementById('navside');
-    document.getElementById("menu-icon").onclick = function() { navside.style.width = "250px"; }
+    document.getElementById("menu-icon").onclick = function() { navside.style.transform = "translateX(0)"; }
     document.addEventListener("click", function(event) {
       if (event.target.closest(".nav-container")) return;
-      navside.style.width = "0";
+      navside.style.transform = "translateX(-250px)";
     });
   </script>
+</div>
+
+<div class="nav-container no-side">
+  <h3 class="nav-title">Navbar 2</h3>
+  <div class="sidenav">
+    <a href="#" class="current">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
 </div>
