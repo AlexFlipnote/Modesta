@@ -4,9 +4,11 @@ permalink: /examples/navbar
 
 title: Navbar
 ---
-<div class="nav-container">
+<script src="../js/navbar.js"></script>
+
+<div id="navbar" class="nav-container">
   <span id="menu-icon"></span>
-  <h3 class="nav-title">Navbar 1</h3>
+  <h3 class="nav-title">Navbar Example</h3>
   <div id="navside" class="sidenav">
     <a href="#" class="current">Home</a>
     <a href="#">About</a>
@@ -14,23 +16,10 @@ title: Navbar
     <a href="#">Clients</a>
     <a href="#">Contact</a>
   </div>
-  <script>
-    var navside = document.getElementById('navside');
-    document.getElementById("menu-icon").onclick = function() { navside.style.transform = "translateX(0)"; }
-    document.addEventListener("click", function(event) {
-      if (event.target.closest(".nav-container")) return;
-      navside.style.transform = "translateX(-250px)";
-    });
-  </script>
 </div>
 
-<div class="nav-container no-side">
-  <h3 class="nav-title">Navbar 2</h3>
-  <div class="sidenav">
-    <a href="#" class="current">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+<div class="container">
+  <div class="box-container sun-flower no-border-radius">
+    <h4 class="black-text center-text">This example uses JavaScript for responsive output</h4>
   </div>
 </div>

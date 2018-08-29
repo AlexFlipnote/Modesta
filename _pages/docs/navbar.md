@@ -30,7 +30,26 @@ Navigation bar is made to be responsive, but do not add too many links.
       if (event.target.closest(".nav-container")) return;
       navside.style.transform = "translateX(-250px)";
     });
-    </script>
+  </script>
+</div>
+```
+
+If you do not wish to have only menu icon, you can simple add this to nav-container.
+```html
+<div class="nav-container no-side">
+  <!-- [...] -->
+</div>
+```
+and you can also drop the `<script>` part as well
+
+## Responsive
+```html
+<!-- Include this in your website -->
+<script src="https://modesta.alexflipnote.xyz/js/navbar.js"></script>
+
+<!-- Then add ID to nav-container -->
+<div id="navbar" class="nav-container">
+  <!-- [...] -->
 </div>
 ```
 

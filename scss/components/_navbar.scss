@@ -17,28 +17,31 @@ $heigth-control: 4em;
   z-index: 100;
 
   &.no-side {
-    display: block;
     height: auto;
+
+    #menu-icon { display: none; }
 
     .nav-title {
       float: left;
+      justify-content: flex-start;
     }
 
     .sidenav {
       @include transform(none);
       background-color: transparent;
-      display: block;
-      float: right;
       height: auto;
       position: relative;
       width: auto;
 
+      .current { color: #2ecc71; }
+
       a {
         @include transition(.3s);
         color: #818181;
-        display: block;
-        font-size: 25px;
-        padding: 8px 8px 8px 32px;
+        display: inline-block;
+        font-size: 20px;
+        margin: 0 .3em;
+        padding: .4em 0;
         text-decoration: none;
 
         &:hover {
