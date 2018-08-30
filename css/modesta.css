@@ -2802,14 +2802,22 @@ button {
   top: 0;
   width: 100%;
   z-index: 100; }
-  .nav-container.no-side {
-    height: auto; }
-    .nav-container.no-side #menu-icon {
+  .nav-container.default {
+    background: transparent;
+    border-bottom: 0;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 1100px; }
+    .nav-container.default #menu-icon {
       display: none; }
-    .nav-container.no-side .nav-title {
+    .nav-container.default .nav-title {
       float: left;
-      justify-content: flex-start; }
-    .nav-container.no-side .sidenav {
+      font-size: 20px;
+      margin-left: .4em;
+      padding: .5em 0;
+      text-align: left; }
+    .nav-container.default .sidenav {
       transform: none;
       -webkit-transform: none;
       -ms-transform: none;
@@ -2817,11 +2825,13 @@ button {
       -o-transform: none;
       background-color: transparent;
       height: auto;
+      margin-right: .4em;
       position: relative;
+      text-align: right;
       width: auto; }
-      .nav-container.no-side .sidenav .current {
+      .nav-container.default .sidenav .current {
         color: #2ecc71; }
-      .nav-container.no-side .sidenav a {
+      .nav-container.default .sidenav a {
         transition: 0.3s;
         -webkit-transition: 0.3s;
         -ms-transition: 0.3s;
@@ -2833,13 +2843,9 @@ button {
         margin: 0 .3em;
         padding: .4em 0;
         text-decoration: none; }
-        .nav-container.no-side .sidenav a:hover {
+        .nav-container.default .sidenav a:hover {
           color: #f1f1f1;
           transform: none; }
-  .nav-container.no-nav {
-    background: transparent;
-    border-bottom: 0;
-    position: absolute; }
   .nav-container #menu-icon {
     background: #4c8fec url("images/menu-icon.png") center;
     cursor: pointer;
@@ -3343,10 +3349,18 @@ button {
         content: attr(data-label);
         float: left;
         font-weight: bold;
-        text-transform: uppercase; }
-
-  .nav-container .sidenav {
-    text-align: center; } }
+        text-transform: uppercase; } }
+@media screen and (max-width: 650px) {
+  .nav-container.default {
+    display: flex; }
+    .nav-container.default .nav-title {
+      margin-left: 0;
+      padding: 0;
+      text-align: center; }
+    .nav-container.default .sidenav {
+      margin-right: 0;
+      padding: 0;
+      text-align: center; } }
 @media (max-width: 550px) {
   .workcard-container .card, .workcard-container .card img, .workcard-container .card .overlay, .workcard-container .card .overlay .text {
     height: auto;

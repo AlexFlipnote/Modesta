@@ -82,9 +82,23 @@
     }
 
   }
+}
 
-  .nav-container {
-    .sidenav { text-align: center; }
+@media screen and (max-width: 650px) {
+  .nav-container.default {
+    display: flex;
+
+    .nav-title {
+      margin-left: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .sidenav {
+      margin-right: 0;
+      padding: 0;
+      text-align: center;
+    }
   }
 }
 
