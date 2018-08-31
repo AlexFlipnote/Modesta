@@ -55,8 +55,8 @@ $heigth-control: 4em;
         text-decoration: none;
 
         &:hover {
+          @include transform(none);
           color: #f1f1f1;
-          transform: none;
         }
       }
     }
@@ -90,29 +90,29 @@ $heigth-control: 4em;
 
   .sidenav {
     @include transform(translateX(-250px));
+    @include transition(.5s);
     background-color: $highlight;
     height: 100%;
     left: 0;
     overflow-x: hidden;
     position: fixed;
     top: 0;
-    transition: .5s;
     width: 250px;
     z-index: 1;
 
     .current { color: #2ecc71; }
 
     a {
+      @include transition(.3s);
       color: #818181;
       display: block;
       font-size: 25px;
       padding: 8px 8px 8px 32px;
       text-decoration: none;
-      transition: .3s;
 
       &:hover {
+        @include transform(translateX(.5em));
         color: #f1f1f1;
-        transform: translateX(.5em);
       }
     }
 

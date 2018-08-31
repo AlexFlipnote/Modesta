@@ -12,13 +12,13 @@ $heigth-control: 3em;
 }
 
 .loader {
+  @include transform(translateZ(0));
   animation-delay: -.16s;
   color: #fff;
   font-size: 11px;
   margin: $heigth-control auto;
   position: relative;
   text-indent: -9999em;
-  transform: translateZ(0);
 
   &::before {
     animation-delay: -.32s;
@@ -150,17 +150,17 @@ $workcard-width: 330px;
 
     a.overlay { cursor: pointer; }
     .overlay {
+      @include transition(opacity .25s ease-in-out);
       background: rgba(0, 0, 0, .8);
       height: $workcard-height;
+      left: 0;
       opacity: 0;
       position: absolute;
       top: 0;
-      transition: opacity .25s ease-in-out;
       width: $workcard-width;
 
       &:hover {
         opacity: 1;
-        transition: opacity .25s ease-in-out;
       }
 
       .text {
