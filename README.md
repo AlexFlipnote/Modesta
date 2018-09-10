@@ -12,6 +12,13 @@ A clean CSS framework made to be dark and responsive.
 If you wish to use local files, please copy the CSS folder into your website.
 Everything from images and all CSS packages is included inside it.
 
+## Best practise
+Include these inside `<head>` to ensure that the responsiveness works well and all UTF-8 characters work, in case you use any symbols like copyright, other language letters, etc.
+```html
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+```
+
 ## Using minify.py
 To use this file, download the pip **csscompressor**
 ```

@@ -71,6 +71,7 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 
 // Changeing value of elements
 .bold { font-weight: bold !important; }
+.italic { font-style: italic !important; }
 .center-text { text-align: center !important; }
 .left-text { text-align: left !important; }
 .right-text { text-align: right !important; }
@@ -78,9 +79,12 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 .half-width { width: 50% !important; }
 .no-border { border: 0 !important; }
 .no-border-radius { border-radius: 0 !important; }
+.no-box-shadow { box-shadow: none !important; }
 .no-margin { margin: 0 !important; }
 .no-padding { padding: 0 !important; }
 .no-select { @include prefix(user-select, none); }
+.no-text-shadow { text-shadow: none !important; }
+.relative { position: relative !important; }
 .transparent-bg { background: transparent !important; }
 .center {
   display: block !important;

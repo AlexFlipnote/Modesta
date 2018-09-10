@@ -26,56 +26,9 @@
     }
   }
 
-  .center-object {
-    @include transform(translate(-50%, -50%));
-    left: 50%;
-    position: absolute;
-    top: 50%;
+  .me {
+    justify-content: center;
     width: 100%;
-
-    .me {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      height: auto;
-      justify-content: center;
-      padding: 1rem 0;
-      width: 100%;
-      z-index: 10;
-
-      &.unset {
-        flex-direction: unset;
-
-        .image-title { margin-right: .25em; }
-        .image-title, .title {
-          flex-direction: column;
-        }
-      }
-
-      .image-title {
-        border-radius: 100%;
-        width: 9em;
-
-        &.large-border { border-radius: 25px; }
-        &.medium-border { border-radius: 15px; }
-        &.small-border { border-radius: 5px; }
-        &.no-border { border-radius: 0; }
-      }
-
-      .title {
-        filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, .4));
-        font-size: 5rem;
-        letter-spacing: 1px;
-        margin: .25em;
-      }
-
-      .undertitle {
-        filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .4));
-        font-size: 2.5rem;
-        letter-spacing: 1px;
-        margin: 0;
-      }
-    }
   }
 
   &.half {
@@ -92,4 +45,47 @@
     }
   }
 
+}
+
+.me {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 1rem 0;
+  z-index: 10;
+
+  &.unset {
+    flex-direction: unset;
+
+    .image-title { margin-right: .25em; }
+    .image-title, .title {
+      flex-direction: column;
+    }
+  }
+
+  .image-title {
+    border-radius: 100%;
+    height: 9em;
+    width: 9em;
+
+    &.large-border { border-radius: 25px; }
+    &.medium-border { border-radius: 15px; }
+    &.small-border { border-radius: 5px; }
+    &.no-border { border-radius: 0; }
+  }
+
+  .title {
+    filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, .4));
+    font-size: 5rem;
+    letter-spacing: 1px;
+    margin: .25em;
+  }
+
+  .undertitle {
+    filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .4));
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin: 0;
+  }
 }

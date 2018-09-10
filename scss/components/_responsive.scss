@@ -8,16 +8,16 @@
   .fullscreen .center-object, .center-object {
     top: 45%;
     width: 90%;
+  }
 
-    .me {
-      padding: 0;
+  .me {
+    padding: 0;
 
-      .title { font-size: 10vmin; margin: 0; }
-      .image-title { width: 7em; }
+    .title { font-size: 10vmin; margin: 0; }
+    .image-title { height: 7em; width: 7em; }
 
-      &.unset {
-        flex-direction: column;
-      }
+    &.unset {
+      flex-direction: column;
     }
   }
 
