@@ -3313,6 +3313,30 @@ button {
 .form-container form {
   margin-bottom: 0; }
 
+.parallax-container {
+  position: relative; }
+  .parallax-container .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    height: 20em;
+    width: 100%; }
+    .parallax-container .parallax.small {
+      height: 15em; }
+    .parallax-container .parallax.medium {
+      height: 26em; }
+    .parallax-container .parallax.large {
+      height: 33em; }
+  .parallax-container .content {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; }
+
 @media (max-width: 750px) {
   .markdown-container {
     padding: 2em 3em; }
