@@ -12,6 +12,12 @@ description: The different colours in ModestaCSS
 <span class="COLOUR-flat">Make the object's background into colour (Without the dropshadow if the object has it)</span>
 <span class="COLOUR-text">Make the object's text into colour</span>
 ```
+<br>
+Use this HTML to import the colours only, if that's your thing
+```html
+<!-- Colour pack | ~8 KB -->
+<link href="https://modesta.alexflipnote.xyz/css/colours.min.css" type="text/css" rel="stylesheet">
+```
 
 # All colours
 <div class="row">

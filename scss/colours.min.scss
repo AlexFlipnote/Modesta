@@ -1,0 +1,8 @@
+@import 'assets/builders';
+@import 'assets/colours';
+
+@each $name, $code in $colours {
+  .#{$name} { background-color: $code !important; }
+  .#{$name}-text { color: $code !important; }
+  .#{$name}-dropshadow { @include dropshadow($code); }
+}

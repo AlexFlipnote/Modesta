@@ -1,4 +1,11 @@
-// Always first
+// Get those assets to every single package
+@import 'assets/blobcat-map';
+@import 'assets/builders';
+@import 'assets/colours';
+@import 'assets/crossbrowser';
+@import 'assets/emoji-map';
+
+// Most important components
 @import 'components/global';
 @import 'components/keyframes';
 @import 'components/markdown';
@@ -14,5 +21,5 @@
 @import 'components/objects';
 @import 'components/parallax';
 
-// Responsive
+// Responsiveness
 @import 'components/responsive';

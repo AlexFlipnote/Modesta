@@ -14,10 +14,10 @@ Currently, ModestaCSS supports:
 
 Use this HTML to import the different emoji packs
 ```html
-<!-- Twemoji version | ~190 KB -->
+<!-- Twemoji version | 195 KB -->
 <link href="https://modesta.alexflipnote.xyz/css/twemoji.min.css" type="text/css" rel="stylesheet">
 
-<!-- Blobcat version | ~20 KB -->
+<!-- Blobcat version | 23.5 KB -->
 <link href="https://modesta.alexflipnote.xyz/css/blobcat.min.css" type="text/css" rel="stylesheet">
 ```
 

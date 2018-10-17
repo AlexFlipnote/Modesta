@@ -63,7 +63,7 @@ def exec_commands(cmds):
 
 
 commands = [
-    ['sass', '--watch', 'scss:css'],
+    ['sass', '--watch', 'scss:css', '--style', 'compressed'],
     ['bundle', 'exec', 'jekyll', 'serve']
 ]
 

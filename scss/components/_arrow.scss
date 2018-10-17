@@ -1,5 +1,3 @@
-@import '../assets/crossbrowser';
-
 .arrow {
   @include transition('all 300ms ease');
   @include animation('fading 300ms ease-in-out');
