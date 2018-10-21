@@ -84,6 +84,7 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>soundcloud</td><td class="soundcloud"></td><td>#f95f1b</td></tr>
           <tr><td>telegram</td><td class="telegram"></td><td>#4da8df</td></tr>
           <tr><td>tumblr</td><td class="tumblr"></td><td>#394e6b</td></tr>
+          <tr><td>twitch</td><td class ="twitch"></td><td>#6441A4</td></tr>
           <tr><td>twitter</td><td class="twitter"></td><td>#4999f0</td></tr>
           <tr><td>viber</td><td class="viber"></td><td>#7f4d9b</td></tr>
           <tr><td>youtube</td><td class="youtube"></td><td>#f00</td></tr>
