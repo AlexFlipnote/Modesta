@@ -184,7 +184,8 @@ $workcard-width: 330px;
   text-align: left;
 
   table {
-    border: 1px solid rgba(0, 0, 0, .12);
+    background: $primary;
+    border: 1px solid $secondary;
     border-collapse: collapse;
     font-size: 13px;
     margin: 0;
@@ -196,11 +197,12 @@ $workcard-width: 330px;
     width: auto;
 
     tr {
-      border: 1px solid #ddd;
+      border: 1px solid $secondary;
       padding: 5px;
     }
 
     th, td {
+      border: 1px solid $secondary;
       padding: 12px 20px;
       padding-bottom: 8px;
     }
