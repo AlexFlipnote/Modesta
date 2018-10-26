@@ -52,6 +52,41 @@ $heigth-control: 3em;
 }
 
 
+// Progress bar
+.progress-container {
+  background-color: #f5f5f5;
+  border-radius: 0;
+  box-shadow: none;
+  height: 6px;
+  position: relative;
+  z-index: 1;
+
+  .progress-bar {
+    background-color: #2196f3;
+    box-shadow: none;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    line-height: 23px;
+    text-align: center;
+    width: 0%;
+
+    &::before {
+      background-color: #cae6fc;
+      content: '';
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+}
+
+
 // Card container
 .card-container {
   align-items: center;

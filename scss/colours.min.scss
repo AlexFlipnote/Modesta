@@ -2,7 +2,7 @@
 @import 'assets/colours';
 
 @each $name, $code in $colours {
-  .#{$name} { background-color: $code !important; }
-  .#{$name}-text { color: $code !important; }
+  .#{$name} { background-color: $code; }
+  .#{$name}-text { color: $code; }
   .#{$name}-dropshadow { @include dropshadow($code); }
 }

@@ -94,4 +94,13 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
   .#{$name} { background-color: $code !important; }
   .#{$name}-text { color: $code !important; }
   .#{$name}-dropshadow { @include dropshadow($code); }
+
+  .#{$name}-bar {
+    background-color: $code !important;
+
+    &::before {
+      background-color: $code !important;
+      filter: brightness(50%);
+    }
+  }
 }
