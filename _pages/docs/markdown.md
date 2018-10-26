@@ -12,3 +12,5 @@ NOTE: This works best when you use [Jekyll's](https://jekyllrb.com/) markdown ma
   <!-- Content inside here -->
 </div>
 ```
+
+You can see a live example of all elements [here](examples/markdown)

@@ -64,7 +64,7 @@ $heigth-control: 3em;
     background-color: $secondary;
     border-radius: 6px;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .2),
-                0 0 0 1px rgba(32, 34, 37, .6);
+    0 0 0 1px rgba(32, 34, 37, .6);
     display: block;
     font-family: arial;
     margin: 0 .05em;
@@ -179,26 +179,36 @@ $workcard-width: 330px;
 
 // Table container
 .table-container {
-  display: inline-block;
-  margin-bottom: .75em;
-  text-align: left;
-
   table {
     background: $primary;
     border: 1px solid $secondary;
     border-collapse: collapse;
+    color: #fff;
+    display: inline-block;
     font-size: 13px;
     margin: 0;
     margin-bottom: 2.5rem;
     max-width: 800px;
     padding: 0;
     position: relative;
+    text-align: left;
     white-space: nowrap;
     width: auto;
 
+    &.table-center {
+      display: block;
+      text-align: center;
+      table { margin: 0 auto; }
+    }
+
     tr {
+      background-color: $primary;
       border: 1px solid $secondary;
-      padding: 5px;
+      border-top: 1px solid #353535;
+
+      &:nth-child(2n) {
+        background-color: $secondary;
+      }
     }
 
     th, td {
@@ -208,9 +218,10 @@ $workcard-width: 330px;
     }
 
     th {
+      border: 1px solid #353535;
       box-sizing: border-box;
       font-size: 12px;
-      font-weight: 700;
+      font-weight: 600;
       height: 48px;
       letter-spacing: 0;
       line-height: 24px;
@@ -222,13 +233,8 @@ $workcard-width: 330px;
       vertical-align: bottom;
     }
   }
-
-  &.table-center {
-    display: block;
-    text-align: center;
-    table { margin: 0 auto; }
-  }
 }
+
 
 // Forms container
 .form-container {

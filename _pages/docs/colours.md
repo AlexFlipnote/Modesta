@@ -24,8 +24,8 @@ Use this HTML to import the colours only, if that's your thing
 
   <div class="one-half column">
     <h2 class="center-text">Normal colours:</h2>
-    <div class="table-container table-center">
-      <table class="box-shadow white black-text">
+    <div class="table-container">
+      <table class="box-shadow white-text">
         <thead>
           <tr><th>Name</th><th>Colour</th><th>HEX code</th></tr>
         </thead>
@@ -63,8 +63,8 @@ Use this HTML to import the colours only, if that's your thing
 
   <div class="one-half column">
     <h2 class="center-text">Company/Social colours:</h2>
-    <div class="table-container table-center">
-      <table class="box-shadow white black-text">
+    <div class="table-container">
+      <table class="box-shadow white-text">
         <thead>
           <tr><th>Name</th><th>Colour</th><th>HEX code</th></tr>
         </thead>
