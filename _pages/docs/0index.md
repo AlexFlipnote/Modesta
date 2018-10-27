@@ -37,15 +37,15 @@ Visit this link for docs: [https://modesta.alexflipnote.xyz/](https://modesta.al
 - [skeleton](http://getskeleton.com/)
 - [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)
 
+## ModestaCSS on other applications
+- [React-Modesta](https://modesta.bowser65.xyz/)
+
 ## Pages that uses ModestaCSS
 - [AlexFlipnote.xyz](https://alexflipnote.xyz/)
 - [AlexFlipnote/Homepage](https://alexflipnote.xyz/homepage)
 - [Coffee API](https://coffee.alexflipnote.xyz/)
-- [Dev's Helper](https://devs-helper.ml/)
 - [Discord Fork](https://discordbots.co.uk/)
-- [jeffrey](http://jeffrey.cf/)
-- [Meowiee](https://catcomp.cf)
-- [React-Modesta](https://modesta.bowser65.tk/)
+- [React-Modesta](https://modesta.bowser65.xyz/)
 - [Stylite](https://stylite.me/)
 - [voided.pw](https://voided.pw/)
 
