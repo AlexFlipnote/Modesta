@@ -1,10 +1,11 @@
 ---
 layout: docs
-permalink: /progress-bar
+permalink: /tools
 
-title: Progress Bar
-description: Making progress viewable at least
+title: Tools
+description: Multiple tools to use with your websites
 ---
+# Progress bar
 Progress bar can be used to track the progress of whatever you're making.
 Keep in mind that you have to customize the width yourself with some JavaScript tricks or whatever pleases you.
 ```html
@@ -37,3 +38,21 @@ You can use any [colours](/colours). Just replace the `COLOUR-bar` in **COLOUR-b
 <div class="progress-container">
   <div class="progress-bar sun-flower-bar" style="width: 100%;"></div>
 </div>
+
+# Loading
+It will only import the loading animation, not the text above.
+
+`NOTE: It does not disappear by itself, you'll have to make it disappear yourself.`
+
+```html
+<div class="loader">Loading...</div>
+```
+
+<div class="loader">Loading...</div>
+
+# Laber
+You can customize the label to any colour you desire.
+```html
+<h4>Hello<span class="label COLOUR">BETA</span></h4>
+```
+<h4>Hello<span class="label sun-flower black-text">BETA</span></h4>
