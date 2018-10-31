@@ -50,9 +50,9 @@ It will only import the loading animation, not the text above.
 
 <div class="loader">Loading...</div>
 
-# Laber
+# Label
 You can customize the label to any colour you desire.
 ```html
-<h4>Hello<span class="label COLOUR">BETA</span></h4>
+<h3>Hello<span class="label COLOUR">BETA</span></h3>
 ```
-<h4>Hello<span class="label sun-flower black-text">BETA</span></h4>
+<h3>Hello<span class="label sun-flower black-text">BETA</span></h3>
