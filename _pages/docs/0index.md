@@ -23,10 +23,14 @@ Include these inside `<head>` to ensure that the responsiveness works well and a
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 ```
 
-## Using minify.py
-To use this file, download the pip **csscompressor**
+## Using \_compiler.py
+To use this file, you need the following installed:
+- Ruby
+  - sass
+  - jekyll
+  - bundler
 ```
-[sudo] pip install csscompressor
+[sudo] gem install sass jekyll bundler
 ```
 
 ## Documentation
