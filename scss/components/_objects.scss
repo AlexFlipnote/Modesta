@@ -34,6 +34,43 @@ $heigth-control: 3em;
 }
 
 
+// Paper container
+.paper-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  .paper {
+    background: linear-gradient(225deg, transparent 26px, map-get($colours, primary) 0);
+    border-radius: 2px;
+    margin: 1em .75em;
+    margin-bottom: 80px;
+    margin-top: -35vh;
+    max-width: 1012px;
+    padding: 80px 56px;
+    position: relative;
+
+    &::before {
+      border-color: map-get($colours, highlight) transparent;
+      border-style: solid;
+      border-width: 0 36.5px 36.5px 0;
+      content: '';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 0;
+    }
+  }
+
+  .ribbon {
+    background: map-get($colours, peter-river);
+    height: 40vh;
+    width: 100%;
+  }
+}
+
+
 // Box container
 .box-container {
   border-radius: 10px;

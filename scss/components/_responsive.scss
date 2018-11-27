@@ -3,6 +3,8 @@
     padding: 2em 3em;
   }
 
+  .docs-container .paper { padding: 40px 28px; }
+
   .fullscreen .center-object, .center-object {
     top: 45%;
     width: 90%;
@@ -102,6 +104,11 @@
 
 // For devices smaller than 550px
 @media (max-width: 550px) {
+  .docs-container .paper {
+    background: map-get($colours, primary);
+    &::before { display: none; }
+  }
+
   .workcard-container {
     .card, .card img, .card .overlay, .card .overlay .text {
       height: auto;

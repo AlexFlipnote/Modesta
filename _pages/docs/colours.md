@@ -10,6 +10,7 @@ description: The different colours in ModestaCSS
 <span class="COLOUR">Make the object's background into colour</span>
 <span class="COLOUR-dropshadow">Add a dropshadow of colour choice</span>
 <span class="COLOUR-flat">Make the object's background into colour (Without the dropshadow if the object has it)</span>
+<span class="COLOUR-paper">Used to change colour of paper-container</span>
 <span class="COLOUR-text">Make the object's text into colour</span>
 ```
 <br>
