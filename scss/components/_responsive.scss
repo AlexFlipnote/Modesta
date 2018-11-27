@@ -3,7 +3,7 @@
     padding: 2em 3em;
   }
 
-  .docs-container .paper { padding: 40px 28px; }
+  .paper-container .paper { padding: 40px 28px; }
 
   .fullscreen .center-object, .center-object {
     top: 45%;
@@ -104,9 +104,13 @@
 
 // For devices smaller than 550px
 @media (max-width: 550px) {
-  .docs-container .paper {
-    background: map-get($colours, primary);
-    &::before { display: none; }
+  .paper-container {
+    display: block;
+
+    .paper {
+      background: map-get($colours, primary);
+      &::before { display: none; }
+    }
   }
 
   .workcard-container {

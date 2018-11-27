@@ -27,6 +27,13 @@
               0 1px 5px 0 rgba(0, 0, 0, .12) !important;
 }
 
+// Fonts
+.arial { font-family: Arial; }
+.monospace { font-family: monospace; }
+.montserrat { font-family: 'Montserrat', sans-serif; }
+.roboto { font-family: 'Roboto', sans-serif; }
+.times-new-roman { font-family: 'Times New Roman', Times, serif; }
+
 // All colours
 @each $name, $code in $colours {
   .#{$name} { background-color: $code !important; }
