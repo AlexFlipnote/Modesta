@@ -51,13 +51,14 @@
           color: #0fa0ce;
           svg { fill: #0fa0ce; }
         }
-      }
 
-      svg {
-        fill: #fff;
-        vertical-align: text-bottom;
-        &.star { height: 16px; width: 14px; }
-        &.fork { height: 16px; width: 10px; }
+        svg {
+          fill: #fff;
+          vertical-align: text-bottom;
+          &.star { height: 16px; width: 14px; }
+          &.fork { height: 16px; width: 10px; }
+          &.license { height: 16px; width: 14px; }
+        }
       }
 
     }
