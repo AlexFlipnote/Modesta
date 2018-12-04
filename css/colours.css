@@ -1,0 +1,612 @@
+.alizarin {
+  background-color: #e74c3c;
+}
+
+.alizarin-text {
+  color: #e74c3c;
+}
+
+.alizarin-dropshadow {
+  background-color: #e74c3c;
+  filter: drop-shadow(5px 5px 0 rgba(231, 76, 60, 0.6));
+}
+
+.amethyst {
+  background-color: #9b59b6;
+}
+
+.amethyst-text {
+  color: #9b59b6;
+}
+
+.amethyst-dropshadow {
+  background-color: #9b59b6;
+  filter: drop-shadow(5px 5px 0 rgba(155, 89, 182, 0.6));
+}
+
+.asbestos {
+  background-color: #7f8c8d;
+}
+
+.asbestos-text {
+  color: #7f8c8d;
+}
+
+.asbestos-dropshadow {
+  background-color: #7f8c8d;
+  filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6));
+}
+
+.belize-hole {
+  background-color: #2980b9;
+}
+
+.belize-hole-text {
+  color: #2980b9;
+}
+
+.belize-hole-dropshadow {
+  background-color: #2980b9;
+  filter: drop-shadow(5px 5px 0 rgba(41, 128, 185, 0.6));
+}
+
+.black {
+  background-color: #000;
+}
+
+.black-text {
+  color: #000;
+}
+
+.black-dropshadow {
+  background-color: #000;
+  filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6));
+}
+
+.carrot {
+  background-color: #e67e22;
+}
+
+.carrot-text {
+  color: #e67e22;
+}
+
+.carrot-dropshadow {
+  background-color: #e67e22;
+  filter: drop-shadow(5px 5px 0 rgba(230, 126, 34, 0.6));
+}
+
+.clouds {
+  background-color: #ecf0f1;
+}
+
+.clouds-text {
+  color: #ecf0f1;
+}
+
+.clouds-dropshadow {
+  background-color: #ecf0f1;
+  filter: drop-shadow(5px 5px 0 rgba(236, 240, 241, 0.6));
+}
+
+.concrete {
+  background-color: #95a5a6;
+}
+
+.concrete-text {
+  color: #95a5a6;
+}
+
+.concrete-dropshadow {
+  background-color: #95a5a6;
+  filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6));
+}
+
+.dark {
+  background-color: #343a40;
+}
+
+.dark-text {
+  color: #343a40;
+}
+
+.dark-dropshadow {
+  background-color: #343a40;
+  filter: drop-shadow(5px 5px 0 rgba(52, 58, 64, 0.6));
+}
+
+.emerald {
+  background-color: #2ecc71;
+}
+
+.emerald-text {
+  color: #2ecc71;
+}
+
+.emerald-dropshadow {
+  background-color: #2ecc71;
+  filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6));
+}
+
+.green-sea {
+  background-color: #16a085;
+}
+
+.green-sea-text {
+  color: #16a085;
+}
+
+.green-sea-dropshadow {
+  background-color: #16a085;
+  filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6));
+}
+
+.highlight {
+  background-color: #181818;
+}
+
+.highlight-text {
+  color: #181818;
+}
+
+.highlight-dropshadow {
+  background-color: #181818;
+  filter: drop-shadow(5px 5px 0 rgba(24, 24, 24, 0.6));
+}
+
+.light {
+  background-color: #f8f9fa;
+}
+
+.light-text {
+  color: #f8f9fa;
+}
+
+.light-dropshadow {
+  background-color: #f8f9fa;
+  filter: drop-shadow(5px 5px 0 rgba(248, 249, 250, 0.6));
+}
+
+.midnight-blue {
+  background-color: #2c3e50;
+}
+
+.midnight-blue-text {
+  color: #2c3e50;
+}
+
+.midnight-blue-dropshadow {
+  background-color: #2c3e50;
+  filter: drop-shadow(5px 5px 0 rgba(44, 62, 80, 0.6));
+}
+
+.nephritis {
+  background-color: #27ae60;
+}
+
+.nephritis-text {
+  color: #27ae60;
+}
+
+.nephritis-dropshadow {
+  background-color: #27ae60;
+  filter: drop-shadow(5px 5px 0 rgba(39, 174, 96, 0.6));
+}
+
+.orange {
+  background-color: #f39c12;
+}
+
+.orange-text {
+  color: #f39c12;
+}
+
+.orange-dropshadow {
+  background-color: #f39c12;
+  filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6));
+}
+
+.peter-river {
+  background-color: #3498db;
+}
+
+.peter-river-text {
+  color: #3498db;
+}
+
+.peter-river-dropshadow {
+  background-color: #3498db;
+  filter: drop-shadow(5px 5px 0 rgba(52, 152, 219, 0.6));
+}
+
+.pomegranate {
+  background-color: #c0392b;
+}
+
+.pomegranate-text {
+  color: #c0392b;
+}
+
+.pomegranate-dropshadow {
+  background-color: #c0392b;
+  filter: drop-shadow(5px 5px 0 rgba(192, 57, 43, 0.6));
+}
+
+.primary {
+  background-color: #282828;
+}
+
+.primary-text {
+  color: #282828;
+}
+
+.primary-dropshadow {
+  background-color: #282828;
+  filter: drop-shadow(5px 5px 0 rgba(40, 40, 40, 0.6));
+}
+
+.pumpkin {
+  background-color: #d35400;
+}
+
+.pumpkin-text {
+  color: #d35400;
+}
+
+.pumpkin-dropshadow {
+  background-color: #d35400;
+  filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6));
+}
+
+.secondary {
+  background-color: #303030;
+}
+
+.secondary-text {
+  color: #303030;
+}
+
+.secondary-dropshadow {
+  background-color: #303030;
+  filter: drop-shadow(5px 5px 0 rgba(48, 48, 48, 0.6));
+}
+
+.silver {
+  background-color: #7f8c8d;
+}
+
+.silver-text {
+  color: #7f8c8d;
+}
+
+.silver-dropshadow {
+  background-color: #7f8c8d;
+  filter: drop-shadow(5px 5px 0 rgba(127, 140, 141, 0.6));
+}
+
+.sun-flower {
+  background-color: #f1c40f;
+}
+
+.sun-flower-text {
+  color: #f1c40f;
+}
+
+.sun-flower-dropshadow {
+  background-color: #f1c40f;
+  filter: drop-shadow(5px 5px 0 rgba(241, 196, 15, 0.6));
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.transparent-text {
+  color: transparent;
+}
+
+.transparent-dropshadow {
+  background-color: transparent;
+  filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6));
+}
+
+.turquoise {
+  background-color: #1abc9c;
+}
+
+.turquoise-text {
+  color: #1abc9c;
+}
+
+.turquoise-dropshadow {
+  background-color: #1abc9c;
+  filter: drop-shadow(5px 5px 0 rgba(26, 188, 156, 0.6));
+}
+
+.wet-asphalt {
+  background-color: #34495e;
+}
+
+.wet-asphalt-text {
+  color: #34495e;
+}
+
+.wet-asphalt-dropshadow {
+  background-color: #34495e;
+  filter: drop-shadow(5px 5px 0 rgba(52, 73, 94, 0.6));
+}
+
+.white {
+  background-color: #fff;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.white-dropshadow {
+  background-color: #fff;
+  filter: drop-shadow(5px 5px 0 rgba(255, 255, 255, 0.6));
+}
+
+.wisteria {
+  background-color: #8e44ad;
+}
+
+.wisteria-text {
+  color: #8e44ad;
+}
+
+.wisteria-dropshadow {
+  background-color: #8e44ad;
+  filter: drop-shadow(5px 5px 0 rgba(142, 68, 173, 0.6));
+}
+
+.devianart {
+  background-color: #f95119;
+}
+
+.devianart-text {
+  color: #f95119;
+}
+
+.devianart-dropshadow {
+  background-color: #f95119;
+  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+}
+
+.discord {
+  background-color: #7289da;
+}
+
+.discord-text {
+  color: #7289da;
+}
+
+.discord-dropshadow {
+  background-color: #7289da;
+  filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6));
+}
+
+.facebook {
+  background-color: #475595;
+}
+
+.facebook-text {
+  color: #475595;
+}
+
+.facebook-dropshadow {
+  background-color: #475595;
+  filter: drop-shadow(5px 5px 0 rgba(71, 85, 149, 0.6));
+}
+
+.github {
+  background-color: #292d32;
+}
+
+.github-text {
+  color: #292d32;
+}
+
+.github-dropshadow {
+  background-color: #292d32;
+  filter: drop-shadow(5px 5px 0 rgba(41, 45, 50, 0.6));
+}
+
+.googleplus {
+  background-color: #d75545;
+}
+
+.googleplus-text {
+  color: #d75545;
+}
+
+.googleplus-dropshadow {
+  background-color: #d75545;
+  filter: drop-shadow(5px 5px 0 rgba(215, 85, 69, 0.6));
+}
+
+.linkedin {
+  background-color: #3275b3;
+}
+
+.linkedin-text {
+  color: #3275b3;
+}
+
+.linkedin-dropshadow {
+  background-color: #3275b3;
+  filter: drop-shadow(5px 5px 0 rgba(50, 117, 179, 0.6));
+}
+
+.patreon {
+  background-color: #f96854;
+}
+
+.patreon-text {
+  color: #f96854;
+}
+
+.patreon-dropshadow {
+  background-color: #f96854;
+  filter: drop-shadow(5px 5px 0 rgba(249, 104, 84, 0.6));
+}
+
+.paypal {
+  background-color: #1e9cd7;
+}
+
+.paypal-text {
+  color: #1e9cd7;
+}
+
+.paypal-dropshadow {
+  background-color: #1e9cd7;
+  filter: drop-shadow(5px 5px 0 rgba(30, 156, 215, 0.6));
+}
+
+.pinterest {
+  background-color: #c5302f;
+}
+
+.pinterest-text {
+  color: #c5302f;
+}
+
+.pinterest-dropshadow {
+  background-color: #c5302f;
+  filter: drop-shadow(5px 5px 0 rgba(197, 48, 47, 0.6));
+}
+
+.reddit {
+  background-color: #f95119;
+}
+
+.reddit-text {
+  color: #f95119;
+}
+
+.reddit-dropshadow {
+  background-color: #f95119;
+  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+}
+
+.skype {
+  background-color: #41a6ed;
+}
+
+.skype-text {
+  color: #41a6ed;
+}
+
+.skype-dropshadow {
+  background-color: #41a6ed;
+  filter: drop-shadow(5px 5px 0 rgba(65, 166, 237, 0.6));
+}
+
+.snapchat {
+  background-color: #f8ff2f;
+}
+
+.snapchat-text {
+  color: #f8ff2f;
+}
+
+.snapchat-dropshadow {
+  background-color: #f8ff2f;
+  filter: drop-shadow(5px 5px 0 rgba(248, 255, 47, 0.6));
+}
+
+.soundcloud {
+  background-color: #f95f1b;
+}
+
+.soundcloud-text {
+  color: #f95f1b;
+}
+
+.soundcloud-dropshadow {
+  background-color: #f95f1b;
+  filter: drop-shadow(5px 5px 0 rgba(249, 95, 27, 0.6));
+}
+
+.telegram {
+  background-color: #4da8df;
+}
+
+.telegram-text {
+  color: #4da8df;
+}
+
+.telegram-dropshadow {
+  background-color: #4da8df;
+  filter: drop-shadow(5px 5px 0 rgba(77, 168, 223, 0.6));
+}
+
+.tumblr {
+  background-color: #394e6b;
+}
+
+.tumblr-text {
+  color: #394e6b;
+}
+
+.tumblr-dropshadow {
+  background-color: #394e6b;
+  filter: drop-shadow(5px 5px 0 rgba(57, 78, 107, 0.6));
+}
+
+.twitch {
+  background-color: #6441a4;
+}
+
+.twitch-text {
+  color: #6441a4;
+}
+
+.twitch-dropshadow {
+  background-color: #6441a4;
+  filter: drop-shadow(5px 5px 0 rgba(100, 65, 164, 0.6));
+}
+
+.twitter {
+  background-color: #4999f0;
+}
+
+.twitter-text {
+  color: #4999f0;
+}
+
+.twitter-dropshadow {
+  background-color: #4999f0;
+  filter: drop-shadow(5px 5px 0 rgba(73, 153, 240, 0.6));
+}
+
+.viber {
+  background-color: #7f4d9b;
+}
+
+.viber-text {
+  color: #7f4d9b;
+}
+
+.viber-dropshadow {
+  background-color: #7f4d9b;
+  filter: drop-shadow(5px 5px 0 rgba(127, 77, 155, 0.6));
+}
+
+.youtube {
+  background-color: #f00;
+}
+
+.youtube-text {
+  color: #f00;
+}
+
+.youtube-dropshadow {
+  background-color: #f00;
+  filter: drop-shadow(5px 5px 0 rgba(255, 0, 0, 0.6));
+}
+
+/*# sourceMappingURL=colours.css.map */
