@@ -8,6 +8,7 @@
 
 .fullscreen {
   background-color: map-get($colours, highlight);
+  position: relative;
 
   .background {
     background-attachment: fixed;
@@ -32,11 +33,13 @@
   &.half {
     .background { height: 50%; }
     .center-object {
-      top: 25%;
-
       .btn { padding: 0 20px; }
       .me {
-        .image-title { width: 6em; }
+        .image-title {
+          height: 6em;
+          width: 6em;
+        }
+
         .title { font-size: 4rem; }
         .undertitle { font-size: 1.75rem; }
       }

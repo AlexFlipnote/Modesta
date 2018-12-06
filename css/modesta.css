@@ -3176,6 +3176,7 @@ button.youtube {
 
 .fullscreen {
   background-color: #181818;
+  position: relative;
 }
 .fullscreen .background {
   background-attachment: fixed;
@@ -3201,13 +3202,11 @@ button.youtube {
 .fullscreen.half .background {
   height: 50%;
 }
-.fullscreen.half .center-object {
-  top: 25%;
-}
 .fullscreen.half .center-object .btn {
   padding: 0 20px;
 }
 .fullscreen.half .center-object .me .image-title {
+  height: 6em;
   width: 6em;
 }
 .fullscreen.half .center-object .me .title {
@@ -4430,6 +4429,10 @@ button.youtube {
   .fullscreen .center-object, .center-object {
     top: 45%;
     width: 90%;
+  }
+
+  .fullscreen.half .background {
+    height: 100%;
   }
 
   .me {
