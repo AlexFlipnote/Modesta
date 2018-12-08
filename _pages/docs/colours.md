@@ -41,6 +41,7 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>concrete</td><td class="concrete"></td><td>#95a5a6</td></tr>
           <tr><td>dark</td><td class="dark"></td><td>#343a40</td></tr>
           <tr><td>emerald</td><td class="emerald"></td><td>#2ecc71</td></tr>
+          <tr><td>gold</td><td class="gold"></td><td>#ffd700</td></tr>
           <tr><td>green-sea</td><td class="green-sea"></td><td>#16a085</td></tr>
           <tr><td>highlight</td><td class="highlight"></td><td>#181818</td></tr>
           <tr><td>light</td><td class="light"></td><td>#f8f9fa</td></tr>
@@ -51,6 +52,7 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>pomegranate</td><td class="pomegranate"></td><td>#c0392b</td></tr>
           <tr><td>primary</td><td class="primary"></td><td>#282828</td></tr>
           <tr><td>pumpkin</td><td class="pumpkin"></td><td>#d35400</td></tr>
+          <tr><td>raw-purple</td><td class="raw-purple"></td><td>#7222c9</td></tr>
           <tr><td>secondary</td><td class="secondary"></td><td>#303030</td></tr>
           <tr><td>silver</td><td class="silver"></td><td>#7f8c8d</td></tr>
           <tr><td>sun-flower</td><td class="sun-flower"></td><td>#f1c40f</td></tr>

@@ -1312,6 +1312,10 @@ button.emerald {
   background-color: #2ecc71;
   box-shadow: 0 3px 0 0 rgba(46, 204, 113, 0.5);
 }
+button.gold {
+  background-color: #ffd700;
+  box-shadow: 0 3px 0 0 rgba(255, 215, 0, 0.5);
+}
 button.green-sea {
   background-color: #16a085;
   box-shadow: 0 3px 0 0 rgba(22, 160, 133, 0.5);
@@ -1351,6 +1355,10 @@ button.primary {
 button.pumpkin {
   background-color: #d35400;
   box-shadow: 0 3px 0 0 rgba(211, 84, 0, 0.5);
+}
+button.raw-purple {
+  background-color: #7222c9;
+  box-shadow: 0 3px 0 0 rgba(114, 34, 201, 0.5);
 }
 button.secondary {
   background-color: #303030;
@@ -1800,6 +1808,37 @@ button.youtube {
 .btn.emerald-flat-nodark, input[type="submit"].emerald-flat-nodark {
   background-color: #2ecc71;
 }
+.btn.gold, input[type="submit"].gold {
+  background-color: #ffd700;
+  filter: drop-shadow(5px 5px 0 rgba(255, 215, 0, 0.6));
+}
+.btn.gold:hover, input[type="submit"].gold:hover {
+  filter: drop-shadow(5px 5px 0 rgba(255, 215, 0, 0.6)) brightness(50%);
+}
+.btn.gold-border, input[type="submit"].gold-border {
+  border: 3px solid #ffd700;
+  height: auto;
+}
+.btn.gold-border:hover, input[type="submit"].gold-border:hover {
+  filter: brightness(50%);
+}
+.btn.gold-border-nodark, input[type="submit"].gold-border-nodark {
+  border: 3px solid #ffd700;
+  height: auto;
+}
+.btn.gold-nodark, input[type="submit"].gold-nodark {
+  background-color: #ffd700;
+  filter: drop-shadow(5px 5px 0 rgba(255, 215, 0, 0.6));
+}
+.btn.gold-flat, input[type="submit"].gold-flat {
+  background-color: #ffd700;
+}
+.btn.gold-flat:hover, input[type="submit"].gold-flat:hover {
+  filter: brightness(50%);
+}
+.btn.gold-flat-nodark, input[type="submit"].gold-flat-nodark {
+  background-color: #ffd700;
+}
 .btn.green-sea, input[type="submit"].green-sea {
   background-color: #16a085;
   filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6));
@@ -2109,6 +2148,37 @@ button.youtube {
 }
 .btn.pumpkin-flat-nodark, input[type="submit"].pumpkin-flat-nodark {
   background-color: #d35400;
+}
+.btn.raw-purple, input[type="submit"].raw-purple {
+  background-color: #7222c9;
+  filter: drop-shadow(5px 5px 0 rgba(114, 34, 201, 0.6));
+}
+.btn.raw-purple:hover, input[type="submit"].raw-purple:hover {
+  filter: drop-shadow(5px 5px 0 rgba(114, 34, 201, 0.6)) brightness(50%);
+}
+.btn.raw-purple-border, input[type="submit"].raw-purple-border {
+  border: 3px solid #7222c9;
+  height: auto;
+}
+.btn.raw-purple-border:hover, input[type="submit"].raw-purple-border:hover {
+  filter: brightness(50%);
+}
+.btn.raw-purple-border-nodark, input[type="submit"].raw-purple-border-nodark {
+  border: 3px solid #7222c9;
+  height: auto;
+}
+.btn.raw-purple-nodark, input[type="submit"].raw-purple-nodark {
+  background-color: #7222c9;
+  filter: drop-shadow(5px 5px 0 rgba(114, 34, 201, 0.6));
+}
+.btn.raw-purple-flat, input[type="submit"].raw-purple-flat {
+  background-color: #7222c9;
+}
+.btn.raw-purple-flat:hover, input[type="submit"].raw-purple-flat:hover {
+  filter: brightness(50%);
+}
+.btn.raw-purple-flat-nodark, input[type="submit"].raw-purple-flat-nodark {
+  background-color: #7222c9;
 }
 .btn.secondary, input[type="submit"].secondary {
   background-color: #303030;
@@ -3892,6 +3962,13 @@ button.youtube {
 .box-container.emerald-flat {
   background-color: #2ecc71;
 }
+.box-container.gold {
+  background-color: #ffd700;
+  filter: drop-shadow(5px 5px 0 rgba(255, 215, 0, 0.6));
+}
+.box-container.gold-flat {
+  background-color: #ffd700;
+}
 .box-container.green-sea {
   background-color: #16a085;
   filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6));
@@ -3961,6 +4038,13 @@ button.youtube {
 }
 .box-container.pumpkin-flat {
   background-color: #d35400;
+}
+.box-container.raw-purple {
+  background-color: #7222c9;
+  filter: drop-shadow(5px 5px 0 rgba(114, 34, 201, 0.6));
+}
+.box-container.raw-purple-flat {
+  background-color: #7222c9;
 }
 .box-container.secondary {
   background-color: #303030;
@@ -4958,6 +5042,35 @@ button.youtube {
   filter: brightness(50%);
 }
 
+.gold {
+  background-color: #ffd700 !important;
+}
+
+.gold-text {
+  color: #ffd700 !important;
+}
+
+.gold-dropshadow {
+  background-color: #ffd700;
+  filter: drop-shadow(5px 5px 0 rgba(255, 215, 0, 0.6));
+}
+
+.gold-paper {
+  background: linear-gradient(225deg, transparent 26px, #ffd700 0) !important;
+}
+.gold-paper::before {
+  border-color: #ffd700 transparent !important;
+  filter: brightness(75%) !important;
+}
+
+.gold-bar {
+  background-color: #ffd700 !important;
+}
+.gold-bar::before {
+  background-color: #ffd700 !important;
+  filter: brightness(50%);
+}
+
 .green-sea {
   background-color: #16a085 !important;
 }
@@ -5245,6 +5358,35 @@ button.youtube {
 }
 .pumpkin-bar::before {
   background-color: #d35400 !important;
+  filter: brightness(50%);
+}
+
+.raw-purple {
+  background-color: #7222c9 !important;
+}
+
+.raw-purple-text {
+  color: #7222c9 !important;
+}
+
+.raw-purple-dropshadow {
+  background-color: #7222c9;
+  filter: drop-shadow(5px 5px 0 rgba(114, 34, 201, 0.6));
+}
+
+.raw-purple-paper {
+  background: linear-gradient(225deg, transparent 26px, #7222c9 0) !important;
+}
+.raw-purple-paper::before {
+  border-color: #7222c9 transparent !important;
+  filter: brightness(75%) !important;
+}
+
+.raw-purple-bar {
+  background-color: #7222c9 !important;
+}
+.raw-purple-bar::before {
+  background-color: #7222c9 !important;
   filter: brightness(50%);
 }
 
