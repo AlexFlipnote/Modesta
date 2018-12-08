@@ -133,6 +133,19 @@
   filter: drop-shadow(5px 5px 0 rgba(46, 204, 113, 0.6));
 }
 
+.gold {
+  background-color: #ffd700;
+}
+
+.gold-text {
+  color: #ffd700;
+}
+
+.gold-dropshadow {
+  background-color: #ffd700;
+  filter: drop-shadow(5px 5px 0 rgba(255, 215, 0, 0.6));
+}
+
 .green-sea {
   background-color: #16a085;
 }
@@ -261,6 +274,19 @@
 .pumpkin-dropshadow {
   background-color: #d35400;
   filter: drop-shadow(5px 5px 0 rgba(211, 84, 0, 0.6));
+}
+
+.raw-purple {
+  background-color: #7222c9;
+}
+
+.raw-purple-text {
+  color: #7222c9;
+}
+
+.raw-purple-dropshadow {
+  background-color: #7222c9;
+  filter: drop-shadow(5px 5px 0 rgba(114, 34, 201, 0.6));
 }
 
 .secondary {
