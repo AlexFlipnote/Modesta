@@ -107,6 +107,19 @@
   filter: drop-shadow(5px 5px 0 rgba(149, 165, 166, 0.6));
 }
 
+.cubered {
+  background-color: #ef0c0c;
+}
+
+.cubered-text {
+  color: #ef0c0c;
+}
+
+.cubered-dropshadow {
+  background-color: #ef0c0c;
+  filter: drop-shadow(5px 5px 0 rgba(239, 12, 12, 0.6));
+}
+
 .dark {
   background-color: #343a40;
 }

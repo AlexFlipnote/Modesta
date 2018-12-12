@@ -39,6 +39,7 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>carrot</td><td class="carrot"></td><td>#e67e22</td></tr>
           <tr><td>clouds</td><td class="clouds"></td><td>#ecf0f1</td></tr>
           <tr><td>concrete</td><td class="concrete"></td><td>#95a5a6</td></tr>
+          <tr><td>cubered</td><td class="cubered"></td><td>#ef0c0c</td></tr>
           <tr><td>dark</td><td class="dark"></td><td>#343a40</td></tr>
           <tr><td>emerald</td><td class="emerald"></td><td>#2ecc71</td></tr>
           <tr><td>gold</td><td class="gold"></td><td>#ffd700</td></tr>
