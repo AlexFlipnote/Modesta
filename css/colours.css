@@ -237,6 +237,19 @@
   filter: drop-shadow(5px 5px 0 rgba(243, 156, 18, 0.6));
 }
 
+.peach {
+  background-color: #f49898;
+}
+
+.peach-text {
+  color: #f49898;
+}
+
+.peach-dropshadow {
+  background-color: #f49898;
+  filter: drop-shadow(5px 5px 0 rgba(244, 152, 152, 0.6));
+}
+
 .peter-river {
   background-color: #3498db;
 }

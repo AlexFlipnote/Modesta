@@ -49,6 +49,7 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>midnight-blue</td><td class="midnight-blue"></td><td>#2c3e50</td></tr>
           <tr><td>nephritis-blue</td><td class="nephritis-blue"></td><td>#27ae60</td></tr>
           <tr><td>orange</td><td class="orange"></td><td>#f39c12</td></tr>
+          <tr><td>peach</td><td class="peach"></td><td>#f49898</td></tr>
           <tr><td>peter-river</td><td class="peter-river"></td><td>#3498db</td></tr>
           <tr><td>pomegranate</td><td class="pomegranate"></td><td>#c0392b</td></tr>
           <tr><td>primary</td><td class="primary"></td><td>#282828</td></tr>

@@ -1344,6 +1344,10 @@ button.orange {
   background-color: #f39c12;
   box-shadow: 0 3px 0 0 rgba(243, 156, 18, 0.5);
 }
+button.peach {
+  background-color: #f49898;
+  box-shadow: 0 3px 0 0 rgba(244, 152, 152, 0.5);
+}
 button.peter-river {
   background-color: #3498db;
   box-shadow: 0 3px 0 0 rgba(52, 152, 219, 0.5);
@@ -2083,6 +2087,37 @@ button.youtube {
 }
 .btn.orange-flat-nodark, input[type="submit"].orange-flat-nodark {
   background-color: #f39c12;
+}
+.btn.peach, input[type="submit"].peach {
+  background-color: #f49898;
+  filter: drop-shadow(5px 5px 0 rgba(244, 152, 152, 0.6));
+}
+.btn.peach:hover, input[type="submit"].peach:hover {
+  filter: drop-shadow(5px 5px 0 rgba(244, 152, 152, 0.6)) brightness(50%);
+}
+.btn.peach-border, input[type="submit"].peach-border {
+  border: 3px solid #f49898;
+  height: auto;
+}
+.btn.peach-border:hover, input[type="submit"].peach-border:hover {
+  filter: brightness(50%);
+}
+.btn.peach-border-nodark, input[type="submit"].peach-border-nodark {
+  border: 3px solid #f49898;
+  height: auto;
+}
+.btn.peach-nodark, input[type="submit"].peach-nodark {
+  background-color: #f49898;
+  filter: drop-shadow(5px 5px 0 rgba(244, 152, 152, 0.6));
+}
+.btn.peach-flat, input[type="submit"].peach-flat {
+  background-color: #f49898;
+}
+.btn.peach-flat:hover, input[type="submit"].peach-flat:hover {
+  filter: brightness(50%);
+}
+.btn.peach-flat-nodark, input[type="submit"].peach-flat-nodark {
+  background-color: #f49898;
 }
 .btn.peter-river, input[type="submit"].peter-river {
   background-color: #3498db;
@@ -4263,6 +4298,13 @@ button.youtube {
 .box-container.orange-flat {
   background-color: #f39c12;
 }
+.box-container.peach {
+  background-color: #f49898;
+  filter: drop-shadow(5px 5px 0 rgba(244, 152, 152, 0.6));
+}
+.box-container.peach-flat {
+  background-color: #f49898;
+}
 .box-container.peter-river {
   background-color: #3498db;
   filter: drop-shadow(5px 5px 0 rgba(52, 152, 219, 0.6));
@@ -5560,6 +5602,35 @@ button.youtube {
 }
 .orange-bar::before {
   background-color: #f39c12 !important;
+  filter: brightness(50%);
+}
+
+.peach {
+  background-color: #f49898 !important;
+}
+
+.peach-text {
+  color: #f49898 !important;
+}
+
+.peach-dropshadow {
+  background-color: #f49898;
+  filter: drop-shadow(5px 5px 0 rgba(244, 152, 152, 0.6));
+}
+
+.peach-paper {
+  background: linear-gradient(225deg, transparent 26px, #f49898 0) !important;
+}
+.peach-paper::before {
+  border-color: #f49898 transparent !important;
+  filter: brightness(75%) !important;
+}
+
+.peach-bar {
+  background-color: #f49898 !important;
+}
+.peach-bar::before {
+  background-color: #f49898 !important;
   filter: brightness(50%);
 }
 
