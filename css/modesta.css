@@ -1396,29 +1396,37 @@ button.wisteria {
   background-color: #8e44ad;
   box-shadow: 0 3px 0 0 rgba(142, 68, 173, 0.5);
 }
-button.devianart {
-  background-color: #f95119;
-  box-shadow: 0 3px 0 0 rgba(249, 81, 25, 0.5);
+button.deviantart {
+  background-color: #05cc47;
+  box-shadow: 0 3px 0 0 rgba(5, 204, 71, 0.5);
 }
 button.discord {
   background-color: #7289da;
   box-shadow: 0 3px 0 0 rgba(114, 137, 218, 0.5);
 }
 button.facebook {
-  background-color: #475595;
-  box-shadow: 0 3px 0 0 rgba(71, 85, 149, 0.5);
+  background-color: #3b5998;
+  box-shadow: 0 3px 0 0 rgba(59, 89, 152, 0.5);
 }
 button.github {
   background-color: #292d32;
   box-shadow: 0 3px 0 0 rgba(41, 45, 50, 0.5);
 }
+button.google {
+  background-color: #4285f4;
+  box-shadow: 0 3px 0 0 rgba(66, 133, 244, 0.5);
+}
 button.googleplus {
-  background-color: #d75545;
-  box-shadow: 0 3px 0 0 rgba(215, 85, 69, 0.5);
+  background-color: #db4437;
+  box-shadow: 0 3px 0 0 rgba(219, 68, 55, 0.5);
+}
+button.instagram {
+  background-color: #c32aa3;
+  box-shadow: 0 3px 0 0 rgba(195, 42, 163, 0.5);
 }
 button.linkedin {
-  background-color: #3275b3;
-  box-shadow: 0 3px 0 0 rgba(50, 117, 179, 0.5);
+  background-color: #007bb5;
+  box-shadow: 0 3px 0 0 rgba(0, 123, 181, 0.5);
 }
 button.patreon {
   background-color: #f96854;
@@ -1429,44 +1437,60 @@ button.paypal {
   box-shadow: 0 3px 0 0 rgba(30, 156, 215, 0.5);
 }
 button.pinterest {
-  background-color: #c5302f;
-  box-shadow: 0 3px 0 0 rgba(197, 48, 47, 0.5);
+  background-color: #bd081c;
+  box-shadow: 0 3px 0 0 rgba(189, 8, 28, 0.5);
 }
 button.reddit {
-  background-color: #f95119;
-  box-shadow: 0 3px 0 0 rgba(249, 81, 25, 0.5);
+  background-color: #ff4500;
+  box-shadow: 0 3px 0 0 rgba(255, 69, 0, 0.5);
 }
 button.skype {
   background-color: #41a6ed;
   box-shadow: 0 3px 0 0 rgba(65, 166, 237, 0.5);
 }
+button.slack {
+  background-color: #4d394b;
+  box-shadow: 0 3px 0 0 rgba(77, 57, 75, 0.5);
+}
 button.snapchat {
-  background-color: #f8ff2f;
-  box-shadow: 0 3px 0 0 rgba(248, 255, 47, 0.5);
+  background-color: #fffc00;
+  box-shadow: 0 3px 0 0 rgba(255, 252, 0, 0.5);
 }
 button.soundcloud {
-  background-color: #f95f1b;
-  box-shadow: 0 3px 0 0 rgba(249, 95, 27, 0.5);
+  background-color: #f50;
+  box-shadow: 0 3px 0 0 rgba(255, 85, 0, 0.5);
+}
+button.spotify {
+  background-color: #1ed760;
+  box-shadow: 0 3px 0 0 rgba(30, 215, 96, 0.5);
+}
+button.steam {
+  background-color: #171a21;
+  box-shadow: 0 3px 0 0 rgba(23, 26, 33, 0.5);
 }
 button.telegram {
-  background-color: #4da8df;
-  box-shadow: 0 3px 0 0 rgba(77, 168, 223, 0.5);
+  background-color: #08c;
+  box-shadow: 0 3px 0 0 rgba(0, 136, 204, 0.5);
 }
 button.tumblr {
-  background-color: #394e6b;
-  box-shadow: 0 3px 0 0 rgba(57, 78, 107, 0.5);
+  background-color: #35465d;
+  box-shadow: 0 3px 0 0 rgba(53, 70, 93, 0.5);
 }
 button.twitch {
   background-color: #6441a4;
   box-shadow: 0 3px 0 0 rgba(100, 65, 164, 0.5);
 }
 button.twitter {
-  background-color: #4999f0;
-  box-shadow: 0 3px 0 0 rgba(73, 153, 240, 0.5);
+  background-color: #1da1f2;
+  box-shadow: 0 3px 0 0 rgba(29, 161, 242, 0.5);
 }
 button.viber {
   background-color: #7f4d9b;
   box-shadow: 0 3px 0 0 rgba(127, 77, 155, 0.5);
+}
+button.whatsapp {
+  background-color: #25d366;
+  box-shadow: 0 3px 0 0 rgba(37, 211, 102, 0.5);
 }
 button.youtube {
   background-color: #f00;
@@ -2463,36 +2487,36 @@ button.youtube {
 .btn.wisteria-flat-nodark, input[type="submit"].wisteria-flat-nodark {
   background-color: #8e44ad;
 }
-.btn.devianart, input[type="submit"].devianart {
-  background-color: #f95119;
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+.btn.deviantart, input[type="submit"].deviantart {
+  background-color: #05cc47;
+  filter: drop-shadow(5px 5px 0 rgba(5, 204, 71, 0.6));
 }
-.btn.devianart:hover, input[type="submit"].devianart:hover {
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6)) brightness(50%);
+.btn.deviantart:hover, input[type="submit"].deviantart:hover {
+  filter: drop-shadow(5px 5px 0 rgba(5, 204, 71, 0.6)) brightness(50%);
 }
-.btn.devianart-border, input[type="submit"].devianart-border {
-  border: 3px solid #f95119;
+.btn.deviantart-border, input[type="submit"].deviantart-border {
+  border: 3px solid #05cc47;
   height: auto;
 }
-.btn.devianart-border:hover, input[type="submit"].devianart-border:hover {
+.btn.deviantart-border:hover, input[type="submit"].deviantart-border:hover {
   filter: brightness(50%);
 }
-.btn.devianart-border-nodark, input[type="submit"].devianart-border-nodark {
-  border: 3px solid #f95119;
+.btn.deviantart-border-nodark, input[type="submit"].deviantart-border-nodark {
+  border: 3px solid #05cc47;
   height: auto;
 }
-.btn.devianart-nodark, input[type="submit"].devianart-nodark {
-  background-color: #f95119;
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+.btn.deviantart-nodark, input[type="submit"].deviantart-nodark {
+  background-color: #05cc47;
+  filter: drop-shadow(5px 5px 0 rgba(5, 204, 71, 0.6));
 }
-.btn.devianart-flat, input[type="submit"].devianart-flat {
-  background-color: #f95119;
+.btn.deviantart-flat, input[type="submit"].deviantart-flat {
+  background-color: #05cc47;
 }
-.btn.devianart-flat:hover, input[type="submit"].devianart-flat:hover {
+.btn.deviantart-flat:hover, input[type="submit"].deviantart-flat:hover {
   filter: brightness(50%);
 }
-.btn.devianart-flat-nodark, input[type="submit"].devianart-flat-nodark {
-  background-color: #f95119;
+.btn.deviantart-flat-nodark, input[type="submit"].deviantart-flat-nodark {
+  background-color: #05cc47;
 }
 .btn.discord, input[type="submit"].discord {
   background-color: #7289da;
@@ -2526,35 +2550,35 @@ button.youtube {
   background-color: #7289da;
 }
 .btn.facebook, input[type="submit"].facebook {
-  background-color: #475595;
-  filter: drop-shadow(5px 5px 0 rgba(71, 85, 149, 0.6));
+  background-color: #3b5998;
+  filter: drop-shadow(5px 5px 0 rgba(59, 89, 152, 0.6));
 }
 .btn.facebook:hover, input[type="submit"].facebook:hover {
-  filter: drop-shadow(5px 5px 0 rgba(71, 85, 149, 0.6)) brightness(50%);
+  filter: drop-shadow(5px 5px 0 rgba(59, 89, 152, 0.6)) brightness(50%);
 }
 .btn.facebook-border, input[type="submit"].facebook-border {
-  border: 3px solid #475595;
+  border: 3px solid #3b5998;
   height: auto;
 }
 .btn.facebook-border:hover, input[type="submit"].facebook-border:hover {
   filter: brightness(50%);
 }
 .btn.facebook-border-nodark, input[type="submit"].facebook-border-nodark {
-  border: 3px solid #475595;
+  border: 3px solid #3b5998;
   height: auto;
 }
 .btn.facebook-nodark, input[type="submit"].facebook-nodark {
-  background-color: #475595;
-  filter: drop-shadow(5px 5px 0 rgba(71, 85, 149, 0.6));
+  background-color: #3b5998;
+  filter: drop-shadow(5px 5px 0 rgba(59, 89, 152, 0.6));
 }
 .btn.facebook-flat, input[type="submit"].facebook-flat {
-  background-color: #475595;
+  background-color: #3b5998;
 }
 .btn.facebook-flat:hover, input[type="submit"].facebook-flat:hover {
   filter: brightness(50%);
 }
 .btn.facebook-flat-nodark, input[type="submit"].facebook-flat-nodark {
-  background-color: #475595;
+  background-color: #3b5998;
 }
 .btn.github, input[type="submit"].github {
   background-color: #292d32;
@@ -2587,67 +2611,129 @@ button.youtube {
 .btn.github-flat-nodark, input[type="submit"].github-flat-nodark {
   background-color: #292d32;
 }
+.btn.google, input[type="submit"].google {
+  background-color: #4285f4;
+  filter: drop-shadow(5px 5px 0 rgba(66, 133, 244, 0.6));
+}
+.btn.google:hover, input[type="submit"].google:hover {
+  filter: drop-shadow(5px 5px 0 rgba(66, 133, 244, 0.6)) brightness(50%);
+}
+.btn.google-border, input[type="submit"].google-border {
+  border: 3px solid #4285f4;
+  height: auto;
+}
+.btn.google-border:hover, input[type="submit"].google-border:hover {
+  filter: brightness(50%);
+}
+.btn.google-border-nodark, input[type="submit"].google-border-nodark {
+  border: 3px solid #4285f4;
+  height: auto;
+}
+.btn.google-nodark, input[type="submit"].google-nodark {
+  background-color: #4285f4;
+  filter: drop-shadow(5px 5px 0 rgba(66, 133, 244, 0.6));
+}
+.btn.google-flat, input[type="submit"].google-flat {
+  background-color: #4285f4;
+}
+.btn.google-flat:hover, input[type="submit"].google-flat:hover {
+  filter: brightness(50%);
+}
+.btn.google-flat-nodark, input[type="submit"].google-flat-nodark {
+  background-color: #4285f4;
+}
 .btn.googleplus, input[type="submit"].googleplus {
-  background-color: #d75545;
-  filter: drop-shadow(5px 5px 0 rgba(215, 85, 69, 0.6));
+  background-color: #db4437;
+  filter: drop-shadow(5px 5px 0 rgba(219, 68, 55, 0.6));
 }
 .btn.googleplus:hover, input[type="submit"].googleplus:hover {
-  filter: drop-shadow(5px 5px 0 rgba(215, 85, 69, 0.6)) brightness(50%);
+  filter: drop-shadow(5px 5px 0 rgba(219, 68, 55, 0.6)) brightness(50%);
 }
 .btn.googleplus-border, input[type="submit"].googleplus-border {
-  border: 3px solid #d75545;
+  border: 3px solid #db4437;
   height: auto;
 }
 .btn.googleplus-border:hover, input[type="submit"].googleplus-border:hover {
   filter: brightness(50%);
 }
 .btn.googleplus-border-nodark, input[type="submit"].googleplus-border-nodark {
-  border: 3px solid #d75545;
+  border: 3px solid #db4437;
   height: auto;
 }
 .btn.googleplus-nodark, input[type="submit"].googleplus-nodark {
-  background-color: #d75545;
-  filter: drop-shadow(5px 5px 0 rgba(215, 85, 69, 0.6));
+  background-color: #db4437;
+  filter: drop-shadow(5px 5px 0 rgba(219, 68, 55, 0.6));
 }
 .btn.googleplus-flat, input[type="submit"].googleplus-flat {
-  background-color: #d75545;
+  background-color: #db4437;
 }
 .btn.googleplus-flat:hover, input[type="submit"].googleplus-flat:hover {
   filter: brightness(50%);
 }
 .btn.googleplus-flat-nodark, input[type="submit"].googleplus-flat-nodark {
-  background-color: #d75545;
+  background-color: #db4437;
+}
+.btn.instagram, input[type="submit"].instagram {
+  background-color: #c32aa3;
+  filter: drop-shadow(5px 5px 0 rgba(195, 42, 163, 0.6));
+}
+.btn.instagram:hover, input[type="submit"].instagram:hover {
+  filter: drop-shadow(5px 5px 0 rgba(195, 42, 163, 0.6)) brightness(50%);
+}
+.btn.instagram-border, input[type="submit"].instagram-border {
+  border: 3px solid #c32aa3;
+  height: auto;
+}
+.btn.instagram-border:hover, input[type="submit"].instagram-border:hover {
+  filter: brightness(50%);
+}
+.btn.instagram-border-nodark, input[type="submit"].instagram-border-nodark {
+  border: 3px solid #c32aa3;
+  height: auto;
+}
+.btn.instagram-nodark, input[type="submit"].instagram-nodark {
+  background-color: #c32aa3;
+  filter: drop-shadow(5px 5px 0 rgba(195, 42, 163, 0.6));
+}
+.btn.instagram-flat, input[type="submit"].instagram-flat {
+  background-color: #c32aa3;
+}
+.btn.instagram-flat:hover, input[type="submit"].instagram-flat:hover {
+  filter: brightness(50%);
+}
+.btn.instagram-flat-nodark, input[type="submit"].instagram-flat-nodark {
+  background-color: #c32aa3;
 }
 .btn.linkedin, input[type="submit"].linkedin {
-  background-color: #3275b3;
-  filter: drop-shadow(5px 5px 0 rgba(50, 117, 179, 0.6));
+  background-color: #007bb5;
+  filter: drop-shadow(5px 5px 0 rgba(0, 123, 181, 0.6));
 }
 .btn.linkedin:hover, input[type="submit"].linkedin:hover {
-  filter: drop-shadow(5px 5px 0 rgba(50, 117, 179, 0.6)) brightness(50%);
+  filter: drop-shadow(5px 5px 0 rgba(0, 123, 181, 0.6)) brightness(50%);
 }
 .btn.linkedin-border, input[type="submit"].linkedin-border {
-  border: 3px solid #3275b3;
+  border: 3px solid #007bb5;
   height: auto;
 }
 .btn.linkedin-border:hover, input[type="submit"].linkedin-border:hover {
   filter: brightness(50%);
 }
 .btn.linkedin-border-nodark, input[type="submit"].linkedin-border-nodark {
-  border: 3px solid #3275b3;
+  border: 3px solid #007bb5;
   height: auto;
 }
 .btn.linkedin-nodark, input[type="submit"].linkedin-nodark {
-  background-color: #3275b3;
-  filter: drop-shadow(5px 5px 0 rgba(50, 117, 179, 0.6));
+  background-color: #007bb5;
+  filter: drop-shadow(5px 5px 0 rgba(0, 123, 181, 0.6));
 }
 .btn.linkedin-flat, input[type="submit"].linkedin-flat {
-  background-color: #3275b3;
+  background-color: #007bb5;
 }
 .btn.linkedin-flat:hover, input[type="submit"].linkedin-flat:hover {
   filter: brightness(50%);
 }
 .btn.linkedin-flat-nodark, input[type="submit"].linkedin-flat-nodark {
-  background-color: #3275b3;
+  background-color: #007bb5;
 }
 .btn.patreon, input[type="submit"].patreon {
   background-color: #f96854;
@@ -2712,66 +2798,66 @@ button.youtube {
   background-color: #1e9cd7;
 }
 .btn.pinterest, input[type="submit"].pinterest {
-  background-color: #c5302f;
-  filter: drop-shadow(5px 5px 0 rgba(197, 48, 47, 0.6));
+  background-color: #bd081c;
+  filter: drop-shadow(5px 5px 0 rgba(189, 8, 28, 0.6));
 }
 .btn.pinterest:hover, input[type="submit"].pinterest:hover {
-  filter: drop-shadow(5px 5px 0 rgba(197, 48, 47, 0.6)) brightness(50%);
+  filter: drop-shadow(5px 5px 0 rgba(189, 8, 28, 0.6)) brightness(50%);
 }
 .btn.pinterest-border, input[type="submit"].pinterest-border {
-  border: 3px solid #c5302f;
+  border: 3px solid #bd081c;
   height: auto;
 }
 .btn.pinterest-border:hover, input[type="submit"].pinterest-border:hover {
   filter: brightness(50%);
 }
 .btn.pinterest-border-nodark, input[type="submit"].pinterest-border-nodark {
-  border: 3px solid #c5302f;
+  border: 3px solid #bd081c;
   height: auto;
 }
 .btn.pinterest-nodark, input[type="submit"].pinterest-nodark {
-  background-color: #c5302f;
-  filter: drop-shadow(5px 5px 0 rgba(197, 48, 47, 0.6));
+  background-color: #bd081c;
+  filter: drop-shadow(5px 5px 0 rgba(189, 8, 28, 0.6));
 }
 .btn.pinterest-flat, input[type="submit"].pinterest-flat {
-  background-color: #c5302f;
+  background-color: #bd081c;
 }
 .btn.pinterest-flat:hover, input[type="submit"].pinterest-flat:hover {
   filter: brightness(50%);
 }
 .btn.pinterest-flat-nodark, input[type="submit"].pinterest-flat-nodark {
-  background-color: #c5302f;
+  background-color: #bd081c;
 }
 .btn.reddit, input[type="submit"].reddit {
-  background-color: #f95119;
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+  background-color: #ff4500;
+  filter: drop-shadow(5px 5px 0 rgba(255, 69, 0, 0.6));
 }
 .btn.reddit:hover, input[type="submit"].reddit:hover {
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6)) brightness(50%);
+  filter: drop-shadow(5px 5px 0 rgba(255, 69, 0, 0.6)) brightness(50%);
 }
 .btn.reddit-border, input[type="submit"].reddit-border {
-  border: 3px solid #f95119;
+  border: 3px solid #ff4500;
   height: auto;
 }
 .btn.reddit-border:hover, input[type="submit"].reddit-border:hover {
   filter: brightness(50%);
 }
 .btn.reddit-border-nodark, input[type="submit"].reddit-border-nodark {
-  border: 3px solid #f95119;
+  border: 3px solid #ff4500;
   height: auto;
 }
 .btn.reddit-nodark, input[type="submit"].reddit-nodark {
-  background-color: #f95119;
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+  background-color: #ff4500;
+  filter: drop-shadow(5px 5px 0 rgba(255, 69, 0, 0.6));
 }
 .btn.reddit-flat, input[type="submit"].reddit-flat {
-  background-color: #f95119;
+  background-color: #ff4500;
 }
 .btn.reddit-flat:hover, input[type="submit"].reddit-flat:hover {
   filter: brightness(50%);
 }
 .btn.reddit-flat-nodark, input[type="submit"].reddit-flat-nodark {
-  background-color: #f95119;
+  background-color: #ff4500;
 }
 .btn.skype, input[type="submit"].skype {
   background-color: #41a6ed;
@@ -2804,129 +2890,222 @@ button.youtube {
 .btn.skype-flat-nodark, input[type="submit"].skype-flat-nodark {
   background-color: #41a6ed;
 }
+.btn.slack, input[type="submit"].slack {
+  background-color: #4d394b;
+  filter: drop-shadow(5px 5px 0 rgba(77, 57, 75, 0.6));
+}
+.btn.slack:hover, input[type="submit"].slack:hover {
+  filter: drop-shadow(5px 5px 0 rgba(77, 57, 75, 0.6)) brightness(50%);
+}
+.btn.slack-border, input[type="submit"].slack-border {
+  border: 3px solid #4d394b;
+  height: auto;
+}
+.btn.slack-border:hover, input[type="submit"].slack-border:hover {
+  filter: brightness(50%);
+}
+.btn.slack-border-nodark, input[type="submit"].slack-border-nodark {
+  border: 3px solid #4d394b;
+  height: auto;
+}
+.btn.slack-nodark, input[type="submit"].slack-nodark {
+  background-color: #4d394b;
+  filter: drop-shadow(5px 5px 0 rgba(77, 57, 75, 0.6));
+}
+.btn.slack-flat, input[type="submit"].slack-flat {
+  background-color: #4d394b;
+}
+.btn.slack-flat:hover, input[type="submit"].slack-flat:hover {
+  filter: brightness(50%);
+}
+.btn.slack-flat-nodark, input[type="submit"].slack-flat-nodark {
+  background-color: #4d394b;
+}
 .btn.snapchat, input[type="submit"].snapchat {
-  background-color: #f8ff2f;
-  filter: drop-shadow(5px 5px 0 rgba(248, 255, 47, 0.6));
+  background-color: #fffc00;
+  filter: drop-shadow(5px 5px 0 rgba(255, 252, 0, 0.6));
 }
 .btn.snapchat:hover, input[type="submit"].snapchat:hover {
-  filter: drop-shadow(5px 5px 0 rgba(248, 255, 47, 0.6)) brightness(50%);
+  filter: drop-shadow(5px 5px 0 rgba(255, 252, 0, 0.6)) brightness(50%);
 }
 .btn.snapchat-border, input[type="submit"].snapchat-border {
-  border: 3px solid #f8ff2f;
+  border: 3px solid #fffc00;
   height: auto;
 }
 .btn.snapchat-border:hover, input[type="submit"].snapchat-border:hover {
   filter: brightness(50%);
 }
 .btn.snapchat-border-nodark, input[type="submit"].snapchat-border-nodark {
-  border: 3px solid #f8ff2f;
+  border: 3px solid #fffc00;
   height: auto;
 }
 .btn.snapchat-nodark, input[type="submit"].snapchat-nodark {
-  background-color: #f8ff2f;
-  filter: drop-shadow(5px 5px 0 rgba(248, 255, 47, 0.6));
+  background-color: #fffc00;
+  filter: drop-shadow(5px 5px 0 rgba(255, 252, 0, 0.6));
 }
 .btn.snapchat-flat, input[type="submit"].snapchat-flat {
-  background-color: #f8ff2f;
+  background-color: #fffc00;
 }
 .btn.snapchat-flat:hover, input[type="submit"].snapchat-flat:hover {
   filter: brightness(50%);
 }
 .btn.snapchat-flat-nodark, input[type="submit"].snapchat-flat-nodark {
-  background-color: #f8ff2f;
+  background-color: #fffc00;
 }
 .btn.soundcloud, input[type="submit"].soundcloud {
-  background-color: #f95f1b;
-  filter: drop-shadow(5px 5px 0 rgba(249, 95, 27, 0.6));
+  background-color: #f50;
+  filter: drop-shadow(5px 5px 0 rgba(255, 85, 0, 0.6));
 }
 .btn.soundcloud:hover, input[type="submit"].soundcloud:hover {
-  filter: drop-shadow(5px 5px 0 rgba(249, 95, 27, 0.6)) brightness(50%);
+  filter: drop-shadow(5px 5px 0 rgba(255, 85, 0, 0.6)) brightness(50%);
 }
 .btn.soundcloud-border, input[type="submit"].soundcloud-border {
-  border: 3px solid #f95f1b;
+  border: 3px solid #f50;
   height: auto;
 }
 .btn.soundcloud-border:hover, input[type="submit"].soundcloud-border:hover {
   filter: brightness(50%);
 }
 .btn.soundcloud-border-nodark, input[type="submit"].soundcloud-border-nodark {
-  border: 3px solid #f95f1b;
+  border: 3px solid #f50;
   height: auto;
 }
 .btn.soundcloud-nodark, input[type="submit"].soundcloud-nodark {
-  background-color: #f95f1b;
-  filter: drop-shadow(5px 5px 0 rgba(249, 95, 27, 0.6));
+  background-color: #f50;
+  filter: drop-shadow(5px 5px 0 rgba(255, 85, 0, 0.6));
 }
 .btn.soundcloud-flat, input[type="submit"].soundcloud-flat {
-  background-color: #f95f1b;
+  background-color: #f50;
 }
 .btn.soundcloud-flat:hover, input[type="submit"].soundcloud-flat:hover {
   filter: brightness(50%);
 }
 .btn.soundcloud-flat-nodark, input[type="submit"].soundcloud-flat-nodark {
-  background-color: #f95f1b;
+  background-color: #f50;
+}
+.btn.spotify, input[type="submit"].spotify {
+  background-color: #1ed760;
+  filter: drop-shadow(5px 5px 0 rgba(30, 215, 96, 0.6));
+}
+.btn.spotify:hover, input[type="submit"].spotify:hover {
+  filter: drop-shadow(5px 5px 0 rgba(30, 215, 96, 0.6)) brightness(50%);
+}
+.btn.spotify-border, input[type="submit"].spotify-border {
+  border: 3px solid #1ed760;
+  height: auto;
+}
+.btn.spotify-border:hover, input[type="submit"].spotify-border:hover {
+  filter: brightness(50%);
+}
+.btn.spotify-border-nodark, input[type="submit"].spotify-border-nodark {
+  border: 3px solid #1ed760;
+  height: auto;
+}
+.btn.spotify-nodark, input[type="submit"].spotify-nodark {
+  background-color: #1ed760;
+  filter: drop-shadow(5px 5px 0 rgba(30, 215, 96, 0.6));
+}
+.btn.spotify-flat, input[type="submit"].spotify-flat {
+  background-color: #1ed760;
+}
+.btn.spotify-flat:hover, input[type="submit"].spotify-flat:hover {
+  filter: brightness(50%);
+}
+.btn.spotify-flat-nodark, input[type="submit"].spotify-flat-nodark {
+  background-color: #1ed760;
+}
+.btn.steam, input[type="submit"].steam {
+  background-color: #171a21;
+  filter: drop-shadow(5px 5px 0 rgba(23, 26, 33, 0.6));
+}
+.btn.steam:hover, input[type="submit"].steam:hover {
+  filter: drop-shadow(5px 5px 0 rgba(23, 26, 33, 0.6)) brightness(50%);
+}
+.btn.steam-border, input[type="submit"].steam-border {
+  border: 3px solid #171a21;
+  height: auto;
+}
+.btn.steam-border:hover, input[type="submit"].steam-border:hover {
+  filter: brightness(50%);
+}
+.btn.steam-border-nodark, input[type="submit"].steam-border-nodark {
+  border: 3px solid #171a21;
+  height: auto;
+}
+.btn.steam-nodark, input[type="submit"].steam-nodark {
+  background-color: #171a21;
+  filter: drop-shadow(5px 5px 0 rgba(23, 26, 33, 0.6));
+}
+.btn.steam-flat, input[type="submit"].steam-flat {
+  background-color: #171a21;
+}
+.btn.steam-flat:hover, input[type="submit"].steam-flat:hover {
+  filter: brightness(50%);
+}
+.btn.steam-flat-nodark, input[type="submit"].steam-flat-nodark {
+  background-color: #171a21;
 }
 .btn.telegram, input[type="submit"].telegram {
-  background-color: #4da8df;
-  filter: drop-shadow(5px 5px 0 rgba(77, 168, 223, 0.6));
+  background-color: #08c;
+  filter: drop-shadow(5px 5px 0 rgba(0, 136, 204, 0.6));
 }
 .btn.telegram:hover, input[type="submit"].telegram:hover {
-  filter: drop-shadow(5px 5px 0 rgba(77, 168, 223, 0.6)) brightness(50%);
+  filter: drop-shadow(5px 5px 0 rgba(0, 136, 204, 0.6)) brightness(50%);
 }
 .btn.telegram-border, input[type="submit"].telegram-border {
-  border: 3px solid #4da8df;
+  border: 3px solid #08c;
   height: auto;
 }
 .btn.telegram-border:hover, input[type="submit"].telegram-border:hover {
   filter: brightness(50%);
 }
 .btn.telegram-border-nodark, input[type="submit"].telegram-border-nodark {
-  border: 3px solid #4da8df;
+  border: 3px solid #08c;
   height: auto;
 }
 .btn.telegram-nodark, input[type="submit"].telegram-nodark {
-  background-color: #4da8df;
-  filter: drop-shadow(5px 5px 0 rgba(77, 168, 223, 0.6));
+  background-color: #08c;
+  filter: drop-shadow(5px 5px 0 rgba(0, 136, 204, 0.6));
 }
 .btn.telegram-flat, input[type="submit"].telegram-flat {
-  background-color: #4da8df;
+  background-color: #08c;
 }
 .btn.telegram-flat:hover, input[type="submit"].telegram-flat:hover {
   filter: brightness(50%);
 }
 .btn.telegram-flat-nodark, input[type="submit"].telegram-flat-nodark {
-  background-color: #4da8df;
+  background-color: #08c;
 }
 .btn.tumblr, input[type="submit"].tumblr {
-  background-color: #394e6b;
-  filter: drop-shadow(5px 5px 0 rgba(57, 78, 107, 0.6));
+  background-color: #35465d;
+  filter: drop-shadow(5px 5px 0 rgba(53, 70, 93, 0.6));
 }
 .btn.tumblr:hover, input[type="submit"].tumblr:hover {
-  filter: drop-shadow(5px 5px 0 rgba(57, 78, 107, 0.6)) brightness(50%);
+  filter: drop-shadow(5px 5px 0 rgba(53, 70, 93, 0.6)) brightness(50%);
 }
 .btn.tumblr-border, input[type="submit"].tumblr-border {
-  border: 3px solid #394e6b;
+  border: 3px solid #35465d;
   height: auto;
 }
 .btn.tumblr-border:hover, input[type="submit"].tumblr-border:hover {
   filter: brightness(50%);
 }
 .btn.tumblr-border-nodark, input[type="submit"].tumblr-border-nodark {
-  border: 3px solid #394e6b;
+  border: 3px solid #35465d;
   height: auto;
 }
 .btn.tumblr-nodark, input[type="submit"].tumblr-nodark {
-  background-color: #394e6b;
-  filter: drop-shadow(5px 5px 0 rgba(57, 78, 107, 0.6));
+  background-color: #35465d;
+  filter: drop-shadow(5px 5px 0 rgba(53, 70, 93, 0.6));
 }
 .btn.tumblr-flat, input[type="submit"].tumblr-flat {
-  background-color: #394e6b;
+  background-color: #35465d;
 }
 .btn.tumblr-flat:hover, input[type="submit"].tumblr-flat:hover {
   filter: brightness(50%);
 }
 .btn.tumblr-flat-nodark, input[type="submit"].tumblr-flat-nodark {
-  background-color: #394e6b;
+  background-color: #35465d;
 }
 .btn.twitch, input[type="submit"].twitch {
   background-color: #6441a4;
@@ -2960,35 +3139,35 @@ button.youtube {
   background-color: #6441a4;
 }
 .btn.twitter, input[type="submit"].twitter {
-  background-color: #4999f0;
-  filter: drop-shadow(5px 5px 0 rgba(73, 153, 240, 0.6));
+  background-color: #1da1f2;
+  filter: drop-shadow(5px 5px 0 rgba(29, 161, 242, 0.6));
 }
 .btn.twitter:hover, input[type="submit"].twitter:hover {
-  filter: drop-shadow(5px 5px 0 rgba(73, 153, 240, 0.6)) brightness(50%);
+  filter: drop-shadow(5px 5px 0 rgba(29, 161, 242, 0.6)) brightness(50%);
 }
 .btn.twitter-border, input[type="submit"].twitter-border {
-  border: 3px solid #4999f0;
+  border: 3px solid #1da1f2;
   height: auto;
 }
 .btn.twitter-border:hover, input[type="submit"].twitter-border:hover {
   filter: brightness(50%);
 }
 .btn.twitter-border-nodark, input[type="submit"].twitter-border-nodark {
-  border: 3px solid #4999f0;
+  border: 3px solid #1da1f2;
   height: auto;
 }
 .btn.twitter-nodark, input[type="submit"].twitter-nodark {
-  background-color: #4999f0;
-  filter: drop-shadow(5px 5px 0 rgba(73, 153, 240, 0.6));
+  background-color: #1da1f2;
+  filter: drop-shadow(5px 5px 0 rgba(29, 161, 242, 0.6));
 }
 .btn.twitter-flat, input[type="submit"].twitter-flat {
-  background-color: #4999f0;
+  background-color: #1da1f2;
 }
 .btn.twitter-flat:hover, input[type="submit"].twitter-flat:hover {
   filter: brightness(50%);
 }
 .btn.twitter-flat-nodark, input[type="submit"].twitter-flat-nodark {
-  background-color: #4999f0;
+  background-color: #1da1f2;
 }
 .btn.viber, input[type="submit"].viber {
   background-color: #7f4d9b;
@@ -3020,6 +3199,37 @@ button.youtube {
 }
 .btn.viber-flat-nodark, input[type="submit"].viber-flat-nodark {
   background-color: #7f4d9b;
+}
+.btn.whatsapp, input[type="submit"].whatsapp {
+  background-color: #25d366;
+  filter: drop-shadow(5px 5px 0 rgba(37, 211, 102, 0.6));
+}
+.btn.whatsapp:hover, input[type="submit"].whatsapp:hover {
+  filter: drop-shadow(5px 5px 0 rgba(37, 211, 102, 0.6)) brightness(50%);
+}
+.btn.whatsapp-border, input[type="submit"].whatsapp-border {
+  border: 3px solid #25d366;
+  height: auto;
+}
+.btn.whatsapp-border:hover, input[type="submit"].whatsapp-border:hover {
+  filter: brightness(50%);
+}
+.btn.whatsapp-border-nodark, input[type="submit"].whatsapp-border-nodark {
+  border: 3px solid #25d366;
+  height: auto;
+}
+.btn.whatsapp-nodark, input[type="submit"].whatsapp-nodark {
+  background-color: #25d366;
+  filter: drop-shadow(5px 5px 0 rgba(37, 211, 102, 0.6));
+}
+.btn.whatsapp-flat, input[type="submit"].whatsapp-flat {
+  background-color: #25d366;
+}
+.btn.whatsapp-flat:hover, input[type="submit"].whatsapp-flat:hover {
+  filter: brightness(50%);
+}
+.btn.whatsapp-flat-nodark, input[type="submit"].whatsapp-flat-nodark {
+  background-color: #25d366;
 }
 .btn.youtube, input[type="submit"].youtube {
   background-color: #f00;
@@ -4144,12 +4354,12 @@ button.youtube {
 .box-container.wisteria-flat {
   background-color: #8e44ad;
 }
-.box-container.devianart {
-  background-color: #f95119;
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+.box-container.deviantart {
+  background-color: #05cc47;
+  filter: drop-shadow(5px 5px 0 rgba(5, 204, 71, 0.6));
 }
-.box-container.devianart-flat {
-  background-color: #f95119;
+.box-container.deviantart-flat {
+  background-color: #05cc47;
 }
 .box-container.discord {
   background-color: #7289da;
@@ -4159,11 +4369,11 @@ button.youtube {
   background-color: #7289da;
 }
 .box-container.facebook {
-  background-color: #475595;
-  filter: drop-shadow(5px 5px 0 rgba(71, 85, 149, 0.6));
+  background-color: #3b5998;
+  filter: drop-shadow(5px 5px 0 rgba(59, 89, 152, 0.6));
 }
 .box-container.facebook-flat {
-  background-color: #475595;
+  background-color: #3b5998;
 }
 .box-container.github {
   background-color: #292d32;
@@ -4172,19 +4382,33 @@ button.youtube {
 .box-container.github-flat {
   background-color: #292d32;
 }
+.box-container.google {
+  background-color: #4285f4;
+  filter: drop-shadow(5px 5px 0 rgba(66, 133, 244, 0.6));
+}
+.box-container.google-flat {
+  background-color: #4285f4;
+}
 .box-container.googleplus {
-  background-color: #d75545;
-  filter: drop-shadow(5px 5px 0 rgba(215, 85, 69, 0.6));
+  background-color: #db4437;
+  filter: drop-shadow(5px 5px 0 rgba(219, 68, 55, 0.6));
 }
 .box-container.googleplus-flat {
-  background-color: #d75545;
+  background-color: #db4437;
+}
+.box-container.instagram {
+  background-color: #c32aa3;
+  filter: drop-shadow(5px 5px 0 rgba(195, 42, 163, 0.6));
+}
+.box-container.instagram-flat {
+  background-color: #c32aa3;
 }
 .box-container.linkedin {
-  background-color: #3275b3;
-  filter: drop-shadow(5px 5px 0 rgba(50, 117, 179, 0.6));
+  background-color: #007bb5;
+  filter: drop-shadow(5px 5px 0 rgba(0, 123, 181, 0.6));
 }
 .box-container.linkedin-flat {
-  background-color: #3275b3;
+  background-color: #007bb5;
 }
 .box-container.patreon {
   background-color: #f96854;
@@ -4201,18 +4425,18 @@ button.youtube {
   background-color: #1e9cd7;
 }
 .box-container.pinterest {
-  background-color: #c5302f;
-  filter: drop-shadow(5px 5px 0 rgba(197, 48, 47, 0.6));
+  background-color: #bd081c;
+  filter: drop-shadow(5px 5px 0 rgba(189, 8, 28, 0.6));
 }
 .box-container.pinterest-flat {
-  background-color: #c5302f;
+  background-color: #bd081c;
 }
 .box-container.reddit {
-  background-color: #f95119;
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+  background-color: #ff4500;
+  filter: drop-shadow(5px 5px 0 rgba(255, 69, 0, 0.6));
 }
 .box-container.reddit-flat {
-  background-color: #f95119;
+  background-color: #ff4500;
 }
 .box-container.skype {
   background-color: #41a6ed;
@@ -4221,33 +4445,54 @@ button.youtube {
 .box-container.skype-flat {
   background-color: #41a6ed;
 }
+.box-container.slack {
+  background-color: #4d394b;
+  filter: drop-shadow(5px 5px 0 rgba(77, 57, 75, 0.6));
+}
+.box-container.slack-flat {
+  background-color: #4d394b;
+}
 .box-container.snapchat {
-  background-color: #f8ff2f;
-  filter: drop-shadow(5px 5px 0 rgba(248, 255, 47, 0.6));
+  background-color: #fffc00;
+  filter: drop-shadow(5px 5px 0 rgba(255, 252, 0, 0.6));
 }
 .box-container.snapchat-flat {
-  background-color: #f8ff2f;
+  background-color: #fffc00;
 }
 .box-container.soundcloud {
-  background-color: #f95f1b;
-  filter: drop-shadow(5px 5px 0 rgba(249, 95, 27, 0.6));
+  background-color: #f50;
+  filter: drop-shadow(5px 5px 0 rgba(255, 85, 0, 0.6));
 }
 .box-container.soundcloud-flat {
-  background-color: #f95f1b;
+  background-color: #f50;
+}
+.box-container.spotify {
+  background-color: #1ed760;
+  filter: drop-shadow(5px 5px 0 rgba(30, 215, 96, 0.6));
+}
+.box-container.spotify-flat {
+  background-color: #1ed760;
+}
+.box-container.steam {
+  background-color: #171a21;
+  filter: drop-shadow(5px 5px 0 rgba(23, 26, 33, 0.6));
+}
+.box-container.steam-flat {
+  background-color: #171a21;
 }
 .box-container.telegram {
-  background-color: #4da8df;
-  filter: drop-shadow(5px 5px 0 rgba(77, 168, 223, 0.6));
+  background-color: #08c;
+  filter: drop-shadow(5px 5px 0 rgba(0, 136, 204, 0.6));
 }
 .box-container.telegram-flat {
-  background-color: #4da8df;
+  background-color: #08c;
 }
 .box-container.tumblr {
-  background-color: #394e6b;
-  filter: drop-shadow(5px 5px 0 rgba(57, 78, 107, 0.6));
+  background-color: #35465d;
+  filter: drop-shadow(5px 5px 0 rgba(53, 70, 93, 0.6));
 }
 .box-container.tumblr-flat {
-  background-color: #394e6b;
+  background-color: #35465d;
 }
 .box-container.twitch {
   background-color: #6441a4;
@@ -4257,11 +4502,11 @@ button.youtube {
   background-color: #6441a4;
 }
 .box-container.twitter {
-  background-color: #4999f0;
-  filter: drop-shadow(5px 5px 0 rgba(73, 153, 240, 0.6));
+  background-color: #1da1f2;
+  filter: drop-shadow(5px 5px 0 rgba(29, 161, 242, 0.6));
 }
 .box-container.twitter-flat {
-  background-color: #4999f0;
+  background-color: #1da1f2;
 }
 .box-container.viber {
   background-color: #7f4d9b;
@@ -4269,6 +4514,13 @@ button.youtube {
 }
 .box-container.viber-flat {
   background-color: #7f4d9b;
+}
+.box-container.whatsapp {
+  background-color: #25d366;
+  filter: drop-shadow(5px 5px 0 rgba(37, 211, 102, 0.6));
+}
+.box-container.whatsapp-flat {
+  background-color: #25d366;
 }
 .box-container.youtube {
   background-color: #f00;
@@ -5688,32 +5940,32 @@ button.youtube {
   filter: brightness(50%);
 }
 
-.devianart {
-  background-color: #f95119 !important;
+.deviantart {
+  background-color: #05cc47 !important;
 }
 
-.devianart-text {
-  color: #f95119 !important;
+.deviantart-text {
+  color: #05cc47 !important;
 }
 
-.devianart-dropshadow {
-  background-color: #f95119;
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+.deviantart-dropshadow {
+  background-color: #05cc47;
+  filter: drop-shadow(5px 5px 0 rgba(5, 204, 71, 0.6));
 }
 
-.devianart-paper {
-  background: linear-gradient(225deg, transparent 26px, #f95119 0) !important;
+.deviantart-paper {
+  background: linear-gradient(225deg, transparent 26px, #05cc47 0) !important;
 }
-.devianart-paper::before {
-  border-color: #f95119 transparent !important;
+.deviantart-paper::before {
+  border-color: #05cc47 transparent !important;
   filter: brightness(75%) !important;
 }
 
-.devianart-bar {
-  background-color: #f95119 !important;
+.deviantart-bar {
+  background-color: #05cc47 !important;
 }
-.devianart-bar::before {
-  background-color: #f95119 !important;
+.deviantart-bar::before {
+  background-color: #05cc47 !important;
   filter: brightness(50%);
 }
 
@@ -5747,31 +5999,31 @@ button.youtube {
 }
 
 .facebook {
-  background-color: #475595 !important;
+  background-color: #3b5998 !important;
 }
 
 .facebook-text {
-  color: #475595 !important;
+  color: #3b5998 !important;
 }
 
 .facebook-dropshadow {
-  background-color: #475595;
-  filter: drop-shadow(5px 5px 0 rgba(71, 85, 149, 0.6));
+  background-color: #3b5998;
+  filter: drop-shadow(5px 5px 0 rgba(59, 89, 152, 0.6));
 }
 
 .facebook-paper {
-  background: linear-gradient(225deg, transparent 26px, #475595 0) !important;
+  background: linear-gradient(225deg, transparent 26px, #3b5998 0) !important;
 }
 .facebook-paper::before {
-  border-color: #475595 transparent !important;
+  border-color: #3b5998 transparent !important;
   filter: brightness(75%) !important;
 }
 
 .facebook-bar {
-  background-color: #475595 !important;
+  background-color: #3b5998 !important;
 }
 .facebook-bar::before {
-  background-color: #475595 !important;
+  background-color: #3b5998 !important;
   filter: brightness(50%);
 }
 
@@ -5804,61 +6056,119 @@ button.youtube {
   filter: brightness(50%);
 }
 
+.google {
+  background-color: #4285f4 !important;
+}
+
+.google-text {
+  color: #4285f4 !important;
+}
+
+.google-dropshadow {
+  background-color: #4285f4;
+  filter: drop-shadow(5px 5px 0 rgba(66, 133, 244, 0.6));
+}
+
+.google-paper {
+  background: linear-gradient(225deg, transparent 26px, #4285f4 0) !important;
+}
+.google-paper::before {
+  border-color: #4285f4 transparent !important;
+  filter: brightness(75%) !important;
+}
+
+.google-bar {
+  background-color: #4285f4 !important;
+}
+.google-bar::before {
+  background-color: #4285f4 !important;
+  filter: brightness(50%);
+}
+
 .googleplus {
-  background-color: #d75545 !important;
+  background-color: #db4437 !important;
 }
 
 .googleplus-text {
-  color: #d75545 !important;
+  color: #db4437 !important;
 }
 
 .googleplus-dropshadow {
-  background-color: #d75545;
-  filter: drop-shadow(5px 5px 0 rgba(215, 85, 69, 0.6));
+  background-color: #db4437;
+  filter: drop-shadow(5px 5px 0 rgba(219, 68, 55, 0.6));
 }
 
 .googleplus-paper {
-  background: linear-gradient(225deg, transparent 26px, #d75545 0) !important;
+  background: linear-gradient(225deg, transparent 26px, #db4437 0) !important;
 }
 .googleplus-paper::before {
-  border-color: #d75545 transparent !important;
+  border-color: #db4437 transparent !important;
   filter: brightness(75%) !important;
 }
 
 .googleplus-bar {
-  background-color: #d75545 !important;
+  background-color: #db4437 !important;
 }
 .googleplus-bar::before {
-  background-color: #d75545 !important;
+  background-color: #db4437 !important;
+  filter: brightness(50%);
+}
+
+.instagram {
+  background-color: #c32aa3 !important;
+}
+
+.instagram-text {
+  color: #c32aa3 !important;
+}
+
+.instagram-dropshadow {
+  background-color: #c32aa3;
+  filter: drop-shadow(5px 5px 0 rgba(195, 42, 163, 0.6));
+}
+
+.instagram-paper {
+  background: linear-gradient(225deg, transparent 26px, #c32aa3 0) !important;
+}
+.instagram-paper::before {
+  border-color: #c32aa3 transparent !important;
+  filter: brightness(75%) !important;
+}
+
+.instagram-bar {
+  background-color: #c32aa3 !important;
+}
+.instagram-bar::before {
+  background-color: #c32aa3 !important;
   filter: brightness(50%);
 }
 
 .linkedin {
-  background-color: #3275b3 !important;
+  background-color: #007bb5 !important;
 }
 
 .linkedin-text {
-  color: #3275b3 !important;
+  color: #007bb5 !important;
 }
 
 .linkedin-dropshadow {
-  background-color: #3275b3;
-  filter: drop-shadow(5px 5px 0 rgba(50, 117, 179, 0.6));
+  background-color: #007bb5;
+  filter: drop-shadow(5px 5px 0 rgba(0, 123, 181, 0.6));
 }
 
 .linkedin-paper {
-  background: linear-gradient(225deg, transparent 26px, #3275b3 0) !important;
+  background: linear-gradient(225deg, transparent 26px, #007bb5 0) !important;
 }
 .linkedin-paper::before {
-  border-color: #3275b3 transparent !important;
+  border-color: #007bb5 transparent !important;
   filter: brightness(75%) !important;
 }
 
 .linkedin-bar {
-  background-color: #3275b3 !important;
+  background-color: #007bb5 !important;
 }
 .linkedin-bar::before {
-  background-color: #3275b3 !important;
+  background-color: #007bb5 !important;
   filter: brightness(50%);
 }
 
@@ -5921,60 +6231,60 @@ button.youtube {
 }
 
 .pinterest {
-  background-color: #c5302f !important;
+  background-color: #bd081c !important;
 }
 
 .pinterest-text {
-  color: #c5302f !important;
+  color: #bd081c !important;
 }
 
 .pinterest-dropshadow {
-  background-color: #c5302f;
-  filter: drop-shadow(5px 5px 0 rgba(197, 48, 47, 0.6));
+  background-color: #bd081c;
+  filter: drop-shadow(5px 5px 0 rgba(189, 8, 28, 0.6));
 }
 
 .pinterest-paper {
-  background: linear-gradient(225deg, transparent 26px, #c5302f 0) !important;
+  background: linear-gradient(225deg, transparent 26px, #bd081c 0) !important;
 }
 .pinterest-paper::before {
-  border-color: #c5302f transparent !important;
+  border-color: #bd081c transparent !important;
   filter: brightness(75%) !important;
 }
 
 .pinterest-bar {
-  background-color: #c5302f !important;
+  background-color: #bd081c !important;
 }
 .pinterest-bar::before {
-  background-color: #c5302f !important;
+  background-color: #bd081c !important;
   filter: brightness(50%);
 }
 
 .reddit {
-  background-color: #f95119 !important;
+  background-color: #ff4500 !important;
 }
 
 .reddit-text {
-  color: #f95119 !important;
+  color: #ff4500 !important;
 }
 
 .reddit-dropshadow {
-  background-color: #f95119;
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+  background-color: #ff4500;
+  filter: drop-shadow(5px 5px 0 rgba(255, 69, 0, 0.6));
 }
 
 .reddit-paper {
-  background: linear-gradient(225deg, transparent 26px, #f95119 0) !important;
+  background: linear-gradient(225deg, transparent 26px, #ff4500 0) !important;
 }
 .reddit-paper::before {
-  border-color: #f95119 transparent !important;
+  border-color: #ff4500 transparent !important;
   filter: brightness(75%) !important;
 }
 
 .reddit-bar {
-  background-color: #f95119 !important;
+  background-color: #ff4500 !important;
 }
 .reddit-bar::before {
-  background-color: #f95119 !important;
+  background-color: #ff4500 !important;
   filter: brightness(50%);
 }
 
@@ -6007,119 +6317,206 @@ button.youtube {
   filter: brightness(50%);
 }
 
+.slack {
+  background-color: #4d394b !important;
+}
+
+.slack-text {
+  color: #4d394b !important;
+}
+
+.slack-dropshadow {
+  background-color: #4d394b;
+  filter: drop-shadow(5px 5px 0 rgba(77, 57, 75, 0.6));
+}
+
+.slack-paper {
+  background: linear-gradient(225deg, transparent 26px, #4d394b 0) !important;
+}
+.slack-paper::before {
+  border-color: #4d394b transparent !important;
+  filter: brightness(75%) !important;
+}
+
+.slack-bar {
+  background-color: #4d394b !important;
+}
+.slack-bar::before {
+  background-color: #4d394b !important;
+  filter: brightness(50%);
+}
+
 .snapchat {
-  background-color: #f8ff2f !important;
+  background-color: #fffc00 !important;
 }
 
 .snapchat-text {
-  color: #f8ff2f !important;
+  color: #fffc00 !important;
 }
 
 .snapchat-dropshadow {
-  background-color: #f8ff2f;
-  filter: drop-shadow(5px 5px 0 rgba(248, 255, 47, 0.6));
+  background-color: #fffc00;
+  filter: drop-shadow(5px 5px 0 rgba(255, 252, 0, 0.6));
 }
 
 .snapchat-paper {
-  background: linear-gradient(225deg, transparent 26px, #f8ff2f 0) !important;
+  background: linear-gradient(225deg, transparent 26px, #fffc00 0) !important;
 }
 .snapchat-paper::before {
-  border-color: #f8ff2f transparent !important;
+  border-color: #fffc00 transparent !important;
   filter: brightness(75%) !important;
 }
 
 .snapchat-bar {
-  background-color: #f8ff2f !important;
+  background-color: #fffc00 !important;
 }
 .snapchat-bar::before {
-  background-color: #f8ff2f !important;
+  background-color: #fffc00 !important;
   filter: brightness(50%);
 }
 
 .soundcloud {
-  background-color: #f95f1b !important;
+  background-color: #f50 !important;
 }
 
 .soundcloud-text {
-  color: #f95f1b !important;
+  color: #f50 !important;
 }
 
 .soundcloud-dropshadow {
-  background-color: #f95f1b;
-  filter: drop-shadow(5px 5px 0 rgba(249, 95, 27, 0.6));
+  background-color: #f50;
+  filter: drop-shadow(5px 5px 0 rgba(255, 85, 0, 0.6));
 }
 
 .soundcloud-paper {
-  background: linear-gradient(225deg, transparent 26px, #f95f1b 0) !important;
+  background: linear-gradient(225deg, transparent 26px, #f50 0) !important;
 }
 .soundcloud-paper::before {
-  border-color: #f95f1b transparent !important;
+  border-color: #f50 transparent !important;
   filter: brightness(75%) !important;
 }
 
 .soundcloud-bar {
-  background-color: #f95f1b !important;
+  background-color: #f50 !important;
 }
 .soundcloud-bar::before {
-  background-color: #f95f1b !important;
+  background-color: #f50 !important;
+  filter: brightness(50%);
+}
+
+.spotify {
+  background-color: #1ed760 !important;
+}
+
+.spotify-text {
+  color: #1ed760 !important;
+}
+
+.spotify-dropshadow {
+  background-color: #1ed760;
+  filter: drop-shadow(5px 5px 0 rgba(30, 215, 96, 0.6));
+}
+
+.spotify-paper {
+  background: linear-gradient(225deg, transparent 26px, #1ed760 0) !important;
+}
+.spotify-paper::before {
+  border-color: #1ed760 transparent !important;
+  filter: brightness(75%) !important;
+}
+
+.spotify-bar {
+  background-color: #1ed760 !important;
+}
+.spotify-bar::before {
+  background-color: #1ed760 !important;
+  filter: brightness(50%);
+}
+
+.steam {
+  background-color: #171a21 !important;
+}
+
+.steam-text {
+  color: #171a21 !important;
+}
+
+.steam-dropshadow {
+  background-color: #171a21;
+  filter: drop-shadow(5px 5px 0 rgba(23, 26, 33, 0.6));
+}
+
+.steam-paper {
+  background: linear-gradient(225deg, transparent 26px, #171a21 0) !important;
+}
+.steam-paper::before {
+  border-color: #171a21 transparent !important;
+  filter: brightness(75%) !important;
+}
+
+.steam-bar {
+  background-color: #171a21 !important;
+}
+.steam-bar::before {
+  background-color: #171a21 !important;
   filter: brightness(50%);
 }
 
 .telegram {
-  background-color: #4da8df !important;
+  background-color: #08c !important;
 }
 
 .telegram-text {
-  color: #4da8df !important;
+  color: #08c !important;
 }
 
 .telegram-dropshadow {
-  background-color: #4da8df;
-  filter: drop-shadow(5px 5px 0 rgba(77, 168, 223, 0.6));
+  background-color: #08c;
+  filter: drop-shadow(5px 5px 0 rgba(0, 136, 204, 0.6));
 }
 
 .telegram-paper {
-  background: linear-gradient(225deg, transparent 26px, #4da8df 0) !important;
+  background: linear-gradient(225deg, transparent 26px, #08c 0) !important;
 }
 .telegram-paper::before {
-  border-color: #4da8df transparent !important;
+  border-color: #08c transparent !important;
   filter: brightness(75%) !important;
 }
 
 .telegram-bar {
-  background-color: #4da8df !important;
+  background-color: #08c !important;
 }
 .telegram-bar::before {
-  background-color: #4da8df !important;
+  background-color: #08c !important;
   filter: brightness(50%);
 }
 
 .tumblr {
-  background-color: #394e6b !important;
+  background-color: #35465d !important;
 }
 
 .tumblr-text {
-  color: #394e6b !important;
+  color: #35465d !important;
 }
 
 .tumblr-dropshadow {
-  background-color: #394e6b;
-  filter: drop-shadow(5px 5px 0 rgba(57, 78, 107, 0.6));
+  background-color: #35465d;
+  filter: drop-shadow(5px 5px 0 rgba(53, 70, 93, 0.6));
 }
 
 .tumblr-paper {
-  background: linear-gradient(225deg, transparent 26px, #394e6b 0) !important;
+  background: linear-gradient(225deg, transparent 26px, #35465d 0) !important;
 }
 .tumblr-paper::before {
-  border-color: #394e6b transparent !important;
+  border-color: #35465d transparent !important;
   filter: brightness(75%) !important;
 }
 
 .tumblr-bar {
-  background-color: #394e6b !important;
+  background-color: #35465d !important;
 }
 .tumblr-bar::before {
-  background-color: #394e6b !important;
+  background-color: #35465d !important;
   filter: brightness(50%);
 }
 
@@ -6153,31 +6550,31 @@ button.youtube {
 }
 
 .twitter {
-  background-color: #4999f0 !important;
+  background-color: #1da1f2 !important;
 }
 
 .twitter-text {
-  color: #4999f0 !important;
+  color: #1da1f2 !important;
 }
 
 .twitter-dropshadow {
-  background-color: #4999f0;
-  filter: drop-shadow(5px 5px 0 rgba(73, 153, 240, 0.6));
+  background-color: #1da1f2;
+  filter: drop-shadow(5px 5px 0 rgba(29, 161, 242, 0.6));
 }
 
 .twitter-paper {
-  background: linear-gradient(225deg, transparent 26px, #4999f0 0) !important;
+  background: linear-gradient(225deg, transparent 26px, #1da1f2 0) !important;
 }
 .twitter-paper::before {
-  border-color: #4999f0 transparent !important;
+  border-color: #1da1f2 transparent !important;
   filter: brightness(75%) !important;
 }
 
 .twitter-bar {
-  background-color: #4999f0 !important;
+  background-color: #1da1f2 !important;
 }
 .twitter-bar::before {
-  background-color: #4999f0 !important;
+  background-color: #1da1f2 !important;
   filter: brightness(50%);
 }
 
@@ -6207,6 +6604,35 @@ button.youtube {
 }
 .viber-bar::before {
   background-color: #7f4d9b !important;
+  filter: brightness(50%);
+}
+
+.whatsapp {
+  background-color: #25d366 !important;
+}
+
+.whatsapp-text {
+  color: #25d366 !important;
+}
+
+.whatsapp-dropshadow {
+  background-color: #25d366;
+  filter: drop-shadow(5px 5px 0 rgba(37, 211, 102, 0.6));
+}
+
+.whatsapp-paper {
+  background: linear-gradient(225deg, transparent 26px, #25d366 0) !important;
+}
+.whatsapp-paper::before {
+  border-color: #25d366 transparent !important;
+  filter: brightness(75%) !important;
+}
+
+.whatsapp-bar {
+  background-color: #25d366 !important;
+}
+.whatsapp-bar::before {
+  background-color: #25d366 !important;
   filter: brightness(50%);
 }
 

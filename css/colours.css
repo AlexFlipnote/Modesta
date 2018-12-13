@@ -406,17 +406,17 @@
   filter: drop-shadow(5px 5px 0 rgba(142, 68, 173, 0.6));
 }
 
-.devianart {
-  background-color: #f95119;
+.deviantart {
+  background-color: #05cc47;
 }
 
-.devianart-text {
-  color: #f95119;
+.deviantart-text {
+  color: #05cc47;
 }
 
-.devianart-dropshadow {
-  background-color: #f95119;
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+.deviantart-dropshadow {
+  background-color: #05cc47;
+  filter: drop-shadow(5px 5px 0 rgba(5, 204, 71, 0.6));
 }
 
 .discord {
@@ -433,16 +433,16 @@
 }
 
 .facebook {
-  background-color: #475595;
+  background-color: #3b5998;
 }
 
 .facebook-text {
-  color: #475595;
+  color: #3b5998;
 }
 
 .facebook-dropshadow {
-  background-color: #475595;
-  filter: drop-shadow(5px 5px 0 rgba(71, 85, 149, 0.6));
+  background-color: #3b5998;
+  filter: drop-shadow(5px 5px 0 rgba(59, 89, 152, 0.6));
 }
 
 .github {
@@ -458,30 +458,56 @@
   filter: drop-shadow(5px 5px 0 rgba(41, 45, 50, 0.6));
 }
 
+.google {
+  background-color: #4285f4;
+}
+
+.google-text {
+  color: #4285f4;
+}
+
+.google-dropshadow {
+  background-color: #4285f4;
+  filter: drop-shadow(5px 5px 0 rgba(66, 133, 244, 0.6));
+}
+
 .googleplus {
-  background-color: #d75545;
+  background-color: #db4437;
 }
 
 .googleplus-text {
-  color: #d75545;
+  color: #db4437;
 }
 
 .googleplus-dropshadow {
-  background-color: #d75545;
-  filter: drop-shadow(5px 5px 0 rgba(215, 85, 69, 0.6));
+  background-color: #db4437;
+  filter: drop-shadow(5px 5px 0 rgba(219, 68, 55, 0.6));
+}
+
+.instagram {
+  background-color: #c32aa3;
+}
+
+.instagram-text {
+  color: #c32aa3;
+}
+
+.instagram-dropshadow {
+  background-color: #c32aa3;
+  filter: drop-shadow(5px 5px 0 rgba(195, 42, 163, 0.6));
 }
 
 .linkedin {
-  background-color: #3275b3;
+  background-color: #007bb5;
 }
 
 .linkedin-text {
-  color: #3275b3;
+  color: #007bb5;
 }
 
 .linkedin-dropshadow {
-  background-color: #3275b3;
-  filter: drop-shadow(5px 5px 0 rgba(50, 117, 179, 0.6));
+  background-color: #007bb5;
+  filter: drop-shadow(5px 5px 0 rgba(0, 123, 181, 0.6));
 }
 
 .patreon {
@@ -511,29 +537,29 @@
 }
 
 .pinterest {
-  background-color: #c5302f;
+  background-color: #bd081c;
 }
 
 .pinterest-text {
-  color: #c5302f;
+  color: #bd081c;
 }
 
 .pinterest-dropshadow {
-  background-color: #c5302f;
-  filter: drop-shadow(5px 5px 0 rgba(197, 48, 47, 0.6));
+  background-color: #bd081c;
+  filter: drop-shadow(5px 5px 0 rgba(189, 8, 28, 0.6));
 }
 
 .reddit {
-  background-color: #f95119;
+  background-color: #ff4500;
 }
 
 .reddit-text {
-  color: #f95119;
+  color: #ff4500;
 }
 
 .reddit-dropshadow {
-  background-color: #f95119;
-  filter: drop-shadow(5px 5px 0 rgba(249, 81, 25, 0.6));
+  background-color: #ff4500;
+  filter: drop-shadow(5px 5px 0 rgba(255, 69, 0, 0.6));
 }
 
 .skype {
@@ -549,56 +575,95 @@
   filter: drop-shadow(5px 5px 0 rgba(65, 166, 237, 0.6));
 }
 
+.slack {
+  background-color: #4d394b;
+}
+
+.slack-text {
+  color: #4d394b;
+}
+
+.slack-dropshadow {
+  background-color: #4d394b;
+  filter: drop-shadow(5px 5px 0 rgba(77, 57, 75, 0.6));
+}
+
 .snapchat {
-  background-color: #f8ff2f;
+  background-color: #fffc00;
 }
 
 .snapchat-text {
-  color: #f8ff2f;
+  color: #fffc00;
 }
 
 .snapchat-dropshadow {
-  background-color: #f8ff2f;
-  filter: drop-shadow(5px 5px 0 rgba(248, 255, 47, 0.6));
+  background-color: #fffc00;
+  filter: drop-shadow(5px 5px 0 rgba(255, 252, 0, 0.6));
 }
 
 .soundcloud {
-  background-color: #f95f1b;
+  background-color: #f50;
 }
 
 .soundcloud-text {
-  color: #f95f1b;
+  color: #f50;
 }
 
 .soundcloud-dropshadow {
-  background-color: #f95f1b;
-  filter: drop-shadow(5px 5px 0 rgba(249, 95, 27, 0.6));
+  background-color: #f50;
+  filter: drop-shadow(5px 5px 0 rgba(255, 85, 0, 0.6));
+}
+
+.spotify {
+  background-color: #1ed760;
+}
+
+.spotify-text {
+  color: #1ed760;
+}
+
+.spotify-dropshadow {
+  background-color: #1ed760;
+  filter: drop-shadow(5px 5px 0 rgba(30, 215, 96, 0.6));
+}
+
+.steam {
+  background-color: #171a21;
+}
+
+.steam-text {
+  color: #171a21;
+}
+
+.steam-dropshadow {
+  background-color: #171a21;
+  filter: drop-shadow(5px 5px 0 rgba(23, 26, 33, 0.6));
 }
 
 .telegram {
-  background-color: #4da8df;
+  background-color: #08c;
 }
 
 .telegram-text {
-  color: #4da8df;
+  color: #08c;
 }
 
 .telegram-dropshadow {
-  background-color: #4da8df;
-  filter: drop-shadow(5px 5px 0 rgba(77, 168, 223, 0.6));
+  background-color: #08c;
+  filter: drop-shadow(5px 5px 0 rgba(0, 136, 204, 0.6));
 }
 
 .tumblr {
-  background-color: #394e6b;
+  background-color: #35465d;
 }
 
 .tumblr-text {
-  color: #394e6b;
+  color: #35465d;
 }
 
 .tumblr-dropshadow {
-  background-color: #394e6b;
-  filter: drop-shadow(5px 5px 0 rgba(57, 78, 107, 0.6));
+  background-color: #35465d;
+  filter: drop-shadow(5px 5px 0 rgba(53, 70, 93, 0.6));
 }
 
 .twitch {
@@ -615,16 +680,16 @@
 }
 
 .twitter {
-  background-color: #4999f0;
+  background-color: #1da1f2;
 }
 
 .twitter-text {
-  color: #4999f0;
+  color: #1da1f2;
 }
 
 .twitter-dropshadow {
-  background-color: #4999f0;
-  filter: drop-shadow(5px 5px 0 rgba(73, 153, 240, 0.6));
+  background-color: #1da1f2;
+  filter: drop-shadow(5px 5px 0 rgba(29, 161, 242, 0.6));
 }
 
 .viber {
@@ -638,6 +703,19 @@
 .viber-dropshadow {
   background-color: #7f4d9b;
   filter: drop-shadow(5px 5px 0 rgba(127, 77, 155, 0.6));
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.whatsapp-text {
+  color: #25d366;
+}
+
+.whatsapp-dropshadow {
+  background-color: #25d366;
+  filter: drop-shadow(5px 5px 0 rgba(37, 211, 102, 0.6));
 }
 
 .youtube {
