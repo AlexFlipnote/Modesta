@@ -16,14 +16,24 @@ Include these inside `<head>` to ensure that the responsiveness works well and a
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 ```
 
-## Using \_compiler.py
+## Using \_watcher.py
 To use this file, you need the following installed:
 - Ruby
-  - sass
-  - jekyll
   - bundler
+  - jekyll
+  - sass
 ```
 [sudo] gem install sass jekyll bundler
+```
+
+## Using \_watcherminify.py
+To use this file, you need the following installed:
+- Python 3.6 or above
+  - csscompressor
+  - watchgod
+```
+[sudo] python -m pip install csscompressor watchgod
+NOTE: Use the python version that matches the requirement
 ```
 
 ## Documentation
@@ -40,11 +50,8 @@ Visit this link for docs: [https://modesta.alexflipnote.xyz/](https://modesta.al
 ## Pages that uses ModestaCSS
 - [AlexFlipnote.xyz](https://alexflipnote.xyz/)
 - [AlexFlipnote/Homepage](https://alexflipnote.xyz/homepage)
-- [Coffee API](https://coffee.alexflipnote.xyz/)
-- [Discord Fork](https://discordbots.co.uk/)
 - [React-Modesta](https://modesta.bowser65.xyz/)
-- [Stylite](https://stylite.me/)
-- [voided.pw](https://voided.pw/)
+- [Terminal Bot List](https://ls.terminal.ink/)
 
 ## Contribution
 If you plan to contribute, please use **scss_lint** (Ruby Package) to be sure everything is linted.
