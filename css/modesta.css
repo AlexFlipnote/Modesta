@@ -4877,7 +4877,7 @@ button.youtube {
     font-size: 18px;
     justify-content: center;
     line-height: 20px;
-    padding: 25px 0;
+    padding: 20px 10px;
     text-align: center;
     white-space: pre-line;
     width: calc(45% - 30px);
