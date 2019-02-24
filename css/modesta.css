@@ -3885,7 +3885,7 @@ button.youtube {
   margin: 0 auto;
   max-width: 1100px;
 }
-.nav-container.default #menu-icon {
+.nav-container.default #menu-icon, .nav-container.default .menu-icon {
   display: none;
 }
 .nav-container.default .nav-title {
@@ -3932,7 +3932,7 @@ button.youtube {
   -o-transform: none;
   color: #f1f1f1;
 }
-.nav-container #menu-icon {
+.nav-container #menu-icon, .nav-container .menu-icon {
   background: #4c8fec url("./images/menu-icon.png") center;
   cursor: pointer;
   display: inline-block;
