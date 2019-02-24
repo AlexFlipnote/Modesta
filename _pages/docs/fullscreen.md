@@ -38,7 +38,14 @@ If you're interested in only making the current website you're on center both ho
 ## Extra styles
 #### Avatar and Text on same line
 ```html
-<section class="me unset">
+<section class="me">
+  <img draggable="false" src="URL/PATH" class="image-title">
+  <!-- Add a new div here -->
+  <div class="unset">
+    <h1 class="title">Username</h1>
+    <span class="undertitle">Text under username</span>
+  </div>
+</section>
 ```
 
 #### one-line responsive

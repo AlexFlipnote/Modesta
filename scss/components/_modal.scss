@@ -1,5 +1,3 @@
-@import '../assets/crossbrowser';
-
 // Main window
 .modal {
   @include animation('fading-modal-in 600ms ease-in-out');
@@ -12,7 +10,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .modal--close {

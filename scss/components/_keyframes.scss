@@ -1,5 +1,3 @@
-@import 'assets/crossbrowser';
-
 @include keyframes(button-enter) {
   from { opacity: 0; top: 2em; }
   70% { top: -.3em; }

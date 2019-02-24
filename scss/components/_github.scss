@@ -1,0 +1,67 @@
+.github-repo-item {
+  background-color: $primary;
+  border: 1px $secondary solid;
+  border-color: $secondary;
+  border-radius: 3px;
+  display: flex;
+  margin-bottom: 16px;
+  padding: 16px;
+  width: 360px;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .name {
+      display: block;
+      font-weight: bold;
+      position: relative;
+    }
+
+    .description {
+      color: #ccc;
+      display: block;
+      flex: 1 0 auto;
+      font-size: 12px;
+      margin-bottom: 16px;
+      margin-top: 8px;
+    }
+
+    .information {
+      font-size: 12px;
+      margin: 0;
+      padding: 0;
+
+      .colour, .color {
+        border-radius: 50%;
+        display: inline-block;
+        height: 12px;
+        position: relative;
+        top: 1px;
+        width: 12px;
+      }
+
+      .meta {
+        color: #fff;
+        display: inline-block;
+        + .meta { margin-left: 16px; }
+
+        &.link:hover {
+          color: #0fa0ce;
+          svg { fill: #0fa0ce; }
+        }
+
+        svg {
+          fill: #fff;
+          vertical-align: text-bottom;
+          &.star { height: 16px; width: 14px; }
+          &.fork { height: 16px; width: 10px; }
+          &.license { height: 16px; width: 14px; }
+        }
+      }
+
+    }
+
+  }
+}

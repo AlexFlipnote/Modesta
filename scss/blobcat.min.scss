@@ -1,7 +1,0 @@
-@import 'assets/blobcat-map';
-
-@each $name, $code in $blobcat-map {
-  .#{$name} {
-    background-image: url($code);
-  }
-}

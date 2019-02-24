@@ -1,13 +1,12 @@
-@import '../assets/colours';
-
 @media (max-width: 750px) {
   .markdown-container {
     padding: 2em 3em;
   }
 
-  .fullscreen .center-object, .center-object {
-    top: 45%;
-    width: 90%;
+  .paper-container .paper { padding: 40px 28px; }
+
+  .fullscreen.half {
+    .background { height: 100%; }
   }
 
   .me {
@@ -33,7 +32,7 @@
       font-size: 18px;
       justify-content: center;
       line-height: 20px;
-      padding: 25px 0;
+      padding: 20px 10px;
       text-align: center;
       white-space: pre-line;
       width: calc(45% - 30px);
@@ -104,6 +103,15 @@
 
 // For devices smaller than 550px
 @media (max-width: 550px) {
+  .paper-container {
+    display: block;
+
+    .paper {
+      background: map-get($colours, primary);
+      &::before { display: none; }
+    }
+  }
+
   .workcard-container {
     .card, .card img, .card .overlay, .card .overlay .text {
       height: auto;

@@ -1,15 +1,19 @@
-@import '../assets/crossbrowser';
-
 .center-object {
-  @include transform(translate(-50%, -50%));
-  left: 50%;
+  // @include transform(translate(-50%, -50%));
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
   position: absolute;
-  top: 50%;
+  top: 0;
+  vertical-align: middle;
   width: 100%;
 }
 
 .fullscreen {
   background-color: map-get($colours, highlight);
+  position: relative;
 
   .background {
     background-attachment: fixed;
@@ -34,11 +38,13 @@
   &.half {
     .background { height: 50%; }
     .center-object {
-      top: 25%;
-
       .btn { padding: 0 20px; }
       .me {
-        .image-title { width: 6em; }
+        .image-title {
+          height: 6em;
+          width: 6em;
+        }
+
         .title { font-size: 4rem; }
         .undertitle { font-size: 1.75rem; }
       }
@@ -59,9 +65,16 @@
     flex-direction: unset;
 
     .image-title { margin-right: .25em; }
-    .image-title, .title {
-      flex-direction: column;
+
+    .unset {
+      margin-left: .5em;
+
+      .title, .undertitle {
+        flex-direction: column;
+        margin: 0;
+      }
     }
+
   }
 
   .image-title {

@@ -14,10 +14,10 @@ Currently, ModestaCSS supports:
 
 Use this HTML to import the different emoji packs
 ```html
-<!-- Twemoji version | ~190 KB -->
+<!-- Twemoji version | 195 KB -->
 <link href="https://modesta.alexflipnote.xyz/css/twemoji.min.css" type="text/css" rel="stylesheet">
 
-<!-- Blobcat version | ~20 KB -->
+<!-- Blobcat version | 23.5 KB -->
 <link href="https://modesta.alexflipnote.xyz/css/blobcat.min.css" type="text/css" rel="stylesheet">
 ```
 
@@ -31,10 +31,17 @@ If any names are either misspelt or missing, please [make an issue here](https:/
 ```html
 <p><i class="emoji twa-cookie"></i> This will display a cookie emoji</p>
 <p><i class="emoji blobcat"></i> This will display a blobcat emoji</p>
+
+<p><i class="emoji emoji-lg twa-cookie"></i> This will display a cookie emoji in 33% larger size</p>
+<p><i class="emoji emoji-2x twa-cookie"></i> This will display a cookie emoji in 2x size</p>
+<p><i class="emoji emoji-3x twa-cookie"></i> This will display a cookie emoji in 3x size</p>
+<p><i class="emoji emoji-4x twa-cookie"></i> This will display a cookie emoji in 4x size</p>
+<p><i class="emoji emoji-5x twa-cookie"></i> This will display a cookie emoji in 5x size</p>
 ```
 
 <h1><i class="emoji twa-cookie"></i> This will display a cookie emoji</h1>
 <h1 class="no-margin"><i class="emoji blobcat"></i> This will display a blobcat emoji</h1>
+<h1 class="no-margin"><i class="emoji emoji-lg twa-cookie"></i> This will display a cookie emoji in 33% larger size</h1>
 
 # Emojis Example:
 [Click here](../examples/emojis)

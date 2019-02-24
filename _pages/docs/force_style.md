@@ -28,4 +28,11 @@ on anything if you want.
 <span class="no-text-shadow">Remove text shadow</span>
 <span class="relative">Force an object to be "position: relative"</span>
 <span class="transparent-bg">Make the object's background transparent</span>
+
+<!-- Font force -->
+<span class="arial">Makes the font Arial</span>
+<span class="monospace">Makes the font monospace</span>
+<span class="montserrat">Makes the font Montserrat</span>
+<span class="roboto">Makes the font Roboto</span>
+<span class="times-new-roman">Makes the font Times New Roman</span>
 ```

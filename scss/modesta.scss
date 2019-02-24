@@ -1,4 +1,14 @@
-// Always first
+// how to sellout 101
+@import 'assets/credits';
+
+// Get those assets to every single package
+@import 'assets/blobcat-map';
+@import 'assets/builders';
+@import 'assets/colours';
+@import 'assets/crossbrowser';
+@import 'assets/emoji-map';
+
+// Most important components
 @import 'components/global';
 @import 'components/keyframes';
 @import 'components/markdown';
@@ -8,11 +18,15 @@
 @import 'components/buttons';
 @import 'components/emojis';
 @import 'components/fullscreen';
+@import 'components/github';
 @import 'components/grid';
 @import 'components/modal';
 @import 'components/navbar';
 @import 'components/objects';
 @import 'components/parallax';
 
-// Responsive
+// Responsiveness
 @import 'components/responsive';
+
+// Forcefull style
+@import 'components/forceStyle';

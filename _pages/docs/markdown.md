@@ -9,6 +9,18 @@ description: Markdown for Jekyll
 NOTE: This works best when you use [Jekyll's](https://jekyllrb.com/) markdown maker, but can be used without it too.
 ```html
 <div class="markdown-container">
-  <!-- Content inside here -->
+  <!-- Whatever markdown inside here -->
 </div>
+```
+
+The `{ content }` is used for `_layouts` in Jekyll and would look like this:
+
+![preview](https://i.alexflipnote.xyz/c8cabd.png)
+
+You can see a live example of all elements [here](examples/markdown)
+
+
+If only using markdown without ModestaCSS is your thing, just use this:
+```html
+<link href="https://modesta.alexflipnote.xyz/css/markdown.min.css" type="text/css" rel="stylesheet">
 ```

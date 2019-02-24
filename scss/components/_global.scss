@@ -1,6 +1,3 @@
-@import '../assets/colours';
-@import '../assets/crossbrowser';
-@import '../assets/builders';
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
 
 html { font-size: 62.5%; }
@@ -53,6 +50,10 @@ h4 { font-size: 2.4rem; letter-spacing: -.08rem; line-height: 1.35; }
 h5 { font-size: 1.8rem; letter-spacing: -.05rem; line-height: 1.5; }
 h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
 
+@page {
+  margin: 1em .5em;
+}
+
 // Larger than phablet
 @media (min-width: 550px) {
   h1 { font-size: 5rem; }
@@ -61,40 +62,4 @@ h6 { font-size: 1.5rem; letter-spacing: 0; line-height: 1.6; }
   h4 { font-size: 3rem; }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 1.5rem; }
-}
-
-.box-shadow {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
-              0 3px 1px -2px rgba(0, 0, 0, .2),
-              0 1px 5px 0 rgba(0, 0, 0, .12);
-}
-
-// Changeing value of elements
-.bold { font-weight: bold !important; }
-.italic { font-style: italic !important; }
-.center-text { text-align: center !important; }
-.left-text { text-align: left !important; }
-.right-text { text-align: right !important; }
-.full-width { width: 100% !important; }
-.half-width { width: 50% !important; }
-.no-border { border: 0 !important; }
-.no-border-radius { border-radius: 0 !important; }
-.no-box-shadow { box-shadow: none !important; }
-.no-margin { margin: 0 !important; }
-.no-padding { padding: 0 !important; }
-.no-select { @include prefix(user-select, none); }
-.no-text-shadow { text-shadow: none !important; }
-.relative { position: relative !important; }
-.transparent-bg { background: transparent !important; }
-.center {
-  display: block !important;
-  margin: 0 auto !important;
-  text-align: center !important;
-}
-
-// All colours
-@each $name, $code in $colours {
-  .#{$name} { background-color: $code !important; }
-  .#{$name}-text { color: $code !important; }
-  .#{$name}-dropshadow { @include dropshadow($code); }
 }

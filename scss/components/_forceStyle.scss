@@ -1,0 +1,60 @@
+// Changeing value of elements
+.bold { font-weight: bold !important; }
+.italic { font-style: italic !important; }
+.center-text { text-align: center !important; }
+.left-text { text-align: left !important; }
+.right-text { text-align: right !important; }
+.full-width { width: 100% !important; }
+.half-width { width: 50% !important; }
+.no-border { border: 0 !important; }
+.no-border-radius { border-radius: 0 !important; }
+.no-box-shadow { box-shadow: none !important; }
+.no-margin { margin: 0 !important; }
+.no-padding { padding: 0 !important; }
+.no-select { @include prefix(user-select, none); }
+.no-text-shadow { text-shadow: none !important; }
+.relative { position: relative !important; }
+.transparent-bg { background: transparent !important; }
+.center {
+  display: block !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
+              0 3px 1px -2px rgba(0, 0, 0, .2),
+              0 1px 5px 0 rgba(0, 0, 0, .12) !important;
+}
+
+// Fonts
+.arial { font-family: Arial; }
+.monospace { font-family: monospace; }
+.montserrat { font-family: 'Montserrat', sans-serif; }
+.roboto { font-family: 'Roboto', sans-serif; }
+.times-new-roman { font-family: 'Times New Roman', Times, serif; }
+
+// All colours
+@each $name, $code in $colours {
+  .#{$name} { background-color: $code !important; }
+  .#{$name}-text { color: $code !important; }
+  .#{$name}-dropshadow { @include dropshadow($code); }
+
+  .#{$name}-paper {
+    background: linear-gradient(225deg, transparent 26px, $code 0) !important;
+
+    &::before {
+      border-color: $code transparent !important;
+      filter: brightness(75%) !important;
+    }
+  }
+
+  .#{$name}-bar {
+    background-color: $code !important;
+
+    &::before {
+      background-color: $code !important;
+      filter: brightness(50%);
+    }
+  }
+}

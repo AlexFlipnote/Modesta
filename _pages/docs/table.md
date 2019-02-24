@@ -10,7 +10,7 @@ You can if you want, remove the dropshadow from the table box.
 If you don't want the table to be center, just remove **table-center**
 ```html
 <div class="table-container table-center">
-  <table class="box-shadow white-dropshadow black-text">
+  <table>
     <thead>
       <tr>
         <th>Material</th>
@@ -41,7 +41,7 @@ If you don't want the table to be center, just remove **table-center**
 
 # Preview
 <div class="table-container table-center">
-  <table class="box-shadow white-dropshadow black-text">
+  <table>
     <thead>
       <tr>
         <th>Material</th>
