@@ -5,11 +5,11 @@ permalink: /github
 title: GitHub
 description: GitHub objects in ModestaCSS
 ---
-# Pinned repository
-Creating the familiar GitHub repo. shown on your profile is easy to do, but just keep in mind that the SVG can be a bit long.
+# Pinned Repository
+Creating the familiar GitHub repo object shown on your profile is easy to do, but just keep in mind that the SVG can be a bit long.
 You can also change the colour in `<span class="colour meta">` to match whatever you need, there's no default colour so having no style background will result in transparent output.
 
-If you want this synced with one of your repo. on GitHub, use [https://api.github.com/users/alexflipnote](https://api.github.com/users/alexflipnote) (replace **alexflipnote** with your GitHub username) and make some JavaScript to pull information and replace the code below.
+If you want this synced with one of your repos on GitHub, use [https://api.github.com/users/AlexFlipnote](https://api.github.com/users/AlexFlipnote) (replace **AlexFlipnote** with your GitHub username) and write some JavaScript to pull information and replace the code below.
 ```html
 <section class="github-repo-item">
   <div class="content">
