@@ -56,7 +56,7 @@ You can replace `<span>` with whatever text type you want.
 ```html
 <section class="workcard-container">
   <div class="card">
-    <img src="https://i.alexflipnote.xyz/7c4714.png">
+    <img src="https://i.alexflipnote.dev/7c4714.png">
     <div class="overlay">
       <span class="text">Hello world<br>Have a nice day</span>
     </div>
@@ -76,25 +76,25 @@ NOTE: If you want to have a clickable card:
 ## Preview
 <section class="workcard-container">
   <div href="#" class="card">
-    <img src="https://i.alexflipnote.xyz/7c4714.png">
+    <img src="https://i.alexflipnote.dev/7c4714.png">
     <a class="overlay">
       <h1 class="text">Hello world<br>Have a nice day</h1>
     </a>
   </div>
   <div class="card">
-    <img src="https://i.alexflipnote.xyz/7c4714.png">
+    <img src="https://i.alexflipnote.dev/7c4714.png">
     <div class="overlay">
       <h2 class="text">Hello world</h2>
     </div>
   </div>
   <div class="card">
-    <img src="https://i.alexflipnote.xyz/7c4714.png">
+    <img src="https://i.alexflipnote.dev/7c4714.png">
     <div class="overlay">
       <h3 class="text">Hello world</h3>
     </div>
   </div>
   <div class="card">
-    <img src="https://i.alexflipnote.xyz/7c4714.png">
+    <img src="https://i.alexflipnote.dev/7c4714.png">
     <div class="overlay">
       <p class="text">Hello world<br>Have a nice day</p>
     </div>

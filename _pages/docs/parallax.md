@@ -29,7 +29,7 @@ You can also customize the size of the parallax:
 
 # Preview
 <section class="parallax-container">
-  <div class="parallax" style="background-image: url('https://i.alexflipnote.xyz/86de96.jpg')"></div>
+  <div class="parallax" style="background-image: url('https://i.alexflipnote.dev/86de96.jpg')"></div>
   <div class="content">
     <h1>Hello world</h1>
   </div>

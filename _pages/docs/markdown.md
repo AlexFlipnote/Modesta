@@ -15,12 +15,12 @@ NOTE: This works best when you use [Jekyll's](https://jekyllrb.com/) markdown ma
 
 The `{ content }` is used for `_layouts` in Jekyll and would look like this:
 
-![preview](https://i.alexflipnote.xyz/c8cabd.png)
+![preview](https://i.alexflipnote.dev/c8cabd.png)
 
 You can see a live example of all elements [here](examples/markdown)
 
 
 If only using markdown without ModestaCSS is your thing, just use this:
 ```html
-<link href="https://modesta.alexflipnote.xyz/css/markdown.min.css" type="text/css" rel="stylesheet">
+<link href="https://modesta.alexflipnote.dev/css/markdown.min.css" type="text/css" rel="stylesheet">
 ```

@@ -21,4 +21,4 @@ To change the paper colour, replace COLOUR with what you need and remember to ha
 # Preview
 [Click here](/examples/paper) to see live preview.
 
-![](https://i.alexflipnote.xyz/11e78c.png)
+![](https://i.alexflipnote.dev/11e78c.png)

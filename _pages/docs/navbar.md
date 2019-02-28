@@ -45,7 +45,7 @@ and you can also drop the `<script>` part as well
 ## Responsive
 ```html
 <!-- Include this in your website -->
-<script src="https://modesta.alexflipnote.xyz/js/navbar.js"></script>
+<script src="https://modesta.alexflipnote.dev/js/navbar.js"></script>
 
 <!-- Then add ID and class to nav-container -->
 <div id="navbar" class="nav-container default">

@@ -56,7 +56,7 @@ If you're interested in only making the current website you're on center both ho
 ```
 Preview:
 
-![preview](https://i.alexflipnote.xyz/52d38a.gif)
+![preview](https://i.alexflipnote.dev/52d38a.gif)
 
 NOTE: The button is only to showcase the change, you won't need such when using it live.
 
@@ -98,7 +98,7 @@ Another class you must add is **slideshow**, so that the backgrounds will be on 
 
 Preview:
 
-![preview](https://i.alexflipnote.xyz/a9f3ed.gif)
+![preview](https://i.alexflipnote.dev/a9f3ed.gif)
 
 # Fullscreen Example:
 [Click here](../examples/fullscreen)

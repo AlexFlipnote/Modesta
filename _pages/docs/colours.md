@@ -17,7 +17,7 @@ description: The different colours in ModestaCSS
 Use this HTML to import the colours only, if that's your thing
 ```html
 <!-- Colour pack | ~8 KB -->
-<link href="https://modesta.alexflipnote.xyz/css/colours.min.css" type="text/css" rel="stylesheet">
+<link href="https://modesta.alexflipnote.dev/css/colours.min.css" type="text/css" rel="stylesheet">
 ```
 
 # All colours
