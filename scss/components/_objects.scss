@@ -254,10 +254,10 @@ $cubic: cubic-bezier(.64, .09, .08, 1);
 
       img {
         border-radius: 100%;
-        margin: .5em 0;
         height: 7em;
-        width: 7em;
+        margin: .5em 0;
         padding: 0;
+        width: 7em;
       }
     }
 
@@ -356,15 +356,13 @@ $workcard-width: 330px;
 // Table container
 .table-container {
   table {
-    background: $primary;
-    border: 1px solid $secondary;
     border-collapse: collapse;
     color: #fff;
-    display: inline-block;
     font-size: 13px;
     margin: 0;
     margin-bottom: 2.5rem;
-    max-width: 800px;
+    overflow: hidden;
+    overflow-x: scroll;
     padding: 0;
     position: relative;
     text-align: left;

@@ -4645,10 +4645,10 @@ button.youtube {
 }
 .card-container .card .avatar img {
   border-radius: 100%;
-  margin: .5em 0;
   height: 7em;
-  width: 7em;
+  margin: .5em 0;
   padding: 0;
+  width: 7em;
 }
 .card-container .card .title {
   display: block;
@@ -4741,15 +4741,13 @@ button.youtube {
 }
 
 .table-container table {
-  background: #282828;
-  border: 1px solid #303030;
   border-collapse: collapse;
   color: #fff;
-  display: inline-block;
   font-size: 13px;
   margin: 0;
   margin-bottom: 2.5rem;
-  max-width: 800px;
+  overflow: hidden;
+  overflow-x: scroll;
   padding: 0;
   position: relative;
   text-align: left;
@@ -4890,38 +4888,6 @@ button.youtube {
   .buttons.one-line .btn {
     padding: 14px 8px;
     width: 75%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .table-container table {
-    border: 0;
-    filter: none;
-    width: 100%;
-  }
-  .table-container table thead {
-    display: none;
-  }
-  .table-container table tr {
-    border-bottom: 3px solid #aaa;
-    display: block;
-    margin-bottom: 10px;
-  }
-  .table-container table td {
-    border-bottom: 1px dotted #ccc;
-    display: block;
-    font-size: 13px;
-  }
-  .table-container table td:first-child {
-    font-weight: bold;
-  }
-  .table-container table td:last-child {
-    border-bottom: 0;
-  }
-  .table-container table td::before {
-    content: attr(data-label);
-    float: left;
-    font-weight: bold;
-    text-transform: uppercase;
   }
 }
 @media screen and (max-width: 650px) {
