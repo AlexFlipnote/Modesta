@@ -4747,7 +4747,7 @@ button.youtube {
   margin: 0;
   margin-bottom: 2.5rem;
   overflow: hidden;
-  overflow-x: scroll;
+  overflow-x: auto;
   padding: 0;
   position: relative;
   text-align: left;
