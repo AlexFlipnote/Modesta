@@ -15,6 +15,7 @@ button {
   padding: .3em .8em;
   position: relative;
 
+  &.btn { box-shadow: unset !important; }
   &:active {
     box-shadow: none !important;
     top: 2;

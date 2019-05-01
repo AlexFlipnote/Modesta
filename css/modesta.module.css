@@ -1268,6 +1268,9 @@ button {
   padding: .3em .8em;
   position: relative;
 }
+button.btn {
+  box-shadow: unset !important;
+}
 button:active {
   box-shadow: none !important;
   top: 2;
