@@ -1,5 +1,5 @@
 /*!
- * ModestaCSS v1.0.2 (https://modesta.alexflipnote.dev)
+ * ModestaCSS v1.0.1 (https://modesta.alexflipnote.dev)
  * Made by AlexFlipnote (https://alexflipnote.dev)
  * Licensed under GPL-3.0 (https://github.com/AlexFlipnote/ModestaCSS/blob/master/LICENSE)
  */
@@ -68,19 +68,6 @@
   filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.6));
 }
 
-.blurple {
-  background-color: #7289da;
-}
-
-.blurple-text {
-  color: #7289da;
-}
-
-.blurple-dropshadow {
-  background-color: #7289da;
-  filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6));
-}
-
 .carrot {
   background-color: #e67e22;
 }
@@ -131,19 +118,6 @@
 .cubered-dropshadow {
   background-color: #ef0c0c;
   filter: drop-shadow(5px 5px 0 rgba(239, 12, 12, 0.6));
-}
-
-.dark-not-black {
-  background-color: #2c2f33;
-}
-
-.dark-not-black-text {
-  color: #2c2f33;
-}
-
-.dark-not-black-dropshadow {
-  background-color: #2c2f33;
-  filter: drop-shadow(5px 5px 0 rgba(44, 47, 51, 0.6));
 }
 
 .dark {
@@ -198,19 +172,6 @@
   filter: drop-shadow(5px 5px 0 rgba(22, 160, 133, 0.6));
 }
 
-.greyple {
-  background-color: #99aab5;
-}
-
-.greyple-text {
-  color: #99aab5;
-}
-
-.greyple-dropshadow {
-  background-color: #99aab5;
-  filter: drop-shadow(5px 5px 0 rgba(153, 170, 181, 0.6));
-}
-
 .highlight {
   background-color: #181818;
 }
@@ -261,19 +222,6 @@
 .nephritis-dropshadow {
   background-color: #27ae60;
   filter: drop-shadow(5px 5px 0 rgba(39, 174, 96, 0.6));
-}
-
-.not-black {
-  background-color: #23272a;
-}
-
-.not-black-text {
-  color: #23272a;
-}
-
-.not-black-dropshadow {
-  background-color: #23272a;
-  filter: drop-shadow(5px 5px 0 rgba(35, 39, 42, 0.6));
 }
 
 .orange {
