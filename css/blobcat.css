@@ -3,6 +3,10 @@
  * Made by AlexFlipnote (https://alexflipnote.dev)
  * Licensed under GPL-3.0 (https://github.com/AlexFlipnote/ModestaCSS/blob/master/LICENSE)
  */
+.ablobcatangel {
+  background-image: url("https://cdn.discordapp.com/emojis/585901371837120514.gif");
+}
+
 .ablobcatattention {
   background-image: url("https://cdn.discordapp.com/emojis/434710260314406922.gif");
 }
@@ -11,12 +15,40 @@
   background-image: url("https://cdn.discordapp.com/emojis/434710260562001940.gif");
 }
 
+.ablobcatbite {
+  background-image: url("https://cdn.discordapp.com/emojis/585900941694468115.gif");
+}
+
 .ablobcatbongo {
   background-image: url("https://cdn.discordapp.com/emojis/491861898724245514.gif");
 }
 
+.ablobcatcoffee {
+  background-image: url("https://cdn.discordapp.com/emojis/585901078554607617.gif");
+}
+
+.ablobcatcry {
+  background-image: url("https://cdn.discordapp.com/emojis/585899809991294980.gif");
+}
+
+.ablobcatdead {
+  background-image: url("https://cdn.discordapp.com/emojis/585902346853285888.gif");
+}
+
+.ablobcatgrumpy {
+  background-image: url("https://cdn.discordapp.com/emojis/585901184867500033.gif");
+}
+
 .ablobcatheart {
   background-image: url("https://cdn.discordapp.com/emojis/501940715077763072.gif");
+}
+
+.ablobcatheartbroken {
+  background-image: url("https://cdn.discordapp.com/emojis/585900192075612171.gif");
+}
+
+.ablobcatheartsqueeze {
+  background-image: url("https://cdn.discordapp.com/emojis/585900035041132565.gif");
 }
 
 .ablobcatknitsweats {
@@ -63,6 +95,10 @@
   background-image: url("https://cdn.discordapp.com/emojis/400106086411141131.gif");
 }
 
+.ablobcatwave {
+  background-image: url("https://cdn.discordapp.com/emojis/585899639082057773.gif");
+}
+
 .ablobcatwink {
   background-image: url("https://cdn.discordapp.com/emojis/433382866995380234.gif");
 }
@@ -81,6 +117,10 @@
 
 .beanblobcat {
   background-image: url("https://cdn.discordapp.com/emojis/400065362043076609.png");
+}
+
+.beanblobcathyper {
+  background-image: url("https://cdn.discordapp.com/emojis/585903447858085910.png");
 }
 
 .blobbunnynomblobcat {
@@ -139,8 +179,16 @@
   background-image: url("https://cdn.discordapp.com/emojis/383016953226199040.png");
 }
 
+.blobcatbigfan {
+  background-image: url("https://cdn.discordapp.com/emojis/586957156243472396.png");
+}
+
 .blobcatbirthday {
   background-image: url("https://cdn.discordapp.com/emojis/386961486112882688.png");
+}
+
+.blobcatblackwhite {
+  background-image: url("https://cdn.discordapp.com/emojis/567350166617849866.png");
 }
 
 .blobcatbleach {
@@ -165,6 +213,26 @@
 
 .blobcatbolbscream {
   background-image: url("https://cdn.discordapp.com/emojis/404295972424777729.png");
+}
+
+.blobcatboost1 {
+  background-image: url("https://cdn.discordapp.com/emojis/585867919548874778.png");
+}
+
+.blobcatboost2 {
+  background-image: url("https://cdn.discordapp.com/emojis/585868033700921462.png");
+}
+
+.blobcatboost3 {
+  background-image: url("https://cdn.discordapp.com/emojis/585868099681648659.png");
+}
+
+.blobcatboost4 {
+  background-image: url("https://cdn.discordapp.com/emojis/585868167033651221.png");
+}
+
+.blobcatbot {
+  background-image: url("https://cdn.discordapp.com/emojis/586859601664802826.png");
 }
 
 .blobcatbravery {
@@ -215,6 +283,10 @@
   background-image: url("https://cdn.discordapp.com/emojis/424081671357333504.png");
 }
 
+.blobcatcool {
+  background-image: url("https://cdn.discordapp.com/emojis/400064206688223232.png");
+}
+
 .blobcatcooljazz {
   background-image: url("https://cdn.discordapp.com/emojis/430872001738178574.png");
 }
@@ -251,8 +323,16 @@
   background-image: url("https://cdn.discordapp.com/emojis/465965791058198538.png");
 }
 
+.blobcatdogsnuggle {
+  background-image: url("https://cdn.discordapp.com/emojis/563402379270160394.png");
+}
+
 .blobcatdrool {
   background-image: url("https://cdn.discordapp.com/emojis/400065362961629188.png");
+}
+
+.blobcatdrums {
+  background-image: url("https://cdn.discordapp.com/emojis/586915000329830410.png");
 }
 
 .blobcatelf {
@@ -323,12 +403,20 @@
   background-image: url("https://cdn.discordapp.com/emojis/400064205828521986.png");
 }
 
+.blobcatgamer {
+  background-image: url("https://cdn.discordapp.com/emojis/586591305346318336.png");
+}
+
 .blobcatghostbuster {
   background-image: url("https://cdn.discordapp.com/emojis/400073196176670723.png");
 }
 
 .blobcatghostdead {
   background-image: url("https://cdn.discordapp.com/emojis/376825130199941122.png");
+}
+
+.blobcatghostreach {
+  background-image: url("https://cdn.discordapp.com/emojis/562270131787530241.png");
 }
 
 .blobcatglare {
@@ -407,6 +495,10 @@
   background-image: url("https://cdn.discordapp.com/emojis/390251924781400066.png");
 }
 
+.blobcatjedi {
+  background-image: url("https://cdn.discordapp.com/emojis/585903598400045102.png");
+}
+
 .blobcatjoy {
   background-image: url("https://cdn.discordapp.com/emojis/363338182453886987.png");
 }
@@ -451,6 +543,10 @@
   background-image: url("https://cdn.discordapp.com/emojis/373872065033273345.png");
 }
 
+.blobcatmegumin {
+  background-image: url("https://cdn.discordapp.com/emojis/585903107309961257.png");
+}
+
 .blobcatmelt {
   background-image: url("https://cdn.discordapp.com/emojis/366512172563431434.png");
 }
@@ -481,6 +577,10 @@
 
 .blobcatmoustache {
   background-image: url("https://cdn.discordapp.com/emojis/366564624885219328.png");
+}
+
+.blobcatnative {
+  background-image: url("https://cdn.discordapp.com/emojis/566203632715038740.png");
 }
 
 .blobcatnauseated {
@@ -615,6 +715,10 @@
   background-image: url("https://cdn.discordapp.com/emojis/366565050393034752.png");
 }
 
+.blobcatoverlycute {
+  background-image: url("https://cdn.discordapp.com/emojis/539044877019775006.png");
+}
+
 .blobcatpan {
   background-image: url("https://cdn.discordapp.com/emojis/493816162279358485.png");
 }
@@ -649,6 +753,14 @@
 
 .blobcatphoto {
   background-image: url("https://cdn.discordapp.com/emojis/366565158857867295.png");
+}
+
+.blobcatpiano {
+  background-image: url("https://cdn.discordapp.com/emojis/586886581407842337.png");
+}
+
+.blobcatpicturebook {
+  background-image: url("https://cdn.discordapp.com/emojis/586877840109076481.png");
 }
 
 .blobcatpika {
@@ -791,6 +903,10 @@
   background-image: url("https://cdn.discordapp.com/emojis/366503464466907136.png");
 }
 
+.blobcatsign {
+  background-image: url("https://cdn.discordapp.com/emojis/586603054397390848.png");
+}
+
 .blobcatsip {
   background-image: url("https://cdn.discordapp.com/emojis/370642365674684416.png");
 }
@@ -807,8 +923,16 @@
   background-image: url("https://cdn.discordapp.com/emojis/400072211681247252.png");
 }
 
+.blobcatsmol {
+  background-image: url("https://cdn.discordapp.com/emojis/515611873534541835.png");
+}
+
 .blobcatsmug {
   background-image: url("https://cdn.discordapp.com/emojis/400072211152764928.png");
+}
+
+.blobcatsnapped {
+  background-image: url("https://cdn.discordapp.com/emojis/585900736437551106.png");
 }
 
 .blobcatsneezing {
@@ -823,8 +947,16 @@
   background-image: url("https://cdn.discordapp.com/emojis/366511517459415040.png");
 }
 
+.blobcatspace {
+  background-image: url("https://cdn.discordapp.com/emojis/586973205013725228.png");
+}
+
 .blobcatsparklyeyes {
   background-image: url("https://cdn.discordapp.com/emojis/404671093744336906.png");
+}
+
+.blobcatstabbed {
+  background-image: url("https://cdn.discordapp.com/emojis/586842648472584193.png");
 }
 
 .blobcatstabbystab {
@@ -837,6 +969,10 @@
 
 .blobcatstop {
   background-image: url("https://cdn.discordapp.com/emojis/465897763188637727.png");
+}
+
+.blobcatsuit {
+  background-image: url("https://cdn.discordapp.com/emojis/586886024886747177.png");
 }
 
 .blobcatsweats {
@@ -967,16 +1103,8 @@
   background-image: url("https://cdn.discordapp.com/emojis/400073197069926400.png");
 }
 
-.blobcoolcat {
-  background-image: url("https://cdn.discordapp.com/emojis/400064206688223232.png");
-}
-
 .blobgentlecat {
   background-image: url("https://cdn.discordapp.com/emojis/369619362090319872.png");
-}
-
-.blobghostcatreach {
-  background-image: url("https://cdn.discordapp.com/emojis/386984776130887691.png");
 }
 
 .geblobcat {
