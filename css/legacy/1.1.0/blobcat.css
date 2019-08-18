@@ -1,5 +1,5 @@
 /*!
- * ModestaCSS v1.1.0 (https://modesta.alexflipnote.dev)
+ * ModestaCSS v1.0.2 (https://modesta.alexflipnote.dev)
  * Made by AlexFlipnote (https://alexflipnote.dev)
  * Licensed under GPL-3.0 (https://github.com/AlexFlipnote/ModestaCSS/blob/master/LICENSE)
  */
@@ -567,10 +567,6 @@
   background-image: url("https://cdn.discordapp.com/emojis/363027617827258380.png");
 }
 
-.blobcatmoney {
-  background-image: url("https://cdn.discordapp.com/emojis/599519818974101505.png");
-}
-
 .blobcatmorning {
   background-image: url("https://cdn.discordapp.com/emojis/400064206734622730.png");
 }
@@ -1037,10 +1033,6 @@
 
 .blobcattriumph {
   background-image: url("https://cdn.discordapp.com/emojis/400072211139919883.png");
-}
-
-.blobcatuguu {
-  background-image: url("https://cdn.discordapp.com/emojis/596254586017415168.png");
 }
 
 .blobcatunamused {

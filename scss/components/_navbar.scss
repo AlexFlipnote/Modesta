@@ -45,7 +45,7 @@ $heigth-control: 4em;
       .current { color: #2ecc71; }
 
       a {
-        @include transition(.3s);
+        @include transition('color .3s ease, transform .3s ease');
         color: #818181;
         display: inline-block;
         font-size: 20px;
@@ -62,7 +62,7 @@ $heigth-control: 4em;
   }
 
   #menu-icon, .menu-icon {
-    background: #4c8fec url('./images/menu-icon.png') center;
+    background: #4c8fec url('https://modesta.alexflipnote.dev/css/images/menu-icon.png') center;
     cursor: pointer;
     display: inline-block;
     height: 40px;
@@ -89,7 +89,6 @@ $heigth-control: 4em;
 
   .sidenav {
     @include transform(translateX(-250px));
-    @include transition(.5s);
     background-color: $highlight;
     height: 100%;
     left: 0;
@@ -102,7 +101,7 @@ $heigth-control: 4em;
     .current { color: #2ecc71; }
 
     a {
-      @include transition(.3s);
+      @include transition('color .3s ease, transform .3s ease');
       color: #818181;
       display: block;
       font-size: 25px;

@@ -1,7 +1,7 @@
 .arrow {
   @include transition('all 300ms ease');
   @include animation('fading 300ms ease-in-out');
-  background-image: url('./images/arrow.png');
+  background-image: url('https://modesta.alexflipnote.dev/css/images/arrow.png');
   background-size: contain;
   bottom: 20px;
   height: 40px;
