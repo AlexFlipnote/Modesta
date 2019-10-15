@@ -17,6 +17,7 @@ $grid-list: (
   filter: $shadow;
 
   @if $hover == true {
+    @include transition('filter 350ms ease');
     &:hover {
       filter: $shadow brightness(50%);
     }

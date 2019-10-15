@@ -8,6 +8,7 @@ description: The different colours in ModestaCSS
 # Usage
 ```html
 <span class="COLOUR">Make the object's background into colour</span>
+<span class="COLOUR-fill">Make SVG fill to a specific colour</span>
 <span class="COLOUR-dropshadow">Add a dropshadow of colour choice</span>
 <span class="COLOUR-flat">Make the object's background into colour (Without the dropshadow if the object has it)</span>
 <span class="COLOUR-paper">Used to change colour of paper-container</span>
@@ -17,7 +18,7 @@ description: The different colours in ModestaCSS
 Use this HTML to import the colours only, if that's your thing
 ```html
 <!-- Colour pack | ~8 KB -->
-<link href="https://modesta.alexflipnote.dev/css/colours.min.css" type="text/css" rel="stylesheet">
+<link href="https://modesta.alexflipnote.dev/css/colours.css" type="text/css" rel="stylesheet">
 ```
 
 # All colours

@@ -10,30 +10,6 @@
   width: 100%;
 }
 
-.column, .columns {
-  box-sizing: border-box;
-  float: left;
-  width: 100%;
-}
-
-.row {
-  .column {
-    margin-left: 4%;
-    &:first-child { margin-left: 0; }
-  }
-
-  .one-full.column { width: 95%; }
-  .one-half.column { width: 48%; }
-  .one-third.column { width: 30.6666666667%; }
-  .one-fourth.column { width: 21.9999999999%; }
-
-  &::after {
-    clear: both;
-    content: '';
-    display: table;
-  }
-}
-
 .flex-grid {
   $default-width: .5rem;
   box-sizing: border-box;

@@ -11,7 +11,7 @@ A clean CSS framework made to be dark and responsive.
 ## Install to your website
 ```html
 <!-- Use this line to have the theme on your website -->
-<link href="https://modesta.alexflipnote.dev/css/modesta.min.css" type="text/css" rel="stylesheet">
+<link href="https://modesta.alexflipnote.dev/css/modesta.css" type="text/css" rel="stylesheet">
 ```
 If you wish to use local files, please copy the CSS folder into your website.
 Everything from images and all CSS packages is included inside it.
@@ -23,24 +23,23 @@ Include these inside `<head>` to ensure that the responsiveness works well and a
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 ```
 
+## Colour scheme
+Here's the main colour scheme to ModestaCSS if you're going to need them to build on-top of it with your own CSS components:
+```
+highlight    #181818    rgb(24, 24, 24)
+primary      #282828    rgb(40, 40, 40)
+secondary    #303030    rgb(48, 48, 48)
+```
+
 ## Using \_watcher.py
 To use this file, you need the following installed:
 - Ruby
   - bundler
   - jekyll
   - sass
+  - scss_lint
 ```
-[sudo] gem install sass jekyll bundler
-```
-
-## Using \_watcherminify.py
-To use this file, you need the following installed:
-- Python 3.6 or above
-  - csscompressor
-  - watchgod
-```
-[sudo] python -m pip install csscompressor watchgod
-NOTE: Use the python version that matches the requirement
+[sudo] gem install bundler jekyll sass scss_lint
 ```
 
 ## Documentation

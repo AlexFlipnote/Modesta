@@ -1,5 +1,4 @@
 .center-object {
-  // @include transform(translate(-50%, -50%));
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -89,14 +88,12 @@
   }
 
   .title {
-    filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, .4));
     font-size: 5rem;
     letter-spacing: 1px;
     margin: .25em;
   }
 
   .undertitle {
-    filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .4));
     font-size: 2.5rem;
     letter-spacing: 1px;
     margin: 0;

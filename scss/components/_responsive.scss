@@ -48,24 +48,6 @@
   }
 }
 
-@media screen and (max-width: 650px) {
-  .nav-container.default {
-    display: flex;
-
-    .nav-title {
-      margin-left: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-    .sidenav {
-      margin-right: 0;
-      padding: 0;
-      text-align: center;
-    }
-  }
-}
-
 // For devices smaller than 550px
 @media (max-width: 550px) {
   .paper-container {
@@ -77,13 +59,6 @@
     }
   }
 
-  .workcard-container {
-    .card, .card img, .card .overlay, .card .overlay .text {
-      height: auto;
-      width: 100%;
-    }
-  }
-
   .container {
     margin: 0;
     margin-bottom: 2.5em;
@@ -91,23 +66,6 @@
     padding: 0;
     width: 100%;
   }
-
-  .nav-container {
-    &.no-nav {
-      display: block;
-      height: 3em;
-      position: static;
-    }
-  }
-
-  // scss-lint:disable EmptyLineBetweenBlocks, SpaceBeforeBrace
-  .row {
-    .column { margin-left: 0; }
-    .one-half.column, .one-third.column, .one-fourth.column {
-      width: 100%;
-    }
-  }
-  // scss-lint:enable EmptyLineBetweenBlocks, SpaceBeforeBrace
 
   .flex-grid {
     .col-xs,

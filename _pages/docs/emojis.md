@@ -14,11 +14,11 @@ Currently, ModestaCSS supports:
 
 Use this HTML to import the different emoji packs
 ```html
-<!-- Twemoji version | 195 KB -->
-<link href="https://modesta.alexflipnote.dev/css/twemoji.min.css" type="text/css" rel="stylesheet">
+<!-- Twemoji version | 191 KB -->
+<link href="https://modesta.alexflipnote.dev/css/twemoji.css" type="text/css" rel="stylesheet">
 
-<!-- Blobcat version | 23.5 KB -->
-<link href="https://modesta.alexflipnote.dev/css/blobcat.min.css" type="text/css" rel="stylesheet">
+<!-- Blobcat version | 27.1 KB -->
+<link href="https://modesta.alexflipnote.dev/css/blobcat.css" type="text/css" rel="stylesheet">
 ```
 
 For the names of _twemoji_ emojis, use `twa-` followed by a code [found here](https://github.com/AlexFlipnote/ModestaCSS/blob/master/scss/assets/_emoji-map.scss)

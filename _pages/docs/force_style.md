@@ -31,8 +31,7 @@ on anything if you want.
 
 <!-- Font force -->
 <span class="arial">Makes the font Arial</span>
+<span class="github-font-standard">Makes the font to GitHub font standards</span>
 <span class="monospace">Makes the font monospace</span>
-<span class="montserrat">Makes the font Montserrat</span>
-<span class="roboto">Makes the font Roboto</span>
 <span class="times-new-roman">Makes the font Times New Roman</span>
 ```

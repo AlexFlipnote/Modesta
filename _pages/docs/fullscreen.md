@@ -23,9 +23,16 @@ start with a fullscreen/half screen on the start.
       <a href="#" class="btn animation nephritis-flat" target="_blank">Website 2</a>
     </div>
   </div>
-  <!-- <div id="fade" class="arrow bounce"></div> -->
+  <!--<div class="arrow bounce">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481.32 291.98" class="white-fill">
+    <path d="M466.5,15.5L466,15c-19.8-19.8-52-19.8-71.9,0L240.8,168.3L87.2,14.8C67.4-5,35.2-5,15.4,14.8l-0.5,0.5 C-5,35.2-5,67.4,14.8,87.2l186.6,186.6c0.9,1,1.8,2,2.7,3v0c3.8,3.8,8.1,6.9,12.7,9.3c17,9,38.1,7.7,53.9-3.9 c2.2-1.6,4.4-3.4,6.4-5.4L466.5,87.4C486.4,67.6,486.4,35.4,466.5,15.5z"/>
+  </svg>
+  </div>-->
 </section>
 ```
+
+## arrow
+The arrow is based of SVG, meaning it might seem a bit long, but it's better than needing to rely on an image being hosted somewhere. You can change the colour of it by changing the class like `white-fill` to `COLOUR-fill` of your choice. Any colours that are included from ModestaCSS works as long as you add `-fill` at the end of it.
 
 ## center-object
 ```html
@@ -72,33 +79,6 @@ If you don't enjoy the 100% border-radius, you can customize it to either be non
 | small-border  | border-radius: 5px;  |
 | medium-border | border-radius: 15px; |
 | large-border  | border-radius: 25px; |
-
-#### Slideshow backgrounds
-(Requires js/effects.js)
-```html
-<div class="background slideshow" style="background-image: url('assets/images/bg.jpg');"></div>
-<div class="background slideshow" style="background-image: url('assets/images/bg2.jpg'); opacity: 0;"></div>
-<div class="background slideshow" style="background-image: url('assets/images/bg3.jpg'); opacity: 0;"></div>
-<div class="background slideshow" style="background-image: url('assets/images/bg4.jpg'); opacity: 0;"></div>
-<div class="background slideshow" style="background-image: url('assets/images/bg5.jpg'); opacity: 0;"></div>
-<div class="background slideshow" style="background-image: url('assets/images/bg6.jpg'); opacity: 0;"></div>
-```
-Other than the first one must have **opacity: 0;** added to the style.
-Another class you must add is **slideshow**, so that the backgrounds will be on same position.
-
-#### Changing text
-(Requires js/effects.js)
-```html
-<span
-  class="txt-rotate"
-  data-period="2000"
-  data-rotate='["Hello world!", "Goodbye world!"]'>
-</span>
-```
-
-Preview:
-
-![preview](https://i.alexflipnote.dev/a9f3ed.gif)
 
 # Fullscreen Example:
 [Click here](../examples/fullscreen)

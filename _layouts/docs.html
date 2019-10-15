@@ -13,41 +13,28 @@
     {% endif %}
 
     <!-- CSS -->
-    <link href="css/modesta.min.css" type="text/css" rel="stylesheet">
-    <link href="css/twemoji.min.css" type="text/css" rel="stylesheet">
-    <link href="css/blobcat.min.css" type="text/css" rel="stylesheet">
+    <link href="css/modesta.css" type="text/css" rel="stylesheet">
+    <link href="css/twemoji.css" type="text/css" rel="stylesheet">
+    <link href="css/blobcat.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <div class="nav-container">
-      <span id="menu-icon"></span>
-      <div class="nav-content">
-        <h4 class="center">{{ page.title }}</h4>
-      </div>
-      <div id="navside" class="sidenav">
-        {% for pagedocs in site.pages %}
-          {% unless pagedocs.url contains "/examples/" %}
-            {% if page.title == pagedocs.title %}
-              <a href="{{ pagedocs.url }}" class="current">{{ pagedocs.title }}</a>
-                {% else %}
-              <a href="{{ pagedocs.url }}">{{ pagedocs.title }}</a>
-            {% endif %}
-          {% endunless %}
-        {% endfor %}
-      </div>
-      <script>
-        var navside = document.getElementById('navside');
-        document.getElementById("menu-icon").onclick = function() { navside.style.transform = "translateX(0)"; }
-        document.addEventListener("click", function(event) {
-          if (event.target.closest(".nav-container")) return;
-          navside.style.transform = "translateX(-250px)";
-        });
-
-        // Replace first link
-        document.getElementsByTagName("a")[0].innerHTML = "Home"
-      </script>
+    <h4 class="center secondary">{{ page.title }}</h4>
+    <div class="sidenav primary">
+      {% for pagedocs in site.pages %}
+        {% unless pagedocs.url contains "/examples/" %}
+          {% if page.title == pagedocs.title %}
+            <a href="{{ pagedocs.url }}" class="emerald-text">{{ pagedocs.title }}</a>
+              {% else %}
+            <a href="{{ pagedocs.url }}">{{ pagedocs.title }}</a>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
     </div>
-
-    <div class="markdown-container">
+    <style>
+      .sidenav { text-align: center; }
+      .sidenav a { font-size: 3.5vmin; margin-left: .5em; }
+    </style>
+    <div class="markdown-container github-font-standard">
       {{ content }}
     </div>
 

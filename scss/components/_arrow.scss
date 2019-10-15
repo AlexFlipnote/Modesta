@@ -1,14 +1,11 @@
 .arrow {
   @include transition('all 300ms ease');
   @include animation('fading 300ms ease-in-out');
-  background-image: url('https://modesta.alexflipnote.dev/css/images/arrow.png');
-  background-size: contain;
   bottom: 20px;
-  height: 40px;
+  height: auto;
   left: 50%;
-  margin-left: -20px;
   position: absolute;
-  width: 40px;
+  width: 45px;
 }
 
 .arrow--scrolled {
