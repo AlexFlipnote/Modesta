@@ -64,6 +64,7 @@ button {
 
   &:hover {
     @include transition('filter 200ms ease');
+    color: $white;
     filter: brightness(65%);
   }
 
