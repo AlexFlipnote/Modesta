@@ -1,5 +1,7 @@
-# ModestaCSS 2.0
+# ModestaCSS
 A clean CSS framework made to be dark and responsive.
+
+[_Find legacy versions of ModestaCSS here_](https://modesta.alexflipnote.dev/legacy)
 
 ## Install to your website
 ```html
@@ -43,11 +45,11 @@ Visit this link for docs: [https://modesta.alexflipnote.dev/](https://modesta.al
 - [skeleton](http://getskeleton.com/)
 - [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)
 
-## Pages that uses ModestaCSS
+## Pages that uses ModestaCSS 2.0
 - [alexflipnote.dev](https://alexflipnote.dev/)
 - [AlexFlipnote/Homepage](https://alexflipnote.dev/homepage)
 
-### Pages that use ModestaCSS 1.0
+## Pages that use ModestaCSS 1.0
 - [React-Modesta](https://modesta.bowser65.xyz/)
 - [Terminal Bot List](https://ls.terminal.ink/)
 
