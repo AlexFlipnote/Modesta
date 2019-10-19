@@ -50,7 +50,6 @@ Visit this link for docs: [https://modesta.alexflipnote.dev/](https://modesta.al
 - [AlexFlipnote/Homepage](https://alexflipnote.dev/homepage)
 
 ## Pages that uses ModestaCSS 1.0
-- [React-Modesta](https://modesta.bowser65.xyz/)
 - [Terminal Bot List](https://ls.terminal.ink/)
 
 ## Contribution
