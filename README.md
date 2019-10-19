@@ -49,7 +49,7 @@ Visit this link for docs: [https://modesta.alexflipnote.dev/](https://modesta.al
 - [alexflipnote.dev](https://alexflipnote.dev/)
 - [AlexFlipnote/Homepage](https://alexflipnote.dev/homepage)
 
-## Pages that use ModestaCSS 1.0
+## Pages that uses ModestaCSS 1.0
 - [React-Modesta](https://modesta.bowser65.xyz/)
 - [Terminal Bot List](https://ls.terminal.ink/)
 
