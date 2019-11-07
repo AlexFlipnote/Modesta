@@ -12,11 +12,14 @@
   .me {
     padding: 0;
 
-    .title { font-size: 10vmin; margin: 0; }
+    .title { font-size: 15vmin; margin: 0; text-align: center; }
+    .undertitle { font-size: 1.75rem; text-align: center; }
     .image-title { height: 7em; width: 7em; }
 
     &.unset {
       flex-direction: column;
+      margin-left: 0;
+      .unset { margin-left: 0; }
     }
   }
 
