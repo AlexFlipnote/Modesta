@@ -16,7 +16,7 @@ start with a fullscreen/half screen on the start.
     <section class="me">
       <img draggable="false" src="URL/PATH" class="image-title">
       <h1 class="title">Username</h1>
-      <span class="undertitle">Text under username</span>
+      <p class="undertitle">Text under username</p>
     </section>
     <div class="buttons">
       <a href="#" class="btn animation turquoise" target="_blank">Website 1</a>
