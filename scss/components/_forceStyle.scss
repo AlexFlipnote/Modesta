@@ -15,10 +15,16 @@
 .no-text-shadow { text-shadow: none !important; }
 .relative { position: relative !important; }
 .transparent-bg { background: transparent !important; }
+
 .center {
   display: block !important;
   margin: 0 auto !important;
   text-align: center !important;
+}
+
+.center-flex {
+  display: flex !important;
+  justify-content: center !important;
 }
 
 .box-shadow {

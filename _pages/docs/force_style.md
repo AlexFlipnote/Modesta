@@ -17,6 +17,7 @@ on anything if you want.
 <span class="left-text">Only make the text inside left aligned</span>
 <span class="right-text">Only make the text inside right aligned</span>
 <span class="center">Make anything inside center aligned</span>
+<span class="center-flex">Make anything inside center aligned, but flex friendly</span>
 <span class="full-width">Forces object to have 100% width</span>
 <span class="half-width">Forces object to have 50% width</span>
 <span class="no-border">Remove borders from object</span>
