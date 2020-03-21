@@ -35,6 +35,11 @@ secondary    #303030    rgb(48, 48, 48)
 
 ## Using \_watcher.py
 To use this file, you need the following installed:
+- Python (of course...)
+- NodeJS
+  - rollup
+  - rollup-plugin-terser
+  - [ Optional: jshint ]
 - Ruby
   - bundler
   - jekyll
@@ -42,6 +47,7 @@ To use this file, you need the following installed:
   - scss_lint
 ```
 [sudo] gem install bundler jekyll sass scss_lint
+npm i
 ```
 
 ## Documentation
@@ -57,7 +63,6 @@ Visit this link for docs: [https://modesta.alexflipnote.dev/](https://modesta.al
 - [AlexFlipnote/Homepage](https://alexflipnote.dev/homepage)
 
 ## Pages that uses ModestaCSS 1.0
-- [React-Modesta](https://modesta.bowser65.xyz/)
 - [Terminal Bot List](https://ls.terminal.ink/)
 
 ## Contribution

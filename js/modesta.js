@@ -1,0 +1,1 @@
+!function(){"use strict";window.addEventListener("scroll",(function(){var s,e;s=window.scrollY,(e=document.getElementsByClassName("arrow")).length&&(s>=100?e[0].classList.add("arrow--scrolled"):e[0].classList.remove("arrow--scrolled"))}))}();

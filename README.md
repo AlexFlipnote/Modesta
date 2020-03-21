@@ -28,6 +28,11 @@ secondary    #303030    rgb(48, 48, 48)
 
 ## Using \_watcher.py
 To use this file, you need the following installed:
+- Python (of course...)
+- NodeJS
+  - rollup
+  - rollup-plugin-terser
+  - [ Optional: jshint ]
 - Ruby
   - bundler
   - jekyll
@@ -35,6 +40,7 @@ To use this file, you need the following installed:
   - scss_lint
 ```
 [sudo] gem install bundler jekyll sass scss_lint
+npm i
 ```
 
 ## Documentation
