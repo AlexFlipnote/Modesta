@@ -7,6 +7,9 @@ A clean CSS framework made to be dark and responsive.
 ```html
 <!-- Use this line to have the theme on your website -->
 <link href="https://modesta.alexflipnote.dev/css/modesta.css" type="text/css" rel="stylesheet">
+
+<!-- If you need the special JavaScript stuff, add this as well -->
+<script src="https://modesta.alexflipnote.dev/js/modesta.js" type="text/javascript" charset="utf-8"></script>
 ```
 If you wish to use local files, please copy the CSS folder into your website.
 Everything from images and all CSS packages is included inside it.

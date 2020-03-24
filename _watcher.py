@@ -50,7 +50,7 @@ def exec_commands(cmds):
             if sys.platform == 'linux':
                 processes.append(Popen(task, shell=True))
             else:
-                processes.append(Popen(task.split(' '), shell=True))
+                processes.append(Popen(str(task[0]).split(' '), shell=True))
 
         for p in processes:
             if done(p):
