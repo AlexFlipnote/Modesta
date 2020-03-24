@@ -1,0 +1,13 @@
+.scroll-in {
+  opacity: 0;
+
+  &.scroll-in--scrolled {
+    @include animation('fading 1s ease-in-out forwards');
+
+    @for $x from 1 through 15 {
+      &:nth-child(#{$x}):not(.no-delay) {
+        animation-delay: $x * .25s;
+      }
+    }
+  }
+}
