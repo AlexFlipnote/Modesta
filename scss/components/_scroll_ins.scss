@@ -1,0 +1,37 @@
+.scroll-in {
+  opacity: 0;
+
+  &.scroll-in--scrolled {
+    @include animation('fading 1s ease-in-out forwards');
+
+    &.from-top {
+      @include animation('fade-from-top 1s ease-in-out forwards');
+    }
+
+    &.from-bottom {
+      @include animation('fade-from-bottom 1s ease-in-out forwards');
+    }
+
+    &.from-left {
+      @include animation('fade-from-left 1s ease-in-out forwards');
+    }
+
+    &.from-right {
+      @include animation('fade-from-right 1s ease-in-out forwards');
+    }
+
+    &.from-back {
+      @include animation('fade-from-back 1s ease-in-out forwards');
+    }
+
+    &.from-front {
+      @include animation('fade-from-front 1s ease-in-out forwards');
+    }
+
+    @for $x from 1 through 15 {
+      &:nth-child(#{$x}):not(.no-delay) {
+        animation-delay: $x * .25s;
+      }
+    }
+  }
+}

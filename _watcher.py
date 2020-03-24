@@ -47,7 +47,10 @@ def exec_commands(cmds):
         while cmds and len(processes) < max_task:
             task = cmds.pop()
             print(task)
-            processes.append(Popen(task, shell=True))
+            if sys.platform == 'linux':
+                processes.append(Popen(task, shell=True))
+            else:
+                processes.append(Popen(task.split(' '), shell=True))
 
         for p in processes:
             if done(p):
@@ -63,9 +66,9 @@ def exec_commands(cmds):
 
 
 commands = [
-    ['sass', '--watch', 'scss:css', '--style', 'compressed'],
-    ['bundle', 'exec', 'jekyll', 'serve'],
-    ['rollup', '-c', '-w']
+    ['sass --watch scss:css --style compressed'],
+    ['bundle exec jekyll serve'],
+    ['rollup -c -w']
 ]
 
 exec_commands(commands)
