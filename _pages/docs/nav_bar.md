@@ -2,7 +2,7 @@
 layout: docs
 permalink: /nav_bar
 
-title: Nav-bar
+title: Navigation Bar
 description: The navigation bar in ModestaCSS
 ---
 # Usage

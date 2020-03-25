@@ -2,7 +2,7 @@
 layout: docs
 permalink: /
 
-title: ModestaCSS
+title: Home
 description: A clean CSS framework made to be dark, responsive and easy to build with.
 ---
 # ModestaCSS
