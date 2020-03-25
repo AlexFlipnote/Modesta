@@ -103,6 +103,7 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>deviantart</td><td class="deviantart"></td><td>#05cc47</td></tr>
           <tr><td>discord</td><td class="discord"></td><td>#7289da</td></tr>
           <tr><td>facebook</td><td class="facebook"></td><td>#3b5998</td></tr>
+          <tr><td>gitea</td><td class="gitea"></td><td>#5aa509</td></tr>
           <tr><td>github</td><td class="github"></td><td>#292d32</td></tr>
           <tr><td>gitlab</td><td class="gitlab"></td><td>#fc6d26</td></tr>
           <tr><td>google</td><td class="google"></td><td>#4285f4</td></tr>
