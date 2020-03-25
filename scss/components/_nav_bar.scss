@@ -46,7 +46,11 @@
     
             &.selected {
               color: $white;
-              &:hover { filter: brightness(100%); }
+              pointer-events: none;
+
+              &:hover {
+                filter: brightness(100%);
+              }
             }
           }
         }
