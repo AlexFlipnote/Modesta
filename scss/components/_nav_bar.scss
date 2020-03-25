@@ -21,6 +21,10 @@
       display: inline-block;
     }
 
+    & > img {
+      height: 2em;
+    }
+
     nav {
       float: right;
       display: inline-flex;
