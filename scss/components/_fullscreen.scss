@@ -28,7 +28,7 @@
       position: absolute;
     }
 
-    .nav-bar + & {
+    .nav-bar:not(.fixed) + & {
       height: calc(100% - 3em);
     }
   }

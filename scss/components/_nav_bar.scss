@@ -5,6 +5,12 @@
   flex-direction: column;
   vertical-align: middle;
   justify-content: center;
+  z-index: 5;
+
+  &.fixed {
+    position: fixed;
+    width: 100%;
+  }
 
   .nav-container {
     padding: 0 1em;
