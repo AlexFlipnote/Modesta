@@ -26,7 +26,8 @@ description: The navigation bar in ModestaCSS
 ```
 <br>
 
-The collapsed navigation bar has a scroller inside, so you can add as many links as you want!
+The collapsed navigation bar has a scroller inside, so you can add as many links as you want!  
+You can also add the `fixed` class to the `nav-bar` header to have the header stay on top of the page.
 
 # Navigation Bar Example:
 [Click here](../examples/nav_bar)
