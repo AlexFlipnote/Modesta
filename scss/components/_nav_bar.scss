@@ -80,6 +80,15 @@
             vertical-align: middle;
             overflow: auto;
             max-height: 15em;
+
+            &::-webkit-scrollbar {
+              width: 5px;
+            }
+            
+            &::-webkit-scrollbar-thumb {
+              border: 3px solid #303030;
+              border-radius: 7px;
+            }
           }
   
           &:before {
