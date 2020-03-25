@@ -27,6 +27,10 @@
       @include transition(opacity 1s ease-in);
       position: absolute;
     }
+
+    .nav-bar + & {
+      height: calc(100% - 3em);
+    }
   }
 
   .me {
