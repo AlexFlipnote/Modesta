@@ -57,7 +57,7 @@
           display: inline-block;
           width: 2em;
           height: 2em;
-          margin: .25em 0;
+          margin: .4em -.5em .4em 0;
           border-radius: 5px;
           z-index: 15;
           background: url('https://api.iconify.design/ei:navicon.svg?color=white') no-repeat center center / contain;
@@ -77,6 +77,7 @@
           z-index: 10;
           background: #181818;
           margin-top: 2.5em;
+          margin-right: -.5em;
           border-radius: 0 0 5px 5px;
           pointer-events: none;
   
