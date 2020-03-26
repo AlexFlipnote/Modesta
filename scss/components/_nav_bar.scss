@@ -2,124 +2,103 @@
   height: 3em;
   background: #303030;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   vertical-align: middle;
   justify-content: center;
   z-index: 5;
 
+  .nav-bars {
+    display: inline-block;
+    cursor: pointer;
+    width: 3em;
+    height: 3em;
+    border-radius: 0 5px 5px 0;
+    padding: 0 .5em;
+    background: url('https://api.iconify.design/ei:navicon.svg?color=white') no-repeat center center / contain;
+    @include transition('background-color 200ms ease');
+
+    &.nav--expand {
+      background-image: url('https://api.iconify.design/ic:outline-close.svg?color=white');
+      background-color: #181818;
+      @include transition('background-color 200ms ease');
+
+      & + .nav {
+        transform: translate3d(0, 0, 0);
+        @include transition('transform 200ms ease');
+      }
+    }
+  }
+
+  .nav-close {
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    width: calc(100% - 1em);
+    height: 3em;
+    padding: 0 .5em;
+    margin-top: -4em;
+    background: url(https://api.iconify.design/ic:outline-close.svg?color=white) no-repeat center center/contain #222;
+  }
+
   &.fixed {
     position: fixed;
     width: 100%;
+
+    .nav-close {
+      display: none;
+    }
   }
 
-  .nav-container {
-    padding: 0 1em;
+  h1, h2, h3, h4, h5, h6 {
+    margin: .1em .25em;
+    font-size: 2em;
+    width: 100%;
+    display: inline-block;
+  }
 
-    h1, h2, h3, h4, h5, h6 {
-      margin: .1em 0;
-      font-size: 2em;
-      display: inline-block;
+  .nav {
+    position: fixed;
+    left: 0;
+    padding: 1em;
+    background: #181818;
+    display: flex;
+    height: calc(100% - 5em);
+    margin-top: 3em;
+    z-index: 10;
+    transform: translate3d(-100%, 0, 0);
+    @include transition('transform 200ms ease');
+
+    .nav-scroller {
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        border: 3px solid #303030;
+        border-radius: 7px;
+      }
     }
 
-    & > img {
-      height: 2em;
-    }
+    a {
+      font-size: 1.5em;
+      margin: .25em .5em;
+      @include transition('filter 200ms ease');
 
-    nav {
-      float: right;
-      display: inline-flex;
-
-      .nav-bars { display: none; }
-
-      .nav-inner {
-        display: contents;
-        opacity: 0;
-
-        .nav-scroller {
-          display: contents;
-
-          a {
-            font-size: 1.5em;
-            margin: .25em .5em;
-            @include transition('filter 200ms ease');
-    
-            &:hover {
-              @include transition('filter 200ms ease');
-              filter: brightness(65%);
-            }
-    
-            &.selected {
-              color: $white;
-              pointer-events: none;
-
-              &:hover {
-                filter: brightness(100%);
-              }
-            }
-          }
-        }
+      &:hover {
+        @include transition('filter 200ms ease');
+        filter: brightness(65%);
       }
 
-      &.nav--collapse {
-        .nav-bars {
-          display: inline-block;
-          width: 2em;
-          height: 2em;
-          margin: .4em -.5em .4em 0;
-          border-radius: 5px;
-          z-index: 15;
-          background: url('https://api.iconify.design/ei:navicon.svg?color=white') no-repeat center center / contain;
-  
-          &:hover + .nav-inner {
-            opacity: 1;
-            pointer-events: initial;
-          }
-        }
-  
-        .nav-inner {
-          position: absolute;
-          right: 1em;
-          display: flex;
-          flex-direction: column;
-          vertical-align: middle;
-          z-index: 10;
-          background: #181818;
-          margin-top: 2.5em;
-          margin-right: -.5em;
-          border-radius: 0 0 5px 5px;
-          pointer-events: none;
-  
-          .nav-scroller {
-            display: flex;
-            flex-direction: column;
-            vertical-align: middle;
-            overflow: auto;
-            max-height: 15em;
+      &.selected {
+        color: $white;
+        pointer-events: none;
 
-            &::-webkit-scrollbar {
-              width: 5px;
-            }
-            
-            &::-webkit-scrollbar-thumb {
-              border: 3px solid #303030;
-              border-radius: 7px;
-            }
-          }
-  
-          &:before {
-            content: '';
-            position: absolute;
-            height: 2.5em;
-            width: 100%;
-            margin-top: -2.5em;
-            background: #181818;
-            border-radius: 5px 5px 0 0;
-          }
-  
-          &:hover {
-            opacity: 1;
-            pointer-events: initial;
-          }
+        &:hover {
+          filter: brightness(100%);
         }
       }
     }

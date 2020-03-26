@@ -7,26 +7,17 @@ description: Navigation bar example
 ---
 
 <header class="nav-bar fixed">
-  <div class="nav-container">
-    <h1>Example Site</h1>
-    <nav>
-      <span class="nav-bars"></span>
-      <div class="nav-inner">
-        <div class="nav-scroller">
-          <a class="selected" href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-          <a href="#">Link 4</a>
-          <a href="#">Link 5</a>
-          <a href="#">Link 6</a>
-          <a href="#">Link 7</a>
-          <a href="#">Link 8</a>
-          <a href="#">Link 9</a>
-          <a href="#">Link 10</a>
-        </div>
-      </div>
-    </nav>
-  </div>
+  <span class="nav-bars"></span>
+  <section class="nav">
+    <span class="nav-close"></span>
+    <div class="nav-scroller">
+      <a class="selected" href="#">Link 1</a>
+      {% for num in (2..20) %}
+        <a href="#">Link {{ num }}</a>
+      {% endfor %}
+    </div>
+  </section>
+  <h1>Example Site</h1>
 </header>
 <div class="fullscreen">
   <div class="background" style="background-image: url('https://i.alexflipnote.dev/7b89f3.png');"></div>

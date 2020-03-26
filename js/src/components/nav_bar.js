@@ -1,22 +1,19 @@
-export function check_nav_bar() {
-  var navContainers = document.getElementsByClassName('nav-container')
+export function add_nav_bar_events() {
+  var navBars = document.getElementsByClassName('nav-bar')
 
-  if (navContainers.length && navContainers[0].getElementsByTagName('nav').length) {
-    var navContainer = navContainers[0]
-    var nav = navContainer.getElementsByTagName('nav')[0]
-    if (nav._collapedAt) {
-      if(window.innerWidth > nav._collapedAt) {
-        delete nav._collapedAt
-        nav.classList.remove('nav--collapse')
-        // Re-evaluate if anything after collapse changed
-        if (navContainer.getBoundingClientRect().height > navContainer.parentNode.getBoundingClientRect().height) {
-          nav.classList.add('nav--collapse')
-          nav._collapedAt = window.innerWidth
-        }
-      }
-    } else if (navContainer.getBoundingClientRect().height > navContainer.parentNode.getBoundingClientRect().height) {
-      nav.classList.add('nav--collapse')
-      nav._collapedAt = window.innerWidth
-    }
+  if (navBars.length) {
+    var navBar = navBars[0]
+
+    var navToggle = navBar.querySelector('.nav-bars')
+    var navClose = navBar.querySelector('.nav-close')
+
+    if(navToggle) navToggle.addEventListener('click', () => {
+      navToggle.classList.toggle('nav--expand')
+    });
+
+    if(navClose) navClose.addEventListener('click', () => {
+      if(navToggle) navToggle.classList.remove('nav--expand')
+    });
+    
   }
 }

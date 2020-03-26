@@ -19,25 +19,22 @@
   </head>
   <body class="github-font-standard">
     <header class="nav-bar">
-      <div class="nav-container">
-        <h1>{{ site.title }} - {{ page.title }}</h1>
-        <nav>
-          <span class="nav-bars"></span>
-          <div class="nav-inner">
-            <div class="nav-scroller">
-              {% for pagedocs in site.pages %}
-                {% unless pagedocs.url contains "/examples/" %}
-                  {% if page.title == pagedocs.title %}
-                    <a href="{{ pagedocs.url }}" class="selected">{{ pagedocs.title }}</a>
-                      {% else %}
-                    <a href="{{ pagedocs.url }}">{{ pagedocs.title }}</a>
-                  {% endif %}
-                {% endunless %}
-              {% endfor %}
-            </div>
-          </div>
-        </nav>
-      </div>
+      <span class="nav-bars"></span>
+      <section class="nav">
+        <span class="nav-close"></span>
+        <div class="nav-scroller">
+          {% for pagedocs in site.pages %}
+            {% unless pagedocs.url contains "/examples/" %}
+              {% if page.title == pagedocs.title %}
+                <a href="{{ pagedocs.url }}" class="selected">{{ pagedocs.title }}</a>
+                  {% else %}
+                <a href="{{ pagedocs.url }}">{{ pagedocs.title }}</a>
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+        </div>
+      </section>
+      <h1>{{ site.title }} - {{ page.title }}</h1>
     </header>
     <div class="markdown-container">
       {{ content }}
