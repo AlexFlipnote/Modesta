@@ -15,6 +15,9 @@ description: Navigation bar example
       {% for num in (2..20) %}
         <a href="#">Link {{ num }}</a>
       {% endfor %}
+      {% for num in (1..5) %}
+        <a class="indent-{{ num }}" href="#">Link Indent {{ num }}</a>
+      {% endfor %}
     </div>
   </section>
   <h1>Example Site</h1>

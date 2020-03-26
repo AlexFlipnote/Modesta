@@ -101,6 +101,13 @@
           filter: brightness(100%);
         }
       }
+
+      @for $x from 1 through 5 {
+        &.indent-#{$x} {
+          font-size: 1em;
+          padding-left: .5em * $x;
+        }
+      }
     }
   }
 }
