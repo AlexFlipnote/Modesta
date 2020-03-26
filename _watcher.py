@@ -1,9 +1,11 @@
 import sys
 import os
 import time
+import atexit
 
 from subprocess import Popen
 
+processes = []
 
 def cpu_count():
     """ Returns the number of CPUs in the system """
@@ -42,11 +44,10 @@ def exec_commands(cmds):
         sys.exit(1)
 
     max_task = cpu_count()
-    processes = []
     while True:
         while cmds and len(processes) < max_task:
             task = cmds.pop()
-            print(task)
+            print(f'Starting "{str(task[0]).split(" ")[0]}" process...')
             if sys.platform == 'linux':
                 processes.append(Popen(task, shell=True))
             else:
@@ -64,6 +65,10 @@ def exec_commands(cmds):
         else:
             time.sleep(0.05)
 
+def on_exit():
+    for p in processes:
+        print(f'Killing "{p.args[0]}" process...')
+        p.kill()
 
 commands = [
     ['sass --watch scss:css --style compressed'],
@@ -71,4 +76,8 @@ commands = [
     ['rollup -c -w']
 ]
 
-exec_commands(commands)
+atexit.register(on_exit)
+try:
+    exec_commands(commands)
+except KeyboardInterrupt:
+    pass
