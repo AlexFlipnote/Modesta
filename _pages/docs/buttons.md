@@ -3,7 +3,7 @@ layout: docs
 permalink: /buttons
 
 title: Buttons
-description: All buttons in ModestaCSS
+description: All buttons in Modesta
 ---
 ```html
 <a class="btn COLOUR">Button</a>

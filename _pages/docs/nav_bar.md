@@ -3,7 +3,7 @@ layout: docs
 permalink: /nav_bar
 
 title: Navigation Bar
-description: The navigation bar in ModestaCSS
+description: The navigation bar in Modesta
 ---
 # Usage
 ```html

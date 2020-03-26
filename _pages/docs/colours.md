@@ -3,7 +3,7 @@ layout: docs
 permalink: /colours
 
 title: Colours
-description: The different colours in ModestaCSS
+description: The different colours in Modesta
 ---
 # Usage
 ```html

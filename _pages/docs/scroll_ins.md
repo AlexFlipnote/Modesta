@@ -3,7 +3,7 @@ layout: docs
 permalink: /scroll_ins
 
 title: Scroll-ins
-description: The types of scroll-ins in ModestaCSS
+description: The types of scroll-ins in Modesta, make your website presentable
 ---
 Scroll-ins are elements that fade into view once you scroll into them. These scroll-ins can have varying types of fade-in animations.  
 In order to remove the orderly fade-in effect, you can add the `no-delay` class name.
