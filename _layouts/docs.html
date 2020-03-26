@@ -5,11 +5,36 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
-    <!-- Meta data -->
+    <!-- Twitter & OpenGraph data -->
+    <meta name="twitter:site" content="@AlexFlipnote">
+    <meta name="twitter:creator" content="@AlexFlipnote">
+    <meta name="twitter:title" content="{{ site.title }} - {{ page.title }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:url" content="https://modesta.alexflipnote.dev{{ page.permalink }}">
+
+    <!-- Image meta -->
+    <meta name="twitter:image" content="https://modesta.alexflipnote.dev/assets/cover.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://modesta.alexflipnote.dev/assets/cover.png">
+    <meta property="og:image:secure" content="https://modesta.alexflipnote.dev/assets/cover.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="Modesta Cover">
+
+
+    <!-- Other meta data -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta name="theme-color" content="#7fb4b9">
+    <meta name="revisit-after" content="2 days">
+    <meta name="keywords" content="framework, css, easy-to-use, scss, modestacss, clean, flat, modern">
+    <link rel="icon" type="image/svg+xml" href="/assets/icon.svg">
     <meta content="{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}" property="og:title" />
+
     {% if page.description %}
     <meta content="{{ page.description }}" property="og:description" />
     <meta content="{{ page.description }}" name="description" />
+    <meta content="{{ page.description }}" name="twitter:description">
     {% endif %}
 
     <!-- CSS -->
