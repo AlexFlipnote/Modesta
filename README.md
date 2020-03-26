@@ -1,7 +1,10 @@
-# Modesta
-A clean CSS framework made to be dark and responsive.
-
+<div align="center">
+  <h1 id="modesta"><img src="https://get.snaz.in/82bKRQV.svg" height=100 alt="Modesta"></h1>
+  <p>A clean CSS framework made to be dark and responsive.</p>
+  
 [_Find legacy versions of Modesta here_](https://modesta.alexflipnote.dev/legacy)
+  
+</div>
 
 ## Install to your website
 ```html

@@ -52,14 +52,15 @@
             {% unless pagedocs.url contains "/examples/" %}
               {% if page.title == pagedocs.title %}
                 <a href="{{ pagedocs.url }}" class="selected">{{ pagedocs.title }}</a>
-                  {% else %}
+              {% else %}
                 <a href="{{ pagedocs.url }}">{{ pagedocs.title }}</a>
               {% endif %}
             {% endunless %}
           {% endfor %}
         </div>
       </section>
-      <h1>{{ site.title }} - {{ page.title }}</h1>
+      <img src="/assets/logo.svg" alt="Modesta" width="150">
+      <h1><i>- {{ page.title }}</i></h1>
     </header>
     <div class="markdown-container">
       {{ content }}
