@@ -2,7 +2,7 @@
 layout: docs
 permalink: /
 
-title: ModestaCSS
+title: Home
 description: A clean CSS framework made to be dark, responsive and easy to build with.
 ---
 # ModestaCSS
@@ -64,6 +64,8 @@ Visit this link for docs: [https://modesta.alexflipnote.dev/](https://modesta.al
 ## Pages that uses ModestaCSS 2.0
 - [alexflipnote.dev](https://alexflipnote.dev/)
 - [AlexFlipnote/Homepage](https://alexflipnote.dev/homepage)
+- [HotImage](https://github.com/Snazzah/HotImage)
+- [Snazzah's API](https://api.snaz.in/docs)
 
 ## Pages that uses ModestaCSS 1.0
 - [Terminal Bot List](https://ls.terminal.ink/)

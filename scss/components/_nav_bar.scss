@@ -1,0 +1,113 @@
+.nav-bar {
+  height: 3em;
+  background: #303030;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  justify-content: center;
+  z-index: 5;
+
+  .nav-bars {
+    display: inline-block;
+    cursor: pointer;
+    width: 3em;
+    height: 3em;
+    border-radius: 0 5px 5px 0;
+    padding: 0 .5em;
+    background: url('https://api.iconify.design/ei:navicon.svg?color=white') no-repeat center center / contain;
+    @include transition('background-color 200ms ease');
+
+    &.nav--expand {
+      background-image: url('https://api.iconify.design/ic:outline-close.svg?color=white');
+      background-color: #181818;
+      @include transition('background-color 200ms ease');
+
+      & + .nav {
+        transform: translate3d(0, 0, 0);
+        @include transition('transform 200ms ease');
+      }
+    }
+  }
+
+  .nav-close {
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    width: calc(100% - 1em);
+    height: 3em;
+    padding: 0 .5em;
+    margin-top: -4em;
+    background: url(https://api.iconify.design/ic:outline-close.svg?color=white) no-repeat center center/contain #222;
+  }
+
+  &.fixed {
+    position: fixed;
+    width: 100%;
+
+    .nav-close {
+      display: none;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: .1em .25em;
+    font-size: 2em;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .nav {
+    position: fixed;
+    left: 0;
+    padding: 1em;
+    background: #181818;
+    display: flex;
+    height: calc(100% - 5em);
+    margin-top: 3em;
+    z-index: 10;
+    transform: translate3d(-100%, 0, 0);
+    @include transition('transform 200ms ease');
+
+    .nav-scroller {
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        border: 3px solid #303030;
+        border-radius: 7px;
+      }
+    }
+
+    a {
+      font-size: 1.5em;
+      margin: .25em .5em;
+      @include transition('filter 200ms ease');
+
+      &:hover {
+        @include transition('filter 200ms ease');
+        filter: brightness(65%);
+      }
+
+      &.selected {
+        color: $white;
+        pointer-events: none;
+
+        &:hover {
+          filter: brightness(100%);
+        }
+      }
+
+      @for $x from 1 through 5 {
+        &.indent-#{$x} {
+          font-size: 1em;
+          padding-left: .5em * $x;
+        }
+      }
+    }
+  }
+}
