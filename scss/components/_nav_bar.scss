@@ -1,43 +1,43 @@
 .nav-bar {
-  height: 3em;
-  background: #303030;
+  background: $secondary;
   display: flex;
   flex-direction: row;
-  vertical-align: middle;
+  height: 3em;
   justify-content: center;
+  vertical-align: middle;
   z-index: 5;
 
   .nav-bars {
-    display: inline-block;
-    cursor: pointer;
-    width: 3em;
-    height: 3em;
-    border-radius: 0 5px 5px 0;
-    padding: 0 .5em;
-    background: url('https://api.iconify.design/ei:navicon.svg?color=white') no-repeat center center / contain;
     @include transition('background-color 200ms ease');
+    background: url('https://api.iconify.design/ei:navicon.svg?color=white') no-repeat center center / contain;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 3em;
+    padding: 0 .5em;
+    width: 3em;
 
     &.nav--expand {
-      background-image: url('https://api.iconify.design/ic:outline-close.svg?color=white');
-      background-color: #181818;
       @include transition('background-color 200ms ease');
+      background-color: $highlight;
+      background-image: url('https://api.iconify.design/ic:outline-close.svg?color=white');
 
-      & + .nav {
-        transform: translate3d(0, 0, 0);
+      +.nav {
         @include transition('transform 200ms ease');
+        transform: translate3d(0, 0, 0);
       }
     }
   }
 
   .nav-close {
-    position: absolute;
+    background: url('https://api.iconify.design/ic:outline-close.svg?color=white') no-repeat center center / contain #222;
     cursor: pointer;
-    left: 0;
-    width: calc(100% - 1em);
     height: 3em;
-    padding: 0 .5em;
+    left: 0;
     margin-top: -4em;
-    background: url(https://api.iconify.design/ic:outline-close.svg?color=white) no-repeat center center/contain #222;
+    padding: 0 .5em;
+    position: absolute;
+    width: calc(100% - 1em);
   }
 
   &.fixed {
@@ -50,23 +50,23 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    margin: .1em .25em;
-    font-size: 2em;
-    width: 100%;
     display: inline-block;
+    font-size: 2em;
+    margin: .1em .25em;
+    width: 100%;
   }
 
   .nav {
-    position: fixed;
-    left: 0;
-    padding: 1em;
-    background: #181818;
+    @include transition('transform 200ms ease');
+    background: $highlight;
     display: flex;
     height: calc(100% - 5em);
+    left: 0;
     margin-top: 3em;
-    z-index: 10;
+    padding: 1em;
+    position: fixed;
     transform: translate3d(-100%, 0, 0);
-    @include transition('transform 200ms ease');
+    z-index: 10;
 
     .nav-scroller {
       display: flex;
@@ -76,17 +76,17 @@
       &::-webkit-scrollbar {
         width: 5px;
       }
-      
+
       &::-webkit-scrollbar-thumb {
-        border: 3px solid #303030;
+        border: 3px solid $secondary;
         border-radius: 7px;
       }
     }
 
     a {
+      @include transition('filter 200ms ease');
       font-size: 1.5em;
       margin: .25em .5em;
-      @include transition('filter 200ms ease');
 
       &:hover {
         @include transition('filter 200ms ease');

@@ -1,9 +1,9 @@
 <div align="center">
   <h1 id="modesta"><img src="https://get.snaz.in/82bKRQV.svg" height=100 alt="Modesta"></h1>
   <p>A clean CSS framework made to be dark and responsive.</p>
-  
+
 [_Find legacy versions of Modesta here_](https://modesta.alexflipnote.dev/legacy)
-  
+
 </div>
 
 ## Install to your website
@@ -62,9 +62,6 @@ Visit this link for docs: [https://modesta.alexflipnote.dev/](https://modesta.al
 - [AlexFlipnote/Homepage](https://alexflipnote.dev/homepage)
 - [HotImage](https://github.com/Snazzah/HotImage)
 - [Snazzah's API](https://api.snaz.in/docs)
-
-## Pages that uses Modesta 1.0
-- [Terminal Bot List](https://ls.terminal.ink/)
 
 ## Contribution
 If you plan to contribute, please use **scss_lint** (Ruby Package) to be sure everything is linted.

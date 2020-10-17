@@ -38,53 +38,58 @@
 
 @include keyframes(fade-from-top) {
   from {
-    opacity: 0;
     @include transform(translate3d(0, -100%, 0));
+    opacity: 0;
   }
+
   100% {
-    opacity: 1;
     @include transform(translate3d(0, 0, 0));
+    opacity: 1;
   }
 }
 
 @include keyframes(fade-from-bottom) {
   from {
-    opacity: 0;
     @include transform(translate3d(0, 100%, 0));
+    opacity: 0;
   }
+
   100% {
-    opacity: 1;
     @include transform(translate3d(0, 0, 0));
+    opacity: 1;
   }
 }
 
 @include keyframes(fade-from-left) {
   from {
-    opacity: 0;
     @include transform(translate3d(-100%, 0, 0));
+    opacity: 0;
   }
+
   100% {
-    opacity: 1;
     @include transform(translate3d(0, 0, 0));
+    opacity: 1;
   }
 }
 
 @include keyframes(fade-from-right) {
   from {
-    opacity: 0;
     @include transform(translate3d(100%, 0, 0));
+    opacity: 0;
   }
+
   100% {
-    opacity: 1;
     @include transform(translate3d(0, 0, 0));
+    opacity: 1;
   }
 }
 
 @include keyframes(fade-from-back) {
   from {
     opacity: 0;
-    transform: scale3d(0.5, 0.5, 0.5);
+    transform: scale3d(.5, .5, .5);
   }
+
   100% {
     opacity: 1;
   }
@@ -95,6 +100,7 @@
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1.5);
   }
+
   100% {
     opacity: 1;
   }

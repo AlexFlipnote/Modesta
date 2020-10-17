@@ -7,6 +7,7 @@ from subprocess import Popen
 
 processes = []
 
+
 def cpu_count():
     """ Returns the number of CPUs in the system """
     num = 1
@@ -65,10 +66,12 @@ def exec_commands(cmds):
         else:
             time.sleep(0.05)
 
+
 def on_exit():
     for p in processes:
         print(f'Killing "{p.args[0]}" process...')
         p.kill()
+
 
 commands = [
     ['sass --watch scss:css --style compressed'],

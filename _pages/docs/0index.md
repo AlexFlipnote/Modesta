@@ -88,9 +88,6 @@ Visit this link for docs: [https://modesta.alexflipnote.dev/](https://modesta.al
 - [HotImage](https://github.com/Snazzah/HotImage)
 - [Snazzah's API](https://api.snaz.in/docs)
 
-## Pages that uses Modesta 1.0
-- [Terminal Bot List](https://ls.terminal.ink/)
-
 ## Contribution
 If you plan to contribute, please use **scss_lint** (Ruby Package) to be sure everything is linted.
 Thanks <3
