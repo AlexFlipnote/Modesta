@@ -55,6 +55,8 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>greyple</td><td class="greyple"></td><td>#99aab5</td></tr>
           <tr><td>highlight</td><td class="highlight"></td><td>#181818</td></tr>
           <tr><td>honey</td><td class="honey"></td><td>#eab543</td></tr>
+          <tr><td>jade</td><td class="jade"></td><td>#00a86b</td></tr>
+          <tr><td>lapis-lazuli</td><td class="lapis-lazuli"></td><td>#26619c</td></tr>
           <tr><td>lavender</td><td class="lavender"></td><td>#b57edc</td></tr>
           <tr><td>light</td><td class="light"></td><td>#f8f9fa</td></tr>
           <tr><td>lemon</td><td class="lemon"></td><td>#ffeaa7</td></tr>
@@ -63,6 +65,7 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>navy-blue</td><td class="navy-blue"></td><td>#182C61</td></tr>
           <tr><td>nephritis-blue</td><td class="nephritis-blue"></td><td>#27ae60</td></tr>
           <tr><td>not-black</td><td class="not-black"></td><td>#23272a</td></tr>
+          <tr><td>opal</td><td class="opal"></td><td>#a8c3bc</td></tr>
           <tr><td>orange</td><td class="orange"></td><td>#f39c12</td></tr>
           <tr><td>peach</td><td class="peach"></td><td>#f49898</td></tr>
           <tr><td>peter-river</td><td class="peter-river"></td><td>#3498db</td></tr>
@@ -74,6 +77,8 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>pumpkin</td><td class="pumpkin"></td><td>#d35400</td></tr>
           <tr><td>rasberry</td><td class="rasberry"></td><td>#c51d4a</td></tr>
           <tr><td>raw-purple</td><td class="raw-purple"></td><td>#7222c9</td></tr>
+          <tr><td>ruby</td><td class="ruby"></td><td>#9b111e</td></tr>
+          <tr><td>sapphire</td><td class="sapphire"></td><td>#0f52ba</td></tr>
           <tr><td>secondary</td><td class="secondary"></td><td>#303030</td></tr>
           <tr><td>silver</td><td class="silver"></td><td>#7f8c8d</td></tr>
           <tr><td>soft-purple</td><td class="soft-purple"></td><td>#6c5ce7</td></tr>
