@@ -100,22 +100,30 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>amazon</td><td class="amazon"></td><td>#f90</td></tr>
           <tr><td>android</td><td class="android"></td><td>#8ec047</td></tr>
           <tr><td>bandcamp</td><td class="bandcamp"></td><td>#619aa9</td></tr>
+          <tr><td>bing</td><td class="bing"></td><td>#3794fb</td></tr>
+          <tr><td>bitbucket</td><td class="bitbucket"></td><td>#2684fe</td></tr>
           <tr><td>deviantart</td><td class="deviantart"></td><td>#05cc47</td></tr>
           <tr><td>discord</td><td class="discord"></td><td>#7289da</td></tr>
+          <tr><td>dogehouse</td><td class="dogehouse"></td><td>#efe7dc</td></tr>
           <tr><td>facebook</td><td class="facebook"></td><td>#3b5998</td></tr>
+          <tr><td>firefox</td><td class="firefox"></td><td>#fd8956</td></tr>
           <tr><td>gitea</td><td class="gitea"></td><td>#5aa509</td></tr>
           <tr><td>github</td><td class="github"></td><td>#292d32</td></tr>
           <tr><td>gitlab</td><td class="gitlab"></td><td>#fc6d26</td></tr>
           <tr><td>google</td><td class="google"></td><td>#4285f4</td></tr>
           <tr><td>googleplus</td><td class="googleplus"></td><td>#db4437</td></tr>
+          <tr><td>heroku</td><td class="heroku"></td><td>#6762a5</td></tr>
           <tr><td>instagram</td><td class="instagram"></td><td>#c32aa3</td></tr>
           <tr><td>line</td><td class="line"></td><td>#00b901</td></tr>
           <tr><td>linkedin</td><td class="linkedin"></td><td>#007bb5</td></tr>
+          <tr><td>messenger</td><td class="messenger"></td><td>#a834e8</td></tr>
+          <tr><td>nodejs</td><td class="nodejs"></td><td>#8ac848</td></tr>
           <tr><td>npm</td><td class="npm"></td><td>#c12127</td></tr>
           <tr><td>patreon</td><td class="patreon"></td><td>#f96854</td></tr>
           <tr><td>paypal</td><td class="paypal"></td><td>#1e9cd7</td></tr>
           <tr><td>pinterest</td><td class="pinterest"></td><td>#bd081c</td></tr>
           <tr><td>reddit</td><td class="reddit"></td><td>#ff4500</td></tr>
+          <tr><td>replit</td><td class="replit"></td><td>#56676e</td></tr>
           <tr><td>skype</td><td class="skype"></td><td>#41a6ed</td></tr>
           <tr><td>slack</td><td class="slack"></td><td>#4d394b</td></tr>
           <tr><td>snapchat</td><td class="snapchat"></td><td>#fffc00</td></tr>
@@ -128,6 +136,7 @@ Use this HTML to import the colours only, if that's your thing
           <tr><td>twitter</td><td class="twitter"></td><td>#1da1f2</td></tr>
           <tr><td>viber</td><td class="viber"></td><td>#7f4d9b</td></tr>
           <tr><td>whatsapp</td><td class="whatsapp"></td><td>#25d366</td></tr>
+          <tr><td>yarn</td><td class="yarn"></td><td>#568cbb</td></tr>
           <tr><td>youtube</td><td class="youtube"></td><td>#f00</td></tr>
         </tbody>
       </table>
