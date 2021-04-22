@@ -1,0 +1,27 @@
+.box-container {
+  margin-bottom: 2.5em;
+  padding: 1em;
+  position: relative;
+
+  &.message {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: .5em;
+
+    .close {
+      color: #fff;
+      font-size: 34px;
+      font-weight: 300;
+      height: 100%;
+      line-height: 24px;
+      opacity: .6;
+      position: absolute;
+      right: .25em;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 1;
+      }
+    }
+  }
+}

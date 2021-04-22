@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link href="../dist/modesta.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <style>
+    .center-bullshit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    div[class*="-theme"] { display: flex; flex-direction: row; }
+    div[class*="-bg"] { width: 150px; height: 150px; }
+  </style>
+
+  <body style="background: gray;">
+    <div class="center-bullshit github">
+      <h1>Colours scheme</h1>
+      <h4>Highlight -> Primary -> Secondary</h4>
+      <div class="dark-theme">
+        <div class="highlight-bg"></div>
+        <div class="primary-bg"></div>
+        <div class="secondary-bg"></div>
+      </div>
+      <div class="light-theme">
+        <div class="highlight-bg"></div>
+        <div class="primary-bg"></div>
+        <div class="secondary-bg"></div>
+      </div>
+    </div>
+  </body>
+
+</html>

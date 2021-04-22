@@ -51,15 +51,19 @@
   }
 }
 
+// For paper bullshit
+@media (max-width: 1012px) {
+  .paper-container .paper {
+    width: 85%;
+  }
+}
+
 // For devices smaller than 550px
 @media (max-width: 550px) {
   .paper-container {
     display: block;
 
-    .paper {
-      background: map-get($colours, primary);
-      &::before { display: none; }
-    }
+    .paper::before { display: none; }
   }
 
   .container {

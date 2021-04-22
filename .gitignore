@@ -1,16 +1,8 @@
-# SASS stuff
+# Custom ignore
+/dist
+
+# SASS
 .sass-cache/
 .ropeproject/
 *.css.map
 __pycache__/
-
-# Jekyll sruff
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# NodeJS stuff
-node_modules
-npm-debug.log
-package-lock.json

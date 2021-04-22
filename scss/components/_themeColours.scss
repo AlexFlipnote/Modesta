@@ -1,0 +1,93 @@
+$themes-container: (
+  dark-theme: (
+    highlight:  $dark-highlight,
+    primary:    $dark-primary,
+    secondary:  $dark-secondary,
+    text:       $white,
+  ),
+  light-theme: (
+    highlight:  $light-highlight,
+    primary:    $light-primary,
+    secondary:  $light-secondary,
+    text:       $black,
+  )
+);
+
+@each $name, $vars in $themes-container {
+  $highlight: map-get($vars, 'highlight');
+  $primary:   map-get($vars, 'primary');
+  $secondary: map-get($vars, 'secondary');
+  $text:      map-get($vars, 'text');
+
+  // START: THEME_COMPILER
+  .#{$name} {
+
+    .paper-container {
+      .ribbon { background-color: $secondary; }
+      .paper {
+        background: linear-gradient(225deg, transparent 26px, $primary 0);
+        &::before { border-color: $highlight transparent; }
+      }
+    }
+
+    .tooltip::after {
+      background-color: $secondary;
+      color: $text;
+    }
+
+    .loader, .loader::before, .loader::after {
+      background-color: $text;
+      color: $text;
+    }
+
+    .btn { color: $text; }
+
+    .fullscreen { background-color: $highlight; }
+
+    .label {
+      background-color: $secondary;
+      color: $text;
+    }
+
+    input, select, textarea, button {
+      background-color: $secondary;
+      color: $text;
+    }
+
+    table {
+      color: $text;
+
+      th, td { border: 1px solid $secondary; }
+
+      tr {
+        background-color: $primary;
+        border: 1px solid $secondary;
+        &:nth-child(2n) { background-color: $secondary; }
+      }
+    }
+
+    @media (max-width: 550px) {
+      .paper-container .paper {background: $primary; }
+    }
+
+    // Colour variables
+    .highlight-bg { background-color: $highlight; }
+    .primary-bg { background-color: $primary; }
+    .secondary-bg { background-color: $secondary; }
+
+    .highlight-text { color: $highlight; }
+    .primary-text { color: $primary; }
+    .secondary-text { color: $secondary; }
+
+    .theme-text { color: $text; }
+
+  }
+
+  body {
+    &.#{$name} {
+      color: $text;
+      background-color: $highlight;
+    }
+  }
+  // END: THEME_COMPILER
+}

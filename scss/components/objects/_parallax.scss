@@ -1,0 +1,26 @@
+.parallax-container {
+  position: relative;
+
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    height: 20em;
+    width: 100%;
+
+    &.small { height: 15em; }
+    &.medium { height: 26em; }
+    &.large { height: 33em; }
+  }
+
+  .content {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}

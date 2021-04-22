@@ -1,9 +1,3 @@
 @import 'assets/credits';
-@import 'assets/builders';
 @import 'assets/colours';
-
-@each $name, $code in $colours {
-  .#{$name} { background-color: $code; }
-  .#{$name}-text { color: $code; }
-  .#{$name}-dropshadow { @include dropshadow($code); }
-}
+@import 'components/colour';
