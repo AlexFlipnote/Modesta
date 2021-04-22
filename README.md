@@ -13,7 +13,7 @@ light-secondary    #f5f5f5    rgb(245, 245, 245)
 ```
 
 ## Documentation
-Coming soon
+You can check the [wiki](https://github.com/AlexFlipnote/Modesta/wiki) to view all components in Modesta
 
 ## Used Resources:
 - [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)
