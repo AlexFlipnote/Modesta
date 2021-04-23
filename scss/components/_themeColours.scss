@@ -30,6 +30,31 @@ $themes-container: (
       }
     }
 
+    .markdown-jekyll {
+      color: $text;
+
+      hr {
+        background-color: $secondary;
+        border-bottom: 1px solid $secondary;
+        border-bottom-color: $secondary;
+      }
+
+      h1, h2 {
+        border-bottom: 1px solid $secondary;
+      }
+
+      tr {
+        background-color: $primary;
+        &:nth-child(2n) { background-color: $secondary; }
+      }
+
+      .highlight { background: $secondary !important; }
+      .highlighter-rouge {
+        background: $secondary !important;
+        border: 1px solid $secondary;
+      }
+    }
+
     .tooltip::after {
       background-color: $secondary;
       color: $text;
