@@ -1,14 +1,15 @@
-$highlight: #181818;
-$primary: #282828;
-$secondary: #303030;
-
-$accent-primary: #1eaedb;
-$accent-secondary: #0fa0ce;
-
+$black: #000;
 $white: #fff;
-$white-secondary: #d1d1d1;
 
+$dark-highlight: #181818;
+$dark-primary: #282828;
+$dark-secondary: #303030;
 
+$light-highlight: #f5f5f5;
+$light-primary: #ececec;
+$light-secondary: #d9d9d9;
+
+// Other colours for legacy reasons
 $colours: (
   // Normal colours
   'alizarin': #e74c3c,

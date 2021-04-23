@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link href="../dist/modesta.css" type="text/css" rel="stylesheet">
+    <script src="assets/change_theme.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  </head>
+  <style>
+    div[class*="col"] { background: red; }
+    div[class*="col"]:nth-child(2n) { background: blue; }
+  </style>
+
+  <body class="dark-theme">
+    <h1 class="text-center">No container</h1>
+    <div class="flex-grid">
+      <div class="col-xs">
+        <h4>2 Column</h4>
+      </div>
+      <div class="col-xs">
+        <h4>Magic</h4>
+      </div>
+    </div>
+    <br>
+    <div class="flex-grid">
+      <div class="col-xs-4">
+        <h4>Column</h4>
+      </div>
+      <div class="col-xs-8">
+        <h4>Magic</h4>
+      </div>
+    </div>
+
+    <h1 class="text-center">Container</h1>
+    <section class="container">
+      <div class="flex-grid">
+        <div class="col-xs">
+          <h4>2 Column</h4>
+        </div>
+        <div class="col-xs">
+          <h4>Magic</h4>
+        </div>
+      </div>
+      <br>
+      <div class="flex-grid">
+        <div class="col-xs-4">
+          <h4>Column</h4>
+        </div>
+        <div class="col-xs-8">
+          <h4>Magic</h4>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

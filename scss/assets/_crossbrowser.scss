@@ -1,3 +1,6 @@
+// NOTE: I might use this, not sure yet...
+// If browser compatability is painful, might as well.
+
 @mixin prefix($name, $argument) {
   #{$name}: #{$argument};
   -webkit-#{$name}: #{$argument};

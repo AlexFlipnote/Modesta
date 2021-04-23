@@ -1,0 +1,29 @@
+$heigth-control: 3em;
+
+.loader, .loader::before, .loader::after {
+  animation: load 1s infinite ease-in-out;
+  height: $heigth-control;
+  width: 1em;
+}
+
+.loader {
+  animation-delay: -.16s;
+  font-size: 11px;
+  margin: $heigth-control auto;
+  position: relative;
+  text-indent: -9999em;
+  transform: translateZ(0);
+
+  &::before {
+    animation-delay: -.32s;
+    left: -1.5em;
+  }
+
+  &::after { left: 1.5em; }
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+  }
+}

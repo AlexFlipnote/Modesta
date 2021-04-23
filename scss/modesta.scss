@@ -2,29 +2,20 @@
 @import 'assets/credits';
 
 // Get those assets to every single package
-@import 'assets/blobcat-map';
-@import 'assets/builders';
 @import 'assets/colours';
-@import 'assets/crossbrowser';
-@import 'assets/emoji-map';
 
 // Most important components
 @import 'components/global';
 @import 'components/keyframes';
-@import 'components/markdown';
+@import 'components/themeColours';
 
 // Everything else
-@import 'components/arrow';
 @import 'components/buttons';
-@import 'components/emojis';
-@import 'components/fullscreen';
+@import 'components/colour';
 @import 'components/grid';
 @import 'components/objects';
-@import 'components/scroll_ins';
-@import 'components/nav_bar';
+@import 'components/emojis';
 
-// Responsiveness
+// Last items
 @import 'components/responsive';
-
-// Forced style
 @import 'components/forceStyle';
