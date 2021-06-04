@@ -21,5 +21,5 @@ You can check the [wiki](https://github.com/AlexFlipnote/Modesta/wiki) to view a
 ## Development requirements
 - [SASS](https://sass-lang.com/)
 
-To compile code, use `sass --watch scss:dist --style compressed`
+To compile code, use `make build` or `make dev` to watch changes while working on it.
 

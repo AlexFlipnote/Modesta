@@ -1,0 +1,29 @@
+name: Compile and release CSS
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Fetching branch
+        uses: actions/checkout@v2.3.1
+        with:
+          ref: master
+
+      - name: Prepare SASS
+        uses: dart-lang/setup-dart@v1
+        run: pub global activate sass
+
+      - name: Compile SASS
+        run: make build
+
+      - name: Release build
+        uses: marvinpinto/action-automatic-releases@latest
+        automatic_release_tag: latest
+        title: Automatic release build
+        files: dist/*.css
