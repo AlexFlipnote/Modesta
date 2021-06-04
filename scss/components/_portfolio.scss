@@ -1,0 +1,22 @@
+.portfolio-container {
+  background-color: red;
+  height: 100%;
+  overflow-y: scroll;
+  position: relative;
+  scroll-snap-type: y mandatory;
+  width: 100%;
+
+  // This is ONLY here because fucking Chrome bugs...
+  background-color: transparent;
+
+  section {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    scroll-snap-align: start;
+    scroll-snap-destination: 50% 50%;
+    scroll-snap-stop: always;
+    width: 100%;
+  }
+}
