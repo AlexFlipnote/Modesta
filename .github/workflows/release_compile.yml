@@ -15,7 +15,7 @@ jobs:
         with:
           ref: master
 
-      - name: Install Dart
+      - name: Prepare Dart
         uses: dart-lang/setup-dart@v1
 
       - name: Install SASS language
@@ -24,10 +24,16 @@ jobs:
       - name: Compile SASS
         run: make build
 
+      - name: Set version variable
+        run: |
+          VER=$(make version)
+          echo "VERSION=$VER" >> $GITHUB_ENV
+
       - name: Release build
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: latest
-          title: Automatic release build
+          prerelease: false
+          title: Automatic release - ${{ env.VERSION }}
           files: dist/*.css
