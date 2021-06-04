@@ -26,6 +26,8 @@ jobs:
 
       - name: Release build
         uses: marvinpinto/action-automatic-releases@latest
-        automatic_release_tag: latest
-        title: Automatic release build
-        files: dist/*.css
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: latest
+          title: Automatic release build
+          files: dist/*.css
