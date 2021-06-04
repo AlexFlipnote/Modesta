@@ -15,8 +15,10 @@ jobs:
         with:
           ref: master
 
-      - name: Prepare SASS
+      - name: Install Dart
         uses: dart-lang/setup-dart@v1
+
+      - name: Install SASS language
         run: pub global activate sass
 
       - name: Compile SASS
