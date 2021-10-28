@@ -22,6 +22,9 @@ $themes-container: (
   // START: THEME_COMPILER
   .#{$name} {
 
+    color: $text;
+    background-color: $highlight;
+
     .paper-container {
       .ribbon { background-color: $secondary; }
       .paper {
@@ -104,13 +107,6 @@ $themes-container: (
 
     .theme-text { color: $text; }
 
-  }
-
-  body {
-    &.#{$name} {
-      color: $text;
-      background-color: $highlight;
-    }
   }
   // END: THEME_COMPILER
 }
