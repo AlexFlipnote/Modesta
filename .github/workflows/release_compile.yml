@@ -19,7 +19,7 @@ jobs:
         uses: dart-lang/setup-dart@v1
 
       - name: Install SASS language
-        run: pub global activate sass
+        run: dart pub global activate sass
 
       - name: Compile SASS
         run: make build
