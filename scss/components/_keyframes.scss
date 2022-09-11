@@ -11,13 +11,13 @@
   }
 
   40%, 43% {
-    transform: translate3d(0, -30px, 0);
     animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+    transform: translate3d(0, -30px, 0);
   }
 
   70% {
-    transform: translate3d(0, -15px, 0);
     animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+    transform: translate3d(0, -15px, 0);
   }
 
   90% {
@@ -38,49 +38,49 @@
 
 @keyframes fade-from-top {
   from {
-    transform: translate3d(0, -100%, 0);
     opacity: 0;
+    transform: translate3d(0, -100%, 0);
   }
 
   100% {
-    transform: translate3d(0, 0, 0);
     opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
 
 @keyframes fade-from-bottom {
   from {
-    transform: translate3d(0, 100%, 0);
     opacity: 0;
+    transform: translate3d(0, 100%, 0);
   }
 
   100% {
-    transform: translate3d(0, 0, 0);
     opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
 
 @keyframes fade-from-left {
   from {
-    transform: translate3d(-100%, 0, 0);
     opacity: 0;
+    transform: translate3d(-100%, 0, 0);
   }
 
   100% {
-    transform: translate3d(0, 0, 0);
     opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
 
 @keyframes fade-from-right {
   from {
-    transform: translate3d(100%, 0, 0);
     opacity: 0;
+    transform: translate3d(100%, 0, 0);
   }
 
   100% {
-    transform: translate3d(0, 0, 0);
     opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
 

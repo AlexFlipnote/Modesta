@@ -1,8 +1,3 @@
-@mixin dropshadow($colour) {
-  background-color: $colour;
-  filter: drop-shadow(5px 5px 0 rgba($colour, .6));
-}
-
 @each $name, $code in $colours {
   .#{$name}-text { color: $code; }
   .#{$name}-bg { background-color: $code; }

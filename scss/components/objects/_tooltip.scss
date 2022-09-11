@@ -21,18 +21,18 @@ $cubic: cubic-bezier(.64, .09, .08, 1);
 
   &:hover {
     &::after {
-      transform: translateX(-50%) translateY(0);
       display: block;
       opacity: 1;
+      transform: translateX(-50%) translateY(0);
       visibility: visible;
     }
   }
 
   &.left {
     &::after {
-      transform: translateX(-112%) translateY(0);
       left: 0;
       top: -4px;
+      transform: translateX(-112%) translateY(0);
     }
 
     &:hover {

@@ -1,0 +1,15 @@
+.colour-preview {
+  width: 200px;
+  height: 200px;
+  content: '';
+  position: relative;
+}
+
+.colour-preview .text {
+  position: absolute;
+  bottom: .5em;
+  right: .5em;
+  padding: .1em .25em;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+}

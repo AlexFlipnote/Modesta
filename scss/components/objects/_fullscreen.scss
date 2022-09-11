@@ -11,13 +11,13 @@
 }
 
 .arrow {
-  transition: all 300ms ease;
   animation: fading 300ms ease-in-out;
   bottom: 20px;
   height: auto;
   left: 50%;
   margin-left: -22.5px;
   position: absolute;
+  transition: all 300ms ease;
   width: 45px;
 }
 

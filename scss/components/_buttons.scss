@@ -26,6 +26,10 @@
     transition: filter 200ms ease;
   }
 
+  @each $name, $code in $colours {
+    &.#{$name}-dropshadow { @include dropshadow-hover($code); }
+  }
+
   &.no-dark-hover {
     &:hover { filter: brightness(100%); }
   }

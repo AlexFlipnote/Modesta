@@ -22,8 +22,8 @@ $themes-container: (
   // START: THEME_COMPILER
   .#{$name} {
 
-    color: $text;
     background-color: $highlight;
+    color: $text;
 
     .paper-container {
       .ribbon { background-color: $secondary; }

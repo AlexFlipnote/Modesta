@@ -1,0 +1,11 @@
+@mixin dropshadow($colour) {
+  background-color: $colour;
+  filter: drop-shadow(5px 5px 0 rgba($colour, .6));
+}
+
+@mixin dropshadow-hover($colour) {
+  &:hover {
+    filter: drop-shadow(5px 5px 0 rgba($colour, .6))
+            brightness(50%);
+  }
+}
