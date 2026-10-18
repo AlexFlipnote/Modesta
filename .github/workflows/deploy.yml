@@ -1,0 +1,63 @@
+name: Build and deploy
+
+# Builds the docs site into dist/, deploys it to gh-pages, and releases its
+# index.css as modesta.css
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "scss/**"
+      - "docs/**"
+      - "mothwing.config.js"
+      - "README.md"
+      - "package.json"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: deploy
+      cancel-in-progress: false
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          # The whole history, the sitemap dates each page by its last commit
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist
+          clean: true
+
+      - name: Release modesta.css
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="Modesta v$(npm pkg get version | tr -d '"')"
+          cp dist/index.css modesta.css
+          gh release delete latest --cleanup-tag --yes || true
+          gh release create latest modesta.css \
+            --target "$GITHUB_SHA" \
+            --title "Automatic release - $VERSION" \
+            --notes "Compiled from $GITHUB_SHA"

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <x-html src="partials/head.html"/>
+    <x-seo title="Modesta" description="{{ docs.description }}"/>
+  </head>
+  <body class="github">
+    <x-html src="partials/header.html"/>
+
+    <div class="docs-layout">
+      <x-html src="partials/nav.html"/>
+
+      <main class="markdown-jekyll docs-content">
+        {{{ docs.readme }}}
+      </main>
+    </div>
+
+    <x-html src="partials/theme.html"/>
+  </body>
+</html>

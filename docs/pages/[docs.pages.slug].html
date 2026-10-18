@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <x-html src="partials/head.html"/>
+    <x-seo title="{{ page.title }}" description="{{ page.description }}"/>
+  </head>
+  <body class="github">
+    <x-html src="partials/header.html"/>
+
+    <div class="docs-layout">
+      <x-html src="partials/nav.html"/>
+
+      <main class="markdown-jekyll docs-content">
+        {{{ page.content }}}
+        <p class="docs-source">Source: <a href="{{ page.sourceUrl }}">{{ page.source }}</a></p>
+      </main>
+    </div>
+
+    <x-html src="partials/theme.html"/>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<script>
+  const toggle = document.getElementById("theme-toggle")
+
+  function applyTheme(theme) {
+    document.documentElement.className = theme
+    toggle.textContent = theme === "light-theme" ? "Dark theme" : "Light theme"
+    for (const frame of document.querySelectorAll(".docs-preview")) {
+      try { frame.contentDocument.documentElement.className = theme } catch (e) {}
+    }
+  }
+
+  toggle.addEventListener("click", () => {
+    const theme = document.documentElement.className === "light-theme" ? "" : "light-theme"
+    applyTheme(theme)
+    try { localStorage.setItem("modesta-theme", theme) } catch (e) {}
+  })
+
+  applyTheme(document.documentElement.className)
+</script>

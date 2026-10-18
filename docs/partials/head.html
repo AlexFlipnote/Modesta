@@ -1,0 +1,9 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<x-css src="/assets/modesta.css"/>
+<x-css src="/assets/custom.css"/>
+<script>
+  try {
+    if (localStorage.getItem("modesta-theme") === "light-theme") document.documentElement.className = "light-theme"
+  } catch (e) {}
+</script>

@@ -1,0 +1,13 @@
+<nav class="docs-nav">
+  <ul>
+    <li><a href="/">Getting started</a></li>
+  </ul>
+  <x-each items="docs.nav" as="group">
+    <h4>{{ group.name }}</h4>
+    <ul>
+      <x-each items="group.pages" as="item">
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      </x-each>
+    </ul>
+  </x-each>
+</nav>
