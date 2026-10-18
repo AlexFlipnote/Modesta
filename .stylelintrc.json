@@ -1,0 +1,19 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "declaration-block-single-line-max-declarations": null,
+    "keyframe-selector-notation": null,
+    "media-feature-range-notation": "prefix",
+    "property-no-vendor-prefix": [
+      true,
+      {
+        "ignoreProperties": [
+          "-webkit-user-select",
+          "-webkit-text-size-adjust"
+        ]
+      }
+    ],
+    "scss/dollar-variable-colon-space-after": null,
+    "selector-class-pattern": null
+  }
+}

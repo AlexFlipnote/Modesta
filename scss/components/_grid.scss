@@ -1,9 +1,60 @@
-$grid-list: (
-  8.33%, 16.66%, 25%,
-  33.33%, 41.66%, 50%,
-  58.33%, 66.66%, 75%,
-  83.33%, 91.66%, 100%
-);
+@use 'sass:list';
+@use '../assets/layout' as *;
+
+/// Grid
+/// @group Layout
+///
+/// A 12 column grid built on flexbox. Put columns inside `flex-grid` and give
+/// each one a width out of 12, or leave the number off to share the row equally.
+///
+/// @modifier container Centres the page content, up to 1100px wide
+/// @modifier flex-grid A row of columns
+/// @modifier col-{size}-{n} Column that is n twelfths wide
+/// @modifier col-{size} Column that shares the row equally with the other columns
+///
+/// @example
+/// <div class="flex-grid">
+///   <div class="col-xs-4"><div class="secondary-bg" style="padding: .5em">col-xs-4</div></div>
+///   <div class="col-xs-8"><div class="secondary-bg" style="padding: .5em">col-xs-8</div></div>
+/// </div>
+/// <br>
+/// <div class="flex-grid">
+///   <div class="col-xs"><div class="secondary-bg" style="padding: .5em">col-xs</div></div>
+///   <div class="col-xs"><div class="secondary-bg" style="padding: .5em">col-xs</div></div>
+///   <div class="col-xs"><div class="secondary-bg" style="padding: .5em">col-xs</div></div>
+/// </div>
+
+/// Breakpoints
+///
+/// `xs` columns apply at every size above phone width. The other sizes only
+/// start at their breakpoint and are full width below it, so they can be combined:
+///
+/// @table breakpoints
+///
+/// @example One per row on phones, two from sm, four from lg. Resize the window to see it change
+/// <div class="flex-grid">
+///   <div class="col-sm-6 col-lg-3"><div class="secondary-bg" style="padding: .5em">One</div></div>
+///   <div class="col-sm-6 col-lg-3"><div class="secondary-bg" style="padding: .5em">Two</div></div>
+///   <div class="col-sm-6 col-lg-3"><div class="secondary-bg" style="padding: .5em">Three</div></div>
+///   <div class="col-sm-6 col-lg-3"><div class="secondary-bg" style="padding: .5em">Four</div></div>
+/// </div>
+
+@mixin columns($size) {
+  .col-#{$size} {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  @each $g in $grid-list {
+    $i: list.index($grid-list, $g);
+
+    .col-#{$size}-#{$i} {
+      flex-basis: $g;
+      max-width: $g;
+    }
+  }
+}
 
 .container {
   box-sizing: border-box;
@@ -17,40 +68,30 @@ $grid-list: (
 
 .flex-grid {
   $default-width: .5rem;
+
   box-sizing: border-box;
   display: flex;
   flex: 0 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 
-  .col-xs,
-  .col-xs-1, .col-xs-2, .col-xs-3,
-  .col-xs-4, .col-xs-5, .col-xs-6,
-  .col-xs-7, .col-xs-8, .col-xs-9,
-  .col-xs-10, .col-xs-11, .col-xs-12 {
+  // Columns are full width until a size class says otherwise
+  #{column-selectors($grid-sizes)} {
     box-sizing: border-box;
     flex: 0 0 auto;
     padding-left: $default-width;
     padding-right: $default-width;
-  }
+    width: 100%;
 
-  [class^="col-xs"] {
     &:first-child { padding-left: 0; }
     &:last-child { padding-right: 0; }
   }
 
-  .col-xs {
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
-  }
+  @include columns(xs);
 
-  @each $g in $grid-list {
-    $i: index($grid-list, $g);
-
-    .col-xs-#{$i} {
-      flex-basis: $g;
-      max-width: $g;
+  // .col-sm-*, .col-md-* and .col-lg-* only apply from their breakpoint up
+  @each $size, $width in $breakpoints {
+    @media (min-width: $width + 1px) {
+      @include columns($size);
     }
   }
 }

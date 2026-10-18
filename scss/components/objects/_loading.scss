@@ -1,3 +1,14 @@
+/// Loading
+/// @group Components
+///
+/// Three animated bars that show something is loading. The text inside is
+/// hidden but read out by screen readers.
+///
+/// @modifier loader The loading animation
+///
+/// @example
+/// <div class="loader">Loading...</div>
+
 $heigth-control: 3em;
 
 .loader, .loader::before, .loader::after {

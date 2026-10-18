@@ -1,3 +1,41 @@
+/// Elements
+/// @group Basics
+///
+/// Plain HTML elements are styled without any classes. Form fields, buttons and
+/// tables take their colours from the current [theme](../themes/), labels sit
+/// on their own line above the field, and `html` and `body` fill the window so
+/// [fullscreen](../fullscreen/) layouts work.
+///
+/// @example
+/// <form>
+///   <label for="name">Name</label>
+///   <input id="name" placeholder="Input">
+///   <label for="message">Message</label>
+///   <textarea id="message" placeholder="Textarea"></textarea>
+///   <label for="choice">Choice</label>
+///   <select id="choice"><option>Option 1</option><option>Option 2</option></select>
+///   <fieldset>
+///     <legend>Options</legend>
+///     <input type="checkbox" id="check"> <span>Checkbox</span>
+///     <input type="radio" id="radio"> <span>Radio</span>
+///   </fieldset>
+///   <button type="button">Button</button>
+/// </form>
+///
+/// @example
+/// <table>
+///   <tr><th>Company</th><th>Country</th></tr>
+///   <tr><td>Alfreds Futterkiste</td><td>Germany</td></tr>
+///   <tr><td>Island Trading</td><td>UK</td></tr>
+///   <tr><td>Magazzini Alimentari Riuniti</td><td>Italy</td></tr>
+/// </table>
+///
+/// @example
+/// <h1>Heading 1</h1>
+/// <h2>Heading 2</h2>
+/// <h3>Heading 3</h3>
+/// <p>Paragraph with a <a href="#">link</a></p>
+
 html, body {
   height: 100%;
   margin: 0 auto;

@@ -1,3 +1,20 @@
+/// Tooltip
+/// @group Components
+///
+/// Shows the `data-tooltip` text when hovering over an element. It appears below
+/// by default, add `left` or `right` to change that.
+///
+/// @modifier tooltip Shows the tooltip below the element
+/// @modifier tooltip.left Shows it to the left
+/// @modifier tooltip.right Shows it to the right
+///
+/// @example height=90px
+/// <p style="padding: 1em; text-align: center">
+///   <span class="tooltip" data-tooltip="Below">Hover me</span> ·
+///   <span class="tooltip left" data-tooltip="On the left">Left</span> ·
+///   <span class="tooltip right" data-tooltip="On the right">Right</span>
+/// </p>
+
 $cubic: cubic-bezier(.64, .09, .08, 1);
 
 .tooltip {

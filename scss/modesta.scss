@@ -1,24 +1,16 @@
-// how to sellout 101
-@import 'assets/credits';
-
-// Get those assets to every single package
-@import 'assets/functions';
-@import 'assets/colours';
-
 // Most important components
-@import 'components/global';
-@import 'components/keyframes';
-@import 'components/themeColours';
+@use 'components/global';
+@use 'components/keyframes';
+@use 'components/themeColours';
 
 // Everything else
-@import 'components/buttons';
-@import 'components/grid';
-@import 'components/objects';
-@import 'components/emojis';
-@import 'components/markdown';
-@import 'components/colour';
-@import 'components/portfolio';
+@use 'components/buttons';
+@use 'components/grid';
+@use 'components/objects';
+@use 'components/markdown';
+@use 'components/colour';
+@use 'components/portfolio';
 
 // Last items
-@import 'components/responsive';
-@import 'components/forceStyle';
+@use 'components/responsive';
+@use 'components/forceStyle';

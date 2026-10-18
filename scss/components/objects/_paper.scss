@@ -1,3 +1,22 @@
+/// Paper
+/// @group Layout
+///
+/// A document-style page with a folded corner, sitting over a coloured
+/// `ribbon`. Give the ribbon your own background colour or image.
+///
+/// @modifier paper-container Wraps the ribbon and the paper
+/// @modifier ribbon The coloured band behind the top of the paper
+/// @modifier paper The page itself
+///
+/// @example height=420px
+/// <section class="paper-container">
+///   <div class="ribbon" style="background-color: #7289da"></div>
+///   <div class="paper">
+///     <h1>My blog post</h1>
+///     <p>Put some text inside here.</p>
+///   </div>
+/// </section>
+
 .paper-container {
   align-items: center;
   display: flex;

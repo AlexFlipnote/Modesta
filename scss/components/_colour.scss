@@ -1,5 +1,39 @@
-@each $name, $code in $colours {
-  .#{$name}-text { color: $code; }
-  .#{$name}-bg { background-color: $code; }
-  .#{$name}-dropshadow { @include dropshadow($code); }
+@use '../assets/colours' as *;
+@use '../assets/functions' as *;
+
+/// Colours
+/// @group Basics
+///
+/// Ready-made colours you can apply with a class, without writing any CSS.
+/// They also win over themed defaults, so `label sun-flower-bg` gives a yellow label.
+///
+/// @modifier {colour}-text Text in that colour
+/// @modifier {colour}-bg Background in that colour
+/// @modifier {colour}-dropshadow Background in that colour with a matching drop shadow
+///
+/// @example
+/// <p class="emerald-text">emerald-text</p>
+/// <div class="blurple-bg" style="padding: 1em">blurple-bg</div>
+/// <div class="carrot-dropshadow" style="padding: 1em; margin: 1em 0">carrot-dropshadow</div>
+///
+/// @table colours
+
+// Nested under :root so a colour class wins over themed defaults like .label
+:root {
+  @each $name, $code in $colours {
+    .#{$name}-text { color: $code; }
+    .#{$name}-bg { background-color: $code; }
+    .#{$name}-dropshadow { @include dropshadow($code); }
+  }
+
+  // Follow the current theme, replacing the fixed colours of the same name above
+  .highlight-bg { background-color: var(--modesta-highlight); }
+  .primary-bg { background-color: var(--modesta-primary); }
+  .secondary-bg { background-color: var(--modesta-secondary); }
+
+  .highlight-text { color: var(--modesta-highlight); }
+  .primary-text { color: var(--modesta-primary); }
+  .secondary-text { color: var(--modesta-secondary); }
+
+  .theme-text { color: var(--modesta-text); }
 }

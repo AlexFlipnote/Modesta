@@ -1,3 +1,22 @@
+/// Parallax
+/// @group Layout
+///
+/// A banner with a fixed, blurred background image and centred content on top.
+/// Set the background image on `parallax` yourself.
+///
+/// @modifier parallax-container Wraps the background and the content
+/// @modifier parallax The background, 20em tall
+/// @modifier parallax.small 15em tall
+/// @modifier parallax.medium 26em tall
+/// @modifier parallax.large 33em tall
+/// @modifier content Content centred over the background
+///
+/// @example
+/// <div class="parallax-container">
+///   <div class="parallax small" style="background-image: linear-gradient(135deg, #e67e22, #9b59b6)"></div>
+///   <div class="content"><h1>Content on top</h1></div>
+/// </div>
+
 .parallax-container {
   position: relative;
 

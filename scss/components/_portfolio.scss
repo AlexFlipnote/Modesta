@@ -1,5 +1,19 @@
+/// Portfolio
+/// @group Layout
+///
+/// Full-height sections that snap into place while scrolling. Each `section`
+/// centres its content, and you style what goes inside.
+///
+/// @modifier portfolio-container Scrolls through its sections one at a time
+///
+/// @example height=300px Scroll inside the example
+/// <div class="portfolio-container">
+///   <section class="blurple-bg"><h1>One</h1></section>
+///   <section class="emerald-bg"><h1>Two</h1></section>
+///   <section class="carrot-bg"><h1>Three</h1></section>
+/// </div>
+
 .portfolio-container {
-  background-color: #f00;
   height: 100%;
   overflow-y: scroll;
   position: relative;
@@ -15,7 +29,6 @@
     height: 100%;
     justify-content: center;
     scroll-snap-align: start;
-    scroll-snap-destination: 50% 50%;
     scroll-snap-stop: always;
     width: 100%;
   }

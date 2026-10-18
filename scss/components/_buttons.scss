@@ -1,3 +1,38 @@
+@use '../assets/colours' as *;
+@use '../assets/functions' as *;
+
+/// Buttons
+/// @group Components
+///
+/// Add `btn` to a link or button. Put buttons inside `buttons` to centre them
+/// and space them out, and add a [colour](../colours/) class for the background.
+///
+/// @example
+/// <div class="buttons">
+///   <a class="btn blurple-bg white-text" href="#">Plain</a>
+///   <a class="btn hover blurple-dropshadow white-text" href="#">hover</a>
+///   <a class="btn hover-scale emerald-bg white-text" href="#">hover-scale</a>
+///   <a class="btn hover-scale-inset carrot-bg white-text" href="#">hover-scale-inset</a>
+///   <a class="btn no-dark-hover alizarin-bg white-text" href="#">no-dark-hover</a>
+/// </div>
+///
+/// @modifier buttons Centres the buttons inside it. On small screens they wrap two per row
+/// @modifier buttons.one-line On small screens, puts one button per row instead
+/// @modifier btn The button itself
+/// @modifier btn.hover Floats the button upwards on hover
+/// @modifier btn.hover-scale Grows the button on hover
+/// @modifier btn.hover-scale-inset Shrinks the button on hover
+/// @modifier btn.animation Slides the buttons in one after another when the page loads
+/// @modifier btn.no-dark-hover Turns off the darkening on hover
+/// @modifier btn.{colour}-dropshadow Keeps the [drop shadow](../colours/) while hovering
+///
+/// @example Plays once when the page loads
+/// <div class="buttons">
+///   <a class="btn animation sun-flower-bg black-text" href="#">One</a>
+///   <a class="btn animation sun-flower-bg black-text" href="#">Two</a>
+///   <a class="btn animation sun-flower-bg black-text" href="#">Three</a>
+/// </div>
+
 .buttons {
   align-items: center;
   display: flex;

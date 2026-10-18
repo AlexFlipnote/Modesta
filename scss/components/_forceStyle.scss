@@ -1,4 +1,41 @@
-// Changeing value of elements
+/// Utilities
+/// @group Basics
+///
+/// Single-purpose classes that can be combined on any element.
+///
+/// @modifier bold Bold text
+/// @modifier italic Italic text
+/// @modifier text-center Centre the text
+/// @modifier text-left Align the text left
+/// @modifier text-right Align the text right
+/// @modifier no-border Remove the border
+/// @modifier no-border-radius Remove rounded corners
+/// @modifier no-box-shadow Remove the box shadow
+/// @modifier no-margin Remove all margins
+/// @modifier no-padding Remove all padding
+/// @modifier no-background Make the background transparent
+/// @modifier no-select Stop the text from being selected
+/// @modifier center-display Centre a block element and its text
+/// @modifier center-flex Centre the children with flexbox
+///
+/// @example
+/// <p class="bold italic text-center">bold italic text-center</p>
+/// <div class="center-flex"><span class="label">center-flex</span></div>
+
+/// Fonts
+///
+/// @modifier arial Arial
+/// @modifier monospace The browser's monospace font
+/// @modifier times-new-roman Times New Roman
+/// @modifier github The system font stack GitHub uses
+///
+/// @example
+/// <p class="arial">arial</p>
+/// <p class="monospace">monospace</p>
+/// <p class="times-new-roman">times-new-roman</p>
+/// <p class="github">github</p>
+
+// Changing value of elements
 .bold { font-weight: bold; }
 .italic { font-style: italic; }
 .text-center { text-align: center; }
@@ -10,9 +47,9 @@
 .no-margin { margin: 0; }
 .no-padding { padding: 0; }
 .no-background { background: transparent; }
+
 .no-select {
   -webkit-user-select: none;
-  -moz-user-select: none;
   user-select: none;
 }
 
@@ -28,7 +65,7 @@
 }
 
 // Fonts
-.arial { font-family: Arial; }
+.arial { font-family: Arial, sans-serif; }
 .monospace { font-family: monospace; }
 .times-new-roman { font-family: 'Times New Roman', Times, serif; }
 .github { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; }

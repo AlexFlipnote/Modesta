@@ -1,3 +1,58 @@
+@use 'sass:list';
+@use 'sass:map';
+@use '../assets/colours' as *;
+@use '../assets/layout' as *;
+
+/// Themes
+/// @group Basics
+///
+/// Pages use the dark theme by default, no class needed. Add `light-theme` or
+/// `dark-theme` to any element to switch it and everything inside it, so one
+/// page can mix both.
+///
+/// @modifier dark-theme Dark colours for this element and everything inside it (the default)
+/// @modifier light-theme Light colours for this element and everything inside it
+///
+/// @example
+/// <div class="light-theme" style="padding: 1em">
+///   <p>Light section <span class="label">NEW</span></p>
+///   <div class="dark-theme" style="padding: 1em">
+///     <p>Dark section inside it <span class="label">NEW</span></p>
+///   </div>
+/// </div>
+
+/// Theme colours
+///
+/// Each theme is a set of CSS variables:
+///
+/// @table theme
+///
+/// To change a theme's colours without recompiling, override its variables on
+/// the same selector:
+///
+/// ```css
+/// :root, .dark-theme {
+///   --modesta-primary: #1b2838;
+///   --modesta-secondary: #2a475e;
+/// }
+/// ```
+///
+/// These classes use the current theme's colours:
+///
+/// @modifier highlight-bg Highlight colour as the background
+/// @modifier primary-bg Primary colour as the background
+/// @modifier secondary-bg Secondary colour as the background
+/// @modifier highlight-text Highlight colour as the text colour
+/// @modifier primary-text Primary colour as the text colour
+/// @modifier secondary-text Secondary colour as the text colour
+/// @modifier theme-text The theme's text colour
+///
+/// @example
+/// <div class="highlight-bg" style="padding: 1em">highlight-bg</div>
+/// <div class="primary-bg" style="padding: 1em">primary-bg</div>
+/// <div class="secondary-bg" style="padding: 1em">secondary-bg</div>
+
+// The first theme is the default for the whole page
 $themes-container: (
   dark-theme: (
     highlight:  $dark-highlight,
@@ -13,100 +68,119 @@ $themes-container: (
   )
 );
 
+// Themes only set --modesta-* variables, so a page can override them on any
+// element (or switch theme for one section) without recompiling
 @each $name, $vars in $themes-container {
-  $highlight: map-get($vars, 'highlight');
-  $primary:   map-get($vars, 'primary');
-  $secondary: map-get($vars, 'secondary');
-  $text:      map-get($vars, 'text');
+  $selector: '.#{$name}';
 
-  // START: THEME_COMPILER
-  .#{$name} {
+  @if $name == list.nth(map.keys($themes-container), 1) {
+    $selector: ':root, #{$selector}';
+  }
 
-    background-color: $highlight;
+  #{$selector} {
+    @each $key, $value in $vars {
+      --modesta-#{$key}: #{$value};
+    }
+  }
+}
+
+$highlight: var(--modesta-highlight);
+$primary:   var(--modesta-primary);
+$secondary: var(--modesta-secondary);
+$text:      var(--modesta-text);
+$theme-selector: ('body',);
+
+@each $name in map.keys($themes-container) {
+  $theme-selector: list.append($theme-selector, '.#{$name}', comma);
+}
+
+#{$theme-selector} {
+  background-color: $highlight;
+  color: $text;
+}
+
+// Nested under :root to keep the specificity these had as .dark-theme rules
+:root {
+  .paper-container {
+    .ribbon { background-color: $secondary; }
+
+    .paper {
+      background: linear-gradient(225deg, transparent 26px, $primary 0);
+      &::before { border-color: $highlight transparent; }
+    }
+  }
+
+  .markdown-jekyll {
     color: $text;
 
-    .paper-container {
-      .ribbon { background-color: $secondary; }
-      .paper {
-        background: linear-gradient(225deg, transparent 26px, $primary 0);
-        &::before { border-color: $highlight transparent; }
-      }
-    }
-
-    .markdown-jekyll {
-      color: $text;
-
-      hr {
-        background-color: $secondary;
-        border-bottom: 1px solid $secondary;
-        border-bottom-color: $secondary;
-      }
-
-      h1, h2 {
-        border-bottom: 1px solid $secondary;
-      }
-
-      tr {
-        background-color: $primary;
-        &:nth-child(2n) { background-color: $secondary; }
-      }
-
-      .highlight { background: $secondary !important; }
-      .highlighter-rouge {
-        background: $secondary !important;
-        border: 1px solid $secondary;
-      }
-    }
-
-    .tooltip::after {
+    hr {
       background-color: $secondary;
+      border-bottom: 1px solid $secondary;
+      border-bottom-color: $secondary;
+    }
+
+    h1, h2 {
+      border-bottom: 1px solid $secondary;
+    }
+
+    tr {
+      background-color: $primary;
+      &:nth-child(2n) { background-color: $secondary; }
+    }
+
+    .highlight {
+      background: $secondary !important;
       color: $text;
     }
 
-    .loader, .loader::before, .loader::after {
-      background-color: $text;
-      color: $text;
+    pre, .highlight pre { background-color: $secondary; }
+    :not(pre) > code { background-color: $primary; }
+
+    table { color: $text; }
+    th, td { border-color: $secondary; }
+    blockquote { color: $text; opacity: .8; }
+
+    .highlighter-rouge {
+      background: $secondary !important;
+      border: 1px solid $secondary;
     }
-
-    .fullscreen { background-color: $highlight; }
-
-    .label {
-      background-color: $secondary;
-      color: $text;
-    }
-
-    input, select, textarea, button {
-      background-color: $secondary;
-      color: $text;
-    }
-
-    table {
-      color: $text;
-
-      th, td { border: 1px solid $secondary; }
-
-      tr {
-        background-color: $primary;
-        border: 1px solid $secondary;
-        &:nth-child(2n) { background-color: $secondary; }
-      }
-    }
-
-    @media (max-width: 550px) {
-      .paper-container .paper {background: $primary; }
-    }
-
-    // Colour variables
-    .highlight-bg { background-color: $highlight; }
-    .primary-bg { background-color: $primary; }
-    .secondary-bg { background-color: $secondary; }
-
-    .highlight-text { color: $highlight; }
-    .primary-text { color: $primary; }
-    .secondary-text { color: $secondary; }
-
-    .theme-text { color: $text; }
-
   }
-  // END: THEME_COMPILER
+
+  .tooltip::after {
+    background-color: $secondary;
+    color: $text;
+  }
+
+  .loader, .loader::before, .loader::after {
+    background-color: $text;
+    color: $text;
+  }
+
+  .fullscreen { background-color: $highlight; }
+
+  .label {
+    background-color: $secondary;
+    color: $text;
+  }
+
+  input, select, textarea, button {
+    background-color: $secondary;
+    color: $text;
+  }
+
+  table {
+    color: $text;
+
+    th, td { border: 1px solid $secondary; }
+
+    tr {
+      background-color: $primary;
+      border: 1px solid $secondary;
+      &:nth-child(2n) { background-color: $secondary; }
+    }
+  }
+
+  @media (max-width: map.get($breakpoints, sm)) {
+    .paper-container .paper {background: $primary; }
+  }
 }

@@ -1,1 +1,21 @@
-@import 'markdown/jekyll';
+@use 'markdown/jekyll';
+
+/// Markdown
+/// @group Layout
+///
+/// Styles HTML generated from Markdown, such as Jekyll or GitHub Pages output,
+/// including code highlighting. These docs use it too.
+///
+/// @modifier markdown-jekyll Wrap the generated HTML in this
+///
+/// @example
+/// <div class="markdown-jekyll" style="padding: 0">
+///   <h2>A heading</h2>
+///   <p>Some <strong>bold</strong> text, a <a href="#">link</a> and <code>inline code</code>.</p>
+///   <blockquote><p>A quote</p></blockquote>
+///   <table>
+///     <tr><th>Name</th><th>Value</th></tr>
+///     <tr><td>One</td><td>1</td></tr>
+///     <tr><td>Two</td><td>2</td></tr>
+///   </table>
+/// </div>

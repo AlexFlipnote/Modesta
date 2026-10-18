@@ -1,3 +1,13 @@
+/// Animations
+/// @group Basics
+///
+/// Keyframes you can use in your own CSS, for example `animation: fade-from-top 1s`.
+///
+/// @table keyframes
+///
+/// @example
+/// <div class="label" style="animation: fade-from-left 1s infinite alternate">fade-from-left</div>
+
 @keyframes button-enter {
   from { opacity: 0; top: 2em; }
   70% { top: -.3em; }

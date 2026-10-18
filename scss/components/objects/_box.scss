@@ -1,3 +1,17 @@
+/// Box
+/// @group Components
+///
+/// A padded container for grouping content. Add `message` for a compact
+/// notice with a `close` button.
+///
+/// @modifier box-container Padded container with space below it
+/// @modifier box-container.message Compact notice, without the space below
+/// @modifier close A × button in the top right of a message. Hook up your own click handler
+///
+/// @example
+/// <div class="box-container secondary-bg">Some nice content inside here</div>
+/// <div class="box-container message alizarin-bg">Something went wrong <span class="close">×</span></div>
+
 .box-container {
   margin-bottom: 2.5em;
   padding: 1em;

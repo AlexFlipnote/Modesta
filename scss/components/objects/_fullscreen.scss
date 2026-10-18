@@ -1,3 +1,39 @@
+/// Fullscreen
+/// @group Layout
+///
+/// A full-height landing section with a blurred background and a centred title.
+/// Set the background image on `background` yourself.
+///
+/// @modifier fullscreen Section as tall as its container, usually the whole window
+/// @modifier fullscreen.half Shorter background and smaller title
+/// @modifier background The blurred, darkened background image
+/// @modifier center-object Centres its content over the background
+/// @modifier me Title block, stacked vertically
+/// @modifier me.unset Puts the image beside the text instead of above it, wrap the text in another `unset`
+/// @modifier image-title Round avatar image
+/// @modifier image-title.large-border Large rounded corners instead of a circle
+/// @modifier image-title.medium-border Medium rounded corners
+/// @modifier image-title.small-border Small rounded corners
+/// @modifier image-title.no-border Square image
+/// @modifier title Large heading
+/// @modifier undertitle Smaller line below the title
+/// @modifier arrow Scroll hint pinned to the bottom of the section
+/// @modifier arrow--scrolled Fades the arrow out, add it with JavaScript once the visitor scrolls
+/// @modifier bounce Makes an element bounce forever
+///
+/// @example height=420px
+/// <div class="fullscreen">
+///   <div class="background" style="background-image: linear-gradient(135deg, #7289da, #1abc9c)"></div>
+///   <div class="center-object">
+///     <div class="me">
+///       <div class="image-title sun-flower-bg"></div>
+///       <h1 class="title">Hello</h1>
+///       <p class="undertitle">Welcome to my site</p>
+///     </div>
+///   </div>
+///   <div class="arrow bounce" style="text-align: center; font-size: 2em">↓</div>
+/// </div>
+
 .center-object {
   align-items: center;
   display: flex;
@@ -50,8 +86,10 @@
 
   &.half {
     .background { height: 50%; }
+
     .center-object {
       .btn { padding: 0 20px; }
+
       .me {
         .image-title {
           height: 6em;

@@ -1,3 +1,13 @@
+/// Label
+/// @group Components
+///
+/// A small tag next to text. Add a [colour](../colours/) class to change its background.
+///
+/// @modifier label The label itself
+///
+/// @example
+/// <p>My awesome app <span class="label">BETA</span> <span class="label sun-flower-bg black-text">NEW</span></p>
+
 .label {
   border-radius: .25em;
   display: inline-block;
