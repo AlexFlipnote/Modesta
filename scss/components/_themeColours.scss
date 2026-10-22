@@ -12,6 +12,7 @@
 ///
 /// @modifier dark-theme Dark colours for this element and everything inside it (the default)
 /// @modifier light-theme Light colours for this element and everything inside it
+/// @modifier auto-theme Follows the system, light colours when it asks for light and dark otherwise. Put it on `html` for the whole page
 ///
 /// @example
 /// <div class="light-theme" style="padding: 1em">
@@ -84,11 +85,22 @@ $themes-container: (
   }
 }
 
+// Dark like the default until the system asks for light, no JavaScript needed
+.auto-theme { color-scheme: light dark; }
+
+@media (prefers-color-scheme: light) {
+  .auto-theme {
+    @each $key, $value in map.get($themes-container, light-theme) {
+      --modesta-#{$key}: #{$value};
+    }
+  }
+}
+
 $highlight: var(--modesta-highlight);
 $primary:   var(--modesta-primary);
 $secondary: var(--modesta-secondary);
 $text:      var(--modesta-text);
-$theme-selector: ('body',);
+$theme-selector: ('body', '.auto-theme');
 
 @each $name in map.keys($themes-container) {
   $theme-selector: list.append($theme-selector, '.#{$name}', comma);
