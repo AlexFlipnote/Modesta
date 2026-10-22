@@ -2,7 +2,8 @@
 /// @group Layout
 ///
 /// A document-style page with a folded corner, sitting over a coloured
-/// `ribbon`. Give the ribbon your own background colour or image.
+/// `ribbon`. Give the ribbon your own background colour or image, or leave
+/// it out to have the paper sit on the page itself.
 ///
 /// @modifier paper-container Wraps the ribbon and the paper
 /// @modifier ribbon The coloured band behind the top of the paper
@@ -11,6 +12,14 @@
 /// @example height=420px
 /// <section class="paper-container">
 ///   <div class="ribbon" style="background-color: #7289da"></div>
+///   <div class="paper">
+///     <h1>My blog post</h1>
+///     <p>Put some text inside here.</p>
+///   </div>
+/// </section>
+///
+/// @example height=300px Without a ribbon
+/// <section class="paper-container">
 ///   <div class="paper">
 ///     <h1>My blog post</h1>
 ///     <p>Put some text inside here.</p>
@@ -26,10 +35,9 @@
     border-radius: 2px;
     margin: 1em .75em;
     margin-bottom: 80px;
-    margin-top: -35vh;
     max-width: 1012px;
     min-height: 500px;
-    padding: 80px 56px;
+    padding: 48px 56px;
     position: relative;
 
     &::before {
@@ -48,4 +56,7 @@
     height: 40vh;
     width: 100%;
   }
+
+  // Over the ribbon when there is one
+  .ribbon + .paper { margin-top: -35vh; }
 }

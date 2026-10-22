@@ -2,7 +2,7 @@
 @use '../assets/layout' as *;
 
 @media (max-width: map.get($breakpoints, md)) {
-  .paper-container .paper { padding: 40px 28px; }
+  .paper-container .paper { padding: 32px 24px; }
 
   .fullscreen.half {
     .background { height: 100%; }

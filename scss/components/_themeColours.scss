@@ -104,10 +104,13 @@ $theme-selector: ('body',);
   .paper-container {
     .ribbon { background-color: $secondary; }
 
+    // The fold has to stand out from what shows through the cut corner, the page or the ribbon
     .paper {
       background: linear-gradient(225deg, transparent 26px, $primary 0);
-      &::before { border-color: $highlight transparent; }
+      &::before { border-color: $secondary transparent; }
     }
+
+    .ribbon + .paper::before { border-color: $highlight transparent; }
   }
 
   .markdown-jekyll {
