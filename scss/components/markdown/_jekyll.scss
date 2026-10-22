@@ -300,8 +300,9 @@
     margin-top: 0;
   }
 
+  // The heading's own colour, a fixed dark one disappears on the dark theme
   h1 .octicon-link, h2 .octicon-link, h3 .octicon-link, h4 .octicon-link, h5 .octicon-link, h6 .octicon-link {
-    color: #1b1f23;
+    color: var(--modesta-text);
     vertical-align: middle;
     visibility: hidden;
   }

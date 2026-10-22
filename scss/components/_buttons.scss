@@ -47,6 +47,7 @@
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
+  font-family: inherit;
   font-size: 16px;
   height: 38px;
   line-height: 38px;
@@ -78,6 +79,12 @@
       &:nth-child(#{$x}) {
         animation-delay: $x * .25s;
       }
+    }
+
+    // They start hidden, so without the animation they'd never show up
+    @media (prefers-reduced-motion: reduce) {
+      animation: none;
+      opacity: 1;
     }
   }
 

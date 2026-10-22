@@ -13,6 +13,7 @@
 /// <div class="box-container message alizarin-bg">Something went wrong <span class="close">×</span></div>
 
 .box-container {
+  box-sizing: border-box;
   margin-bottom: 2.5em;
   padding: 1em;
   position: relative;
