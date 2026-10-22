@@ -1,6 +1,6 @@
 {
   "name": "modesta",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "A responsive CSS framework with built-in dark and light theme",
   "private": true,
   "type": "module",
