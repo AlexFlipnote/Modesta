@@ -1,4 +1,5 @@
 @use 'sass:list';
+@use 'sass:math';
 @use '../assets/layout' as *;
 
 /// Grid
@@ -39,6 +40,22 @@
 ///   <div class="col-sm-6 col-lg-3"><div class="secondary-bg" style="padding: .5em">Four</div></div>
 /// </div>
 
+/// Gutter
+///
+/// Columns sit `--modesta-gutter` apart, `1rem` unless you set it, across and
+/// between rows. Columns wrap onto the next row when they add up to more than 12.
+///
+/// @example Six columns of 4 wrap into two rows, with a wider gutter set on the grid
+/// <div class="flex-grid" style="--modesta-gutter: 1.5rem">
+///   <div class="col-xs-4"><div class="secondary-bg" style="padding: .5em">One</div></div>
+///   <div class="col-xs-4"><div class="secondary-bg" style="padding: .5em">Two</div></div>
+///   <div class="col-xs-4"><div class="secondary-bg" style="padding: .5em">Three</div></div>
+///   <div class="col-xs-4"><div class="secondary-bg" style="padding: .5em">Four</div></div>
+///   <div class="col-xs-4"><div class="secondary-bg" style="padding: .5em">Five</div></div>
+/// </div>
+
+$gutter: var(--modesta-gutter, 1rem);
+
 @mixin columns($size) {
   .col-#{$size} {
     flex-basis: 0;
@@ -46,12 +63,13 @@
     max-width: 100%;
   }
 
-  @each $g in $grid-list {
-    $i: list.index($grid-list, $g);
+  @for $i from 1 through list.length($grid-list) {
+    // n twelfths of the row, less the column's share of the gaps, so a full row is exactly 100%
+    $width: calc(#{math.percentage(math.div($i, 12))} - #{$gutter} * #{math.div(12 - $i, 12)});
 
     .col-#{$size}-#{$i} {
-      flex-basis: $g;
-      max-width: $g;
+      flex-basis: $width;
+      max-width: $width;
     }
   }
 }
@@ -67,23 +85,17 @@
 }
 
 .flex-grid {
-  $default-width: .5rem;
-
   box-sizing: border-box;
   display: flex;
   flex: 0 1 auto;
   flex-flow: row wrap;
+  gap: $gutter;
 
   // Columns are full width until a size class says otherwise
   #{column-selectors($grid-sizes)} {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding-left: $default-width;
-    padding-right: $default-width;
     width: 100%;
-
-    &:first-child { padding-left: 0; }
-    &:last-child { padding-right: 0; }
   }
 
   @include columns(xs);
