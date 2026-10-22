@@ -33,9 +33,12 @@
 
   .paper {
     border-radius: 2px;
+
+    // Its width includes the padding, so a narrow screen never gets a paper wider than itself
+    box-sizing: border-box;
     margin: 1em .75em;
     margin-bottom: 80px;
-    max-width: 1012px;
+    max-width: 1124px;
     min-height: 500px;
     padding: 48px 56px;
     position: relative;

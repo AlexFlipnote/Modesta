@@ -62,6 +62,8 @@
   .paper-container {
     display: block;
 
+    // As wide as the screen allows between its margins
+    .paper { width: auto; }
     .paper::before { display: none; }
   }
 
